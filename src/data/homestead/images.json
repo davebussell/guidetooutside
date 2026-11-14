@@ -1,0 +1,118 @@
+{
+  "hens-squash": {
+    "src": "/homestead/hens-squash.webp",
+    "alt": "Two hens pecking at a split butternut squash on gravel",
+    "caption": "Hens at a butternut squash, Closter, New Jersey",
+    "author": "Sandy Wolkenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://www.inaturalist.org/observations/148422056",
+    "via": "iNaturalist",
+    "taxon": "Gallus gallus domesticus"
+  },
+  "hen": {
+    "src": "/homestead/hen.webp",
+    "alt": "A brown laying hen looking straight at the camera",
+    "caption": "A brown laying hen, Erkelenz, Germany",
+    "author": "Kai Löhr",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://www.inaturalist.org/observations/341672532",
+    "via": "iNaturalist",
+    "taxon": "Gallus gallus domesticus"
+  },
+  "runner-ducks": {
+    "src": "/homestead/runner-ducks.webp",
+    "alt": "A group of upright Runner ducks and ducklings in front of a hedge",
+    "caption": "Runner ducks, Oakland, California",
+    "author": "Alan Rockefeller",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://www.inaturalist.org/observations/1623130",
+    "via": "iNaturalist",
+    "taxon": "Anas platyrhynchos domesticus"
+  },
+  "goat": {
+    "src": "/homestead/goat.webp",
+    "alt": "A long-eared grey and white goat standing on dry ground below a rocky ridge",
+    "caption": "A goat in southern Algeria",
+    "author": "Mourad Harzallah",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://www.inaturalist.org/observations/326310593",
+    "via": "iNaturalist",
+    "taxon": "Capra hircus"
+  },
+  "rabbit": {
+    "src": "/homestead/rabbit.webp",
+    "alt": "A white rabbit sitting in short grass",
+    "caption": "A white rabbit, Tasmania",
+    "author": "george_vaughan",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://www.inaturalist.org/observations/191733683",
+    "via": "iNaturalist",
+    "taxon": "Oryctolagus cuniculus"
+  },
+  "honeybee": {
+    "src": "/homestead/honeybee.webp",
+    "alt": "A Cape honey bee working yellow daisy flowers",
+    "caption": "A Cape honey bee, Kleinrivier Mountains, South Africa",
+    "author": "Tony Rebelo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://www.inaturalist.org/observations/35954803",
+    "via": "iNaturalist",
+    "taxon": "Apis mellifera capensis"
+  },
+  "rain-tank": {
+    "src": "/homestead/rain-tank.webp",
+    "alt": "A black rainwater tank on a steel stand, fed by a pipe from the roof gutter of a brick building",
+    "caption": "A rainwater tank fed from the roof gutter, Kigali, Rwanda",
+    "author": "SuSanA Secretariat",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Rainwater_harvesting_tank_(5981896147).jpg",
+    "via": "Wikimedia Commons"
+  },
+  "woodpile": {
+    "src": "/homestead/woodpile.webp",
+    "alt": "A long stack of split firewood with the cut ends facing out",
+    "caption": "A stacked woodpile, Boreham, Essex",
+    "author": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:A_log_stack_at_Boreham,_Essex,_England_1.jpg",
+    "via": "Wikimedia Commons"
+  },
+  "compost": {
+    "src": "/homestead/compost.webp",
+    "alt": "A compost bay between concrete panels, full of garden waste",
+    "caption": "A compost bin in the walled kitchen garden at Copped Hall, Essex",
+    "author": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Copped_Hall_kitchen_walled_garden,_compost_bin,_Essex,_England_1.jpg",
+    "via": "Wikimedia Commons"
+  },
+  "root-cellar": {
+    "src": "/homestead/root-cellar.webp",
+    "alt": "The stone-faced entrance of an old root cellar with a wooden door, banked over with snow",
+    "caption": "An old root cellar in snow, Törnävä, Seinäjoki, Finland",
+    "author": "Kotivalo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Root_cellar_entrance_in_winter.jpg",
+    "via": "Wikimedia Commons"
+  },
+  "season": {
+    "src": "/homestead/season.webp",
+    "alt": "A wooden cold frame with its glazed lid propped open against a stone wall, young plants inside",
+    "caption": "A cold frame at the Richterhütte mountain hut",
+    "author": "Whgler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Richterh%C3%BCtte_Fr%C3%BChbeet_2017.jpg",
+    "via": "Wikimedia Commons"
+  }
+}

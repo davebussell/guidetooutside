@@ -1,0 +1,87 @@
+/**
+ * "The Zone n year" calendar on each /zones/<n> page, extracted verbatim from
+ * the captured pages (it is not in @/data/zones).
+ */
+export const ZONE_YEAR: Record<number, { when: string; text: string }[]> = {
+  2: [
+    { when: "April–May", text: "Start seedlings indoors; ice-out fishing for pike and lake trout as lakes open." },
+    { when: "June", text: "Everything goes in the ground within two weeks of thaw; grayling and pike in shallow water; spruce tips." },
+    { when: "July–August", text: "Peak growth under 20-hour days; harvest greens and peas; berry season starts late July." },
+    { when: "September", text: "Frost returns; dig potatoes; lake trout move shallow; cranberries and lingonberries." },
+    { when: "October–March", text: "Ice fishing (check thickness constantly); plan and order seed early." },
+  ],
+  3: [
+    { when: "March–April", text: "Start tomatoes and peppers indoors; last ice-fishing weeks for perch and walleye." },
+    { when: "May", text: "Peas, potatoes and brassicas in early; tender crops after the long weekend; walleye season opener and post-spawn bite." },
+    { when: "June–July", text: "Peak growing weather; saskatoons ripen; walleye and pike on weed edges at dusk." },
+    { when: "August", text: "Main harvest; chanterelles and boletes; pike move deep." },
+    { when: "September–October", text: "First frost by mid-September; garlic in; autumn walleye on rock; cranberries and rose hips." },
+    { when: "November–February", text: "Ice fishing; plan next year's rotation; prune fruit trees in late winter." },
+  ],
+  4: [
+    { when: "March", text: "Start onions, peppers and tomatoes indoors; last-ice perch and lake trout." },
+    { when: "April–May", text: "Peas, spinach and potatoes in April/early May; fiddleheads and morels; opening-day trout and post-spawn walleye." },
+    { when: "June", text: "Tender crops in after the last frost; smallmouth on beds; wild strawberries." },
+    { when: "July–August", text: "Peak harvest; raspberries and blueberries; fish early and late." },
+    { when: "September", text: "First frost late in the month; harvest squash; mushrooms and hazelnuts; autumn walleye." },
+    { when: "October–February", text: "Garlic and bulbs in; ice fishing from December; prune trees in February–March." },
+  ],
+  5: [
+    { when: "March", text: "Start peppers, tomatoes and onions indoors; tap maples; open-water trout in tailwaters." },
+    { when: "April", text: "Peas, spinach, radishes and potatoes go in; trout opener; ramps and fiddleheads." },
+    { when: "May", text: "Tomatoes and beans after the last frost; morels; walleye and pike post-spawn; crappie in the shallows." },
+    { when: "June–July", text: "Bass season opens; strawberries then raspberries; garlic harvest in July." },
+    { when: "August", text: "Peak tomatoes and corn; chanterelles; blackberries; sow autumn greens." },
+    { when: "September–October", text: "First frost early-to-mid October; winter squash and apples; hen of the woods; autumn salmon and steelhead runs; plant garlic and bulbs." },
+    { when: "November–February", text: "Ice fishing from January; prune fruit trees in late winter; seed orders." },
+  ],
+  6: [
+    { when: "February–March", text: "Start onions and peppers, then tomatoes; steelhead in the tributaries; maple sap." },
+    { when: "April", text: "Cool crops in; ramps, morels and fiddleheads; walleye run on the rivers." },
+    { when: "May", text: "Tomatoes out mid-month; smallmouth pre-spawn; mulberries by month end." },
+    { when: "June–July", text: "Garlic harvest; berries; bass and walleye on structure; sow autumn crops from mid-July." },
+    { when: "August–September", text: "Peak harvest; pawpaws; salmon staging off river mouths; hen of the woods begins." },
+    { when: "October–November", text: "First frost late October; salmon and steelhead runs; nuts; plant garlic and bulbs." },
+    { when: "December–January", text: "Overwintered greens under cover; some ice fishing inland; prune in late winter." },
+  ],
+  7: [
+    { when: "February", text: "Start tomatoes and peppers indoors; plant peas and potatoes late month; prune fruit trees." },
+    { when: "March–April", text: "Cool crops out in March, tomatoes mid-April; morels and ramps; crappie spawn; shad and striper runs." },
+    { when: "May–June", text: "Everything growing; berries; bass on beds then deep; garlic harvest in June." },
+    { when: "July–August", text: "Heat: mulch and water; second tomato planting; chanterelles; fish early, late or at night." },
+    { when: "September–October", text: "Autumn garden peaks; pawpaws and persimmons; nuts; stripers and bass feed up as water cools." },
+    { when: "November–January", text: "First frost early November; overwintering greens; plant garlic; winter trout in tailwaters." },
+  ],
+  8: [
+    { when: "January–February", text: "Winter greens harvest; prune; plant bare-root fruit; steelhead season (Northwest); crappie begin staging (South)." },
+    { when: "March–April", text: "Peas, potatoes, brassicas out; tomatoes out in the South; spring chinook; morels." },
+    { when: "May–June", text: "Tomatoes out in the Northwest; berry season; bass on beds in the South; garlic harvest." },
+    { when: "July–August", text: "Northwest summer harvest and sowing of winter vegetables; Southern heat — second plantings, nightfishing for catfish and bass." },
+    { when: "September–October", text: "Autumn salmon runs and the chanterelle flush (Northwest); Southern autumn garden and pecans; redfish runs." },
+    { when: "November–December", text: "First frost mid-November; king boletes and hedgehogs; overwintering vegetables; winter steelhead." },
+  ],
+  9: [
+    { when: "January–February", text: "Peak winter vegetables; plant potatoes, onions and bare-root fruit; citrus harvest; crappie and trout." },
+    { when: "March–April", text: "Tomatoes and beans out; dewberries and loquats; bass spawn; spring speckled trout." },
+    { when: "May–June", text: "Spring harvest; switch to heat crops; fish at dawn and night; mesquite pods." },
+    { when: "July–August", text: "Heat: okra, peppers, sweet potatoes; shade and water; tarpon and redfish; sow autumn tomatoes." },
+    { when: "September–October", text: "Autumn garden goes in; prickly pear fruit; pecans; redfish runs; bass return shallow." },
+    { when: "November–December", text: "Cool-season garden peaks; garlic and onions in; citrus ripens; light-frost watch." },
+  ],
+  10: [
+    { when: "January–February", text: "Peak vegetable harvest; plant a last round of tomatoes; citrus and avocado; sailfish season." },
+    { when: "March–April", text: "Spring harvest; mangoes set; snook and tarpon arrive; halibut in California bays." },
+    { when: "May–June", text: "Wind down cool crops; plant heat crops; mango and lychee harvest; tarpon peak." },
+    { when: "July–August", text: "Heat and (Florida) rains: cover crops, okra, sweet potatoes; offshore fishing; summer mushrooms." },
+    { when: "September–October", text: "Main planting season begins; redfish and snook feed up; California autumn planting." },
+    { when: "November–December", text: "Cool-season garden in full swing; light-frost watch inland; excellent bass fishing." },
+  ],
+  11: [
+    { when: "January–February", text: "Peak vegetable harvest and the driest weeks; lychee and mango flower; sailfish season; bonefish on the warm afternoons." },
+    { when: "March–April", text: "Last cool-season harvests; plant heat crops and sweet potatoes; tarpon arrive in the bays; mangoes set fruit." },
+    { when: "May–June", text: "Mango, lychee and avocado harvest begins; rains and hurricane season start; tarpon peak in the Keys; snook season closes." },
+    { when: "July–August", text: "Heat and daily storms: cover crops, okra and tropical greens; sea grapes ripen; summer mushrooms after rain; offshore for mahi at dawn." },
+    { when: "September–October", text: "Start the vegetable garden as the rains ease; snook and redfish feed up; the peak of hurricane season." },
+    { when: "November–December", text: "The garden in full swing; dry breezy days; grouper and snapper inshore; the best bass fishing of the year in the canals." },
+  ],
+};

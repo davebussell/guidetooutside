@@ -1,0 +1,898 @@
+{
+ "aphid": {
+  "author": "Eddie Dunbar",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/665335",
+  "src": "/creatures/aphid.webp",
+  "taxon": "Aphis ceanothi"
+ },
+ "arctic-char": {
+  "author": "Alison Copeland",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/179035052",
+  "src": "/creatures/arctic-char.webp",
+  "taxon": "Salvelinus alpinus"
+ },
+ "arctic-grayling": {
+  "author": "Bruce Deagle",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/78035828",
+  "src": "/creatures/arctic-grayling.webp",
+  "taxon": "Thymallus arcticus"
+ },
+ "atlantic-cod": {
+  "author": "Dan Bender",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/98373744",
+  "src": "/creatures/atlantic-cod.webp",
+  "taxon": "Gadus morhua"
+ },
+ "atlantic-mackerel": {
+  "author": "Jonathan Layman",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/14903947",
+  "src": "/creatures/atlantic-mackerel.webp",
+  "taxon": "Scomber scombrus"
+ },
+ "atlantic-salmon": {
+  "author": "Fyn Kynd",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/228119375",
+  "src": "/creatures/atlantic-salmon.webp",
+  "taxon": "Salmo salar"
+ },
+ "atlantic-tarpon": {
+  "author": "Pauline Walsh Jacobson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/145778740",
+  "src": "/creatures/atlantic-tarpon.webp",
+  "taxon": "Megalops atlanticus"
+ },
+ "ballan-wrasse": {
+  "author": "jeyre",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/82676278",
+  "src": "/creatures/ballan-wrasse.webp",
+  "taxon": "Labrus bergylta"
+ },
+ "barbel": {
+  "author": "Donald Davesne",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/231509652",
+  "src": "/creatures/barbel.webp",
+  "taxon": "Barbus barbus"
+ },
+ "black-crappie": {
+  "author": "Quinn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/216948036",
+  "src": "/creatures/black-crappie.webp",
+  "taxon": "Pomoxis nigromaculatus"
+ },
+ "black-seabream": {
+  "author": "Julien Renoult",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/160423076",
+  "src": "/creatures/black-seabream.webp",
+  "taxon": "Spondyliosoma cantharus"
+ },
+ "blackchin-tilapia": {
+  "author": "Thomas Irvine",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/326706761",
+  "src": "/creatures/blackchin-tilapia.webp",
+  "taxon": "Sarotherodon melanotheron"
+ },
+ "bluefish": {
+  "author": "Jason E. Farabaugh",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/54875404",
+  "src": "/creatures/bluefish.webp",
+  "taxon": "Pomatomus saltatrix"
+ },
+ "bluegill": {
+  "author": "Kristiina Hurme",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/274179",
+  "src": "/creatures/bluegill.webp",
+  "taxon": "Lepomis macrochirus"
+ },
+ "braconid-wasp": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/305608221",
+  "src": "/creatures/braconid-wasp.webp",
+  "taxon": "Cotesia congregata"
+ },
+ "brook-trout": {
+  "author": "Evan M. Raskin",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/14090329",
+  "src": "/creatures/brook-trout.webp",
+  "taxon": "Salvelinus fontinalis"
+ },
+ "brown-trout": {
+  "author": "kirk gardner",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/22496703",
+  "src": "/creatures/brown-trout.webp",
+  "taxon": "Salmo trutta"
+ },
+ "bumble-bee": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/215771301",
+  "src": "/creatures/bumble-bee.webp",
+  "taxon": "Bombus ternarius"
+ },
+ "burbot": {
+  "author": "Quinten Wiegersma",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/291369049",
+  "src": "/creatures/burbot.webp",
+  "taxon": "Lota lota"
+ },
+ "cabbage-white": {
+  "author": "Corey Farwell",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/174801633",
+  "src": "/creatures/cabbage-white.webp",
+  "taxon": "Pieris rapae"
+ },
+ "cape-kurper": {
+  "author": "Ren Hoekstra",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/332728538",
+  "src": "/creatures/cape-kurper.webp",
+  "taxon": "Sandelia capensis"
+ },
+ "cassava-croaker": {
+  "author": "Karim Haddad",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/34427121",
+  "src": "/creatures/cassava-croaker.webp",
+  "taxon": "Pseudotolithus senegalensis"
+ },
+ "channel-catfish": {
+  "author": "Fishes of Texas team",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/21631167",
+  "src": "/creatures/channel-catfish.webp",
+  "taxon": "Ictalurus punctatus"
+ },
+ "chinook-salmon": {
+  "author": "Rob Foster",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/33458258",
+  "src": "/creatures/chinook-salmon.webp",
+  "taxon": "Oncorhynchus tshawytscha"
+ },
+ "chub": {
+  "author": "Matthew Gerke",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/305348341",
+  "src": "/creatures/chub.webp",
+  "taxon": "Squalius cephalus"
+ },
+ "coho-salmon": {
+  "author": "Quinn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/267208239",
+  "src": "/creatures/coho-salmon.webp",
+  "taxon": "Oncorhynchus kisutch"
+ },
+ "colorado-potato-beetle": {
+  "author": "Trevor Edmonson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/13628340",
+  "src": "/creatures/colorado-potato-beetle.webp",
+  "taxon": "Leptinotarsa decemlineata"
+ },
+ "common-bream": {
+  "author": "Carrie Seltzer",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/6829272",
+  "src": "/creatures/common-bream.webp",
+  "taxon": "Abramis brama"
+ },
+ "common-carp": {
+  "author": "Quinn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/248242693",
+  "src": "/creatures/common-carp.webp",
+  "taxon": "Cyprinus carpio"
+ },
+ "common-dentex": {
+  "author": "Karim Haddad",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/70467406",
+  "src": "/creatures/common-dentex.webp",
+  "taxon": "Dentex dentex"
+ },
+ "crevalle-jack": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/258005100",
+  "src": "/creatures/crevalle-jack.webp",
+  "taxon": "Caranx hippos"
+ },
+ "cucumber-beetle": {
+  "author": "Mila C.",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/118987493",
+  "src": "/creatures/cucumber-beetle.webp",
+  "taxon": "Acalymma vittatum"
+ },
+ "cutworm": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/90209420",
+  "src": "/creatures/cutworm.webp",
+  "taxon": "Agrotis ipsilon"
+ },
+ "dusky-kob": {
+  "author": "Greg Tasney",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/167505054",
+  "src": "/creatures/dusky-kob.webp",
+  "taxon": "Argyrosomus japonicus"
+ },
+ "earthworm": {
+  "author": "José Garrido",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/49226260",
+  "src": "/creatures/earthworm.webp",
+  "taxon": "Lumbricus terrestris"
+ },
+ "earwig": {
+  "author": "Christian Back",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/297745264",
+  "src": "/creatures/earwig.webp",
+  "taxon": "Forficula auricularia"
+ },
+ "european-eel": {
+  "author": "Nicola Crockford",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/181365760",
+  "src": "/creatures/european-eel.webp",
+  "taxon": "Anguilla anguilla"
+ },
+ "european-flounder": {
+  "author": "Daniel Benák",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/230263393",
+  "src": "/creatures/european-flounder.webp",
+  "taxon": "Platichthys flesus"
+ },
+ "european-grayling": {
+  "author": "Justin Schoon",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/272386286",
+  "src": "/creatures/european-grayling.webp",
+  "taxon": "Thymallus thymallus"
+ },
+ "european-perch": {
+  "author": "Дауд Арсанукаев",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/49559159",
+  "src": "/creatures/european-perch.webp",
+  "taxon": "Perca fluviatilis"
+ },
+ "european-sea-bass": {
+  "author": "Julien Renoult",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/15433435",
+  "src": "/creatures/european-sea-bass.webp",
+  "taxon": "Dicentrarchus labrax"
+ },
+ "european-whitefish": {
+  "author": "Vladislav Isaev",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/139627773",
+  "src": "/creatures/european-whitefish.webp",
+  "taxon": "Coregonus lavaretus"
+ },
+ "flathead-grey-mullet": {
+  "author": "LPB",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/198126397",
+  "src": "/creatures/flathead-grey-mullet.webp",
+  "taxon": "Mugil cephalus"
+ },
+ "flea-beetle": {
+  "author": "Henrique Pacheco",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/87672191",
+  "src": "/creatures/flea-beetle.webp",
+  "taxon": "Phyllotreta striolata"
+ },
+ "galjoen": {
+  "author": "Peter Southwood",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/24181343",
+  "src": "/creatures/galjoen.webp",
+  "taxon": "Dichistius capensis"
+ },
+ "garden-spider": {
+  "author": "Alie / C.A. Kratzer",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/16191911",
+  "src": "/creatures/garden-spider.webp",
+  "taxon": "Argiope aurantia"
+ },
+ "garfish": {
+  "author": "Sarah Faulwetter",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/130620757",
+  "src": "/creatures/garfish.webp",
+  "taxon": "Belone belone"
+ },
+ "giant-trevally": {
+  "author": "Christopher Mark",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/15514305",
+  "src": "/creatures/giant-trevally.webp",
+  "taxon": "Caranx ignobilis"
+ },
+ "gilthead-seabream": {
+  "author": "etrusko25",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/189645991",
+  "src": "/creatures/gilthead-seabream.webp",
+  "taxon": "Sparus aurata"
+ },
+ "goliath-tigerfish": {
+  "author": "116916927065934112165",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/1144559",
+  "src": "/creatures/goliath-tigerfish.webp",
+  "taxon": "Hydrocynus goliath"
+ },
+ "gorean-snapper": {
+  "author": "abotto",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/335412421",
+  "src": "/creatures/gorean-snapper.webp",
+  "taxon": "Lutjanus goreensis"
+ },
+ "great-barracuda": {
+  "author": "Pauline Walsh Jacobson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/145114415",
+  "src": "/creatures/great-barracuda.webp",
+  "taxon": "Sphyraena barracuda"
+ },
+ "green-lacewing": {
+  "author": "Annika Lindqvist",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/216211660",
+  "src": "/creatures/green-lacewing.webp",
+  "taxon": "Chrysoperla rufilabris"
+ },
+ "ground-beetle": {
+  "author": "Gavin Slater",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/170174690",
+  "src": "/creatures/ground-beetle.webp",
+  "taxon": "Carabus nemoralis"
+ },
+ "halibut": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/305542196",
+  "src": "/creatures/halibut.webp",
+  "taxon": "Hippoglossus stenolepis"
+ },
+ "honey-bee": {
+  "author": "eebee",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/53103530",
+  "src": "/creatures/honey-bee.webp",
+  "taxon": "Apis mellifera"
+ },
+ "hottentot-seabream": {
+  "author": "Georgina Jones",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/77322050",
+  "src": "/creatures/hottentot-seabream.webp",
+  "taxon": "Pachymetopon blochii"
+ },
+ "hoverfly": {
+  "author": "Anne Parker",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/284685528",
+  "src": "/creatures/hoverfly.webp",
+  "taxon": "Toxomerus marginatus"
+ },
+ "hummingbird": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/90044568",
+  "src": "/creatures/hummingbird.webp",
+  "taxon": "Archilochus colubris"
+ },
+ "japanese-beetle": {
+  "author": "softie",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/125964874",
+  "src": "/creatures/japanese-beetle.webp",
+  "taxon": "Popillia japonica"
+ },
+ "kokanee": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/136748644",
+  "src": "/creatures/kokanee.webp",
+  "taxon": "Oncorhynchus nerka"
+ },
+ "ladybug": {
+  "author": "Jody",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/83995377",
+  "src": "/creatures/ladybug.webp",
+  "taxon": "Hippodamia convergens"
+ },
+ "lake-trout": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/217616588",
+  "src": "/creatures/lake-trout.webp",
+  "taxon": "Salvelinus namaycush"
+ },
+ "lake-whitefish": {
+  "author": "Rob Foster",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/32679471",
+  "src": "/creatures/lake-whitefish.webp",
+  "taxon": "Coregonus clupeaformis"
+ },
+ "largemouth-bass": {
+  "author": "Nick Tobler (Cowturtle)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/190142449",
+  "src": "/creatures/largemouth-bass.webp",
+  "taxon": "Micropterus nigricans"
+ },
+ "largemouth-yellowfish": {
+  "author": "Mahomed Desai",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/98895881",
+  "src": "/creatures/largemouth-yellowfish.webp",
+  "taxon": "Labeobarbus kimberleyensis"
+ },
+ "leerfish": {
+  "author": "Justin Ponder",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/118487439",
+  "src": "/creatures/leerfish.webp",
+  "taxon": "Lichia amia"
+ },
+ "lingcod": {
+  "author": "Mike Carr",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/66003090",
+  "src": "/creatures/lingcod.webp",
+  "taxon": "Ophiodon elongatus"
+ },
+ "mangrove-red-snapper": {
+  "author": "portioid",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/184223339",
+  "src": "/creatures/mangrove-red-snapper.webp",
+  "taxon": "Lutjanus argentimaculatus"
+ },
+ "mason-bee": {
+  "author": "Owen Strickland",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/26905582",
+  "src": "/creatures/mason-bee.webp",
+  "taxon": "Osmia lignaria lignaria"
+ },
+ "milkfish": {
+  "author": "TonyT",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/330818971",
+  "src": "/creatures/milkfish.webp",
+  "taxon": "Chanos chanos"
+ },
+ "monarch": {
+  "author": "Christine Young",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/68558388",
+  "src": "/creatures/monarch.webp",
+  "taxon": "Danaus plexippus"
+ },
+ "mozambique-tilapia": {
+  "author": "Wynand Uys",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/10920641",
+  "src": "/creatures/mozambique-tilapia.webp",
+  "taxon": "Oreochromis mossambicus"
+ },
+ "muskellunge": {
+  "author": "Matt Garvin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/6672188",
+  "src": "/creatures/muskellunge.webp",
+  "taxon": "Esox masquinongy"
+ },
+ "narrow-barred-spanish-mackerel": {
+  "author": "Rob Foster",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/251305352",
+  "src": "/creatures/narrow-barred-spanish-mackerel.webp",
+  "taxon": "Scomberomorus commerson"
+ },
+ "nile-perch": {
+  "author": "Ioannis Magouras",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/191959361",
+  "src": "/creatures/nile-perch.webp",
+  "taxon": "Lates niloticus"
+ },
+ "nile-tilapia": {
+  "author": "Pål A. Olsvik",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/124261553",
+  "src": "/creatures/nile-tilapia.webp",
+  "taxon": "Oreochromis niloticus"
+ },
+ "northern-pike": {
+  "author": "Daughter Dad",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/332536095",
+  "src": "/creatures/northern-pike.webp",
+  "taxon": "Esox lucius"
+ },
+ "pollack": {
+  "author": "Vsevolod Rudyi",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/62384258",
+  "src": "/creatures/pollack.webp",
+  "taxon": "Pollachius pollachius"
+ },
+ "praying-mantis": {
+  "author": "Bill Keim",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/139512084",
+  "src": "/creatures/praying-mantis.webp",
+  "taxon": "Tenodera sinensis"
+ },
+ "rainbow-trout": {
+  "author": "Mike Heine",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/286654424",
+  "src": "/creatures/rainbow-trout.webp",
+  "taxon": "Oncorhynchus mykiss irideus"
+ },
+ "red-roman": {
+  "author": "Peter Southwood",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/10994856",
+  "src": "/creatures/red-roman.webp",
+  "taxon": "Chrysoblephus laticeps"
+ },
+ "redfish": {
+  "author": "Quinn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/256537352",
+  "src": "/creatures/redfish.webp",
+  "taxon": "Sciaenops ocellatus"
+ },
+ "roach": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/97386556",
+  "src": "/creatures/roach.webp",
+  "taxon": "Rutilus rutilus"
+ },
+ "sharptooth-catfish": {
+  "author": "Lukas Zangl",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/257910259",
+  "src": "/creatures/sharptooth-catfish.webp",
+  "taxon": "Clarias gariepinus"
+ },
+ "slug": {
+  "author": "Casey H. Richart",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/186764381",
+  "src": "/creatures/slug.webp",
+  "taxon": "Deroceras reticulatum"
+ },
+ "smallmouth-bass": {
+  "author": "Joshua Johnson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/321330647",
+  "src": "/creatures/smallmouth-bass.webp",
+  "taxon": "Micropterus dolomieu"
+ },
+ "smallmouth-yellowfish": {
+  "author": "Brian du Preez",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/10873505",
+  "src": "/creatures/smallmouth-yellowfish.webp",
+  "taxon": "Labeobarbus aeneus"
+ },
+ "snoek": {
+  "author": "Steve Kerr",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/10193793",
+  "src": "/creatures/snoek.webp",
+  "taxon": "Thyrsites atun"
+ },
+ "snook": {
+  "author": "José Francisco Colorado-Dapa",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/695981",
+  "src": "/creatures/snook.webp",
+  "taxon": "Centropomus undecimalis"
+ },
+ "spangled-emperor": {
+  "author": "Darren Obbard",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/151952365",
+  "src": "/creatures/spangled-emperor.webp",
+  "taxon": "Lethrinus nebulosus"
+ },
+ "speckled-trout": {
+  "author": "Quinn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/256535696",
+  "src": "/creatures/speckled-trout.webp",
+  "taxon": "Cynoscion nebulosus"
+ },
+ "spider-mite": {
+  "author": "Senna Bryce Robeson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/242003447",
+  "src": "/creatures/spider-mite.webp",
+  "taxon": "Tetranychus urticae"
+ },
+ "spotted-grunter": {
+  "author": "Andreas De Beer",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/346119800",
+  "src": "/creatures/spotted-grunter.webp",
+  "taxon": "Pomadasys commersonnii"
+ },
+ "squash-bug": {
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/52261849",
+  "src": "/creatures/squash-bug.webp",
+  "taxon": "Anasa tristis"
+ },
+ "squash-vine-borer": {
+  "author": "Thomas Koffel",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/51407226",
+  "src": "/creatures/squash-vine-borer.webp",
+  "taxon": "Eichlinia cucurbitae"
+ },
+ "steelhead": {
+  "author": "Matt Muir",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/132719383",
+  "src": "/creatures/steelhead.webp",
+  "taxon": "Oncorhynchus mykiss irideus"
+ },
+ "striped-bass": {
+  "author": "Christian Back",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/102298548",
+  "src": "/creatures/striped-bass.webp",
+  "taxon": "Morone saxatilis"
+ },
+ "swallowtail": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/82998768",
+  "src": "/creatures/swallowtail.webp",
+  "taxon": "Papilio canadensis"
+ },
+ "talang-queenfish": {
+  "author": "portioid",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/184674738",
+  "src": "/creatures/talang-queenfish.webp",
+  "taxon": "Scomberoides commersonnianus"
+ },
+ "tench": {
+  "author": "Ewout Knoester",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/292686076",
+  "src": "/creatures/tench.webp",
+  "taxon": "Tinca tinca"
+ },
+ "tigerfish": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/11164824",
+  "src": "/creatures/tigerfish.webp",
+  "taxon": "Hydrocynus vittatus"
+ },
+ "tomato-hornworm": {
+  "author": "Catherine C. Galley",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/84812417",
+  "src": "/creatures/tomato-hornworm.webp",
+  "taxon": "Manduca quinquemaculatus"
+ },
+ "vundu": {
+  "author": "John P Friel",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/33814745",
+  "src": "/creatures/vundu.webp",
+  "taxon": "Heterobranchus longifilis"
+ },
+ "walleye": {
+  "author": "Quinn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/200423414",
+  "src": "/creatures/walleye.webp",
+  "taxon": "Sander vitreus"
+ },
+ "wels-catfish": {
+  "author": "Paulo Martins",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/127992876",
+  "src": "/creatures/wels-catfish.webp",
+  "taxon": "Silurus glanis"
+ },
+ "white-musselcracker": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/253986452",
+  "src": "/creatures/white-musselcracker.webp",
+  "taxon": "Sparodon durbanensis"
+ },
+ "white-seabream": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/236869419",
+  "src": "/creatures/white-seabream.webp",
+  "taxon": "Diplodus sargus"
+ },
+ "white-steenbras": {
+  "author": "Dave Richardson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/107466485",
+  "src": "/creatures/white-steenbras.webp",
+  "taxon": "Lithognathus lithognathus"
+ },
+ "yellow-perch": {
+  "author": "Quinn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/246981050",
+  "src": "/creatures/yellow-perch.webp",
+  "taxon": "Perca flavescens"
+ },
+ "yellowtail-amberjack": {
+  "author": "Georgina Jones",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/227975375",
+  "src": "/creatures/yellowtail-amberjack.webp",
+  "taxon": "Seriola lalandi"
+ },
+ "zander": {
+  "author": "Tomas Broucek",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/183517357",
+  "src": "/creatures/zander.webp",
+  "taxon": "Sander lucioperca"
+ }
+}

@@ -1,0 +1,498 @@
+{
+  "_source": "USGS Watershed Boundary Dataset, six-digit hydrologic units (layer 3), queried at each town's own coordinates: https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/3/query?geometry=<lon>,<lat>&geometryType=esriGeometryPoint&inSR=4326&outFields=huc6,name&returnGeometry=false&f=json (read 11 November 2026). Every US town with a stored watershed record (67).",
+  "_note": "src/lib/ground.ts prefers these codes and names over the stored ws:v1 records, whose writer is not in this repository. Audit of 11 November 2026: the stored code was wrong at Pittsburgh (050100 Allegheny; the point is in 050200 Monongahela) and Brownsville (130900; 121102), and the query found five more (Fairbanks, Burlington, Duluth, Kansas City, Memphis); `stored` is the code the record held. Where the stored code was in another two-digit region, `reviewed` says why the stored river and system stand, or `river` and `system` replace them.",
+  "_oceans": "Audit of 13 November 2026 (Day 4): the ocean was the stored record's and nothing checked it (Fort Myers and Orlando read \"drains to the Atlantic Ocean\"). Each row now carries `ocean`, from its USGS water resources region: 01, 02 the Atlantic; 04 the Great Lakes and the St. Lawrence, so the Atlantic (USGS region definitions, https://water.usgs.gov/GIS/huc_name.html, read 13 November 2026); 05 to 08, 10 and 11 the Mississippi system, so the Gulf of Mexico; 09 Lake Winnipeg and Hudson Bay; 12 and 13 the Gulf of Mexico; 15 the Gulf of California; 17 and 18 the Pacific (regions 08 to 18 as the USGS definitions are quoted at https://en.wikipedia.org/wiki/Water_resource_region, read 13 November 2026); 19 (Alaska) keeps the stored Pacific Ocean, no source read. Region 03 (South Atlantic-Gulf) discharges to both coasts: subregions 0301 to 0308 are coastal drainage to the Atlantic, ending at St. Lucie Inlet, and 0310 to 0318 to the Gulf (USGS, as above). Subregion 0309 (Southern Florida) runs from St. Lucie Inlet round to the Caloosahatchee, so each 0309 town carries `oceanCheck`: its eight-digit unit from the USGS Watershed Boundary Dataset (layer 4) at the point, and the sources read.",
+  "towns": {
+    "fairbanks-alaska": {
+      "lat": 64.837845,
+      "lon": -147.716675,
+      "huc6": "190803",
+      "name": "Tanana River",
+      "stored": "190405",
+      "ocean": "Pacific Ocean"
+    },
+    "international-falls-minnesota": {
+      "lat": 48.601033,
+      "lon": -93.4105904,
+      "huc6": "090300",
+      "name": "Rainy",
+      "ocean": "Hudson Bay"
+    },
+    "fargo-north-dakota": {
+      "lat": 46.877229,
+      "lon": -96.789821,
+      "huc6": "090201",
+      "name": "Upper Red",
+      "ocean": "Hudson Bay"
+    },
+    "grand-forks-north-dakota": {
+      "lat": 47.9252104,
+      "lon": -97.0306325,
+      "huc6": "090203",
+      "name": "Lower Red",
+      "ocean": "Hudson Bay"
+    },
+    "laramie-wyoming": {
+      "lat": 41.3116442,
+      "lon": -105.5917876,
+      "huc6": "101800",
+      "name": "North Platte",
+      "ocean": "Gulf of Mexico"
+    },
+    "bozeman-montana": {
+      "lat": 45.6794293,
+      "lon": -111.044047,
+      "huc6": "100200",
+      "name": "Missouri Headwaters",
+      "ocean": "Gulf of Mexico"
+    },
+    "burlington-vermont": {
+      "lat": 44.4761601,
+      "lon": -73.212906,
+      "huc6": "043001",
+      "name": "Lake Champlain-Richelieu River",
+      "stored": "020100",
+      "reviewed": "Region 02 (stored 020100) to 04 (043001, Lake Champlain-Richelieu River). The stored system (the St. Lawrence) stands: the unit is named for the Richelieu, which runs to the St. Lawrence.",
+      "ocean": "Atlantic Ocean"
+    },
+    "concord-new-hampshire": {
+      "lat": 43.207178,
+      "lon": -71.537476,
+      "huc6": "010700",
+      "name": "Merrimack",
+      "ocean": "Atlantic Ocean"
+    },
+    "des-moines-iowa": {
+      "lat": 41.5868654,
+      "lon": -93.6249494,
+      "huc6": "071000",
+      "name": "Des Moines",
+      "ocean": "Gulf of Mexico"
+    },
+    "duluth-minnesota": {
+      "lat": 46.7838287,
+      "lon": -92.1052679,
+      "huc6": "040102",
+      "name": "St. Louis",
+      "stored": "040101",
+      "ocean": "Atlantic Ocean"
+    },
+    "madison-wisconsin": {
+      "lat": 43.07469,
+      "lon": -89.3841663,
+      "huc6": "070900",
+      "name": "Rock",
+      "ocean": "Gulf of Mexico"
+    },
+    "minneapolis-minnesota": {
+      "lat": 44.9772995,
+      "lon": -93.2654692,
+      "huc6": "070102",
+      "name": "Upper Mississippi-Crow-Rum",
+      "ocean": "Gulf of Mexico"
+    },
+    "albany-new-york": {
+      "lat": 42.6511674,
+      "lon": -73.754968,
+      "huc6": "020200",
+      "name": "Upper Hudson",
+      "ocean": "Atlantic Ocean"
+    },
+    "buffalo-new-york": {
+      "lat": 42.8864163,
+      "lon": -78.8781493,
+      "huc6": "041201",
+      "name": "Eastern Lake Erie",
+      "ocean": "Atlantic Ocean"
+    },
+    "chicago-illinois": {
+      "lat": 41.8755616,
+      "lon": -87.6244212,
+      "huc6": "071200",
+      "name": "Upper Illinois",
+      "ocean": "Gulf of Mexico"
+    },
+    "columbus-ohio": {
+      "lat": 39.9622601,
+      "lon": -83.0007065,
+      "huc6": "050600",
+      "name": "Scioto",
+      "ocean": "Gulf of Mexico"
+    },
+    "denver-colorado": {
+      "lat": 39.7392364,
+      "lon": -104.984862,
+      "huc6": "101900",
+      "name": "South Platte",
+      "ocean": "Gulf of Mexico"
+    },
+    "detroit-michigan": {
+      "lat": 42.3315509,
+      "lon": -83.0466403,
+      "huc6": "040900",
+      "name": "St. Clair-Detroit",
+      "ocean": "Atlantic Ocean"
+    },
+    "grand-rapids-michigan": {
+      "lat": 42.9632425,
+      "lon": -85.6678639,
+      "huc6": "040500",
+      "name": "Southeastern Lake Michigan",
+      "ocean": "Atlantic Ocean"
+    },
+    "indianapolis-indiana": {
+      "lat": 39.7683331,
+      "lon": -86.1583502,
+      "huc6": "051202",
+      "name": "Patoka-White",
+      "ocean": "Gulf of Mexico"
+    },
+    "kansas-city-missouri": {
+      "lat": 39.100105,
+      "lon": -94.5781416,
+      "huc6": "102701",
+      "name": "Kansas",
+      "stored": "103001",
+      "ocean": "Gulf of Mexico"
+    },
+    "milwaukee-wisconsin": {
+      "lat": 43.0386475,
+      "lon": -87.9090751,
+      "huc6": "040400",
+      "name": "Southwestern Lake Michigan",
+      "ocean": "Atlantic Ocean"
+    },
+    "omaha-nebraska": {
+      "lat": 41.2587459,
+      "lon": -95.9383758,
+      "huc6": "102300",
+      "name": "Missouri-Little Sioux",
+      "ocean": "Gulf of Mexico"
+    },
+    "portland-maine": {
+      "lat": 43.6573605,
+      "lon": -70.2586618,
+      "huc6": "010600",
+      "name": "Saco",
+      "ocean": "Atlantic Ocean"
+    },
+    "albuquerque-new-mexico": {
+      "lat": 35.0841034,
+      "lon": -106.650985,
+      "huc6": "130202",
+      "name": "Rio Grande-Elephant Butte",
+      "ocean": "Gulf of Mexico"
+    },
+    "asheville-north-carolina": {
+      "lat": 35.595363,
+      "lon": -82.5508407,
+      "huc6": "060101",
+      "name": "French Broad-Holston",
+      "ocean": "Gulf of Mexico"
+    },
+    "boise-idaho": {
+      "lat": 43.6166163,
+      "lon": -116.200886,
+      "huc6": "170501",
+      "name": "Middle Snake-Boise",
+      "ocean": "Pacific Ocean"
+    },
+    "boston-massachusetts": {
+      "lat": 42.3588336,
+      "lon": -71.0578303,
+      "huc6": "010900",
+      "name": "Massachusetts-Rhode Island Coastal",
+      "ocean": "Atlantic Ocean"
+    },
+    "cleveland-ohio": {
+      "lat": 41.4996574,
+      "lon": -81.6936772,
+      "huc6": "041100",
+      "name": "Southern Lake Erie",
+      "ocean": "Atlantic Ocean"
+    },
+    "nashville-tennessee": {
+      "lat": 36.1622767,
+      "lon": -86.7742984,
+      "huc6": "051302",
+      "name": "Lower Cumberland",
+      "ocean": "Gulf of Mexico"
+    },
+    "new-york-new-york": {
+      "lat": 40.7127281,
+      "lon": -74.0060152,
+      "huc6": "020301",
+      "name": "Lower Hudson",
+      "ocean": "Atlantic Ocean"
+    },
+    "oklahoma-city-oklahoma": {
+      "lat": 35.4729886,
+      "lon": -97.5170536,
+      "huc6": "111003",
+      "name": "Lower North Canadian",
+      "ocean": "Gulf of Mexico"
+    },
+    "philadelphia-pennsylvania": {
+      "lat": 39.9527237,
+      "lon": -75.1635262,
+      "huc6": "020402",
+      "name": "Lower Delaware",
+      "ocean": "Atlantic Ocean"
+    },
+    "pittsburgh-pennsylvania": {
+      "lat": 40.4406968,
+      "lon": -80.0025666,
+      "huc6": "050200",
+      "name": "Monongahela",
+      "stored": "050100",
+      "ocean": "Gulf of Mexico"
+    },
+    "richmond-virginia": {
+      "lat": 37.5385087,
+      "lon": -77.43428,
+      "huc6": "020802",
+      "name": "James",
+      "ocean": "Atlantic Ocean"
+    },
+    "spokane-washington": {
+      "lat": 47.6571934,
+      "lon": -117.42351,
+      "huc6": "170103",
+      "name": "Spokane",
+      "ocean": "Pacific Ocean"
+    },
+    "st-louis-missouri": {
+      "lat": 38.6254063,
+      "lon": -90.190009,
+      "huc6": "071401",
+      "name": "Upper Mississippi-Meramec",
+      "ocean": "Gulf of Mexico"
+    },
+    "washington-district-of-columbia": {
+      "lat": 38.8950982,
+      "lon": -77.0363849,
+      "huc6": "020700",
+      "name": "Potomac",
+      "ocean": "Atlantic Ocean"
+    },
+    "atlanta-georgia": {
+      "lat": 33.7544657,
+      "lon": -84.3898151,
+      "huc6": "031300",
+      "name": "Apalachicola",
+      "ocean": "Gulf of Mexico"
+    },
+    "baltimore-maryland": {
+      "lat": 39.2908816,
+      "lon": -76.610759,
+      "huc6": "020600",
+      "name": "Upper Chesapeake",
+      "ocean": "Atlantic Ocean"
+    },
+    "charlotte-north-carolina": {
+      "lat": 35.2272086,
+      "lon": -80.8430827,
+      "huc6": "030501",
+      "name": "Santee",
+      "ocean": "Atlantic Ocean"
+    },
+    "dallas-texas": {
+      "lat": 32.7762719,
+      "lon": -96.7968559,
+      "huc6": "120301",
+      "name": "Upper Trinity",
+      "ocean": "Gulf of Mexico"
+    },
+    "little-rock-arkansas": {
+      "lat": 34.7465071,
+      "lon": -92.2896267,
+      "huc6": "111102",
+      "name": "Lower Arkansas-Fourche La Fave",
+      "ocean": "Gulf of Mexico"
+    },
+    "memphis-tennessee": {
+      "lat": 35.146026,
+      "lon": -90.0517786,
+      "huc6": "080101",
+      "name": "Lower Mississippi-Memphis",
+      "stored": "071401",
+      "reviewed": "Region 07 (stored 071401) to 08 (080101, Lower Mississippi-Memphis). The stored river and system (the Mississippi) stand: the unit is named for the Mississippi.",
+      "ocean": "Gulf of Mexico"
+    },
+    "raleigh-north-carolina": {
+      "lat": 35.7803977,
+      "lon": -78.6390989,
+      "huc6": "030202",
+      "name": "Neuse",
+      "ocean": "Atlantic Ocean"
+    },
+    "austin-texas": {
+      "lat": 30.2711286,
+      "lon": -97.7436995,
+      "huc6": "120902",
+      "name": "Middle Colorado-Llano",
+      "ocean": "Gulf of Mexico"
+    },
+    "houston-texas": {
+      "lat": 29.7589382,
+      "lon": -95.3676974,
+      "huc6": "120401",
+      "name": "San Jacinto",
+      "ocean": "Gulf of Mexico"
+    },
+    "jacksonville-florida": {
+      "lat": 30.3262247,
+      "lon": -81.6579179,
+      "huc6": "030801",
+      "name": "St. Johns",
+      "ocean": "Atlantic Ocean"
+    },
+    "las-vegas-nevada": {
+      "lat": 36.1674263,
+      "lon": -115.1484131,
+      "huc6": "150100",
+      "name": "Lower Colorado-Lake Mead",
+      "ocean": "Gulf of California"
+    },
+    "new-orleans-louisiana": {
+      "lat": 29.9561422,
+      "lon": -90.0733934,
+      "huc6": "080902",
+      "name": "Lake Pontchartrain",
+      "ocean": "Gulf of Mexico"
+    },
+    "portland-oregon": {
+      "lat": 45.5202471,
+      "lon": -122.674194,
+      "huc6": "170900",
+      "name": "Willamette",
+      "ocean": "Pacific Ocean"
+    },
+    "sacramento-california": {
+      "lat": 38.5810606,
+      "lon": -121.493895,
+      "huc6": "180201",
+      "name": "Lower Sacramento",
+      "ocean": "Pacific Ocean"
+    },
+    "san-antonio-texas": {
+      "lat": 29.4246002,
+      "lon": -98.4951405,
+      "huc6": "121003",
+      "name": "San Antonio",
+      "ocean": "Gulf of Mexico"
+    },
+    "san-jose-california": {
+      "lat": 37.3361663,
+      "lon": -121.890591,
+      "huc6": "180500",
+      "name": "San Francisco Bay",
+      "ocean": "Pacific Ocean"
+    },
+    "savannah-georgia": {
+      "lat": 32.0790074,
+      "lon": -81.0921335,
+      "huc6": "030601",
+      "name": "Savannah",
+      "ocean": "Atlantic Ocean"
+    },
+    "seattle-washington": {
+      "lat": 47.6038321,
+      "lon": -122.330062,
+      "huc6": "171100",
+      "name": "Puget Sound",
+      "ocean": "Pacific Ocean"
+    },
+    "tucson-arizona": {
+      "lat": 32.2228765,
+      "lon": -110.974847,
+      "huc6": "150503",
+      "name": "Santa Cruz",
+      "river": "Gila River",
+      "ocean": "Gulf of California"
+    },
+    "brownsville-texas": {
+      "lat": 25.9024289,
+      "lon": -97.4981698,
+      "huc6": "121102",
+      "name": "Southwestern Texas Coastal",
+      "stored": "130900",
+      "river": null,
+      "system": "Gulf of Mexico Seaboard",
+      "reviewed": "The stored record put the point in 130900 (Lower Rio Grande) and said it drains to the Rio Grande. The dataset puts it in 121102, a coastal unit of the Texas-Gulf region (12), not in the Rio Grande region (13), so the Rio Grande steps are dropped (audit of 11 November 2026). The drainage region is labelled as the site labels the other region-12 towns (Houston, Dallas, Austin, San Antonio).",
+      "ocean": "Gulf of Mexico"
+    },
+    "fort-myers-florida": {
+      "lat": 26.640628,
+      "lon": -81.8723084,
+      "huc6": "030902",
+      "name": "Southern Florida",
+      "river": "Caloosahatchee River",
+      "system": "",
+      "oceanCheck": "WBD unit 03090205 Caloosahatchee at the point (https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/4/query?geometry=-81.8723084,26.640628&geometryType=esriGeometryPoint&inSR=4326&outFields=huc8,name&returnGeometry=false&f=json, read 13 November 2026). The Caloosahatchee empties into the Gulf of Mexico at Fort Myers and Cape Coral (USGS, https://pubs.usgs.gov/ds/1031/ds1031_caloosa_description.html). The stored \"Atlantic Ocean Seaboard\" is not printed.",
+      "ocean": "Gulf of Mexico"
+    },
+    "los-angeles-california": {
+      "lat": 34.0536909,
+      "lon": -118.242766,
+      "huc6": "180701",
+      "name": "Ventura-San Gabriel Coastal",
+      "ocean": "Pacific Ocean"
+    },
+    "orlando-florida": {
+      "lat": 28.5421218,
+      "lon": -81.379045,
+      "huc6": "030901",
+      "name": "Kissimmee",
+      "river": "Kissimmee River",
+      "system": "Lake Okeechobee",
+      "oceanCheck": "WBD unit 03090101 Kissimmee at the point (layer 4 query at -81.379045,28.5421218, read 13 November 2026). The Kissimmee runs to Lake Okeechobee (SFWMD, https://sfwmd.gov/our-work/kissimmee-river), whose outflows go through control gates to canals to the Caloosahatchee and the St. Lucie (Water Atlas, USF Water Institute, https://chnep.wateratlas.usf.edu/waterbodies/lakes/1002667/lake-okeechobee): the Gulf of Mexico and the Atlantic.",
+      "ocean": "Gulf of Mexico and Atlantic Ocean"
+    },
+    "phoenix-arizona": {
+      "lat": 33.4484367,
+      "lon": -112.074141,
+      "huc6": "150601",
+      "name": "Salt",
+      "river": "Gila River",
+      "ocean": "Gulf of California"
+    },
+    "santa-barbara-california": {
+      "lat": 34.4221319,
+      "lon": -119.702667,
+      "huc6": "180600",
+      "name": "Central California Coastal",
+      "ocean": "Pacific Ocean"
+    },
+    "tampa-florida": {
+      "lat": 27.9449854,
+      "lon": -82.4583107,
+      "huc6": "031002",
+      "name": "Tampa Bay",
+      "ocean": "Gulf of Mexico"
+    },
+    "fort-lauderdale-florida": {
+      "lat": 26.1223084,
+      "lon": -80.1433786,
+      "huc6": "030902",
+      "name": "Southern Florida",
+      "oceanCheck": "WBD unit 03090206 Florida Southeast Coast at the point (layer 4 query at -80.1433786,26.1223084, read 13 November 2026): the coastal drainage south of St. Lucie Inlet on the Atlantic side.",
+      "ocean": "Atlantic Ocean"
+    },
+    "miami-florida": {
+      "lat": 25.7741566,
+      "lon": -80.1935973,
+      "huc6": "030902",
+      "name": "Southern Florida",
+      "oceanCheck": "WBD unit 03090206 Florida Southeast Coast at the point (layer 4 query at -80.1935973,25.7741566, read 13 November 2026): the coastal drainage south of St. Lucie Inlet on the Atlantic side.",
+      "ocean": "Atlantic Ocean"
+    },
+    "san-diego-california": {
+      "lat": 32.7174202,
+      "lon": -117.162772,
+      "huc6": "180703",
+      "name": "Laguna-San Diego Coastal",
+      "ocean": "Pacific Ocean"
+    }
+  }
+}

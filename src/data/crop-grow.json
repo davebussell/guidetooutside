@@ -1,0 +1,1208 @@
+{
+ "_about": "Growing parameters for the crop calendar (src/lib/crop-calendar.ts), merged onto each crop as `grow` by src/lib/crops.ts. The recovered live values (temp, days, start, nurseryWeeks, water, chill, staple; client module 54475 `r`) are unchanged except where `fieldSources` says so. Round 2 of the regional-accuracy audit (14 Oct 2026) added the fields in `fieldNotes`; every value cites a key in `sources` through `fieldSources`.",
+ "fieldNotes": {
+  "overwinter": "The sowing may be made to stand through winter (the clock stops in months under the crop minimum and in days under ten hours of light) and finish in spring or summer. Only these crops are allowed dormancy; every other crop must finish before the first month under its minimum.",
+  "overwinterMinC": "The mean annual extreme minimum (°C, the hardiness-zone basis) the standing crop takes. RHS 'mild areas' crops are read as H4 (−10 °C) on the RHS hardiness scale.",
+  "sowMinSoilC": "Minimum soil temperature for germination (°C, from the °F table rounded), tested against the late-month mean, which tracks soil at sowing depth.",
+  "winterMinC": "Perennials: the mean annual extreme minimum (°C) the dormant plant takes, tested against the place's meanAnnualExtremeMinC. Named for the brief; it is the plant's zone-style tolerance, not a mean-night figure. Zone ratings are read at the floor of the USDA zone named (zone 2: −45 °C, zone 3: −40 °C), since the field is tested against a station's mean annual extreme minimum; a figure the source gives in degrees is used as given (haskap: no damage at −47 °C).",
+  "coolestMonthMaxC": "Perennials that need a cool season: the coldest month's mean may not exceed this (°C).",
+  "coldestMonthMinC": "Tropical perennials: the coldest month's mean must reach this (°C) for the plant to keep growing and set fruit.",
+  "maxWarmestMonthC": "Heat ceiling: the warmest month's mean may not exceed this (°C); where unset the crop's own maximum plus 3 °C applies.",
+  "garlic.days": "150 days is the tropical cycle (Greenlife Kenya, 4–6 months); outside the tropics garlic follows the autumn-planting model in crop-calendar.ts and ignores days.",
+  "stands": "The crop is left standing in the garden after it is ready and lifted at leisure, through frost, until the ground freezes (its `frostNote` / `ready` say 'leave it'). The calendar's harvest bar runs from the first picking to the last month with unfrozen ground, not for one month only.",
+  "harvestAfterFrost": "The crop is not worth picking before it has been frosted (sprouts 'bland before the first frosts'; parsnip starchy and flat), so its harvest bar starts no earlier than the town's average first fall frost, whenever the plants are mature.",
+  "sowing gate": "Added with the 2 Nov 2026 Ottawa audit (code constants in src/lib/crop-calendar.ts, not per-crop fields): tender crops are not sown or planted out before the average last frost + 7 days (RHS; the crop records); other crops that do not overwinter not before the average last frost − 21 days (Just Food Ottawa: brassica transplants 'no more than 3 weeks before the last frost'; Seeds of Diversity: cold-tolerant crops 3–4 weeks before). The harvest bar can start no earlier than the earliest sowing day + `days`.",
+  "plantMinSoilC": "Transplants and slips: the day's mean temperature (°C, read between the monthly means; the soil at planting depth tracks it) they are set out at. Sweet potato 18: the crop record's 'once the soil holds above 18 °C' (UGA C1014 waits for 70 °F). Added after the 10 Nov 2026 audit, which found sweet potatoes set out from February at Jacksonville, March at Savannah and April at Atlanta on the last frost alone.",
+  "bulbs": "A bulb onion: bulbing is set off by day length, whatever the planting date, so the calendar plants it by day length (src/lib/crop-calendar.ts BULB_*). Added after the 10 Nov 2026 audit (onions planted to June and lifted in November in New York, Philadelphia, Washington and Baltimore).",
+  "regimes": "Perennials: the only climates (src/lib/regime ids) the crop is listed in, from the climate zones its source names. Added after the 10 Nov 2026 audit (globe artichokes said to do well in eight humid-subtropical and continental towns with no source).",
+  "winterAnnualAboveC": "Where frost does not frame the year (the regime's frostLed, from the station frost dates) and the warmest month averages over this (°C), the crop is grown as a winter annual, planted in autumn and cleared after the harvest, so it is not listed as a perennial. Strawberry: UF/IFAS grows it as an annual in Florida because the plants decline once the summer heats up; Florida's warmest months in this site's records run 27.8–28.3 °C.",
+  "plantMinNightC": "Transplants: the day's mean night (°C, read between the monthly means) they are set out at. Tomato 10: the crop record's 'once nights hold above 10 °C'. Added after the 10 Nov 2026 audit, which found tomatoes set out in March at Atlanta (UGA C943: April in middle Georgia, later further north).",
+  "frostEndsSeason": "The frost that damages the crop ends its season, so the calendar holds it to the frost dates wherever the typical coldest night reaches its damage point (frostLimits damageC), not only its kill point. Potato: the crop record's 'the tops are tender: −1 to −2 °C blackens the leaves … it just ends the season'. Added after the Day 3 audit (11 Nov 2026), which found potatoes offered for November planting at Houston and New Orleans (coldest nights −2.0 and −1.6 °C) against LSU's September and AgriLife's Oct 1.",
+  "plantAtRains": "Perennials whose record plants them only 'at the start of the rains' (mango: 'so they root in before the dry season'; moringa): set out in the first month of each wet run of the place's regime, at no time where the year has no rainy season, and by warmth alone where it rains all year. Added after the Day 3 audit (11 Nov 2026), which found mangoes 'plant out now' at Brownsville in November with no source (Texas A&M gives no planting month)."
+ },
+ "fieldSources": {
+  "sowMinSoilC": [
+   "aces-germination"
+  ],
+  "onion.overwinter": [
+   "rhs-onion",
+   "rhs-october",
+   "rhs-hardiness"
+  ],
+  "garlic.overwinter": [
+   "rhs-garlic",
+   "tmg-garlic",
+   "omafra-garlic"
+  ],
+  "garlic.days": [
+   "greenlife-garlic"
+  ],
+  "spinach.overwinter": [
+   "umass-spinach",
+   "rhs-hardiness"
+  ],
+  "peas.overwinter": [
+   "rhs-october",
+   "rhs-hardiness"
+  ],
+  "broad-bean.overwinter": [
+   "rhs-broad-bean",
+   "rhs-october",
+   "rhs-hardiness"
+  ],
+  "rocket.overwinter": [
+   "rhs-hardiness"
+  ],
+  "apple.winterMinC": [
+   "usask-apple",
+   "ndsu-apple"
+  ],
+  "pear.winterMinC": [
+   "grainews-pears",
+   "usask-pears",
+   "umn-fruit"
+  ],
+  "rhubarb.winterMinC": [
+   "umn-rhubarb",
+   "osu-rhubarb"
+  ],
+  "rhubarb.chill": [
+   "osu-rhubarb"
+  ],
+  "rhubarb.maxWarmestMonthC": [
+   "osu-rhubarb"
+  ],
+  "strawberry.winterMinC": [
+   "umn-strawberry",
+   "manitoba-strawberry"
+  ],
+  "strawberry.coolestMonthMaxC": [
+   "kenya-strawberry"
+  ],
+  "raspberry.winterMinC": [
+   "umn-raspberry"
+  ],
+  "haskap.winterMinC": [
+   "haskap-canada",
+   "umn-fruit"
+  ],
+  "hardy-herbs.winterMinC": [
+   "rhs-herbs",
+   "rhs-hardiness"
+  ],
+  "hardy-herbs.coolestMonthMaxC": [
+   "richters-herbs",
+   "kenya-strawberry"
+  ],
+  "fig.winterMinC": [
+   "ut-fig"
+  ],
+  "pomegranate.winterMinC": [
+   "ufifas-pomegranate"
+  ],
+  "olive.winterMinC": [
+   "ucd-olive"
+  ],
+  "olive.chill": [
+   "ucd-olive"
+  ],
+  "globe-artichoke.winterMinC": [
+   "osu-artichoke"
+  ],
+  "citrus.winterMinC": [
+   "ucanr-citrus"
+  ],
+  "avocado.winterMinC": [
+   "ucanr-avocado"
+  ],
+  "passion-fruit.winterMinC": [
+   "ufifas-passionfruit"
+  ],
+  "passion-fruit.coldestMonthMinC": [
+   "ufifas-passionfruit"
+  ],
+  "mango.winterMinC": [
+   "ufifas-mango",
+   "itfnet-mango"
+  ],
+  "mango.coldestMonthMinC": [
+   "itfnet-mango",
+   "ufifas-mango"
+  ],
+  "papaya.winterMinC": [
+   "ufifas-papaya"
+  ],
+  "papaya.coldestMonthMinC": [
+   "ufifas-papaya"
+  ],
+  "banana.winterMinC": [
+   "ufifas-banana"
+  ],
+  "banana.coldestMonthMinC": [
+   "ufifas-banana"
+  ],
+  "moringa.winterMinC": [
+   "nwpg-moringa"
+  ],
+  "moringa.coldestMonthMinC": [
+   "nwpg-moringa"
+  ],
+  "carrot.stands": [
+   "crop-records"
+  ],
+  "parsnip.stands": [
+   "crop-records"
+  ],
+  "rutabaga.stands": [
+   "crop-records"
+  ],
+  "cabbage.stands": [
+   "crop-records"
+  ],
+  "kale.stands": [
+   "crop-records"
+  ],
+  "brussels-sprouts.stands": [
+   "crop-records"
+  ],
+  "leek.stands": [
+   "crop-records"
+  ],
+  "brussels-sprouts.harvestAfterFrost": [
+   "wcs-sprouts",
+   "crop-records"
+  ],
+  "parsnip.harvestAfterFrost": [
+   "usask-parsnip",
+   "crop-records"
+  ],
+  "sweet-potato.plantMinSoilC": [
+   "crop-records",
+   "uga-sweet-potato",
+   "ufifas-nfl-spring"
+  ],
+  "onion.bulbs": [
+   "ncsu-onion",
+   "vt-spes673",
+   "uga-c943",
+   "ufifas-nfl-fall",
+   "agrilife-rgv",
+   "agrilife-fall",
+   "lsu-cool-season-2014"
+  ],
+  "globe-artichoke.regimes": [
+   "fao-artichoke",
+   "osu-artichoke"
+  ],
+  "strawberry.winterAnnualAboveC": [
+   "ufifas-strawberry",
+   "ufifas-nfl-fall"
+  ],
+  "tomato.plantMinNightC": [
+   "crop-records",
+   "uga-c943",
+   "vt-spes673"
+  ],
+  "potato.frostEndsSeason": [
+   "crop-records",
+   "lsu-cool-season-2014",
+   "agrilife-fall",
+   "agrilife-rgv"
+  ],
+  "mango.plantAtRains": [
+   "crop-records",
+   "tamu-mango"
+  ],
+  "moringa.plantAtRains": [
+   "crop-records"
+  ]
+ },
+ "sources": {
+  "aces-germination": "Soil temperature conditions for vegetable seed germination (ANR-1061, Jan 2023) · Alabama Cooperative Extension · https://www.aces.edu/blog/topics/lawn-garden/soil-temperature-conditions-for-vegetable-seed-germination/ · minimum soil temperature for germination: bean 60 °F, beet/cabbage/carrot/cauliflower/parsley/pea/radish/turnip 40 °F, corn/tomato 50 °F, cucumber/eggplant/okra/pepper/pumpkin/squash/watermelon 60 °F, lettuce/onion/parsnip/spinach 35 °F (read 14 Oct 2026)",
+  "umd-fall": "Fall vegetable gardening and season extension · University of Maryland Extension · https://extension.umd.edu/resource/fall-vegetable-gardening-and-season-extension · a 14-day short-day factor is added to days to maturity for autumn sowings; 'vegetable growth is very limited when daylight drops below 10 hours' (read 14 Oct 2026)",
+  "vt-fall": "Fall vegetable gardening (426-334) · Virginia Cooperative Extension · https://pubs.ext.vt.edu/426/426-334/426-334.html · count back from the first frost: harvest period + a fall factor of about two weeks + a frost-tender factor of two weeks for corn, bean, cucumber, tomato and squash (read 14 Oct 2026)",
+  "coleman": "The Persephone period (after Eliot Coleman, The Winter Harvest Handbook) · summarised by Epic Gardening · https://www.epicgardening.com/persephone-period/ · growth all but stops once daylight is under ten hours (read 14 Oct 2026)",
+  "rhs-garlic": "Garlic: grow your own · RHS · https://www.rhs.org.uk/vegetables/garlic/grow-your-own · planted mid-autumn to early winter; one to two months at 0–10 °C; autumn-planted crop ready late spring to early summer (read 14 Oct 2026)",
+  "tmg-garlic": "Garlic from cloves (2019) · Toronto Master Gardeners · https://www.torontomastergardeners.ca/wp-content/uploads/2019/08/Garlic-from-Cloves-2019.pdf · plant 4–6 weeks before the soil freezes, by the end of October in Toronto; harvest late July or early August (read 14 Oct 2026)",
+  "omafra-garlic": "Garlic production · OMAFRA (ontario.ca) · https://www.ontario.ca/page/garlic-production · planted in the fall and harvested the following summer; planted too late the cloves do not root before winter; harvest when 30–50 % of leaves have died back (read 14 Oct 2026)",
+  "dug-denver": "Vegetable planting guide (metro Denver) · Denver Urban Gardens · https://dug.org/vegetable-planting-guide · potatoes Apr 1–30, onion sets Apr 1–30, peas/spinach/lettuce Apr 20–May 5, carrots/beets/radish May 4–18, tomatoes/peppers/beans/corn/cucumbers/squash May 15–25, garlic October/November (read 14 Oct 2026)",
+  "ncsu-wnc": "Western North Carolina planting calendar · NC State Extension · https://content.ces.ncsu.edu/western-north-carolina-planting-calendar-for-annual-vegetables-fruits-and-herbs · garlic Oct 1–Dec 1; tomato transplants May 1–Jun 15; carrots to Aug 1; kale to Aug 15; Brussels sprouts transplants Jul 1–15; spinach Sep 1–15 (read 14 Oct 2026, via the round-1 audit)",
+  "tmg-dates": "When to plant vegetables in Toronto · Toronto Master Gardeners · https://www.torontomastergardeners.ca/?p=37065 · frost-hardy crops Apr 1–15 (peas, spinach, lettuce, onions, early potatoes), beets/carrots Apr 15–25, beans/corn/tomatoes May 1–15, cucumbers/peppers/squash May 20–30; last frost Apr 30–May 4 (read 14 Oct 2026)",
+  "horta-lisboa": "Calendário da Horta · ABAE Hortas Bio · https://hortasbio.abae.pt/outras-edicoes/public/23/112/challenges_2_1/docs/originals/Calendario%20Da%20Horta.pdf · alho plantação Out–Nov; fava Nov–Fev; ervilha Nov–Fev; tomate Jan–Abr (and Jul, Set, Nov protected) (read 14 Oct 2026, via the round-1 audit)",
+  "gardenate-sa": "South Africa – Mediterranean climate zone, months 3–6 · Gardenate · https://www.gardenate.com/zones/South+Africa+-+Mediterranean+climate?month=4 · garlic 'plant cloves' Mar–Jun; broad beans, peas, spinach Mar–Jun; no tomato, courgette or sweet corn Mar–Jun (read 14 Oct 2026)",
+  "rhs-october": "Jobs to do in October · RHS · https://www.rhs.org.uk/advice/grow-your-own/in-month/october-jobs · overwintering broad beans and peas ('Douce Provence', 'Meteor') 'only in mild areas'; plant garlic; finish planting overwintering onion sets for early–mid summer (read 14 Oct 2026)",
+  "rhs-broad-bean": "Broad beans: grow your own · RHS · https://www.rhs.org.uk/advice/profile?PID=617 · October/November sowing in milder parts of the UK or sheltered, well-drained sites; crops from May (read 14 Oct 2026)",
+  "rhs-onion": "Onions: grow your own · RHS · https://www.rhs.org.uk/vegetables/onions/grow-your-own · autumn (overwintering/Japanese) sets planted in autumn for June–July; spring sets early–mid spring for July–September (read 14 Oct 2026)",
+  "rhs-hardiness": "RHS hardiness rating · RHS · https://www.rhs.org.uk/advice/rhs-hardiness-rating · H3 −5 to 1 °C, H4 −10 to −5, H5 −15 to −10, H6 −20 to −15, H7 below −20 (absolute winter minima) (read 14 Oct 2026)",
+  "rhs-herbs": "10 award-winning herbs · RHS · https://www.rhs.org.uk/plants/trials-awards/using-award-winning-plants/10-award-winning-herbs · rosemary H4, sage H4, thyme H5, oregano H6 (read 14 Oct 2026)",
+  "umass-spinach": "Spinach fact sheet · UMass Extension · https://www.umass.edu/agriculture-food-environment/vegetable/fact-sheets/spinach · overwintered crop sown early September under floating row cover; young plants withstand 15–20 °F (read 14 Oct 2026)",
+  "umn-fruit": "Growing edible fruits and nuts · University of Minnesota Extension · https://extension.umn.edu/agroforestry/growing-edible-fruits-and-nuts · pear zone 3–9, honeyberry (haskap) zone 2–7, currants zone 3–5 (read 14 Oct 2026)",
+  "umn-raspberry": "Growing raspberries in the home garden · University of Minnesota Extension · https://extension.umn.edu/fruit/growing-raspberries-home-garden/ · varieties rated for zone 3–4; cane tips winter-killed in severe winters (read 14 Oct 2026)",
+  "ndsu-apple": "Dakota Gardener: growing apples · NDSU Extension · https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-growing-apples-for-cider · apples grown in North Dakota zone 3–4 on very hardy rootstocks (read 14 Oct 2026)",
+  "haskap-canada": "Growing haskap in Canada (Bors, U. Saskatchewan) · via UW–Madison · https://cropsandsoils.extension.wisc.edu/files/2023/08/Growing-Haskap-in-Canada.pdf · no winter damage at −47 °C; open flowers take −7 °C (read 14 Oct 2026)",
+  "manitoba-strawberry": "Where's the snow? Winter injury in strawberries · Manitoba Agriculture · https://gov.mb.ca/agriculture/crops/crop-management/fruit-crops/print,wheres-the-snow-is-there-potential-for-winter-injury-in-strawberries.html · crowns killed at −12 to −20 °C core temperature; a 5–8 cm straw mulch keeps them above that without snow (read 14 Oct 2026)",
+  "osu-rhubarb": "Growing rhubarb in the home garden (HYG-1631) · Ohio State University Extension · https://ohioline.osu.edu/factsheet/hyg-1631 · needs winter temperatures below 40 °F to break dormancy; grows in zones 4–7; summer temperatures averaging under 75 °F (read 14 Oct 2026)",
+  "ut-fig": "Common fig · University of Tennessee Gardens · https://utgardens.tennessee.edu/common-fig-ficus-carica/ · best in zones 8–10; hardy cultivars to zone 7–5 with dieback; 'Hardy Chicago' top growth hardy to 10 °F (read 14 Oct 2026)",
+  "ufifas-pomegranate": "The pomegranate (MG056) · UF/IFAS · https://ask.ifas.ufl.edu/publication/MG056 · 'temperatures down to 12 °F (−11 °C) may severely injure dormant trees' (read 14 Oct 2026, via the round-1 audit)",
+  "ucd-olive": "Olive climatic requirements (L. Ferguson) · UC Davis · https://louiseferguson.ucdavis.edu/sites/g/files/dgvnsk6001/files/inline-files/6-%201.pdf · trees die below 10.4 °F (−12 °C), mature trees damaged below 22 °F; flowering needs about ten weeks below 55 °F (read 14 Oct 2026)",
+  "ucanr-citrus": "Citrus cold hardiness · UC ANR (Contra Costa) · https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2012-01/135464.pdf · mature trees: sweet orange 24 °F, Meyer lemon 22 °F, grapefruit 26 °F, Satsuma 20 °F (read 14 Oct 2026)",
+  "ucanr-avocado": "Avocado cold tolerance · UC ANR (Contra Costa) · https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-03/364554.pdf · Hass fruit damaged at 30 °F for four hours; Fuerte 27 °F; Bacon/Zutano 24–26 °F (read 14 Oct 2026)",
+  "ufifas-mango": "Mango growing in the Florida home landscape (MG216) · UF/IFAS · https://ask.ifas.ufl.edu/publication/MG216 · young trees killed at 29–30 °F; mature trees injured at 25 °F; flowers and small fruit damaged below 40 °F; adapted to areas without freezing temperatures (read 14 Oct 2026)",
+  "itfnet-mango": "Mango climatic requirements · International Tropical Fruits Network · https://www.itfnet.org/v1/?p=8978 · growth ceases below 13–15 °C; flowers abort below 15 °C; young plants killed at −1.7 to −2.8 °C (read 14 Oct 2026)",
+  "ufifas-papaya": "Papaya growing in the Florida home landscape (MG054) · UF/IFAS · https://ask.ifas.ufl.edu/publication/MG054 · grows and fruits best at 21–32 °C; below 15 °C flowering is inhibited; damaged or killed below −0.6 °C (read 14 Oct 2026)",
+  "ufifas-banana": "Banana growing in the Florida home landscape (MG040) · UF/IFAS · https://ask.ifas.ufl.edu/publication/MG040 · growth slows below 16 °C and stops at 10 °C; killed to the ground below −2 °C (read 14 Oct 2026)",
+  "nwpg-moringa": "Moringa production for food security · North West Province DARD (South Africa) · https://dard.nwpg.gov.za/wp-content/uploads/2022/05/Moringa-production-for-food-security.pdf · suited to 25–35 °C; survives only light frost (read 14 Oct 2026)",
+  "ufifas-passionfruit": "Passion fruit (HS1467) · UF/IFAS · https://ask.ifas.ufl.edu/publication/HS1467 · grows best at 65–90 °F; chilling injury from 32–59 °F; vines protected through freezes to 23 °F (read 14 Oct 2026)",
+  "sare-artichoke": "Perennial globe artichokes wintered in low tunnels (FNE14-809) · SARE · https://projects.sare.org/project-reports/fne14-809/ · 'generally globe artichokes grow in zone 7'; deep ground freezing kills the taproot (read 14 Oct 2026)",
+  "kenya-strawberry": "Strawberry farming in Kenya · Graduate Farmer · https://graduatefarmer.co.ke/2015/02/11/strawberry-farming-beginners/ · altitude 1,500–2,200 m, 15–30 °C; below 10 °C flowering is delayed (read 14 Oct 2026)",
+  "richters-herbs": "Thyme and rosemary dying in the Caribbean · Richters Herbs (Q&A, 2005) · https://www.richters.com/questions-and-answers/04-20050811-1 · 'These two herbs cannot take the heat of the tropics'; rosemary rated to zone 10, thyme to zone 9 — the tropical lowlands are zone 11+ (read 14 Oct 2026); the 18 °C coolest-month test keeps the cool highlands (Nairobi, 1,700 m) and drops the humid lowlands (Lagos)",
+  "greenlife-garlic": "Garlic farming in Kenya · Greenlife · https://www.greenlife.co.ke/garlic-farming-in-kenya/ · ideal 12–24 °C; matures in roughly 4–6 months (read 14 Oct 2026)",
+  "jf-cgn": "CGN Garden Guide (2015) · Just Food, Ottawa Community Gardening Network · http://justfood.ca/wp-content/uploads/2015/03/CGN_Garden_Guide_2015.pdf · brassica transplants go out no more than 3 weeks before the last frost; about 16 weeks from seed to harvest for cabbage (read 2 Nov 2026 in the Ottawa gardening audit, as summarised by WebFetch; re-read before quoting publicly)",
+  "seeds-of-diversity": "When to plant · Seeds of Diversity Canada · https://seeds.ca/?p=493 · cold-tolerant crops can go in 3–4 weeks before the last frost; tender crops once nights stay above 0 °C (read 2 Nov 2026 in the Ottawa gardening audit, as summarised by WebFetch; re-read before quoting publicly)",
+  "wcs-sprouts": "Grow Brussels sprouts · West Coast Seeds Academy · https://www.westcoastseeds.com/blogs/wcs-academy/grow-brussels-sprouts · plants should be in the ground 45–60 days before the first hard frost and sprouts are picked after they have been kissed by frost (read 2 Nov 2026 in the Ottawa gardening audit, as summarised by WebFetch; re-read before quoting publicly)",
+  "usask-parsnip": "Parsnips · Saskatchewan Gardenline, University of Saskatchewan · https://gardening.usask.ca/gardening-advice/gardenline-nested-pages/food-plant-pages/vegetables/parsnips.php · 110–150 days to maturity; main harvest in the fall after frost, with a spring harvest only from mulched in-ground roots (read 2 Nov 2026 in the Ottawa gardening audit, as summarised by WebFetch; re-read before quoting publicly)",
+  "ottawa-frost-check": "Frost check advisory · City of Ottawa · https://documents.ottawa.ca/sites/default/files/frost_check_advisory_en.pdf · daytime temperatures remain below freezing commencing the first week of December (read 2 Nov 2026 in the Ottawa gardening audit, as summarised by WebFetch; re-read before quoting publicly); used only as the one local check of the rule that a month whose average daytime high is under 0 °C has frozen ground",
+  "crop-records": "The site's own crop records (src/data/crops.json): `frostNote`, `ready` and `pick` say which crops are left standing in the ground after frost (carrot, rutabaga, parsnip, leek, cabbage, kale, Brussels sprouts) and which are not worth picking before frost (Brussels sprouts: 'bland before the first frosts'; parsnip: 'not before the first hard frosts'). Beet, turnip and spinach are left out of `stands`: their records say they go woody, pithy or bolt if left",
+  "usask-apple": "Apple varieties · USask Fruit Program, University of Saskatchewan · https://research-groups.usask.ca/fruit/our-varieties/apple-varieties.php · Prairie Sun is \"hardy at least to zone 2a\" (read 7 Nov 2026)",
+  "grainews-pears": "Pears for the Prairies (Ted Meseyton, 22 Mar 2012) · Grainews · https://www.grainews.ca/farm-life/pears-for-the-prairies/ · Early Gold and Ure are rated for Zone 2 hardiness; Golden Spice, Luscious and Summer Crisp are rated zone 3b (read 7 Nov 2026)",
+  "usask-pears": "Pears · USask Fruit Program, University of Saskatchewan · https://research-groups.usask.ca/fruit/Fruit crops/pears.php · only a few commercial pear selections are hardy on the prairies; Ure is \"slightly less hardy (zone 3)\" (read 7 Nov 2026)",
+  "umn-strawberry": "Growing strawberries in the home garden · University of Minnesota Extension · https://extension.umn.edu/fruit/growing-strawberries-home-garden · recommended varieties are \"hardy in zones 3-4\" when mulched; the crown may be killed at 15 °F, so straw cover is essential where snow is unreliable (read 7 Nov 2026)",
+  "umn-rhubarb": "Growing rhubarb in home gardens · University of Minnesota Extension · https://extension.umn.edu/vegetables/growing-rhubarb · \"hardy in USDA Zone 4, and worth trying in Zone 3\" (read 7 Nov 2026)",
+  "vt-spes673": "Virginia's home garden vegetable planting guide (SPES-673P) · Virginia Cooperative Extension · https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/426/426-331/SPES-673.pdf · zone 7b: kale and collards Feb 20–Apr 10 and Aug 10–Sep 20, beets Mar 1–Apr 20, turnips Mar 1–Apr 10, spinach Feb 10–Apr 1 and Sep 10–Oct 20 (7a Oct 10, 8a/8b Nov 1), bulbing onion sets Feb 20–Apr 20 (7a Mar 1–May 1, 6a/6b to May 10), autumn onions 'not recommended' (read 11 Nov 2026)",
+  "uga-c943": "Vegetable Garden Calendar (Circular 943) · UGA Cooperative Extension · https://fieldreport.caes.uga.edu/publications/C943/vegetable-garden-calendar · middle Georgia: tomatoes set out in April, sweet potatoes in June, onions planted September–October; north Georgia spring dates 1–3 weeks later and fall dates about 2 weeks earlier; extreme south Georgia spring dates up to 2–3 weeks earlier (read 11 Nov 2026)",
+  "uga-sweet-potato": "Home Garden Sweet Potatoes (Circular 1014) · UGA Cooperative Extension · https://fieldreport.caes.uga.edu/publications/C1014/home-garden-sweet-potatoes/ · the soil should reach 70 °F before slips are planted: mid-April in south Georgia, early May in the middle and north (read 11 Nov 2026)",
+  "ncsu-onion": "Bulb Onions · NC State Extension (E. Torres Quezada, C. Gunter; revised 28 Dec 2025) · https://content.ces.ncsu.edu/bulb-onions · short-day onions bulb at about 10–12 hours of day length, intermediate 12–14, long-day 14–16; cultivars are classed by the day length that starts bulbing, not by planting date; eastern North Carolina sows Sep 10–Oct 15 or Jan 15–Feb 25 and transplants late December–February (read 11 Nov 2026)",
+  "ufifas-nfl-fall": "Fall Vegetable Planting Guide for North Florida · UF/IFAS Extension Baker County · https://sfyl.ifas.ufl.edu/media/sfylifasufledu/baker/docs/pdf/horticulture/FallVegetablePlantingGuideforNorthFlorida.pdf · broccoli Aug–Feb, kale Sep–Feb, bulbing onions Sep–Dec, spinach Oct–Nov, beets Sep–Mar, strawberry transplants Oct–Nov (read 11 Nov 2026)",
+  "ufifas-nfl-spring": "Spring Vegetable Planting Guide for North Florida · UF/IFAS Extension Baker County · https://sfyl.ifas.ufl.edu/media/sfylifasufledu/baker/docs/pdf/horticulture/SpringVegetablePlantingGuideforNorthFlorida.pdf · tomatoes Feb–Apr, peppers Feb–Apr and Jul–Aug, cucumbers Feb–Apr, winter squash March, sweet potatoes Mar–Jun (read 11 Nov 2026)",
+  "ufifas-strawberry": "Strawberries · UF/IFAS Gardening Solutions · https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/strawberries/ · strawberries are normally grown as annuals in Florida; they usually decline once the summer heats up; North Florida plants Sep 15–Oct 15 (read 11 Nov 2026)",
+  "osu-artichoke": "Artichoke, globe · Oregon State University, Oregon Vegetables · https://horticulture.oregonstate.edu/oregon-vegetables/artichoke-globe · do best in a frost-free coastal area with cool, foggy summers; keep them above 25 °F in winter; under 15 °F (−9.4 °C) severe loss of crowns is expected even with mulch (read 11 Nov 2026)",
+  "fao-artichoke": "Cynara scolymus data sheet · FAO ECOCROP · https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=847 · climate zones: tropical wet and dry (Aw), steppe or semi-arid (Bs), subtropical dry summer (Cs), temperate oceanic (Do); not humid subtropical or continental (read 11 Nov 2026)",
+  "agrilife-rgv": "Rio Grande Valley Homeowner Vegetable Guide · Texas A&M AgriLife Extension · https://agrilifeextension.tamu.edu/wp-content/uploads/2025/08/RGV-Homeowner-Vegetable-Guide-2022.pdf · Irish potatoes mid-December to late January ('the best time to plant is December'; sprouts in January 'can be harmed by a late frost'); bulbing onions mid-October to mid-December, 1015Y 'approximately 150 days to be ready' and not after the end of October; tomatoes mid-February to early March and mid-September to mid-October; summer squash late February to early April and late August to mid-September; sweet corn late February to late March and late August to mid-September (read 11 Nov 2026)",
+  "agrilife-fall": "Fall vegetable gardening guide for Texas · Texas A&M AgriLife Extension · https://agrilifeextension.tamu.edu/wp-content/uploads/2023/09/fall-vegetable-gardening-guide-texas.pdf · Table 1, last planting dates by region I–V: potato not recommended / Aug 1 / Sep 1 / Oct 1 / not recommended; onion seed Nov 1 (III), Dec 1 (IV), Dec 15 (V); tomato to Aug 1 and summer squash to Oct 10 in region V; 'the duration of these crops depends on the date of the first killing frost' (read 11 Nov 2026)",
+  "lsu-cool-season-2014": "It's time to start cool-season vegetable gardening (Dan Gill, 5 Sep 2014) · LSU AgCenter · https://apps.lsuagcenter.com/news_archive/2014/September/get-it-growing/Its-time-to-start-coolseason-vegetable-gardening-.htm · Irish potatoes planted in September from small whole potatoes saved from the spring crop; bulbing onion seed in September, sets in early December; garlic in October (read 11 Nov 2026)",
+  "tamu-mango": "Mango fact sheet · Texas A&M AgriLife (Aggie Horticulture) · https://aggie-horticulture.tamu.edu/fruit-nut/fact-sheets/mango · 'Haden', 'Irwin' and 'Tommy Atkins' mature in June, 'Kent' in July, 'Keitt' in August; leaves and twigs damaged below 30 °F; soil banks round young trunks from early December to early March; no planting month given (read 11 Nov 2026)"
+ },
+ "crops": {
+  "cassava": {
+   "temp": [
+    18,
+    24,
+    30,
+    35
+   ],
+   "days": 270,
+   "start": "cutting",
+   "water": "low"
+  },
+  "sweet-potato": {
+   "temp": [
+    16,
+    21,
+    28,
+    34
+   ],
+   "days": 120,
+   "start": "cutting",
+   "water": "medium",
+   "plantMinSoilC": 18
+  },
+  "okra": {
+   "temp": [
+    18,
+    24,
+    30,
+    35
+   ],
+   "days": 55,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 15.6
+  },
+  "amaranth": {
+   "temp": [
+    15,
+    22,
+    30,
+    35
+   ],
+   "days": 30,
+   "start": "direct",
+   "water": "medium"
+  },
+  "cowpea": {
+   "temp": [
+    18,
+    22,
+    30,
+    34
+   ],
+   "days": 35,
+   "start": "direct",
+   "water": "low"
+  },
+  "groundnut": {
+   "temp": [
+    16,
+    22,
+    30,
+    34
+   ],
+   "days": 110,
+   "start": "direct",
+   "water": "low"
+  },
+  "taro": {
+   "temp": [
+    18,
+    21,
+    28,
+    33
+   ],
+   "days": 240,
+   "start": "cutting",
+   "water": "high"
+  },
+  "banana": {
+   "temp": [
+    16,
+    24,
+    30,
+    34
+   ],
+   "days": 450,
+   "start": "perennial",
+   "water": "high",
+   "winterMinC": -2,
+   "coldestMonthMinC": 14
+  },
+  "papaya": {
+   "temp": [
+    16,
+    22,
+    30,
+    33
+   ],
+   "days": 300,
+   "start": "perennial",
+   "water": "medium",
+   "winterMinC": 0,
+   "coldestMonthMinC": 15
+  },
+  "mango": {
+   "temp": [
+    15,
+    21,
+    30,
+    36
+   ],
+   "days": 1460,
+   "start": "perennial",
+   "water": "low",
+   "winterMinC": -2,
+   "coldestMonthMinC": 15,
+   "plantAtRains": true
+  },
+  "avocado": {
+   "temp": [
+    12,
+    16,
+    25,
+    30
+   ],
+   "days": 1280,
+   "start": "perennial",
+   "water": "medium",
+   "winterMinC": -2
+  },
+  "passion-fruit": {
+   "temp": [
+    14,
+    18,
+    27,
+    32
+   ],
+   "days": 365,
+   "start": "perennial",
+   "water": "high",
+   "winterMinC": -2,
+   "coldestMonthMinC": 10
+  },
+  "moringa": {
+   "temp": [
+    16,
+    22,
+    32,
+    38
+   ],
+   "days": 90,
+   "start": "perennial",
+   "water": "low",
+   "winterMinC": 0,
+   "coldestMonthMinC": 14,
+   "plantAtRains": true
+  },
+  "african-eggplant": {
+   "temp": [
+    18,
+    22,
+    30,
+    35
+   ],
+   "days": 70,
+   "start": "transplant",
+   "nurseryWeeks": 5,
+   "water": "medium"
+  },
+  "broad-bean": {
+   "temp": [
+    5,
+    10,
+    18,
+    22
+   ],
+   "days": 90,
+   "start": "direct",
+   "water": "medium",
+   "overwinter": true,
+   "overwinterMinC": -10
+  },
+  "globe-artichoke": {
+   "temp": [
+    7,
+    13,
+    22,
+    27
+   ],
+   "days": 365,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 1,
+    "belowC": 12
+   },
+   "winterMinC": -9.4,
+   "regimes": [
+    "tropical-wet-dry",
+    "semi-arid",
+    "mediterranean",
+    "maritime"
+   ]
+  },
+  "florence-fennel": {
+   "temp": [
+    8,
+    14,
+    22,
+    27
+   ],
+   "days": 90,
+   "start": "direct",
+   "water": "high"
+  },
+  "rocket": {
+   "temp": [
+    6,
+    10,
+    18,
+    24
+   ],
+   "days": 35,
+   "start": "direct",
+   "water": "medium",
+   "overwinter": true,
+   "overwinterMinC": -10
+  },
+  "fig": {
+   "temp": [
+    10,
+    18,
+    28,
+    33
+   ],
+   "days": 730,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 1,
+    "belowC": 19
+   },
+   "winterMinC": -12
+  },
+  "olive": {
+   "temp": [
+    10,
+    16,
+    27,
+    33
+   ],
+   "days": 1460,
+   "start": "perennial",
+   "water": "low",
+   "chill": {
+    "months": 2,
+    "belowC": 14
+   },
+   "winterMinC": -5.6,
+   "hotSummerMaxC": 30
+  },
+  "citrus": {
+   "temp": [
+    13,
+    18,
+    29,
+    34
+   ],
+   "days": 1095,
+   "start": "perennial",
+   "water": "medium",
+   "winterMinC": -4
+  },
+  "pomegranate": {
+   "temp": [
+    12,
+    20,
+    30,
+    36
+   ],
+   "days": 913,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 1,
+    "belowC": 19
+   },
+   "winterMinC": -11,
+   "hotSummerMaxC": 30
+  },
+  "watermelon": {
+   "temp": [
+    18,
+    22,
+    30,
+    35
+   ],
+   "days": 85,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 15.6
+  },
+  "tomato": {
+   "temp": [
+    15,
+    18,
+    27,
+    32
+   ],
+   "days": 75,
+   "start": "transplant",
+   "nurseryWeeks": 6,
+   "water": "medium",
+   "staple": [
+    "mediterranean",
+    "humid-subtropical",
+    "subtropical-highland",
+    "continental",
+    "maritime"
+   ],
+   "sowMinSoilC": 10,
+   "plantMinNightC": 10
+  },
+  "pepper": {
+   "temp": [
+    17,
+    21,
+    28,
+    33
+   ],
+   "days": 75,
+   "start": "transplant",
+   "nurseryWeeks": 8,
+   "water": "medium",
+   "staple": [
+    "mediterranean",
+    "humid-subtropical"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "hot-pepper": {
+   "temp": [
+    17,
+    22,
+    30,
+    34
+   ],
+   "days": 80,
+   "start": "transplant",
+   "nurseryWeeks": 8,
+   "water": "medium",
+   "staple": [
+    "tropical-wet-dry",
+    "tropical-humid",
+    "humid-subtropical"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "cucumber": {
+   "temp": [
+    16,
+    20,
+    28,
+    33
+   ],
+   "days": 55,
+   "start": "direct",
+   "water": "high",
+   "sowMinSoilC": 15.6
+  },
+  "zucchini": {
+   "temp": [
+    15,
+    18,
+    27,
+    32
+   ],
+   "days": 50,
+   "start": "direct",
+   "water": "medium",
+   "staple": [
+    "mediterranean",
+    "maritime"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "winter-squash": {
+   "temp": [
+    16,
+    20,
+    28,
+    33
+   ],
+   "days": 100,
+   "start": "direct",
+   "water": "medium",
+   "staple": [
+    "subtropical-highland",
+    "humid-subtropical"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "pumpkin": {
+   "temp": [
+    16,
+    20,
+    28,
+    33
+   ],
+   "days": 110,
+   "start": "direct",
+   "water": "medium",
+   "staple": [
+    "tropical-wet-dry",
+    "subtropical-highland"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "eggplant": {
+   "temp": [
+    18,
+    22,
+    30,
+    34
+   ],
+   "days": 80,
+   "start": "transplant",
+   "nurseryWeeks": 8,
+   "water": "medium",
+   "staple": [
+    "mediterranean",
+    "humid-subtropical"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "carrot": {
+   "temp": [
+    7,
+    12,
+    22,
+    27
+   ],
+   "days": 75,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 4.4,
+   "stands": true
+  },
+  "beet": {
+   "temp": [
+    6,
+    12,
+    22,
+    27
+   ],
+   "days": 60,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 4.4
+  },
+  "potato": {
+   "temp": [
+    8,
+    14,
+    20,
+    25
+   ],
+   "days": 100,
+   "start": "cutting",
+   "water": "medium",
+   "staple": [
+    "tropical-highland",
+    "continental",
+    "maritime"
+   ],
+   "frostEndsSeason": true
+  },
+  "parsnip": {
+   "temp": [
+    5,
+    10,
+    20,
+    25
+   ],
+   "days": 120,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 1.7,
+   "stands": true,
+   "harvestAfterFrost": true
+  },
+  "turnip": {
+   "temp": [
+    5,
+    10,
+    20,
+    25
+   ],
+   "days": 50,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 4.4
+  },
+  "rutabaga": {
+   "temp": [
+    5,
+    10,
+    18,
+    24
+   ],
+   "days": 90,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 4.4,
+   "stands": true
+  },
+  "radish": {
+   "temp": [
+    5,
+    10,
+    20,
+    26
+   ],
+   "days": 30,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 4.4
+  },
+  "onion": {
+   "temp": [
+    8,
+    13,
+    24,
+    30
+   ],
+   "days": 120,
+   "start": "transplant",
+   "nurseryWeeks": 8,
+   "water": "medium",
+   "staple": [
+    "tropical-highland",
+    "semi-arid",
+    "mediterranean"
+   ],
+   "sowMinSoilC": 1.7,
+   "overwinter": true,
+   "overwinterMinC": -10,
+   "bulbs": true
+  },
+  "garlic": {
+   "temp": [
+    2,
+    8,
+    20,
+    27
+   ],
+   "days": 150,
+   "start": "cutting",
+   "water": "low",
+   "chill": {
+    "months": 1,
+    "belowC": 10
+   },
+   "overwinter": true,
+   "overwinterMinC": -40
+  },
+  "leek": {
+   "temp": [
+    5,
+    12,
+    22,
+    27
+   ],
+   "days": 120,
+   "start": "transplant",
+   "nurseryWeeks": 8,
+   "water": "medium",
+   "staple": [
+    "maritime"
+   ],
+   "stands": true
+  },
+  "cabbage": {
+   "temp": [
+    5,
+    12,
+    20,
+    26
+   ],
+   "days": 80,
+   "start": "transplant",
+   "nurseryWeeks": 5,
+   "water": "medium",
+   "staple": [
+    "tropical-highland",
+    "subtropical-highland",
+    "continental"
+   ],
+   "sowMinSoilC": 4.4,
+   "stands": true
+  },
+  "kale": {
+   "temp": [
+    3,
+    10,
+    22,
+    28
+   ],
+   "days": 60,
+   "start": "transplant",
+   "nurseryWeeks": 4,
+   "water": "medium",
+   "staple": [
+    "tropical-highland",
+    "subtropical-highland",
+    "maritime"
+   ],
+   "stands": true
+  },
+  "chard": {
+   "temp": [
+    6,
+    12,
+    25,
+    30
+   ],
+   "days": 55,
+   "start": "direct",
+   "water": "medium",
+   "staple": [
+    "mediterranean",
+    "subtropical-highland"
+   ]
+  },
+  "broccoli": {
+   "temp": [
+    6,
+    12,
+    20,
+    25
+   ],
+   "days": 70,
+   "start": "transplant",
+   "nurseryWeeks": 5,
+   "water": "medium"
+  },
+  "cauliflower": {
+   "temp": [
+    7,
+    12,
+    20,
+    24
+   ],
+   "days": 80,
+   "start": "transplant",
+   "nurseryWeeks": 5,
+   "water": "medium",
+   "sowMinSoilC": 4.4
+  },
+  "brussels-sprouts": {
+   "temp": [
+    4,
+    10,
+    20,
+    24
+   ],
+   "days": 110,
+   "start": "transplant",
+   "nurseryWeeks": 5,
+   "water": "medium",
+   "stands": true,
+   "harvestAfterFrost": true
+  },
+  "lettuce": {
+   "temp": [
+    6,
+    12,
+    20,
+    24
+   ],
+   "days": 50,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 1.7
+  },
+  "spinach": {
+   "temp": [
+    4,
+    10,
+    18,
+    23
+   ],
+   "days": 40,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 1.7,
+   "overwinter": true,
+   "overwinterMinC": -23
+  },
+  "peas": {
+   "temp": [
+    5,
+    10,
+    18,
+    23
+   ],
+   "days": 65,
+   "start": "direct",
+   "water": "medium",
+   "staple": [
+    "maritime",
+    "mediterranean"
+   ],
+   "sowMinSoilC": 4.4,
+   "overwinter": true,
+   "overwinterMinC": -10
+  },
+  "green-beans": {
+   "temp": [
+    15,
+    18,
+    27,
+    32
+   ],
+   "days": 55,
+   "start": "direct",
+   "water": "medium",
+   "staple": [
+    "tropical-highland",
+    "subtropical-highland"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "dry-beans": {
+   "temp": [
+    15,
+    18,
+    27,
+    32
+   ],
+   "days": 95,
+   "start": "direct",
+   "water": "low",
+   "staple": [
+    "tropical-highland",
+    "subtropical-highland"
+   ],
+   "sowMinSoilC": 15.6
+  },
+  "sweet-corn": {
+   "temp": [
+    15,
+    20,
+    28,
+    34
+   ],
+   "days": 85,
+   "start": "direct",
+   "water": "high",
+   "staple": [
+    "subtropical-highland",
+    "tropical-highland",
+    "continental"
+   ],
+   "sowMinSoilC": 10
+  },
+  "apple": {
+   "temp": [
+    5,
+    12,
+    22,
+    28
+   ],
+   "days": 1460,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 3,
+    "belowC": 7
+   },
+   "winterMinC": -45
+  },
+  "pear": {
+   "temp": [
+    5,
+    12,
+    22,
+    28
+   ],
+   "days": 1460,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 3,
+    "belowC": 7
+   },
+   "winterMinC": -34.4
+  },
+  "rhubarb": {
+   "temp": [
+    3,
+    10,
+    20,
+    26
+   ],
+   "days": 365,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 2,
+    "belowC": 7
+   },
+   "winterMinC": -40,
+   "maxWarmestMonthC": 26
+  },
+  "strawberry": {
+   "temp": [
+    8,
+    14,
+    22,
+    28
+   ],
+   "days": 120,
+   "start": "perennial",
+   "water": "medium",
+   "winterMinC": -40,
+   "coolestMonthMaxC": 18,
+   "winterAnnualAboveC": 27.5
+  },
+  "raspberry": {
+   "temp": [
+    5,
+    12,
+    22,
+    27
+   ],
+   "days": 400,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 2,
+    "belowC": 7
+   },
+   "winterMinC": -40
+  },
+  "haskap": {
+   "temp": [
+    2,
+    10,
+    20,
+    25
+   ],
+   "days": 730,
+   "start": "perennial",
+   "water": "medium",
+   "chill": {
+    "months": 3,
+    "belowC": 3
+   },
+   "winterMinC": -47
+  },
+  "basil": {
+   "temp": [
+    16,
+    20,
+    28,
+    33
+   ],
+   "days": 50,
+   "start": "transplant",
+   "nurseryWeeks": 5,
+   "water": "medium"
+  },
+  "dill": {
+   "temp": [
+    8,
+    14,
+    24,
+    28
+   ],
+   "days": 45,
+   "start": "direct",
+   "water": "low"
+  },
+  "parsley": {
+   "temp": [
+    6,
+    12,
+    22,
+    27
+   ],
+   "days": 75,
+   "start": "direct",
+   "water": "medium",
+   "sowMinSoilC": 4.4
+  },
+  "cilantro": {
+   "temp": [
+    7,
+    12,
+    22,
+    26
+   ],
+   "days": 40,
+   "start": "direct",
+   "water": "medium"
+  },
+  "hardy-herbs": {
+   "temp": [
+    5,
+    12,
+    26,
+    32
+   ],
+   "days": 365,
+   "start": "perennial",
+   "water": "low",
+   "winterMinC": -15,
+   "coolestMonthMaxC": 18
+  }
+ }
+}

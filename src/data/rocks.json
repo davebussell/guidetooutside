@@ -1,0 +1,2036 @@
+[
+ {
+  "slug": "granite",
+  "name": "Granite",
+  "family": "igneous",
+  "ph": "Soil pH usually 4.5–5.5",
+  "tagline": "The root of a mountain range, cooled slowly enough to grow crystals you can pick out by eye.",
+  "forms": "A body of magma stalls in the crust instead of erupting. It cools from the outside in, and each mineral crystallises as the temperature passes its freezing point — feldspar first, quartz last, filling the gaps between everything else. Tens of kilometres of rock then have to be worn off the top before anyone can stand on it.",
+  "type": "Intrusive (plutonic) igneous rock",
+  "madeOf": "Mostly quartz and feldspar (alkali feldspar and plagioclase), plus minor mica (biotite, muscovite) and hornblende. By the geologists' strict (IUGS) definition, quartz makes up 20–60% of the light-coloured minerals.",
+  "grain": "Coarse: crystals of quartz, feldspar and mica big enough to pick out without a lens. Big crystals mean slow cooling deep underground. Granite with crystals over a centimetre across is called pegmatite.",
+  "grainClass": "coarse",
+  "colour": "Pink, red, grey or white, speckled throughout with dark grains of mica or hornblende.",
+  "luster": "Glassy on the quartz and feldspar grains, with bright flashes from flat mica flakes — a fresh face sparkles.",
+  "streak": "White, if anything. Its quartz and feldspar are about as hard as a streak plate, so granite tends to scratch the plate rather than leave powder. Streak is a mineral test and tells you little about a rock.",
+  "streakHex": "#f2f0eb",
+  "hardness": "About 6 to 7. Its quartz (7) and feldspar (6–6.5) scratch glass and shrug off a steel knife.",
+  "mohs": [
+   6,
+   7
+  ],
+  "density": "About 2.6–2.7 g/cm³, averaging 2.67 — a little over two and a half times as heavy as the same volume of water, and lighter than dark rocks like basalt.",
+  "gcc": [
+   2.6,
+   2.7
+  ],
+  "porosity": "Very low: about 0.5–1.5% of unbroken granite is open space. Groundwater in granite country moves through cracks and joints, not through the rock itself.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Magma that stalled and crystallised kilometres below the surface — molten rock that never erupted.",
+  "becomes": "Gneiss, when it is caught in a mountain belt and heated and squeezed. At the surface its feldspar weathers to clay and its quartz washes away as sand — the raw material of sandstone.",
+  "howLong": "Hundreds of thousands to millions of years for a large body. Geologists once thought a few hundred thousand years was enough; newer work shows big granite masses grow from many pulses of magma, and the one under Yosemite took almost ten million years to assemble.",
+  "world": "On every continent. It is the most abundant rock in the continental crust, exposed wherever erosion has cut down into the roots of old mountain ranges and ancient shields.",
+  "what": "Magma that never reached the surface. It cooled kilometres down over tens of thousands of years, and that slowness is why its crystals are large enough to see without a lens: glassy grey quartz, blocky pink or white feldspar, and flecks of black mica.",
+  "identify": "Speckled, not striped. Look for three colours of grain at once — clear-grey, pink or white, and black — all roughly the same size and packed together with no layering and no preferred direction. If the minerals line up in bands, you are looking at gneiss.",
+  "wears": "Feldspar turns to clay and lets go, so the rock crumbles grain by grain into coarse sharp sand. Rounded corners come first: a granite boulder field is a set of spheres because the edges weathered fastest.",
+  "above": "Sour, sandy, quick-draining soil that holds neither water nor nutrients well, over rounded outcrops and boulder fields. The water off it is soft, clear and acid, with almost nothing dissolved in it.",
+  "where": "The Canadian Shield from Ontario to Labrador, the Sierra Nevada and the coast ranges of British Columbia, the White Mountains, the Idaho batholith, and the core of the Appalachians.",
+  "lives": "Pine, spruce, oak on the drier ridges, blueberry, sheep laurel and reindeer lichen. Soft acid lakes with lake trout and smallmouth bass but few of the molluscs that need calcium.",
+  "uses": "Countertops, curbstones, monuments and breakwaters — it is hard, takes a polish and does not dissolve. Most of the grand civic buildings of eastern North America are faced with it.",
+  "soilEffect": "acid",
+  "swatch": "#d4b3a5",
+  "texture": "speckled",
+  "faqs": [
+   {
+    "q": "What type of rock is granite?",
+    "a": "Granite is an intrusive igneous rock: magma that cooled slowly underground instead of erupting. That slow cooling is why its crystals are big enough to see. It is pale and rich in quartz and feldspar — the opposite end of the igneous family from dark basalt."
+   },
+   {
+    "q": "How is granite formed?",
+    "a": "Granite forms when a body of magma stalls in the crust, kilometres down, and crystallises slowly as it cools. Insulated by the rock around it, it has time to grow large interlocking crystals. We only see it once the rock above has been worn away."
+   },
+   {
+    "q": "How long does it take for granite to form?",
+    "a": "Hundreds of thousands to millions of years for a large granite body. Geologists used to think a few hundred thousand years was enough; newer work shows big ones grow from many injections of magma, and the granite under Yosemite took almost ten million years to assemble."
+   },
+   {
+    "q": "What is granite made of?",
+    "a": "Mainly quartz and feldspar, with small amounts of mica and hornblende. The quartz is the glassy grey grains, the feldspar the blocky pink or white ones, and the mica or hornblende the black specks. Strictly, quartz makes up 20–60% of the light-coloured minerals."
+   },
+   {
+    "q": "What does granite look like?",
+    "a": "Speckled, not striped: a salt-and-pepper mix of glassy grey quartz, pink or white feldspar and black mica or hornblende, packed together with no layering. It is usually pink, grey or white overall. If the minerals line up in bands, you are looking at gneiss instead."
+   },
+   {
+    "q": "Where is granite found?",
+    "a": "Under every continent — it is the most abundant rock in the continental crust. In North America it is exposed across the Canadian Shield, New Hampshire's White Mountains, Yosemite, Pikes Peak, Mount Rushmore and Georgia's Stone Mountain: wherever erosion has stripped off the rock that once covered it."
+   },
+   {
+    "q": "What is granite used for?",
+    "a": "Countertops, floor tiles, curbs, paving, stair treads, building facing and monuments, cut and polished as dimension stone. Crushed, it goes into road base, concrete and railway ballast. It earns those jobs by being hard, strong and slow to weather."
+   }
+  ],
+  "next": [
+   {
+    "slug": "gneiss",
+    "note": "what granite becomes when it is buried and squeezed"
+   },
+   {
+    "slug": "basalt",
+    "note": "the other end of the family — dark, iron-rich lava; granite's own erupted twin is rhyolite"
+   },
+   {
+    "slug": "sandstone",
+    "note": "made largely of the quartz grains granite sheds"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Granite",
+    "url": "https://geology.com/rocks/granite.shtml"
+   },
+   {
+    "label": "Wikipedia — Granite (IUGS classification)",
+    "url": "https://en.wikipedia.org/wiki/Granite"
+   },
+   {
+    "label": "GSA Handbook of Physical Constants — Density of rocks (Daly, Manger & Clark)",
+    "url": "https://literature.wolkersdorfer.info/literature/Density%20of%20Rocks.pdf"
+   },
+   {
+    "label": "UNC Endeavors — How granite plutons grow (Coleman & Glazner)",
+    "url": "https://endeavors.unc.edu/fall2007/plutons.php"
+   },
+   {
+    "label": "Penn State GEOL 615 — Engineering properties of geologic materials",
+    "url": "https://sites.psu.edu/tzhu/files/2016/10/Some-Useful-Numbers-1g1rkuu.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "basalt",
+  "name": "Basalt",
+  "family": "igneous",
+  "ph": "Soil pH usually 6.0–7.0",
+  "tagline": "Lava that made it to the surface and cooled fast — dark, fine-grained, and unusually generous to whatever grows on it.",
+  "forms": "Magma rich in iron and magnesium reaches the surface and spreads as a flow. The top chills into a crust while the inside is still moving; as the mass finally sets it contracts and cracks, often into the five- and six-sided columns that make basalt cliffs look built rather than grown.",
+  "type": "Extrusive (volcanic) igneous rock",
+  "madeOf": "Mainly plagioclase feldspar and the dark pyroxene augite, often with olivine. Chemically it is 45–53% silica and rich in iron and magnesium, which makes it dark and heavy. Old gas holes are often filled with calcite or zeolite crystals.",
+  "grain": "Fine: the crystals are too small to see without a lens, because lava cools fast at the surface. Some basalt carries scattered larger crystals of olivine, augite or feldspar in the fine groundmass, and a quickly chilled crust can be pure glass. Its coarse-grained twin, cooled underground, is gabbro.",
+  "grainClass": "fine",
+  "colour": "Dark grey to black; some flows are brownish or dark green. Weathered surfaces turn rusty or yellowish brown as the iron in it oxidises.",
+  "luster": "Dull on weathered surfaces. A fresh break looks dull to faintly glassy, with tiny glints from feldspar and pyroxene crystals; chilled crusts can be fully glassy.",
+  "streak": "Grey to dark grey, sometimes greenish grey. Basalt is nearly as hard as a streak plate, so it may scratch the plate rather than leave much powder. Streak is really a mineral test — on a rock it only shows the blended colour of its minerals.",
+  "streakHex": "#6e706c",
+  "hardness": "About 6. Its feldspar (6–6.5) and pyroxene (5.5–6) are close to the hardness of a steel knife, so a knife barely marks a fresh surface.",
+  "mohs": [
+   5.5,
+   6.5
+  ],
+  "density": "About 2.9 g/cm³ for solid basalt (usually 2.8–3.0) — nearly three times as heavy as the same volume of water, and roughly a tenth heavier than granite. Bubbly basalt is lighter.",
+  "gcc": [
+   2.8,
+   3
+  ],
+  "porosity": "The dense middle of a flow is nearly watertight. But gas holes (vesicles), cooling joints and the rubbly zones between flows hold and pass plenty of water — the stacked basalts of the Columbia Plateau are a major aquifer.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Runny magma from the mantle, erupted as lava at ocean ridges, hot spots and continental rifts.",
+  "becomes": "Greenschist (chlorite schist) or amphibolite when heated and squeezed, and eclogite under extreme pressure. At the surface it weathers to iron-stained, clay-rich soil — in the tropics, to laterite.",
+  "howLong": "Fast, by rock standards. A lava flow 10–15 m (about 30–50 ft) thick sets solid in roughly 8 months to 1.5 years; a 55 m flow takes about 20 years. The 120 m (400 ft) lava lake at Kīlauea Iki, Hawaii, took about 35 years to crystallise completely.",
+  "world": "Most of the ocean floor, and oceanic islands such as Iceland and the Faroes. On land, the great flood basalts of the Deccan Traps in India and the Paraná Traps of Brazil. The dark plains (maria) of the Moon are basalt, and it is common on Mars.",
+  "what": "The commonest rock on Earth's surface, and the floor of every ocean. It is dark and fine-grained because it cooled in the open air or under water in months to decades rather than millennia, leaving crystals too small to see.",
+  "identify": "Dark grey to black, heavy for its size, and so fine-grained you cannot pick out a single crystal. Often pocked with small round holes where gas bubbles were trapped. Columns, when you find them, are unmistakable.",
+  "wears": "Faster than most hard rock, and generously — it is full of iron, magnesium and calcium, which are exactly what plants want. The iron rusts, so weathered basalt goes red-brown at the surface.",
+  "above": "Deep, dark, fertile soil where it has had time to rot, and stepped terraces and cliffs where flows stacked one on another. Basalt country is famously good farmland once the rock has broken down.",
+  "where": "The Columbia River flood basalts of Washington and Oregon, the Snake River Plain, the Cascades, nearly all of Hawaii, and the ancient flows along Lake Superior's north shore.",
+  "lives": "Rich mixed forest, or grassland and orchard where the climate is dry. The Columbia Basin's fruit and wine country is basalt soil.",
+  "uses": "Crushed for road base and railway ballast, cut for paving setts, and spun into rock wool insulation.",
+  "soilEffect": "neutral",
+  "swatch": "#3e3d3b",
+  "texture": "dark",
+  "faqs": [
+   {
+    "q": "What type of rock is basalt?",
+    "a": "Basalt is a dark, fine-grained volcanic rock — an extrusive igneous rock made from lava that cooled quickly at or near the surface. It is the rock of the ocean floors and of places like Hawaii, and more than 90% of all volcanic rock on Earth is basalt."
+   },
+   {
+    "q": "Is basalt a rock or a mineral?",
+    "a": "A rock. A mineral is a single natural substance with its own chemistry and crystal form, like quartz. Basalt is a mixture of several minerals that grew together as lava cooled, so it has a mineral recipe rather than a single formula."
+   },
+   {
+    "q": "What is in basalt?",
+    "a": "Mostly plagioclase feldspar and the dark pyroxene augite, often with green olivine. Chemically it is 45–53% silica and rich in iron and magnesium. Gas holes in old basalt are often filled later with white calcite or zeolite crystals."
+   },
+   {
+    "q": "What is the grain size of basalt?",
+    "a": "Fine-grained: most of its crystals are too small to see without a hand lens, because lava cools too quickly for them to grow. Some basalt holds scattered bigger crystals in the fine groundmass, and a chilled skin can be glass. Basalt's coarse-grained twin, cooled underground, is gabbro."
+   },
+   {
+    "q": "What colour is basalt rock?",
+    "a": "Dark grey to black when fresh; some flows are brownish or dark green. Weathered surfaces turn rusty or yellowish brown as its iron oxidises, so break a piece open to see its true colour."
+   },
+   {
+    "q": "What is the luster of basalt?",
+    "a": "Dull, for the most part. Weathered surfaces are flat and earthy; a fresh break shows faint glassy glints from tiny crystal faces, and chilled crusts or glassy chips can shine like dark glass."
+   },
+   {
+    "q": "What is the streak of basalt?",
+    "a": "Grey to greenish grey, if it leaves one. Basalt is nearly as hard as a porcelain streak plate, so it may scratch the plate instead. Streak is really a mineral test: on a rock it just shows the blended colour of its minerals."
+   },
+   {
+    "q": "What is the density of basalt?",
+    "a": "About 2.9 g/cm³ for solid basalt, usually between 2.8 and 3.0 — nearly three times as heavy as the same volume of water. Its iron- and magnesium-rich minerals make it denser than granite (about 2.7). Bubbly basalt is lighter."
+   },
+   {
+    "q": "Is basalt heavy?",
+    "a": "Yes, for its size. A cubic metre of solid basalt weighs about 2.9 tonnes (roughly 6,400 lb), and a basalt cobble feels noticeably heavier than a pale rock the same size. The exception is bubbly, vesicular basalt, which can be surprisingly light."
+   },
+   {
+    "q": "Is basalt porous?",
+    "a": "The dense middle of a flow is nearly watertight. But many flows are riddled with gas bubbles, and the cracks, cooling joints and rubbly zones between flows hold plenty of water — the stacked basalts of the Columbia Plateau are a major aquifer."
+   },
+   {
+    "q": "How is basalt formed?",
+    "a": "Runny, iron-rich lava erupts at ocean ridges, hot spots or rifts and cools within months to decades — too fast for large crystals. As a thick flow sets it shrinks and cracks, often into six-sided columns. Lava erupted underwater chills into rounded pillows."
+   },
+   {
+    "q": "Where is basalt found?",
+    "a": "Under nearly all the ocean floor, and on land wherever lava has poured out: Hawaii, Iceland, the Columbia River Plateau of Washington and Oregon, the Deccan Traps of India and the Paraná Traps of Brazil. It is common on the Moon and Mars too."
+   },
+   {
+    "q": "Where can I get basalt?",
+    "a": "Landscape-stone and aggregate suppliers sell crushed basalt, boulders and cut columns, and a nearby quarry may sell direct. To collect your own, look in basalt country — shorelines, road cuts, gravel bars — and ask the landowner first. Collecting is not allowed in most parks."
+   }
+  ],
+  "next": [
+   {
+    "slug": "granite",
+    "note": "the pale, silica-rich end of the family, cooled slowly at depth — basalt's own slow-cooled twin is gabbro"
+   },
+   {
+    "slug": "volcanic-rock",
+    "note": "the wider family basalt belongs to"
+   },
+   {
+    "slug": "schist",
+    "note": "what basalt can become under pressure"
+   }
+  ],
+  "sources": [
+   {
+    "label": "USGS — Volcano Hazards Program glossary (basalt)",
+    "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary"
+   },
+   {
+    "label": "USGS Volcano Watch — How do lava flows cool, and how long does it take?",
+    "url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-how-do-lava-flows-cool-and-how-long-does-it-take"
+   },
+   {
+    "label": "USGS Ground Water Atlas — Columbia Plateau basaltic-rock aquifers",
+    "url": "https://pubs.usgs.gov/ha/ha730/ch_h/H-text5.html"
+   },
+   {
+    "label": "Wikipedia — Basalt",
+    "url": "https://en.wikipedia.org/wiki/Basalt"
+   }
+  ]
+ },
+ {
+  "slug": "volcanic-rock",
+  "name": "Volcanic rock",
+  "family": "igneous",
+  "ph": "Soil pH usually 5.5–6.8",
+  "tagline": "Everything a volcano throws out — lava, ash and fragments — from eruptions a few thousand or a few billion years ago.",
+  "forms": "Magma rises until dissolved gas comes out of solution, the way a shaken bottle does when it is opened. Runny magma lets the gas go quietly and pours out as lava; sticky magma cannot, and blows itself into ash and pumice that settles in beds for hundreds of kilometres downwind.",
+  "type": "Extrusive igneous rock — the whole family of rock erupted at the surface",
+  "madeOf": "Feldspar throughout, with pyroxene and olivine in dark lavas and quartz and mica in pale ones, plus volcanic glass. Silica runs from 45–53% in basalt through 57–63% in andesite to 69% or more in rhyolite.",
+  "grain": "No single grain size fits the family. Lava that cools fast is fine-grained or glassy; ash, cinders and pumice are fragments of frothed, shattered magma, and tuff is ash that has hardened.",
+  "grainClass": "mixed",
+  "colour": "From black basalt and obsidian through medium-dark andesite to pale rhyolite, pumice and ash. As a rule, the more silica, the paler the rock.",
+  "luster": "Dull and earthy for ash and most lavas; glassy for obsidian and chilled lava crusts.",
+  "streak": "Varies with the rock: grey for dark lavas, white to pale grey for pale ash and pumice. Not a useful test for this family.",
+  "streakHex": "#a5a5a2",
+  "hardness": "Varies too much for one figure: dense lavas are about 6 and resist a knife, while loosely packed ash can be soft and crumbly.",
+  "density": "Varies too much for one figure: solid basalt is about 2.9 g/cm³ and obsidian about 2.4, while pumice holds enough sealed gas bubbles to float on water.",
+  "porosity": "From almost none in dense lava and obsidian to extremely high in pumice and scoria, which are frothed up by escaping gas.",
+  "soak": 1,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Magma that reached the surface — poured out as lava, or blasted apart by expanding gas into ash, cinders and pumice.",
+  "becomes": "Ash beds harden into tuff, and lava and ash weather into soil. Buried and heated, volcanic rocks become greenstone, chlorite schist or amphibolite.",
+  "howLong": "Lava flows 10–15 m thick take roughly 8 months to 1.5 years to go solid; thicker ones take decades.",
+  "world": "Along ocean ridges and volcanic island chains, and in active and ancient volcanic belts on every continent. More than 90% of all volcanic rock on Earth is basalt.",
+  "what": "A catch-all for material erupted at the surface, from solid lava to airborne ash that settled and welded. What you get depends on how runny the magma was: thin magma flows, thick magma explodes.",
+  "identify": "Ash beds are pale, soft and layered, sometimes with visible pumice fragments. Solid lava is dark and dense. Both often sit in obvious layers with sharp boundaries, unlike the uniform mass of an intrusive rock.",
+  "wears": "Ash weathers to soil remarkably quickly by the standards of rock. Solid lava takes far longer.",
+  "above": "Fertile, mineral-rich ground in country that is usually dramatic. Volcanic ash holds water far better than its texture suggests, which is why ash soils grow well through dry summers.",
+  "where": "The Cascades, the Aleutians, the Yellowstone plateau, the Jemez of New Mexico, and the ancient volcanic belts of the Shield around Yellowknife and Timmins.",
+  "lives": "Fast-growing forest and productive farmland, colonised in stages — lichen, then moss, then fireweed and alder — after each new flow.",
+  "uses": "Pumice as an abrasive and a soil conditioner; welded ash cut as light building stone; historically, obsidian for blades.",
+  "soilEffect": "neutral",
+  "swatch": "#9d968e",
+  "texture": "bubbly",
+  "faqs": [
+   {
+    "q": "What is volcanic rock?",
+    "a": "Any rock made from magma that erupted at the surface — lava flows that cooled and hardened, and the ash, cinders and pumice thrown out by explosions. Geologists call it extrusive igneous rock: the fast-cooled half of the igneous family."
+   },
+   {
+    "q": "What are the main types of volcanic rock?",
+    "a": "By chemistry: dark basalt, medium-dark andesite and pale rhyolite, from least to most silica. By texture: glassy obsidian, frothy pumice and scoria, and tuff made of hardened ash. More than 90% of all volcanic rock on Earth is basalt."
+   },
+   {
+    "q": "Why does pumice float?",
+    "a": "Pumice is magma frothed up by escaping gas and frozen mid-froth, so much of it is sealed bubbles. Its pale, silica-rich glass is light to begin with, and the enclosed gas holes make the whole stone lighter than water."
+   },
+   {
+    "q": "How is volcanic rock different from other igneous rock?",
+    "a": "It cooled at the surface instead of underground. Fast cooling leaves crystals too small to see, glass or gas holes; slow cooling at depth grows the big crystals of granite or gabbro. The chemistry can be identical: basalt and gabbro, for example, are made of the same minerals."
+   }
+  ],
+  "next": [
+   {
+    "slug": "basalt",
+    "note": "the commonest kind of erupted lava"
+   },
+   {
+    "slug": "granite",
+    "note": "what sticky, silica-rich magma becomes if it stays underground — the same melt that erupts as pale ash and pumice"
+   }
+  ],
+  "sources": [
+   {
+    "label": "USGS — Volcano Hazards Program glossary",
+    "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary"
+   },
+   {
+    "label": "USGS — What are igneous rocks?",
+    "url": "https://www.usgs.gov/faqs/what-are-igneous-rocks"
+   },
+   {
+    "label": "Physical Geology (BCcampus) — Classification of igneous rocks",
+    "url": "https://opentextbc.ca/physicalgeologyh5p/chapter/classification-of-igneous-rocks/"
+   },
+   {
+    "label": "Wikipedia — Basalt",
+    "url": "https://en.wikipedia.org/wiki/Basalt"
+   }
+  ]
+ },
+ {
+  "slug": "igneous-rock",
+  "name": "Igneous rock",
+  "family": "igneous",
+  "ph": "Soil pH 5.0–6.5, depending on the member",
+  "tagline": "The family of rocks that were once molten, whether they cooled underground or in the open air.",
+  "forms": "Rock melts where the crust is hot enough or the pressure drops enough, rises because the melt is lighter than what surrounds it, and crystallises wherever it stops. Where it stops decides the grain — coarse at depth, fine at the surface — and what it melted from decides the colour: pale, silica-rich melts make granite (or rhyolite if they erupt), dark iron-rich ones make gabbro (or basalt).",
+  "type": "Igneous rock — one of the three great rock families, formed from cooled magma or lava",
+  "madeOf": "A short list makes up most of them: quartz, feldspars (plagioclase and alkali feldspar), micas, amphibole, pyroxene and olivine. Pale rocks are rich in quartz and feldspar; dark ones in pyroxene, olivine and plagioclase.",
+  "grain": "Anything from coarse (granite, gabbro) through fine (basalt, rhyolite) to glassy (obsidian), and it records how fast the rock cooled: big crystals mean slow cooling underground, invisible ones mean fast cooling at the surface.",
+  "grainClass": "mixed",
+  "colour": "Pale pinks, whites and greys in silica-rich rocks like granite and rhyolite; dark greys, greens and blacks in iron- and magnesium-rich rocks like basalt and gabbro.",
+  "luster": "Glassy glints from quartz and feldspar in coarse rocks; dull in fine-grained lavas; fully glassy in obsidian.",
+  "streak": "White to grey depending on the rock, and many igneous rocks are hard enough to scratch the plate. Streak is a mineral test and says little about igneous rock.",
+  "streakHex": "#bdbcb8",
+  "hardness": "Mostly hard: their commonest minerals, feldspar and quartz, are 6–7 on the Mohs scale. Ash and pumice are the soft, crumbly exceptions.",
+  "density": "Varies too much for one figure: from pumice that floats, through granite at about 2.67 g/cm³ and gabbro at about 3.0, to peridotite at about 3.2.",
+  "porosity": "Very low in crystalline rock — unbroken granite is about 0.5–1.5% open space — but high in bubbly lava, scoria and pumice.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Magma — rock melted deep in the crust or mantle, at 600–1,300 °C (1,100–2,400 °F).",
+  "becomes": "Sediment for sedimentary rock, once weathered and worn down; metamorphic rock such as gneiss, schist or amphibolite, once heated and squeezed.",
+  "howLong": "Months to decades for lava flows to go solid; thousands to millions of years for large bodies of magma cooling underground.",
+  "world": "Everywhere. The ocean floors are basalt, granite is the most abundant rock of the continental crust, and every active volcano is making more today.",
+  "what": "Rock formed by the cooling of magma. Some maps say only this much, which still tells you a good deal: it will be hard, unlayered, and it will not have fossils in it.",
+  "identify": "Interlocking crystals with no layering and no bedding — grains that grew into each other rather than settling on each other. Coarse grains mean it cooled deep; grains you cannot see mean it cooled fast.",
+  "wears": "By the breakdown of its feldspars into clay, which releases whatever else was locked between them as sand and grit.",
+  "above": "Coarse, gritty soil and rounded outcrops, generally acid and generally hungry, though the dark iron-rich members are much more fertile than the pale ones.",
+  "where": "Everywhere there has ever been a mountain range or a volcano, which over a long enough span is most places.",
+  "lives": "Depends entirely on which member: pine and blueberry on the pale acid ones, rich forest and farmland on the dark ones.",
+  "uses": "Building stone and aggregate, and many of the great metal ores — copper, nickel, gold and platinum among them — formed in and around igneous bodies.",
+  "soilEffect": "acid",
+  "swatch": "#bfb2a8",
+  "texture": "speckled",
+  "faqs": [
+   {
+    "q": "What is igneous rock?",
+    "a": "Rock that formed when molten rock — magma underground, or lava at the surface — cooled and hardened. Magma is 600–1,300 °C (1,100–2,400 °F) before it sets. Igneous rock is one of the three great rock families, alongside sedimentary and metamorphic."
+   },
+   {
+    "q": "How can you tell if a rock is igneous?",
+    "a": "Look for crystals that grew into each other, with no layers, no rounded sand grains and no fossils. Coarse, speckled rock cooled underground; dark rock with invisible grains, gas holes or a glassy skin cooled at the surface. If it splits in sheets, shows bedding or fizzes in acid, think again."
+   },
+   {
+    "q": "What do igneous rocks look like?",
+    "a": "Either speckled or plain. Rocks that cooled underground, like granite, show a salt-and-pepper mix of crystals you can see. Rocks that cooled at the surface, like basalt, look plain and fine-grained, sometimes full of gas holes — and obsidian looks like black glass."
+   },
+   {
+    "q": "What are the two main types of igneous rock?",
+    "a": "Intrusive and extrusive. Intrusive (plutonic) rock cooled slowly underground and has big crystals — granite, diorite, gabbro, peridotite. Extrusive (volcanic) rock cooled quickly at the surface and has tiny crystals or glass — basalt, andesite, rhyolite, obsidian, pumice."
+   },
+   {
+    "q": "What are the characteristics of igneous rocks?",
+    "a": "They are usually hard and crystalline, with interlocking grains and no layering or fossils. Grain size records how fast they cooled, and colour roughly records their chemistry: pale rocks are rich in silica, dark rocks rich in iron and magnesium."
+   },
+   {
+    "q": "What are some fun facts about igneous rocks?",
+    "a": "Pumice is an igneous rock that floats. Basalt makes up more than 90% of all volcanic rock and floors nearly every ocean. The dark patches on the Moon are basalt plains. And the 120 m (400 ft) lava lake left at Kīlauea Iki in 1959 took about 35 years to go completely solid."
+   },
+   {
+    "q": "Where are igneous rocks found?",
+    "a": "Everywhere, if you go deep enough. Granite is the most abundant rock of the continental crust and much of the Canadian Shield is granitic; basalt floors the oceans; and volcanic places like Hawaii and Iceland are making new igneous rock today. Elsewhere it is usually buried under sediment."
+   }
+  ],
+  "next": [
+   {
+    "slug": "granite",
+    "note": "the coarse pale one, cooled at depth"
+   },
+   {
+    "slug": "basalt",
+    "note": "the fine dark one, cooled at the surface"
+   }
+  ],
+  "sources": [
+   {
+    "label": "USGS — What are igneous rocks?",
+    "url": "https://www.usgs.gov/faqs/what-are-igneous-rocks"
+   },
+   {
+    "label": "Britannica — Igneous rock",
+    "url": "https://www.britannica.com/science/igneous-rock"
+   },
+   {
+    "label": "GSA Handbook of Physical Constants — Density of rocks (Daly, Manger & Clark)",
+    "url": "https://literature.wolkersdorfer.info/literature/Density%20of%20Rocks.pdf"
+   },
+   {
+    "label": "USGS Volcano Watch — Kīlauea Iki's lava lake has finally crystallized",
+    "url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-kilauea-ikis-lava-lake-has-finally-crystallized"
+   }
+  ]
+ },
+ {
+  "slug": "limestone",
+  "name": "Limestone",
+  "family": "sedimentary",
+  "ph": "Soil pH usually 7.0–8.0",
+  "tagline": "A shallow tropical sea, compressed — and the one common rock that rain dissolves.",
+  "forms": "Corals, shellfish and plankton build carbonate skeletons out of seawater. They die, the pieces settle, and over millions of years the weight of everything above compacts and cements them. A metre of limestone is a very long time of dying.",
+  "type": "Sedimentary rock — carbonate, mostly built by living things",
+  "madeOf": "Calcite (calcium carbonate, CaCO₃) — at least half by weight and often nearly all of it — sometimes with aragonite, dolomite, and small amounts of quartz, clay, feldspar or pyrite.",
+  "grain": "Anything from mud-fine, where no grains show, to coarse shell hash you can pick apart. Many limestones show whole fossils, tiny round grains called ooids, or glinting patches of recrystallised calcite.",
+  "grainClass": "mixed",
+  "colour": "Usually pale grey, cream, buff or white; darker grey where clay or organic matter got in.",
+  "luster": "Dull to earthy, with small glassy glints from recrystallised calcite and shell fragments.",
+  "streak": "White to pale grey — calcite leaves a white streak.",
+  "streakHex": "#f3f1eb",
+  "hardness": "About 3, the hardness of calcite. A steel knife or nail scratches it easily and it will not scratch glass; sandy or dolomite-rich limestone is a little harder.",
+  "mohs": [
+   3,
+   4
+  ],
+  "density": "Usually about 2.4–2.7 g/cm³. Dense limestone comes close to the 2.7 of pure calcite; porous shelly or chalky kinds are lighter.",
+  "gcc": [
+   2.4,
+   2.7
+  ],
+  "porosity": "Varies widely — from a few percent to about 30% open space. More important, limestone dissolves, so water widens its cracks into channels, sinkholes and caves.",
+  "soak": 1,
+  "acid": "Yes — a drop of dilute acid (or vinegar) fizzes on it, because it is made of calcite.",
+  "fizz": "yes",
+  "formsFrom": "Shells, skeletons and lime mud from sea creatures and algae, plus calcium carbonate precipitated straight out of sea, lake or spring water.",
+  "becomes": "Marble when heated and squeezed; dolostone when magnesium-rich water alters it; and, dissolved by rainwater, caves, sinkholes and karst.",
+  "world": "On every continent. Famous limestone karst includes the Kras region of Slovenia, which gave karst its name, the hills around Guilin in China and the islands of Ha Long Bay in Vietnam.",
+  "what": "Mostly calcium carbonate, most of it the shells and skeletons of animals that lived in warm shallow water. Break a fresh face and you can often see them.",
+  "identify": "Pale grey to buff, and it fizzes in vinegar — that is the definitive test and it works in the field. Fossils are common. The surface is often sculpted into rounded runnels and deep fissures rather than being broken into blocks.",
+  "wears": "It dissolves rather than crumbles. Rain is faintly acid and limestone is the one common rock that reacts with it, so the ground develops fissures, sinkholes, caves and springs, and rivers can vanish underground and come out somewhere else.",
+  "above": "Thin, sweet, fast-draining soil over flat pavements of rock, with plants rooted straight into the cracks. Water that has run through it comes out hard and full of dissolved calcium, which is why limestone country grows so much fish food.",
+  "where": "Eastern Ontario and the Ottawa and St. Lawrence valleys, the Niagara Escarpment, Kentucky and Tennessee, the Ozarks, central Texas, and most of Florida.",
+  "lives": "Maidenhair fern, hepatica, walking fern and orchids that appear nowhere else nearby. Hard-water lakes and rivers thick with snails, crayfish and mayflies — and therefore with fish.",
+  "uses": "Cement, agricultural lime, building stone, and the flux that makes steelmaking possible.",
+  "soilEffect": "alkaline",
+  "swatch": "#cfc8b6",
+  "texture": "layered",
+  "faqs": [
+   {
+    "q": "What is limestone?",
+    "a": "Limestone is a sedimentary rock made mostly of calcium carbonate, usually as the mineral calcite. Most of it formed from the shells and skeletons of sea creatures that settled on the floors of warm, shallow seas and were cemented into stone."
+   },
+   {
+    "q": "What minerals is limestone made of?",
+    "a": "Mainly calcite, which is calcium carbonate (CaCO₃) — at least half of the rock and often nearly all of it. Young limestone may also hold aragonite, and many contain some dolomite plus small amounts of quartz, clay, feldspar or pyrite."
+   },
+   {
+    "q": "How is limestone formed?",
+    "a": "Mostly by living things. Corals, shellfish and plankton build calcium carbonate skeletons; when they die, the pieces pile up on the sea floor, are buried, and are cemented by more calcite. Some limestone precipitates straight from water, as in caves and hot springs."
+   },
+   {
+    "q": "What environment does limestone form in?",
+    "a": "Mostly warm, clear, shallow seas, where shell-building animals and algae thrive and little mud washes in. Limestone also forms in lakes, in caves as stalactites and stalagmites, and around hot springs as travertine."
+   },
+   {
+    "q": "How does fossiliferous limestone form?",
+    "a": "Like other limestone, but where whole shells and skeletons were buried and cemented before waves or dissolving could break them up — on reefs, shell banks and quiet sea floors. The fossils are usually marine animals such as brachiopods, clams, snails and corals."
+   },
+   {
+    "q": "What does limestone turn into?",
+    "a": "Marble, when it is buried and heated until its calcite recrystallises. Magnesium-rich groundwater can turn it into dolostone instead. And at the surface, rainwater slowly dissolves it, opening caves and sinkholes."
+   },
+   {
+    "q": "What is the parent rock of limestone?",
+    "a": "Limestone has no parent rock in the usual sense: it is built from shells, skeletons and lime mud, not from the wreckage of older rock. It is a parent rock itself — of marble, and of the sweet, lime-rich soils that form over it."
+   },
+   {
+    "q": "What are some examples of limestone?",
+    "a": "Chalk (soft, made of microscopic plankton), coquina (loosely cemented shell hash), fossiliferous limestone, oolitic limestone (tiny round grains called ooids), lithographic limestone (fine and even, once used for printing), and travertine and tufa, which are deposited by springs."
+   },
+   {
+    "q": "Where is limestone found?",
+    "a": "On every continent, wherever warm shallow seas or lime-rich waters once lay. Around Ottawa it is Ordovician limestone — about 470 million years old at Pinhey's Point, where fossil fragments show in old stone walls — and near Almonte it forms the bare pavements of the Burnt Lands Alvar."
+   }
+  ],
+  "next": [
+   {
+    "slug": "dolostone",
+    "note": "limestone with its calcium partly swapped for magnesium"
+   },
+   {
+    "slug": "marble",
+    "note": "what limestone becomes when it is cooked and squeezed"
+   },
+   {
+    "slug": "chalk",
+    "note": "a soft, exceptionally pure kind of limestone"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Limestone",
+    "url": "https://geology.com/rocks/limestone.shtml"
+   },
+   {
+    "label": "Britannica — Limestone",
+    "url": "https://www.britannica.com/science/limestone"
+   },
+   {
+    "label": "Britannica — Karst",
+    "url": "https://www.britannica.com/science/karst-geology"
+   },
+   {
+    "label": "Ottawa Gatineau Geoheritage Project — Pinhey's Point",
+    "url": "https://www.ottawagatineaugeoheritage.ca/subsites/19"
+   },
+   {
+    "label": "Ottawa Gatineau Geoheritage Project — Burnt Lands Alvar, Almonte",
+    "url": "https://www.ottawagatineaugeoheritage.ca/subsites/22"
+   }
+  ]
+ },
+ {
+  "slug": "dolostone",
+  "name": "Dolostone",
+  "family": "sedimentary",
+  "ph": "Soil pH usually 7.0–8.0",
+  "tagline": "Limestone whose calcium was partly traded for magnesium — tougher, and the reason escarpments stand up.",
+  "forms": "Limestone is buried and seawater or brine percolates through it. Magnesium in that water replaces some of the calcium, atom for atom, and the rock recrystallises slightly denser and harder than it was.",
+  "type": "Sedimentary rock — magnesium-rich carbonate",
+  "madeOf": "Mostly the mineral dolomite, calcium magnesium carbonate — CaMg(CO₃)₂ — often with leftover calcite and small amounts of quartz or clay.",
+  "grain": "Usually fine- to medium-grained and crystalline.",
+  "grainClass": "fine",
+  "colour": "Light grey, buff, cream or pinkish grey; weathered surfaces are often buff to brownish.",
+  "luster": "Dull to pearly; the dolomite crystals are glassy to pearly when they catch the light.",
+  "streak": "White.",
+  "streakHex": "#f1efe9",
+  "hardness": "About 3½ to 4 — a little harder than limestone, but a steel knife still scratches it.",
+  "mohs": [
+   3.5,
+   4
+  ],
+  "density": "About 2.7–2.85 g/cm³ — slightly heavier than limestone, because the mineral dolomite (2.8–2.9) is denser than calcite (2.7).",
+  "gcc": [
+   2.7,
+   2.85
+  ],
+  "porosity": "Variable. Turning limestone into dolostone shrinks the minerals slightly, which can open new pore space — one reason dolostone is a common oil and gas reservoir.",
+  "soak": 1,
+  "acid": "Only once scratched to powder — the tell for dolomite rock.",
+  "fizz": "powdered",
+  "formsFrom": "Limestone or lime mud altered by magnesium-rich groundwater or brine, which converts calcite to dolomite.",
+  "becomes": "Dolomitic marble when heated and squeezed; slowly weathered, lime-rich soil.",
+  "world": "Widespread in old carbonate rock worldwide. The Dolomites of northern Italy, named after the French geologist Dolomieu, are carved from light-coloured dolomitic limestone.",
+  "what": "Chemically limestone's sibling: calcium magnesium carbonate instead of calcium carbonate. The swap usually happened long after the original mud was laid down, as magnesium-rich water moved through it.",
+  "identify": "Looks like limestone but fizzes only weakly in vinegar, and often not at all unless you powder it first. Tends to break into blocks rather than dissolving into runnels, and weathers to a buff or slightly pinkish grey.",
+  "wears": "Slowly, and more by fracture than dissolution — which is why it stands as cliffs where softer limestone beside it has worn away.",
+  "above": "Sweet, shallow, stony soil and hard water, on ridges that are often the only high ground for a long way.",
+  "where": "The Niagara Escarpment from New York through Ontario to Wisconsin, the Manitoba escarpment, and much of the upper Midwest.",
+  "lives": "Cliff-edge cedar — some of the oldest trees in eastern North America grow on Niagara Escarpment dolostone, stunted and a thousand years old.",
+  "uses": "Aggregate, refractory brick, and a source of magnesium.",
+  "soilEffect": "alkaline",
+  "swatch": "#d6c4a4",
+  "texture": "sugary",
+  "faqs": [
+   {
+    "q": "What is dolostone?",
+    "a": "Dolostone, also called dolomite rock, is a sedimentary rock made mostly of the mineral dolomite, calcium magnesium carbonate. It is limestone's close relative: it usually starts as limestone or lime mud and is changed by magnesium-rich water."
+   },
+   {
+    "q": "How is dolostone different from limestone?",
+    "a": "In chemistry and in the acid test. Limestone is calcium carbonate and fizzes briskly in cold, dilute acid; dolostone is calcium magnesium carbonate, a little harder (3½–4 against 3), and barely reacts unless you scratch it to powder or warm the acid."
+   },
+   {
+    "q": "How does dolostone form?",
+    "a": "Magnesium-rich groundwater or brine seeps through limestone or lime mud and converts its calcite to dolomite — a process called dolomitisation. The change shrinks the minerals slightly, which can leave extra pore space where oil and gas later collect."
+   },
+   {
+    "q": "What is dolostone used for?",
+    "a": "Crushed stone for roads and concrete, cut building stone, and cement. It is also used in the chemical and steel industries and on farms, ground up as a liming material for sour soil."
+   }
+  ],
+  "next": [
+   {
+    "slug": "limestone",
+    "note": "what it was before the magnesium got in"
+   },
+   {
+    "slug": "marble",
+    "note": "what it becomes under heat and pressure"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Dolomite (rock)",
+    "url": "https://geology.com/rocks/dolomite.shtml"
+   },
+   {
+    "label": "geology.com — Dolomite (mineral)",
+    "url": "https://geology.com/minerals/dolomite.shtml"
+   },
+   {
+    "label": "LibreTexts (ChemPRIME) — Density of rocks and soils",
+    "url": "https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Geology/Density_of_Rocks_and_Soils"
+   },
+   {
+    "label": "Britannica — Dolomites",
+    "url": "https://www.britannica.com/place/Dolomites"
+   }
+  ]
+ },
+ {
+  "slug": "sandstone",
+  "name": "Sandstone",
+  "family": "sedimentary",
+  "ph": "Soil pH usually 5.0–6.0",
+  "tagline": "A beach, a dune field or a river bar, buried and cemented — and visibly still made of sand.",
+  "forms": "Rivers and waves sort sediment by size, and sand collects where the water is energetic enough to carry away the mud but not the sand. Bury it, and mineral-bearing water moving through the pore spaces precipitates cement around each grain.",
+  "type": "Clastic sedimentary rock",
+  "madeOf": "Mostly quartz — 90% or more in well-worn, mature sandstone — with feldspar and rock fragments in less-worn sands. The grains are glued by natural cement: silica, calcite or iron oxide. Sandstone with calcite cement will fizz in acid.",
+  "grain": "Sand-sized grains, 0.063–2 mm across, visible to the eye and gritty to the touch. Geologists grade them: fine sand is 0.125–0.25 mm, medium 0.25–0.5 mm, coarse 0.5–1 mm and very coarse 1–2 mm. Coarser than 2 mm, the rock is conglomerate or breccia.",
+  "grainClass": "medium",
+  "colour": "Tan, buff, cream, white or grey, and every shade of red and brown where iron oxide coats the grains.",
+  "luster": "Dull to earthy as a whole; in sunlight the individual quartz grains glint like glass.",
+  "streak": "Usually none worth reading — the quartz grains are harder than the plate and just scratch it. Crumbly sandstone may leave a pale buff mark, and iron-rich sandstone a reddish-brown one.",
+  "streakHex": "#e3d7c1",
+  "hardness": "The quartz grains (7) scratch glass, but how tough the rock is depends on its cement: some sandstone crumbles in your fingers, some rings under a hammer.",
+  "mohs": [
+   6,
+   7
+  ],
+  "density": "Usually about 2.0–2.6 g/cm³ — less than solid quartz (2.65) because of the open space between the grains.",
+  "gcc": [
+   2,
+   2.6
+  ],
+  "porosity": "Often high: roughly 5–30% open space, averaging around 15%. That is why sandstone holds groundwater, oil and gas.",
+  "soak": 2,
+  "acid": "In places — only where calcite is part of the mix.",
+  "fizz": "some",
+  "formsFrom": "Sand weathered from older rock — much of its quartz shed by granite — and laid down by rivers, waves or wind.",
+  "becomes": "Quartzite when heated and squeezed; weathered, it crumbles back into sand.",
+  "world": "On every continent. Uluru in central Australia is a single huge mass of arkose, a feldspar-rich sandstone, and its red is the rusting of iron in the rock.",
+  "what": "Sand grains, mostly quartz, stuck together by a natural cement of silica, calcite or iron oxide. Rub a weathered face and grains come off on your hand.",
+  "identify": "Gritty to the touch and visibly granular in good light. Bedding is usually obvious, and often curved rather than flat where a dune or a river bar migrated — that curved layering is called cross-bedding and it tells you which way the current ran.",
+  "wears": "Crumbles back into sand along its bedding, and leaves overhangs and shelters where a soft layer sits beneath a hard one. Iron-cemented sandstone weathers to rust red.",
+  "above": "Sandy, quick-draining, usually acid soil. Sandstone is porous, so it stores groundwater and releases it steadily — sandstone country has reliable springs where the water table meets the hillside.",
+  "where": "The Colorado Plateau and all of Utah's canyon country, the Appalachian Plateau, the Alberta foothills, and the Wisconsin Dells.",
+  "lives": "Pine, oak and heath on dry ground; the seepage lines at the base of the beds are often unexpectedly lush.",
+  "uses": "Building stone, paving, glass sand, and — in the Alberta foothills and Texas — the reservoir rock that holds oil and gas in its pore spaces.",
+  "soilEffect": "acid",
+  "swatch": "#d8b489",
+  "texture": "grainy",
+  "faqs": [
+   {
+    "q": "What type of rock is sandstone?",
+    "a": "Sandstone is a clastic sedimentary rock: sand-sized grains of minerals and older rock, 0.063–2 mm across, that were buried and cemented together. It makes up roughly 10–20% of the sedimentary rock in Earth's crust."
+   },
+   {
+    "q": "What is sandstone made of?",
+    "a": "Grains of sand — mostly quartz, often with some feldspar and bits of other rock — held together by a natural cement of silica, calcite or iron oxide. Mature sandstone, worn for a long time, can be 90% or more quartz."
+   },
+   {
+    "q": "How is sandstone formed?",
+    "a": "Rivers, waves or wind leave sand where the flow is strong enough to carry off mud but not sand — beaches, river bars, dunes. Buried under more sediment, the sand is compacted, and minerals from groundwater crystallise between the grains as cement."
+   },
+   {
+    "q": "What is sandstone used for?",
+    "a": "Building stone, paving and crushed stone. Nearly pure quartz sandstone is mined for silica sand for glass, foundry moulds, water filters and frac sand. Underground, porous sandstone is an important aquifer and a reservoir rock for oil and gas."
+   },
+   {
+    "q": "What is coarse sandstone?",
+    "a": "Sandstone whose grains are 0.5–1 mm across (coarse sand) or 1–2 mm (very coarse) — easy to see and rough under the thumb. Coarse grains mean strong currents. Past 2 mm the grains count as gravel, and the rock is conglomerate or breccia."
+   },
+   {
+    "q": "Is sandstone an ore?",
+    "a": "Not usually — it is a building stone, not a metal ore. But nearly pure quartz sandstone, such as the St. Peter Sandstone, is quarried for silica sand, and in places like the Colorado Plateau, uranium-bearing water soaked through sandstone and left uranium ore behind."
+   },
+   {
+    "q": "Is sandstone porous?",
+    "a": "Usually, yes — typically 5–30% of a sandstone is open space between the grains, about 15% on average. Water, oil and gas move through it, which makes sandstone an important aquifer and reservoir rock. Tightly cemented sandstone holds much less."
+   },
+   {
+    "q": "Where is sandstone found?",
+    "a": "Almost everywhere sediment has piled up. In North America it includes the Navajo and Entrada sandstones of the Colorado Plateau and the St. Peter Sandstone of the Ozarks. Abroad, Australia's Uluru is a single huge mass of arkose, a feldspar-rich sandstone."
+   }
+  ],
+  "next": [
+   {
+    "slug": "quartzite",
+    "note": "sandstone cooked until the grains fused"
+   },
+   {
+    "slug": "shale",
+    "note": "the mud that settled where the water was quieter"
+   },
+   {
+    "slug": "granite",
+    "note": "where most of the quartz grains originally came from"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Britannica — Sandstone",
+    "url": "https://www.britannica.com/science/sandstone"
+   },
+   {
+    "label": "geology.com — Sandstone",
+    "url": "https://geology.com/rocks/sandstone.shtml"
+   },
+   {
+    "label": "Wikipedia — Grain size (Wentworth scale)",
+    "url": "https://en.wikipedia.org/wiki/Grain_size"
+   },
+   {
+    "label": "Colorado Geological Survey — Geology of uranium deposits in Colorado",
+    "url": "https://coloradogeologicalsurvey.org/2018/geology-uranium-deposits-colorado/"
+   }
+  ]
+ },
+ {
+  "slug": "shale",
+  "name": "Shale",
+  "family": "sedimentary",
+  "ph": "Soil pH 5.5–7.5, depending on the beds",
+  "tagline": "Mud from still, deep water — the finest-grained common rock, and one of the best at keeping fossils.",
+  "forms": "Fine sediment stays suspended until the water stops moving almost entirely — a deep sea floor, a lake bottom, a lagoon. It settles a fraction of a millimetre a year, sealing whatever fell into it, and burial squeezes the water out until the clay plates lock together.",
+  "type": "Clastic sedimentary rock (mudrock)",
+  "madeOf": "Clay minerals (illite, kaolinite, smectite) with silt-sized quartz, feldspar and chert, plus organic matter, carbonate and iron oxides in varying amounts.",
+  "grain": "Very fine: clay and silt, far too small to see even with a hand lens. It feels smooth rather than gritty and splits into thin, flat layers — it is fissile.",
+  "grainClass": "fine",
+  "colour": "Dark grey most often; also black (as little as 1–2% organic matter darkens it), light grey, greenish, and red or brown where iron oxide is present.",
+  "luster": "Dull to earthy.",
+  "streak": "Grey — scratched with a knife, shale gives a grey powder. Red shale leaves a reddish-brown streak.",
+  "streakHex": "#8c8c88",
+  "hardness": "Soft: most shale can be scratched easily with a fingernail and breaks readily when struck.",
+  "mohs": [
+   2,
+   3
+  ],
+  "density": "Usually about 2.1–2.7 g/cm³, rising as deep burial squeezes out water and packs the clay tighter.",
+  "gcc": [
+   2.1,
+   2.7
+  ],
+  "porosity": "Often 10–30%, but the pores are so tiny that water barely moves through it — which is why gas in shale has to be freed by hydraulic fracturing.",
+  "soak": 1,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Mud — clay and silt from weathered rock — settled in quiet water such as lakes, swamps, lagoons and deep sea floors.",
+  "becomes": "Slate, then phyllite, schist and eventually gneiss as heat and pressure rise; weathered, it breaks down into chips and clay.",
+  "world": "In sedimentary basins everywhere — it is the most abundant sedimentary rock on Earth.",
+  "what": "Compressed clay and silt, laid down where the water was too quiet to move anything larger. The particles are flat and settle flat, which is why shale splits into sheets.",
+  "identify": "Splits into thin flat pieces, feels smooth rather than gritty, and often smells faintly of earth when freshly broken or wetted. Dark shale is dark because of the organic matter buried with it.",
+  "wears": "Into chips, then into clay. It is weak, so it forms valleys and slumping banks rather than hills, and road cuts through it keep sliding.",
+  "above": "Heavy clay soil that holds water and drains badly. Shale is impermeable, so water runs off it rather than into it, and streams on shale rise and fall fast after rain.",
+  "where": "The Appalachian valleys, the Great Plains from Texas to Saskatchewan, the Michigan and Illinois basins, and the Utica and Marcellus beds of the northeast.",
+  "lives": "Wet meadow and swamp forest in the hollows, because the water cannot get away. Springs are rare; seeps are everywhere.",
+  "uses": "Brick, tile, and cement. Some shale beds are the source rock for oil and gas.",
+  "soilEffect": "neutral",
+  "swatch": "#6d6c69",
+  "texture": "layered",
+  "faqs": [
+   {
+    "q": "What is shale?",
+    "a": "Shale is a fine-grained sedimentary rock made of compacted mud — clay and silt too small to see. What sets it apart from other mudstones is that it splits into thin, flat layers. It is the most abundant sedimentary rock on Earth."
+   },
+   {
+    "q": "How does shale form?",
+    "a": "Mud settles out in still water — lakes, swamps, lagoons, the deep sea floor — where the water is too quiet to move anything coarser. Buried under more sediment, it is compacted, the water is squeezed out, and the flat clay flakes line up, which is why shale splits in sheets."
+   },
+   {
+    "q": "What does shale turn into?",
+    "a": "Slate, when it is squeezed and heated during mountain building. More heat turns slate into phyllite and then schist, and at the highest grades the same mud can end up as gneiss."
+   },
+   {
+    "q": "What is shale used for?",
+    "a": "Brick, tile and pottery, and as an ingredient in cement. Organic-rich shale is also a major source of oil and natural gas, some of it now drawn from the shale itself by hydraulic fracturing."
+   }
+  ],
+  "next": [
+   {
+    "slug": "slate",
+    "note": "shale squeezed hard enough to split cleanly"
+   },
+   {
+    "slug": "sandstone",
+    "note": "the coarser sediment that settled nearer the current"
+   },
+   {
+    "slug": "marl",
+    "note": "shale with a large share of lime mud in it"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Shale",
+    "url": "https://geology.com/rocks/shale.shtml"
+   },
+   {
+    "label": "Kentucky Geological Survey — Shales and fireclays",
+    "url": "https://www.uky.edu/KGS/pubs/SappCoreBook/html/shales.html"
+   },
+   {
+    "label": "Physical Geology (BCcampus) — Classification of metamorphic rocks",
+    "url": "https://opentextbc.ca/geology/chapter/7-2-classification-of-metamorphic-rocks/"
+   },
+   {
+    "label": "Penn State GEOL 615 — Engineering properties of geologic materials",
+    "url": "https://sites.psu.edu/tzhu/files/2016/10/Some-Useful-Numbers-1g1rkuu.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "chalk",
+  "name": "Chalk",
+  "family": "sedimentary",
+  "ph": "Soil pH usually 7.5–8.3",
+  "tagline": "Plankton skeletons, kilometres from any land that might have muddied the water. Soft enough to cut with a spade, yet it stands as cliffs.",
+  "forms": "In a warm sea flooding a continent — often a couple of hundred metres deep and far from any shore — plankton bloom and die in unimaginable numbers, and their carbonate plates rain down continuously. With no mud or sand arriving to dilute them, the result is white, uniform and hundreds of metres thick.",
+  "type": "Sedimentary rock — a soft, very pure limestone built by plankton",
+  "madeOf": "Calcite (calcium carbonate) — up to 99% in the purest chalk — from the plates of coccolithophores (single-celled algae) and the shells of foraminifera, with a little silica, clay, and nodules of flint (chert).",
+  "grain": "Extremely fine: microscopic calcite plates (coccoliths) and tiny shells, far too small to see without a microscope. It feels smooth and powdery and marks your fingers.",
+  "grainClass": "fine",
+  "colour": "White to light grey, sometimes cream; often studded with dark nodules of flint.",
+  "luster": "Dull and earthy.",
+  "streak": "White — chalk leaves a white mark on almost anything.",
+  "streakHex": "#fbfaf6",
+  "hardness": "Very soft. Its calcite grains are 3 on the Mohs scale, but they are held together so loosely that a fingernail scratches it.",
+  "mohs": [
+   2,
+   3
+  ],
+  "density": "Light for a rock: British chalk averages about 1.9 g/cm³ dry, because nearly a third of it is pore space. Soaked with water it weighs about 2.2.",
+  "gcc": [
+   1.6,
+   2.2
+  ],
+  "porosity": "Very high: British chalk samples range from about 18% to 43% pore space, averaging nearly 29% — which makes chalk an important store of groundwater.",
+  "soak": 2,
+  "acid": "Yes — a drop of dilute acid (or vinegar) fizzes on it, because it is made of calcite.",
+  "fizz": "yes",
+  "formsFrom": "The microscopic calcite plates and shells of plankton, raining down onto a sea floor that little mud from land could reach — mostly during the Cretaceous Period, 145 to 66 million years ago.",
+  "becomes": "Marble, like any limestone, if heated and squeezed. At the surface it slowly dissolves, and its flint nodules drop out as pebbles.",
+  "world": "Western Europe south of Sweden, most famously the White Cliffs of Dover and Cap Blanc-Nez across the Channel in France.",
+  "what": "An exceptionally pure limestone, built almost entirely from microscopic calcite: the plates of single-celled algae (coccoliths), with the tiny shells of foraminifera among them. Nothing coarse got in because there was no land close enough to supply it.",
+  "identify": "White, soft enough to mark with, and light. Often studded with nodules of dark flint or chert.",
+  "wears": "Dissolves readily, but it is permeable rather than slippery, so it does not slump — which is how something you can scratch with a fingernail forms vertical cliffs.",
+  "above": "Thin, dry, very sweet soil with flint in it, over an enormous groundwater store. Chalk country is dry at the surface and wet underneath.",
+  "where": "The Selma and Austin chalk belts of Alabama, Mississippi and Texas, and the Niobrara of Kansas and Nebraska.",
+  "lives": "A distinctive lime-loving grassland flora and very little else. The Texas Blackland Prairie is chalk country.",
+  "uses": "Cement, agricultural lime, whiting in paint and putty.",
+  "soilEffect": "alkaline",
+  "swatch": "#f4f1e8",
+  "texture": "chalky",
+  "faqs": [
+   {
+    "q": "What is chalk?",
+    "a": "Chalk is a soft, white, very fine-grained limestone made almost entirely of the microscopic remains of marine plankton — the calcite plates of single-celled algae called coccolithophores, and the tiny shells of foraminifera. The purest chalk is up to 99% calcium carbonate."
+   },
+   {
+    "q": "Is chalk a sedimentary rock?",
+    "a": "Yes. Chalk is a biological (organic) sedimentary rock and a kind of limestone. It formed from the remains of plankton that settled on the sea floor as a white ooze and were buried and compacted into rock."
+   },
+   {
+    "q": "How is chalk formed?",
+    "a": "When coccolithophores and foraminifera die, their tiny calcite plates and shells sink and pile up on the sea floor as ooze. With little mud washing in to dilute it, the ooze builds up very thick and is compacted into soft, pure rock. Most great chalk beds formed in the Cretaceous Period."
+   },
+   {
+    "q": "What was chalk's depositional environment?",
+    "a": "Open sea — mostly broad seas that flooded the continents and continental shelves when sea levels were high, far enough from land that little sand or mud reached the bottom. Chalk formed in deeper water than most limestone."
+   },
+   {
+    "q": "What is the scientific name for chalk?",
+    "a": "Chalk is the rock's scientific name as well as its everyday one. Chemically it is calcium carbonate, CaCO₃, as the mineral calcite. The Latin for chalk, creta, gave its name to the Cretaceous Period. Blackboard chalk today is manufactured, and some of it is made from gypsum instead."
+   },
+   {
+    "q": "What are the properties of chalk?",
+    "a": "White, soft enough to scratch with a fingernail, and light — about 1.9 g/cm³ dry, since nearly a third of it is pore space. It fizzes vigorously in dilute acid, soaks up water and oil, and often contains dark flint nodules."
+   },
+   {
+    "q": "Where is chalk found?",
+    "a": "Across western Europe, including the White Cliffs of Dover and Cap Blanc-Nez in France. In North America it runs in a belt from South Dakota south to Texas and east to Alabama, including the Niobrara Chalk of the Great Plains."
+   }
+  ],
+  "next": [
+   {
+    "slug": "limestone",
+    "note": "the wider family it belongs to"
+   },
+   {
+    "slug": "marl",
+    "note": "chalk with clay mixed in"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Britannica — Chalk",
+    "url": "https://www.britannica.com/science/chalk"
+   },
+   {
+    "label": "geology.com — Chalk",
+    "url": "https://geology.com/rocks/chalk.shtml"
+   },
+   {
+    "label": "USGS Bulletin 1144-E — Porosity and bulk density of sedimentary rocks",
+    "url": "https://pubs.usgs.gov/bul/1144e/report.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "marl",
+  "name": "Marl",
+  "family": "sedimentary",
+  "ph": "Soil pH usually 7.0–8.0",
+  "tagline": "Halfway between limestone and shale — lime mud and clay from a quiet sea floor, and historically dug to sweeten sour fields.",
+  "forms": "Carbonate settling out of the water and clay washing in from land arrive in the same place at the same rate, and get buried together.",
+  "type": "Sedimentary rock or soft sediment — a mix of clay and lime",
+  "madeOf": "Calcium carbonate (calcite, and in lake marl the crusts of stonewort algae and bits of shell) mixed with clay minerals and silt — roughly 35–65% of each. The more lime, the more strongly it fizzes.",
+  "grain": "Very fine: clay and lime mud too small to see, sometimes with bits of shell. Lake marl is a soft, sticky paste; hardened marl is called marlstone.",
+  "grainClass": "fine",
+  "colour": "Pale grey, cream, buff or bluish grey.",
+  "luster": "Dull and earthy.",
+  "streak": "White to pale grey.",
+  "streakHex": "#dedbd3",
+  "hardness": "Soft, and too variable for one figure. Its lime is calcite (3) and its clay is softer still: marlstone scratches easily with a knife, and lake marl can be dug with a spade.",
+  "density": "Varies too much for one figure: firm marlstone is roughly as heavy as shale, while fresh lake marl is a waterlogged paste.",
+  "porosity": "High when fresh, and the fine clay makes it hold water rather than pass it on — which is why marl ground is heavy and slow to drain.",
+  "soak": 1,
+  "acid": "Yes — a drop of dilute acid (or vinegar) fizzes on it, because it is made of calcite.",
+  "fizz": "yes",
+  "formsFrom": "Lime mud and clay settling together — on quiet sea floors, or in shallow, hard-water lakes where stonewort algae (Chara) coat themselves in calcium carbonate.",
+  "becomes": "Marlstone when it hardens. With more lime it grades into clayey limestone; with less, into calcareous shale.",
+  "world": "Widespread in old marine rock and young lake beds alike. The lower part of England's Chalk includes a marly chalk — the layer the Channel Tunnel was bored through — and Cheshire's fields are dotted with flooded marl pits.",
+  "what": "A mixture of carbonate mud and clay, in roughly comparable amounts. Neither pure enough to be limestone nor clean enough to be shale.",
+  "identify": "Soft, pale grey to buff, fizzes in vinegar but leaves a muddy residue behind. Sticky when wet.",
+  "wears": "Softens and slumps, shedding a sticky calcareous clay that holds water well.",
+  "above": "Heavy, sweet, water-holding soil. Farmers dug marl pits for centuries and spread it on acid fields, which is where the practice of liming comes from.",
+  "where": "The Atlantic and Gulf coastal plains from New Jersey to Texas, and lake-bottom marls across the glaciated Midwest and Ontario.",
+  "lives": "Rich fen and calcareous wetland — some of the most botanically diverse ground on the continent, with orchids and sedges found nowhere else.",
+  "uses": "Agricultural lime, cement, and historically fertiliser.",
+  "soilEffect": "alkaline",
+  "swatch": "#d6cfbf",
+  "texture": "layered",
+  "faqs": [
+   {
+    "q": "What is marl?",
+    "a": "A soft mix of clay and calcium carbonate (lime) — roughly 35–65% of each. With more lime it grades into clayey limestone; with less, into calcareous shale. Hardened, it is called marlstone, but much marl, like the lake marl of Ontario and the Great Lakes states, is still soft mud."
+   },
+   {
+    "q": "What is marl used for?",
+    "a": "Mostly for sweetening sour soil — the old practice of marling, mentioned by Pliny nearly 2,000 years ago — and as a raw material for Portland cement, since it can be burned at a lower temperature than other raw mixes."
+   },
+   {
+    "q": "What is a marl pit?",
+    "a": "A hole dug to get marl out of the ground, usually to spread on fields as a natural lime and fertiliser before modern lime and fertilisers were available. Many old marl pits filled with water and are now ponds — in Cheshire, England, they are valued habitat for frogs, newts and water birds."
+   },
+   {
+    "q": "What is calcareous marl?",
+    "a": "Marl at the lime-rich end of the range, with more calcium carbonate than clay. 'Calcareous' simply means containing calcium carbonate. It fizzes strongly in acid, grades into clayey limestone, and the more lime it holds, the more it sweetens sour soil."
+   },
+   {
+    "q": "What is chalk marl?",
+    "a": "Chalk with enough clay in it to be marly — a flint-free layer in the lower part of the English Chalk, now called the West Melbury Marly Chalk. The Channel Tunnel was bored through it because it has very low permeability and fewer cracks than the chalk above."
+   },
+   {
+    "q": "What is marl soil?",
+    "a": "Soil formed on or from marl: heavy, lime-rich and water-holding. In glaciated country 'marl' also means the soft, whitish lime mud on the bottoms of shallow hard-water lakes, laid down with the help of stonewort algae (Chara) and once dug to lime farm fields."
+   }
+  ],
+  "next": [
+   {
+    "slug": "limestone",
+    "note": "what marl would be with the clay removed"
+   },
+   {
+    "slug": "shale",
+    "note": "what marl would be with the lime removed"
+   }
+  ],
+  "sources": [
+   {
+    "label": "SLB Energy Glossary — Marl",
+    "url": "https://glossary.slb.com/terms/m/marl"
+   },
+   {
+    "label": "Wikipedia — Marl",
+    "url": "https://en.wikipedia.org/wiki/Marl"
+   },
+   {
+    "label": "Geological Society — Channel Tunnel geosite",
+    "url": "https://geolsoc.org.uk/GeositesChannelTunnel"
+   },
+   {
+    "label": "Sandstone Trail (Cheshire) — Ponds and marl pits",
+    "url": "https://sandstonetrail.co.uk/ponds-and-marl-pits/"
+   }
+  ]
+ },
+ {
+  "slug": "sedimentary-rock",
+  "name": "Sedimentary rock",
+  "family": "sedimentary",
+  "ph": "Soil pH 5.0–8.0, depending entirely on the beds",
+  "tagline": "Rock built from the debris of older rock, or from the remains of things that lived — laid flat, and buried.",
+  "forms": "Older rock weathers, rivers and wind carry the pieces downhill, and they settle wherever the carrying stops. Burial squeezes the water out and mineral cement locks the grains together.",
+  "type": "Sedimentary rock — one of the three great rock families",
+  "madeOf": "Quartz, clay minerals, feldspar and calcite dominate. Clastic rocks, made of fragments, make up about 85–90% of all sedimentary rock.",
+  "grain": "Anything from clay too fine to see (shale) through sand (sandstone) to pebbles and boulders (conglomerate), or shells and crystals in limestone. Grain size records how hard the water or wind was moving.",
+  "grainClass": "mixed",
+  "colour": "Every colour: grey and black from organic matter, red and brown from iron oxide, white and cream from calcite or quartz.",
+  "luster": "Mostly dull or earthy; sandstone glints with quartz grains.",
+  "streak": "Varies: white for limestone and chalk, grey for shale, reddish brown for iron-rich beds; quartz sandstone just scratches the plate.",
+  "streakHex": "#cfcac0",
+  "hardness": "From soft enough to scratch with a fingernail (shale, chalk) to hard enough to scratch glass (quartz sandstone, chert).",
+  "density": "Varies too much for one figure: from about 1.9 g/cm³ for porous chalk to about 2.8 for dolostone.",
+  "porosity": "Averages about 8.5%, but ranges from almost nothing to over 30% in sandstone and chalk.",
+  "soak": 1,
+  "acid": "In places — only where calcite is part of the mix.",
+  "fizz": "some",
+  "formsFrom": "Sediment — fragments of older rock, the shells and skeletons of living things, or minerals precipitated from water — laid down in layers and cemented.",
+  "becomes": "Metamorphic rock when buried and heated: shale to slate and schist, sandstone to quartzite, limestone to marble.",
+  "world": "Covers nearly three quarters of the land surface and blankets nearly all the ocean floors — but only as a thin skin: it is a minor part of the crust as a whole.",
+  "what": "The family that covers about three quarters of the land surface, in a thin skin over everything else. Some geological maps say only this much, which still tells you it will be layered and may hold fossils.",
+  "identify": "Flat bedding you can trace across a cliff face, grains that settled rather than grew into each other, and the possibility of fossils.",
+  "wears": "Along its bedding planes, layer by layer, at a rate set by whatever the layers are made of — which is why sedimentary country weathers into steps.",
+  "above": "Layered country with flat-topped hills and stepped valley sides. What grows on it depends entirely on whether the beds are limey or sandy, which is the question worth asking next.",
+  "where": "The interior plains and plateaus of both countries, all of the coastal plain, and a thin cover over much of the Shield.",
+  "lives": "Anything, depending on the beds. That is not an evasion — it is the point.",
+  "uses": "Much of the world's building stone and aggregate, all of its cement, and nearly all of its coal, oil and gas.",
+  "soilEffect": "neutral",
+  "swatch": "#bba88d",
+  "texture": "layered",
+  "faqs": [
+   {
+    "q": "What is sedimentary rock?",
+    "a": "Rock made from sediment — fragments of older rock, the remains of living things, or minerals that settled out of water — laid down in layers and hardened. Common examples are sandstone, shale, limestone, siltstone and conglomerate."
+   },
+   {
+    "q": "How do sedimentary rocks form?",
+    "a": "Weathering breaks older rock into pieces; water, wind or ice carry them and drop them in layers. As more piles on, the lower layers are compacted, lose their water, and are cemented by minerals crystallising in the pore spaces. Shells and chemical deposits harden the same way."
+   },
+   {
+    "q": "How can you tell if a rock is sedimentary?",
+    "a": "Look for layers (bedding), grains that look settled rather than grown together, and fossils — sedimentary rocks are almost the only ones that hold them. Sandstone feels gritty, shale splits in thin sheets, and limestone fizzes in acid."
+   },
+   {
+    "q": "What are the three types of sedimentary rock?",
+    "a": "Clastic, made of fragments of other rock (sandstone, shale, conglomerate); chemical, precipitated from water (rock salt, chert, some limestone); and organic, built from plant or animal remains (coal, chalk). Clastic rocks make up about 85–90% of all sedimentary rock."
+   }
+  ],
+  "next": [
+   {
+    "slug": "limestone",
+    "note": "the limey end, which sweetens the soil"
+   },
+   {
+    "slug": "sandstone",
+    "note": "the sandy end, which sours it"
+   },
+   {
+    "slug": "shale",
+    "note": "the muddy end, which holds water"
+   }
+  ],
+  "sources": [
+   {
+    "label": "USGS — What are sedimentary rocks?",
+    "url": "https://www.usgs.gov/faqs/what-are-sedimentary-rocks"
+   },
+   {
+    "label": "geology.com — Sedimentary rocks",
+    "url": "https://geology.com/rocks/sedimentary-rocks.shtml"
+   },
+   {
+    "label": "Union College — Sedimentary rocks lab (Geology 11)",
+    "url": "https://minerva.union.edu/garverj/Geo11/labs/1_sed_rx.pdf"
+   },
+   {
+    "label": "USGS Bulletin 1144-E — Porosity and bulk density of sedimentary rocks",
+    "url": "https://pubs.usgs.gov/bul/1144e/report.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "marble",
+  "name": "Marble",
+  "family": "metamorphic",
+  "ph": "Soil pH usually 7.0–8.0",
+  "tagline": "Limestone recrystallised — the fossils gone, and in acid country a narrow stripe of sweet ground that grows something different.",
+  "forms": "Carbonate rock is caught in a mountain-building event and taken deep. It does not melt; the calcite simply recrystallises, each grain growing into its neighbours, until the whole mass is a single interlocking fabric that glitters in the sun.",
+  "type": "Metamorphic rock (non-foliated)",
+  "madeOf": "Calcite (dolomite in dolomitic marble), with small amounts of mica, quartz, graphite, iron oxides or pyrite; impure marbles also grow minerals such as diopside and tremolite.",
+  "grain": "Interlocking crystals of calcite or dolomite, from fine and sugary to coarse enough to see each crystal face. No layering and no fossils.",
+  "grainClass": "medium",
+  "colour": "White when it comes from pure limestone; grey, bluish, pink, yellow or black where impurities were present, often as veins and swirls.",
+  "luster": "A sugary sparkle on a fresh break, from light catching thousands of calcite crystal faces; polished marble has a soft glassy shine.",
+  "streak": "White.",
+  "streakHex": "#f6f5f1",
+  "hardness": "About 3 — easy to carve and easy to scratch with a knife. Dolomite marble is a little harder, up to 4.",
+  "mohs": [
+   3,
+   4
+  ],
+  "density": "About 2.7 g/cm³ — the density of calcite itself, since marble has almost no pore space. Dolomite marble runs a little heavier.",
+  "gcc": [
+   2.65,
+   2.8
+  ],
+  "porosity": "Very low: about 0.5–2%.",
+  "soak": 0,
+  "acid": "Yes — a drop of dilute acid (or vinegar) fizzes on it, because it is made of calcite.",
+  "fizz": "yes",
+  "formsFrom": "Limestone or dolostone, buried and heated in a mountain belt until its grains recrystallised.",
+  "becomes": "More heat only grows its crystals coarser. At the surface it slowly dissolves in rainwater, leaving lime-rich soil.",
+  "world": "Carrara in Italy, the snow-white marble Michelangelo carved; Pentelic and Parian marble in Greece, quarried since antiquity; and the metamorphic belts of every continent.",
+  "what": "Limestone or dolostone that has been buried, heated and squeezed until its grains dissolved and regrew as interlocking crystals of calcite. Everything that was in it — bedding, fossils, mud — is erased.",
+  "identify": "Pale and sugary, with a visible sparkle from the calcite crystals on a fresh break. Fizzes in vinegar like the limestone it came from, but shows no bedding and no fossils at all.",
+  "wears": "Dissolves like limestone but more evenly, rounding into smooth pale outcrops rather than the fissured pavements limestone makes.",
+  "above": "Pockets of sweet soil in otherwise acid country, and they show: a band of marble through granite or gneiss grows a visibly different flora — ferns, orchids and lime-loving wildflowers in a narrow stripe you can follow across a hillside.",
+  "where": "The Grenville belt through the Gatineau Hills, eastern Ontario and the Adirondacks; Vermont and western Massachusetts; the Sierra Nevada foothills.",
+  "lives": "Maidenhair and walking fern, hepatica, yellow lady's slipper and other orchids — species that stop dead at the edge of the band.",
+  "uses": "Sculpture and cladding where it is clean, crushed for lime and terrazzo where it is not.",
+  "soilEffect": "alkaline",
+  "swatch": "#f2efe9",
+  "texture": "sugary",
+  "faqs": [
+   {
+    "q": "What is marble?",
+    "a": "Marble is a metamorphic rock made of interlocking crystals of calcite or dolomite. It forms when limestone or dolostone is buried and heated until its grains recrystallise. It has no layers or fossils, sparkles on a fresh break, and fizzes in acid like the limestone it came from."
+   },
+   {
+    "q": "How is marble formed?",
+    "a": "Limestone is caught up in mountain building, buried deep and heated under pressure. It does not melt: the calcite grains recrystallise and grow into each other, erasing bedding and fossils. The longer and hotter the cooking, the coarser the crystals."
+   },
+   {
+    "q": "How hard is marble?",
+    "a": "About 3 on the Mohs scale — the hardness of calcite — so a steel knife scratches it and it is easy to carve. That softness, and the way it reacts with acids, is why marble counters scratch and etch more easily than granite ones."
+   },
+   {
+    "q": "What is marble used for?",
+    "a": "Sculpture, monuments, floor tiles and building panels where it is clean and handsome; crushed stone where it is not. Ground marble also goes into antacids and animal feed, and is used to neutralise acid soils and streams."
+   }
+  ],
+  "next": [
+   {
+    "slug": "limestone",
+    "note": "what marble was before it was cooked"
+   },
+   {
+    "slug": "gneiss",
+    "note": "the rock marble is usually found banded into"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Marble",
+    "url": "https://geology.com/rocks/marble.shtml"
+   },
+   {
+    "label": "Britannica — Marble",
+    "url": "https://www.britannica.com/science/marble-rock"
+   },
+   {
+    "label": "LibreTexts (ChemPRIME) — Density of rocks and soils",
+    "url": "https://chem.libretexts.org/Ancillary_Materials/Exemplars_and_Case_Studies/Exemplars/Geology/Density_of_Rocks_and_Soils"
+   },
+   {
+    "label": "Penn State GEOL 615 — Engineering properties of geologic materials",
+    "url": "https://sites.psu.edu/tzhu/files/2016/10/Some-Useful-Numbers-1g1rkuu.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "gneiss",
+  "name": "Gneiss",
+  "family": "metamorphic",
+  "ph": "Soil pH usually 4.5–5.5",
+  "tagline": "Ancient crust taken deep enough to nearly melt, then banded by pressure into light and dark stripes.",
+  "forms": "Rock is buried twenty kilometres or more in the root of a mountain range, at several hundred degrees. Minerals become slightly mobile and migrate into bands of like with like, a process called differentiation. The banding is the record of that migration, often folded into loops where the rock flowed while it was doing it.",
+  "type": "Metamorphic rock (foliated, high grade)",
+  "madeOf": "Quartz and feldspar in the light bands; biotite, hornblende and sometimes garnet or kyanite in the dark bands.",
+  "grain": "Medium to coarse: grains of quartz, feldspar, mica and hornblende are easy to see, sorted into light and dark bands.",
+  "grainClass": "coarse",
+  "colour": "Banded: white, pink or grey bands of quartz and feldspar alternating with black or dark green bands of mica or hornblende.",
+  "luster": "Glassy on the quartz and feldspar; shiny mica flakes catch the light in the dark bands.",
+  "streak": "White to grey; the quartz and feldspar are hard enough to scratch the plate.",
+  "streakHex": "#cfcdc8",
+  "hardness": "About 6 to 7 — mostly quartz and feldspar, so it scratches glass, though the mica in the dark bands is much softer.",
+  "mohs": [
+   6,
+   7
+  ],
+  "density": "About 2.6–2.9 g/cm³, depending on how much dark mineral it holds; Grenville gneiss in the Adirondacks averages about 2.84.",
+  "gcc": [
+   2.6,
+   2.9
+  ],
+  "porosity": "Very low — about 0.5–1.5% — so water moves only through cracks.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Granite and other igneous rock (orthogneiss) or sedimentary rock (paragneiss), taken tens of kilometres deep and hot enough to recrystallise into bands.",
+  "becomes": "Migmatite — part metamorphic, part igneous — if it is heated close to its melting point and partly melts.",
+  "world": "The principal rock over extensive metamorphic terrains, above all the ancient shields at the cores of the continents.",
+  "what": "The deepest-changed of the common metamorphic rocks — a step short of melting. Its minerals have separated into alternating light bands of quartz and feldspar and dark bands of mica and amphibole.",
+  "identify": "Striped, and the stripes are usually contorted rather than straight. Coarse enough to see individual grains. Harder and less flaky than schist, and unlike granite the minerals are segregated rather than evenly speckled.",
+  "wears": "Very slowly, and by breaking rather than dissolving. Glaciers scraped it bare and it has barely healed since.",
+  "above": "Thin, sour, stony soil over rounded bare knobs, with lakes wherever a hollow holds water. Nothing in it neutralises acid, so those lakes are soft, dark, clear and easily acidified by what falls in the rain.",
+  "where": "The Canadian Shield across Quebec, Ontario and Manitoba, the Adirondacks, the Blue Ridge, and the cores of the western ranges.",
+  "lives": "Spruce, pine and birch; blueberry, teaberry and Labrador tea; reindeer lichen on the bare rock. Lake trout and smallmouth bass in the soft water.",
+  "uses": "Dimension stone, aggregate, and — because it is stable and impermeable — one of the crystalline rocks trusted to host deep waste repositories; Finland's is being dug in gneiss.",
+  "soilEffect": "acid",
+  "swatch": "#aaa197",
+  "texture": "banded",
+  "faqs": [
+   {
+    "q": "What is gneiss?",
+    "a": "Gneiss (pronounced 'nice') is a coarse, banded metamorphic rock. Heat and pressure deep in the crust have sorted its minerals into alternating light bands of quartz and feldspar and dark bands of mica or hornblende."
+   },
+   {
+    "q": "How does gneiss form?",
+    "a": "Rock is carried tens of kilometres down, usually where plates collide, and heated and squeezed until its minerals recrystallise and separate into bands. It is high-grade metamorphism, a step beyond schist; any hotter and the rock begins to melt into migmatite."
+   },
+   {
+    "q": "How is gneiss different from granite?",
+    "a": "Granite is speckled, with its minerals evenly mixed; gneiss is striped, with them sorted into bands that are often folded. Many gneisses started as granite — geologists call those orthogneiss — but gneiss can also form from sedimentary rock."
+   },
+   {
+    "q": "What is gneiss used for?",
+    "a": "Crushed stone for roads and construction, and cut and polished stone for floor tiles, facing stone, stair treads, window sills, countertops and monuments."
+   }
+  ],
+  "next": [
+   {
+    "slug": "paragneiss",
+    "note": "gneiss with a sedimentary past"
+   },
+   {
+    "slug": "granite",
+    "note": "what gneiss often started as, and what it nearly becomes"
+   },
+   {
+    "slug": "schist",
+    "note": "the same journey, stopped earlier"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Gneiss",
+    "url": "https://geology.com/rocks/gneiss.shtml"
+   },
+   {
+    "label": "Britannica — Gneiss",
+    "url": "https://www.britannica.com/science/gneiss"
+   },
+   {
+    "label": "Physical Geology (BCcampus) — Classification of metamorphic rocks",
+    "url": "https://opentextbc.ca/geology/chapter/7-2-classification-of-metamorphic-rocks/"
+   },
+   {
+    "label": "GSA Handbook of Physical Constants — Density of rocks (Daly, Manger & Clark)",
+    "url": "https://literature.wolkersdorfer.info/literature/Density%20of%20Rocks.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "paragneiss",
+  "name": "Paragneiss",
+  "family": "metamorphic",
+  "ph": "Soil pH usually 5.0–6.0",
+  "tagline": "Gneiss that used to be mud and sand. The banding is the ghost of the bedding it started with.",
+  "forms": "A pile of marine sediment is caught in a collision between continents, driven down into the crust, and cooked at depth until every mineral in it has regrown. What was bedding becomes banding; what was clay becomes mica and garnet.",
+  "type": "Metamorphic rock (foliated, high grade) — gneiss made from sedimentary rock",
+  "madeOf": "Quartz, feldspar and biotite, often with garnet and sillimanite — minerals typical of gneiss made from mud. Thin marble layers may sit between the bands.",
+  "grain": "Medium to coarse, about 0.25–16 mm, in irregular bands that differ in grain size and minerals.",
+  "grainClass": "coarse",
+  "colour": "Grey, or banded light and dark; garnet shows as rounded pink to red grains.",
+  "luster": "Glassy quartz and feldspar, shiny mica, and glassy lumps of garnet.",
+  "streak": "White to grey.",
+  "streakHex": "#cac7c1",
+  "hardness": "About 6 to 7 in the quartz-and-feldspar bands; the mica-rich bands are much softer.",
+  "mohs": [
+   6,
+   7
+  ],
+  "density": "About 2.6–2.9 g/cm³, like other gneiss.",
+  "gcc": [
+   2.6,
+   2.9
+  ],
+  "porosity": "Very low, as in other gneiss; water follows the cracks.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Sedimentary rock — sandstone, siltstone and mudstone laid down in layers — buried tens of kilometres and completely recrystallised.",
+  "becomes": "Migmatite if heated close to melting; worn down at the surface, sand and clay again.",
+  "world": "In old metamorphic belts on every continent, wherever ancient sedimentary basins were caught in collisions and buried deep.",
+  "what": "Gneiss derived from sedimentary rock rather than igneous — sand and mud laid down in a sea, then buried deep enough to recrystallise completely. Geologists tell it from the composition, which still carries the chemistry of the original sediment.",
+  "identify": "Banded like any gneiss, but with a wider range of minerals — garnet, sillimanite and graphite turn up in paragneiss and rarely in the igneous-derived kind. The bands differ visibly in hardness and etch out unevenly.",
+  "wears": "Slowly and unevenly, since its bands differ in hardness; the softer ones etch out and the rock sheds in slabs.",
+  "above": "Thin, acid, stony soil, but more variable than plain granite country — a calcium-rich band left over from a limey bed can leave a sweeter pocket with a quite different flora in the middle of sour ground.",
+  "where": "The Grenville Province — the Gatineau Hills, the Laurentians, eastern Ontario and the Adirondacks — and the metamorphic belts of the Appalachians.",
+  "lives": "Sugar maple and beech on the deeper pockets, hemlock in the ravines, spruce and pine on the thin ground. The sweeter bands grow ferns and orchids.",
+  "uses": "Aggregate and rough building stone; the graphite and garnet in some bands have been mined.",
+  "soilEffect": "acid",
+  "swatch": "#9d968c",
+  "texture": "banded",
+  "faqs": [
+   {
+    "q": "What is paragneiss?",
+    "a": "Paragneiss is gneiss that started out as sedimentary rock — sandstone, siltstone or mudstone — rather than igneous rock. Buried deep and heated, the sediment recrystallised completely, and its old layers became bands of different minerals and grain sizes."
+   },
+   {
+    "q": "How can you tell paragneiss from other gneiss?",
+    "a": "By its minerals and its variety. Paragneiss often carries garnet, sillimanite and plenty of mica, and its bands differ from one another more than in gneiss made from granite (orthogneiss). Thin marble layers alongside are another clue to a sedimentary past."
+   },
+   {
+    "q": "What minerals are in paragneiss?",
+    "a": "Quartz, feldspar and biotite in most bands, with garnet and sillimanite in others. One Ontario paragneiss belt has alternating garnet-biotite-sillimanite and quartz-feldspar layers, with pink almandine garnet making up 5–10% of the rock."
+   },
+   {
+    "q": "Is there paragneiss around Ottawa and Gatineau?",
+    "a": "Yes — it is part of the Grenville rocks, 1.2 to 1.1 billion years old. An outcrop of gneiss along Highway 307 near Cantley, Quebec, was once interbedded sandstone, siltstone and mudstone, buried tens of kilometres deep before erosion brought it back to the surface."
+   }
+  ],
+  "next": [
+   {
+    "slug": "gneiss",
+    "note": "the same rock type, from igneous parents"
+   },
+   {
+    "slug": "marble",
+    "note": "what the limey beds in the same sequence became"
+   },
+   {
+    "slug": "schist",
+    "note": "what the same mud becomes with less heat"
+   }
+  ],
+  "sources": [
+   {
+    "label": "British Geological Survey — Rock Classification Scheme: paragneiss",
+    "url": "https://webapps.bgs.ac.uk/bgsrcs/rcs_details.cfm?code=PGNSS"
+   },
+   {
+    "label": "Britannica — Gneiss",
+    "url": "https://www.britannica.com/science/gneiss"
+   },
+   {
+    "label": "Ottawa Gatineau Geoheritage Project — Gneiss near Cantley",
+    "url": "https://www.ottawagatineaugeoheritage.ca/subsites/23"
+   },
+   {
+    "label": "Ontario Geological Survey — Mineral Inventory: garnet–sillimanite paragneiss",
+    "url": "https://www.geologyontario.mndm.gov.on.ca/mndmfiles/mdi/data/records/MDI31F11SE00004.html"
+   }
+  ]
+ },
+ {
+  "slug": "schist",
+  "name": "Schist",
+  "family": "metamorphic",
+  "ph": "Soil pH usually 5.0–6.0",
+  "tagline": "Mudstone cooked and squeezed until its clays regrew as mica, all lined up. It splits into sheets and glitters.",
+  "forms": "Mud is buried and heated to a few hundred degrees under directed pressure. Clay minerals break down and mica grows in their place, and because the pressure comes from one direction the new flakes all grow perpendicular to it. Millions of aligned mirrors is why schist shines.",
+  "type": "Metamorphic rock (foliated, medium grade)",
+  "madeOf": "Mica (muscovite, biotite) or chlorite, with quartz and feldspar inherited from the parent rock, and often garnet, kyanite or staurolite.",
+  "grain": "Medium to coarse: flat flakes of mica or chlorite large enough to see, all lined up, often with bigger crystals of garnet, kyanite or staurolite.",
+  "grainClass": "medium",
+  "colour": "Silvery to dark grey or brown with mica; green in chlorite schist; often dotted with dark red garnets.",
+  "luster": "Glittery to pearly — the aligned mica flakes reflect light like tiny mirrors.",
+  "streak": "White to pale grey, often shedding tiny glittering flakes of mica.",
+  "streakHex": "#cdcdc8",
+  "hardness": "No single figure fits. The mica that makes up much of it is only 2½–3 and a knife scratches it, while its quartz grains (7) will scratch glass.",
+  "density": "About 2.7–2.9 g/cm³; New England schists average 2.76–2.82.",
+  "gcc": [
+   2.7,
+   2.9
+  ],
+  "porosity": "Low; water moves along its splitting planes and cracks rather than through the rock.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Usually shale or mudstone, cooked past the slate and phyllite stages; basalt can become green chlorite schist.",
+  "becomes": "Gneiss, with more heat and pressure.",
+  "world": "In mountain belts worldwide, wherever mud-rich rock was caught where plates collide.",
+  "what": "A strongly foliated metamorphic rock in which platy minerals — mica, chlorite, talc — have grown large enough to see and all point the same way.",
+  "identify": "Glittery on a broken surface, and it splits along the mica planes into wavy sheets rather than flat ones. Often carries garnets as dark red lumps standing proud of the surface.",
+  "wears": "Along its own grain, shedding flakes and plates that build loose, sliding slopes.",
+  "above": "Deeper and richer soil than granite gives, usually acid but genuinely fertile, on slopes that move. Good forest ground.",
+  "where": "The Appalachians from Georgia to Vermont, the Coast Mountains of British Columbia, and the Manhattan schist that New York's towers are founded on.",
+  "lives": "Rich cove hardwood forest — the deepest, most diverse temperate forest in North America grows on Appalachian schist and its neighbours.",
+  "uses": "Flagstone and rough walling, and a source of talc, garnet abrasive and mica.",
+  "soilEffect": "acid",
+  "swatch": "#9a978d",
+  "texture": "sheeted",
+  "faqs": [
+   {
+    "q": "What is schist?",
+    "a": "Schist is a metamorphic rock full of flat, platy minerals — usually mica — big enough to see and all lined up in one direction. That alignment makes it glitter and split into thin, wavy slabs, a property called schistosity."
+   },
+   {
+    "q": "How does schist form?",
+    "a": "Shale or mudstone is buried and heated under directed pressure where plates collide. Its clay minerals turn into mica, which grows lined up at right angles to the squeeze. It passes through slate and phyllite on the way; with more heat, schist becomes gneiss."
+   },
+   {
+    "q": "Why does schist sparkle?",
+    "a": "Because it is packed with mica flakes that all face the same way, each one reflecting light like a tiny mirror. Tilt a piece in the sun and a whole face flashes at once."
+   },
+   {
+    "q": "What is schist used for?",
+    "a": "Not much as building stone, because it is weak along its layers. It matters more for what grows in it: schist is a host rock for gemstones such as garnet and emerald."
+   }
+  ],
+  "next": [
+   {
+    "slug": "slate",
+    "note": "the same mud, one step less cooked"
+   },
+   {
+    "slug": "gneiss",
+    "note": "the same mud, one step further"
+   },
+   {
+    "slug": "shale",
+    "note": "where it started"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Schist",
+    "url": "https://geology.com/rocks/schist.shtml"
+   },
+   {
+    "label": "Physical Geology (BCcampus) — Classification of metamorphic rocks",
+    "url": "https://opentextbc.ca/geology/chapter/7-2-classification-of-metamorphic-rocks/"
+   },
+   {
+    "label": "GSA Handbook of Physical Constants — Density of rocks (Daly, Manger & Clark)",
+    "url": "https://literature.wolkersdorfer.info/literature/Density%20of%20Rocks.pdf"
+   },
+   {
+    "label": "geology.com — Muscovite",
+    "url": "https://geology.com/minerals/muscovite.shtml"
+   }
+  ]
+ },
+ {
+  "slug": "slate",
+  "name": "Slate",
+  "family": "metamorphic",
+  "ph": "Soil pH usually 4.5–5.5",
+  "tagline": "Shale squeezed hard enough to grow new minerals in a single plane — which is why it has roofed houses for centuries.",
+  "forms": "Shale is compressed sideways during mountain building. New mica grows perpendicular to the squeeze, all in one plane, and the rock acquires a splitting direction that can cut across the original layers at any angle.",
+  "type": "Metamorphic rock (foliated, low grade)",
+  "madeOf": "In typical roofing slate: fine white mica (sericite) 40–50%, chlorite 20–28% and quartz 23–35%, with minor feldspar, pyrite, hematite or carbonate.",
+  "grain": "Very fine: its mica and chlorite flakes are microscopic, so it looks smooth and even — but they all lie in one plane, giving it a perfect splitting direction (cleavage).",
+  "grainClass": "fine",
+  "colour": "Mostly grey, light to dark and blue-black; also green, red, purple, black and brown.",
+  "luster": "Dull to faintly silky on the splitting faces — less sheen than phyllite.",
+  "streak": "Light to dark grey.",
+  "streakHex": "#8e8f8d",
+  "hardness": "No single figure fits: its mica and chlorite are soft (mica is only about 2½–3), while the quartz that makes up a quarter to a third of it is 7.",
+  "density": "About 2.7–2.85 g/cm³; Vermont slates average 2.81.",
+  "gcc": [
+   2.7,
+   2.85
+  ],
+  "porosity": "Very low — about 0.1–0.5% — and good roofing slate absorbs only a few tenths of a percent of its weight in water.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Shale or mudstone, squeezed and gently heated during mountain building (low-grade metamorphism).",
+  "becomes": "Phyllite, then schist, as the heat rises.",
+  "world": "Quarried for roofing across Europe, from the blue-black slates of Germany to the red, hematite-rich slates of Penrhyn in Wales.",
+  "what": "Fine-grained metamorphic rock with a perfect cleavage that has nothing to do with the bedding it inherited. It splits into flat sheets in whatever direction the pressure ran.",
+  "identify": "Dull grey, green or purple, splits into flat plates that ring when tapped, and feels smooth and cold. Look for the original bedding running at an angle to the splitting plane.",
+  "wears": "Into thin flat chips, then into heavy clay.",
+  "above": "Cold, wet, acid clay soil on steep ground. Good ground for moss and conifers, awkward for a garden.",
+  "where": "The slate belt of Vermont and New York, the Appalachian ridge and valley, and the Eastern Townships of Quebec.",
+  "lives": "Hemlock and spruce, moss and fern; the wet acid soil suits very little else.",
+  "uses": "Roofing, flooring, billiard tables and school blackboards — all of them because it splits flat and stays flat.",
+  "soilEffect": "acid",
+  "swatch": "#4d5560",
+  "texture": "sheeted",
+  "faqs": [
+   {
+    "q": "What is slate?",
+    "a": "Slate is a fine-grained metamorphic rock made from shale or mudstone that was squeezed and gently heated. New microscopic mica grew all lined up in one direction, so the rock splits into thin, flat, durable sheets."
+   },
+   {
+    "q": "How does slate form?",
+    "a": "Shale or mudstone is compressed during mountain building. Its clay recrystallises into tiny flakes of mica and chlorite that grow at right angles to the squeeze, giving the rock a splitting direction — cleavage — that can cut right across its original bedding."
+   },
+   {
+    "q": "What is slate used for?",
+    "a": "Roofing, above all — it splits thin, stays flat and absorbs very little water. It has also made flooring, paving, chalkboards, school writing slates, billiard tables, gravestones and whetstones."
+   },
+   {
+    "q": "Is slate waterproof?",
+    "a": "Very nearly. Slate has almost no pore space, and good roofing slate soaks up only a few tenths of a percent of its weight in water; poorer slate takes up more than 1%, which is why quality matters on a roof."
+   }
+  ],
+  "next": [
+   {
+    "slug": "shale",
+    "note": "what slate was before it was squeezed"
+   },
+   {
+    "slug": "schist",
+    "note": "what slate becomes with more heat"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Slate",
+    "url": "https://geology.com/rocks/slate.shtml"
+   },
+   {
+    "label": "Mainz Geoscientific Report 26 — Investigations on roofing slates (Wagner et al.)",
+    "url": "https://www.uni-trier.de/fileadmin/fb6/prof/GEO/baumann/pdf_files/slate.pdf"
+   },
+   {
+    "label": "GSA Handbook of Physical Constants — Density of rocks (Daly, Manger & Clark)",
+    "url": "https://literature.wolkersdorfer.info/literature/Density%20of%20Rocks.pdf"
+   },
+   {
+    "label": "Physical Geology (BCcampus) — Classification of metamorphic rocks",
+    "url": "https://opentextbc.ca/geology/chapter/7-2-classification-of-metamorphic-rocks/"
+   }
+  ]
+ },
+ {
+  "slug": "quartzite",
+  "name": "Quartzite",
+  "family": "metamorphic",
+  "ph": "Soil pH usually 4.0–5.0",
+  "tagline": "Sandstone cooked until the grains fused into one mass. Nearly pure silica, and one of the hardest rocks there is.",
+  "forms": "Quartz sandstone is heated and compressed. Quartz does not turn into anything else — there is nothing for it to become — so instead the grains simply weld, closing every pore until the rock is solid silica.",
+  "type": "Metamorphic rock (non-foliated)",
+  "madeOf": "Almost entirely quartz — some deposits are over 98% silica — with minor mica, iron oxides or feldspar.",
+  "grain": "Sugary to glassy: the original sand grains have welded so tightly that a break runs through them, not around them.",
+  "grainClass": "medium",
+  "colour": "White to grey; pink, red or purple where iron-stained, and occasionally yellow, orange, brown, green or blue.",
+  "luster": "Glassy (vitreous), often sugary on a fresh break.",
+  "streak": "None — quartz is harder than the streak plate and just scratches it.",
+  "streakHex": "#f7f7f5",
+  "hardness": "About 7, the hardness of quartz. It scratches glass and steel.",
+  "mohs": [
+   7,
+   7
+  ],
+  "density": "About 2.6–2.7 g/cm³ — essentially solid quartz, which is 2.65.",
+  "gcc": [
+   2.6,
+   2.7
+  ],
+  "porosity": "Almost none: about 0.1–0.5%.",
+  "soak": 0,
+  "acid": "No — there is no calcite in it to react.",
+  "fizz": "no",
+  "formsFrom": "Quartz-rich sandstone, heated and squeezed until its grains recrystallised into one another.",
+  "becomes": "Very little. It resists weathering and stands up as ridges, eventually breaking into blocks and quartz sand.",
+  "world": "In folded mountain ranges worldwide, often forming their crests.",
+  "what": "Metamorphosed sandstone in which the quartz grains have recrystallised into each other so completely that a break runs through the grains rather than around them.",
+  "identify": "Glassy on a fresh break, and the break goes straight through the grains rather than around them, which is the test that separates it from sandstone. Usually white or pale pink, and it will scratch glass.",
+  "wears": "Hardly at all. It resists everything, so it stands as ridges and white scree while the country around it wears down.",
+  "above": "Almost no soil, very sour, very poor. Barrens, stunted pine, lichen and bare white rock.",
+  "where": "The Baraboo Hills of Wisconsin, the Uinta Mountains, the Sioux quartzite of Minnesota and South Dakota, and the ridges of the Appalachians.",
+  "lives": "Pitch pine, scrub oak, blueberry and lichen — a barrens flora adapted to almost nothing.",
+  "uses": "Railway ballast, abrasives, refractory silica brick, and durable decorative stone.",
+  "soilEffect": "acid",
+  "swatch": "#ecdcd6",
+  "texture": "sugary",
+  "faqs": [
+   {
+    "q": "What is quartzite?",
+    "a": "Quartzite is a metamorphic rock made almost entirely of quartz. It forms when quartz-rich sandstone is heated and squeezed until its sand grains grow into one another, closing the gaps and making one of the hardest, toughest common rocks."
+   },
+   {
+    "q": "How can you tell quartzite from sandstone?",
+    "a": "Break it. In sandstone the break goes around the grains and the surface feels gritty; in quartzite it goes straight through them, leaving a smooth, glassy surface. Quartzite also scratches glass easily."
+   },
+   {
+    "q": "How hard is quartzite?",
+    "a": "About 7 on the Mohs scale, the hardness of quartz itself. It scratches glass and steel, which is why it wears so well as countertops and floor tiles."
+   },
+   {
+    "q": "What is quartzite used for?",
+    "a": "Countertops, floor tiles and decorative stone; crushed stone for construction; and, where it is very pure, a raw material for glass and silicon metal. People made stone tools from it long before metal."
+   }
+  ],
+  "next": [
+   {
+    "slug": "sandstone",
+    "note": "what quartzite was before it fused"
+   },
+   {
+    "slug": "marble",
+    "note": "the same process applied to limestone instead"
+   }
+  ],
+  "sources": [
+   {
+    "label": "geology.com — Quartzite",
+    "url": "https://geology.com/rocks/quartzite.shtml"
+   },
+   {
+    "label": "geology.com — Quartz",
+    "url": "https://geology.com/minerals/quartz.shtml"
+   },
+   {
+    "label": "Penn State GEOL 615 — Engineering properties of geologic materials",
+    "url": "https://sites.psu.edu/tzhu/files/2016/10/Some-Useful-Numbers-1g1rkuu.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "metamorphic-rock",
+  "name": "Metamorphic rock",
+  "family": "metamorphic",
+  "ph": "Soil pH 4.5–6.0, depending on the member",
+  "tagline": "Older rock changed in place by heat and pressure, deep in the crust, without ever melting.",
+  "forms": "Burial, mountain building or the heat of a nearby intrusion pushes rock past the point where its minerals are stable. They break down and regrow as forms that are stable at the new conditions, usually lining up with whatever direction the pressure came from.",
+  "type": "Metamorphic rock — one of the three great rock families",
+  "madeOf": "Depends on the parent: calcite in marble, quartz in quartzite; mica, quartz, feldspar, garnet and amphibole in schist and gneiss.",
+  "grain": "From microscopic (slate) to coarse (gneiss, marble). Many are foliated, with minerals lined up in sheets or bands; others, like marble and quartzite, are interlocking crystals with no direction.",
+  "grainClass": "mixed",
+  "colour": "Inherited from the parent rock: white marble and quartzite, grey slate, glittering schist, banded gneiss.",
+  "luster": "Often shinier than the parent rock: mica gives schist and phyllite their sheen, and recrystallised calcite and quartz glitter.",
+  "streak": "Varies with the rock, from white (marble) to grey (slate); quartz-rich rocks just scratch the plate.",
+  "streakHex": "#c4c2bc",
+  "hardness": "From about 3 (marble) to 7 (quartzite); foliated rocks are often soft along their mica layers.",
+  "density": "Varies too much for one figure — mostly about 2.6 to 3.0 g/cm³, and metamorphism generally leaves a rock denser and more compact than it was.",
+  "porosity": "Generally very low — metamorphism squeezes out pore space — so water moves mainly through cracks.",
+  "soak": 0,
+  "acid": "In places — only where calcite is part of the mix.",
+  "fizz": "some",
+  "formsFrom": "Any older rock — igneous, sedimentary or metamorphic — changed by heat, pressure or hot fluids without melting.",
+  "becomes": "Migmatite if it partly melts, and magma if it melts entirely; sediment once it is worn down at the surface.",
+  "world": "In the cores of mountain belts and the ancient shields of every continent.",
+  "what": "The family of rocks whose minerals regrew in the solid state. Some maps say only this much, which still tells you the rock will be hard, probably striped or sheeted, and will not hold fossils.",
+  "identify": "Minerals aligned into sheets, stripes or a visible grain, with no bedding and no fossils. Generally harder than the rock it came from.",
+  "wears": "Slowly, and along whatever grain the squeezing gave it.",
+  "above": "Generally thin, stony soil on hard ground, usually acid, with lakes wherever a hollow holds water.",
+  "where": "The Canadian Shield, the Appalachians, and the cores of every western range.",
+  "lives": "Conifer and hardwood forest on thin soil, and acid-water lakes — unless a limey band runs through, in which case everything changes for its width.",
+  "uses": "Building stone, roofing, aggregate and abrasives.",
+  "soilEffect": "acid",
+  "swatch": "#a7a198",
+  "texture": "banded",
+  "faqs": [
+   {
+    "q": "What is metamorphic rock?",
+    "a": "Rock that has been changed by heat, pressure or hot mineral-rich fluids — usually deep underground or where plates collide — without melting. Its minerals regrow in new forms, making a denser, more compact rock."
+   },
+   {
+    "q": "How do metamorphic rocks form?",
+    "a": "Two main ways. In regional metamorphism, rock is buried deep in a colliding mountain belt and squeezed and heated. In contact metamorphism, hot magma bakes the rock beside it, with little pressure, making rocks such as hornfels."
+   },
+   {
+    "q": "What is the difference between foliated and non-foliated metamorphic rock?",
+    "a": "Foliated rocks have minerals lined up in sheets or bands because pressure squeezed them — slate, phyllite, schist, gneiss. Non-foliated rocks have no such direction, usually because their minerals do not grow as flat crystals — marble and quartzite."
+   },
+   {
+    "q": "What are examples of metamorphic rocks and what they come from?",
+    "a": "Shale becomes slate, then phyllite, schist and gneiss as the heat rises. Sandstone becomes quartzite. Limestone and dolostone become marble. Basalt becomes chlorite schist or amphibolite. Granite becomes gneiss."
+   }
+  ],
+  "next": [
+   {
+    "slug": "gneiss",
+    "note": "the deepest-changed and most banded"
+   },
+   {
+    "slug": "schist",
+    "note": "the glittering, sheet-splitting one"
+   },
+   {
+    "slug": "marble",
+    "note": "the one that sweetens the soil instead of souring it"
+   }
+  ],
+  "sources": [
+   {
+    "label": "USGS — What are metamorphic rocks?",
+    "url": "https://www.usgs.gov/faqs/what-are-metamorphic-rocks"
+   },
+   {
+    "label": "geology.com — Metamorphic rocks",
+    "url": "https://geology.com/rocks/metamorphic-rocks.shtml"
+   },
+   {
+    "label": "Physical Geology (BCcampus) — Classification of metamorphic rocks",
+    "url": "https://opentextbc.ca/geology/chapter/7-2-classification-of-metamorphic-rocks/"
+   }
+  ]
+ },
+ {
+  "slug": "river-deposits",
+  "name": "River deposits",
+  "family": "deposit",
+  "ph": "Soil pH 6.0–7.5, inherited from whatever is upstream",
+  "tagline": "Sand, silt and gravel dropped by a river and still being dropped — the youngest ground there is, and the most fertile.",
+  "forms": "A river carries what its current can lift and drops it the moment the current slackens — on the inside of a bend, across a floodplain in flood, or where it meets a lake or the sea. Every flood adds a layer.",
+  "type": "Surficial deposit — alluvium (loose river sediment)",
+  "madeOf": "Whatever the river has eroded upstream — commonly quartz and feldspar sand, pebbles of local rock, and clay.",
+  "grain": "Sorted by the current: gravel and sand in channels and bars, finer sand and silt spread over the floodplain, clay in the backwaters. Grains are rounded by the journey and laid in visible layers.",
+  "grainClass": "loose",
+  "colour": "Browns, greys and tans, taking the colour of whatever rock lies upstream; darker where plant matter has built up on the floodplain.",
+  "luster": "Not a rock, so no luster of its own; quartz sand grains glint.",
+  "streak": "Not a streak material — its mud smears in the colour of its clay, usually grey to brown.",
+  "streakHex": "#9c8f7a",
+  "hardness": "Not rock: each pebble has its own hardness, but the deposit itself digs with a spade.",
+  "density": "Varies with grain size, packing and water; there is no single figure for loose sediment.",
+  "porosity": "High: sand is typically 20–35% open space, gravel 30–40%, silt 35–50% and clay 33–60% — but water flows easily only through the sand and gravel.",
+  "soak": 2,
+  "acid": "In places — only where calcite is part of the mix.",
+  "fizz": "some",
+  "formsFrom": "Rock and soil weathered and eroded upstream, carried by the river and dropped where the current slows.",
+  "becomes": "Conglomerate, sandstone, siltstone and shale if it is ever buried and cemented; until then, the river keeps picking it up and setting it down.",
+  "howLong": "Being laid down now: every flood can add a layer, and most alluvium is geologically very young.",
+  "world": "Along every river and in every delta and floodplain on Earth.",
+  "what": "Alluvium: loose sediment laid down by moving water on a floodplain, a delta or a bar. Some of it is decades old rather than millions of years.",
+  "identify": "Loose, sorted by size into visible layers, rounded grains, and flat ground beside a river. Dig a hole and it does not stop.",
+  "wears": "It is already weathered; that is what it is. The river sorts it, moves it, and puts it down somewhere else.",
+  "above": "The deepest, most fertile and most level soil in any landscape, which is why floodplains are farmed and towns get built on them. Also the ground that floods, and the ground that liquefies in an earthquake.",
+  "where": "Every river valley, the Mississippi and Fraser deltas, the Central Valley of California, and the flats every prairie town sits on.",
+  "lives": "Silver maple, cottonwood, willow and ostrich fern; the richest foraging ground in most regions, and the first to be ploughed.",
+  "uses": "Farmland, and the sand and gravel that every road and building is made of.",
+  "soilEffect": "neutral",
+  "swatch": "#a8987c",
+  "texture": "pebbly",
+  "faqs": [
+   {
+    "q": "What are deposits of sand, gravel and soil left by rivers called?",
+    "a": "Alluvium, or alluvial deposits: clay, silt, sand and gravel laid down by running water in stream beds, on floodplains, in deltas and in fans at the foot of mountains. It is geologically young, and on active floodplains it is still being laid down."
+   },
+   {
+    "q": "Where do rivers drop sand and gravel?",
+    "a": "Wherever the current slows: on the inside of bends, on bars in the channel, across the floodplain when the river overtops its banks, and where it enters a lake or the sea to build a delta. Heavy gravel settles first; fine silt and clay last."
+   },
+   {
+    "q": "Do river deposits hold water?",
+    "a": "Yes. Sand and gravel are typically 20–40% open space and let water flow freely, so wells in them often yield well. Floodplain silt and clay hold even more water by volume, but give it up slowly."
+   }
+  ],
+  "next": [
+   {
+    "slug": "glacial-outwash",
+    "note": "the same sorting, done by meltwater"
+   },
+   {
+    "slug": "glacial-till",
+    "note": "the unsorted alternative the ice left"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Natural Resources Canada — Glossary: alluvium",
+    "url": "https://geochem.nrcan.gc.ca/cdogs/content/kwd/kwd020061_e.htm"
+   },
+   {
+    "label": "Penn State GEOL 615 — Engineering properties of geologic materials",
+    "url": "https://sites.psu.edu/tzhu/files/2016/10/Some-Useful-Numbers-1g1rkuu.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "glacial-till",
+  "name": "Glacial till",
+  "family": "deposit",
+  "ph": "Soil pH 5.5–7.5, inherited from wherever the ice came from",
+  "tagline": "Everything a glacier carried, dumped where it melted — clay, sand, gravel and boulders, mixed with no sorting at all.",
+  "forms": "An ice sheet grinds up whatever it crosses and carries the debris frozen into its base. When it melts, all of it drops at once, in place. Where the ice was also pressing down, the result is compacted into a dense layer that has barely loosened since.",
+  "type": "Surficial deposit — sediment dropped directly by glacial ice",
+  "madeOf": "Anything the ice crossed: ground-up local bedrock mixed with stones and boulders (erratics) carried from outcrops as much as hundreds of kilometres away.",
+  "grain": "Unsorted: clay, silt, sand, gravel and boulders all mixed together with no layering, often with a high share of silt and clay. Stones range from angular to partly rounded.",
+  "grainClass": "loose",
+  "colour": "Grey, brown or buff, taking its colour from the rock the ice ground up.",
+  "luster": "Not a rock, so no luster of its own.",
+  "streak": "Not a streak material; its clay smears grey to brown.",
+  "streakHex": "#8f8676",
+  "hardness": "Not rock. Lodgement till, packed down under moving ice, is very dense and can be hard to dig; ablation till is looser.",
+  "density": "Varies; lodgement till is very dense for a loose deposit, while ablation till is looser.",
+  "porosity": "About 10–20% open space, but the fine clay and silt clog the pores, so till is only slightly permeable — a domestic well in till may yield only about 4–38 L (1–10 US gallons) a minute.",
+  "soak": 1,
+  "acid": "In places — only where calcite is part of the mix.",
+  "fizz": "some",
+  "formsFrom": "Bedrock and older sediment scraped up, ground and carried by an ice sheet or glacier, then dropped as the ice moved or melted.",
+  "becomes": "Soil at the surface; if it is ever buried and hardened, a sedimentary rock called tillite.",
+  "howLong": "Most surface till in Canada and the northern US was left by the last ice sheet, which reached its farthest south about 23,000 years ago — building the moraines of Long Island and Cape Cod — before melting back.",
+  "world": "Wherever ice sheets or glaciers have been, and below every glacier melting today.",
+  "what": "Sediment released directly from ice rather than from water. Because ice carries everything at the same speed, nothing gets sorted: a boulder sits in clay beside a pebble.",
+  "identify": "Unsorted — that is the whole test. Mixed grain sizes with no layering, angular and rounded fragments together, and boulders of rock that does not outcrop anywhere nearby.",
+  "wears": "Compacts rather than drains. The fine fraction packs into a hardpan that both roots and water struggle through.",
+  "above": "Stony, uneven, often poorly drained ground, with boulders that keep surfacing in ploughed fields. Its chemistry comes from wherever the ice was scraping, so it can be sweet ground sitting on sour bedrock, or the reverse.",
+  "where": "Everywhere north of the last ice limit — nearly all of Canada (parts of the Yukon were never glaciated), New England, the Great Lakes states, and the northern plains.",
+  "lives": "Mixed forest and pasture; the wet hollows in it hold the sedge meadows and alder swamps that much of the north's wildlife depends on.",
+  "uses": "It is what most of northern North America farms and builds on, whether or not anyone chose it.",
+  "soilEffect": "neutral",
+  "swatch": "#8f8676",
+  "texture": "pebbly",
+  "faqs": [
+   {
+    "q": "What is glacial till?",
+    "a": "Till is sediment dropped directly by glacial ice, without being sorted by water. It is a jumble of clay, silt, sand, gravel and boulders mixed together with no layering, and it blankets much of Canada and the northern US."
+   },
+   {
+    "q": "How does glacial till form?",
+    "a": "An ice sheet scrapes and grinds the ground it crosses and carries the debris in and beneath the ice. Some is plastered down under the moving ice as dense lodgement till; the rest drops loosely as the ice melts, as ablation till."
+   },
+   {
+    "q": "How can you tell till from outwash?",
+    "a": "Till is unsorted: boulders sit in clay beside pebbles, with no layers. Outwash was sorted by meltwater: clean, rounded sand and gravel in distinct beds. A gravel pit or road cut usually makes the difference obvious."
+   },
+   {
+    "q": "Where is glacial till found?",
+    "a": "Across nearly all the land the ice sheets covered: most of Canada, New England, the Great Lakes states and the northern plains. Not everywhere, though — parts of the Yukon and Alaska stayed ice-free, and so did the Driftless Area of Wisconsin, Iowa and Minnesota."
+   }
+  ],
+  "next": [
+   {
+    "slug": "glacial-outwash",
+    "note": "the part meltwater sorted before dropping"
+   },
+   {
+    "slug": "river-deposits",
+    "note": "the same idea, running water instead of ice"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Physical Geology (BCcampus) — Glacial deposition",
+    "url": "https://opentextbc.ca/geology/chapter/16-4-glacial-deposition/"
+   },
+   {
+    "label": "Maine Geological Survey — Surficial geology glossary",
+    "url": "https://www.maine.gov/DACF/mgs/pubs/mapuse/surficial/surf-glossary.htm"
+   },
+   {
+    "label": "USGS Ground Water Atlas — Glacial deposits of the upper Midwest",
+    "url": "https://pubs.usgs.gov/ha/ha730/ch_j/J-text2.html"
+   },
+   {
+    "label": "Wikipedia — Till",
+    "url": "https://en.wikipedia.org/wiki/Till"
+   },
+   {
+    "label": "Wikipedia — Cape Cod",
+    "url": "https://en.wikipedia.org/wiki/Cape_Cod"
+   }
+  ]
+ },
+ {
+  "slug": "glacial-outwash",
+  "name": "Glacial outwash",
+  "family": "deposit",
+  "ph": "Soil pH 5.0–6.5",
+  "tagline": "Sand and gravel sorted by meltwater rivers pouring off a retreating ice sheet — droughty ground, and excellent aquifers.",
+  "forms": "Rivers of meltwater braid away from the ice front, carrying colossal sediment loads. They drop gravel first, then sand, further out, building flat terraces and long ridges where a stream ran in an ice tunnel.",
+  "type": "Surficial deposit — sand and gravel laid down by glacial meltwater",
+  "madeOf": "Mostly quartz and feldspar sand, with pebbles of whatever rock the ice carried.",
+  "grain": "Sorted and layered sand and gravel with moderately well-rounded grains; cross-bedding shows which way the meltwater ran.",
+  "grainClass": "loose",
+  "colour": "Tan, grey or brown sand, with gravel in the mixed colours of whatever rock the ice carried.",
+  "luster": "Not a rock, so no luster of its own; quartz sand grains glint.",
+  "streak": "Not a streak material.",
+  "streakHex": "#b3a58c",
+  "hardness": "Not rock: loose sand and gravel you can dig with a shovel.",
+  "density": "Varies with grain size and packing; there is no single figure for loose sediment.",
+  "porosity": "High: sand is typically 20–35% open space, gravel 30–40%, and water moves through both freely.",
+  "soak": 2,
+  "acid": "In places — only where calcite is part of the mix.",
+  "fizz": "some",
+  "formsFrom": "Debris released from melting glacial ice, washed out and sorted by meltwater streams in front of the glacier.",
+  "becomes": "Sandstone and conglomerate if it is ever buried and cemented; for now, dry, sandy soil.",
+  "howLong": "Laid down as the last ice sheets melted back: Cape Cod's outwash plains and moraines are about 16,000 to 20,000 years old.",
+  "world": "In front of every former ice sheet and glacier, and forming today wherever glaciers are melting.",
+  "what": "The sorted counterpart to till. Meltwater had energy and sorting power that ice did not, so it separated the material by size and laid it in beds across broad flat plains.",
+  "identify": "Well-sorted, rounded, layered sand and gravel, on flat terraces or in long sinuous ridges. Pits dug into it stand in clean horizontal beds.",
+  "wears": "Barely — it is loose already, and water moves through it freely.",
+  "above": "Droughty, sharply drained, low-fertility ground that warms early in spring. Excellent aquifers beneath, and the flat terraces make the easiest building land in glaciated country.",
+  "where": "The outwash plains of Cape Cod and Long Island, the sand plains of Ontario and Quebec, and the outwash aprons along every northern valley.",
+  "lives": "Pitch pine, jack pine and oak barrens, blueberry, and the sandy openings that ground-nesting birds and native bees need.",
+  "uses": "The continent's sand and gravel supply, and a large share of its municipal well water.",
+  "soilEffect": "neutral",
+  "swatch": "#bca98a",
+  "texture": "pebbly",
+  "faqs": [
+   {
+    "q": "What is glacial outwash?",
+    "a": "Outwash is sand and gravel washed out of a melting glacier and laid down by meltwater streams in front of it. Unlike till, it has been sorted by water, so it comes in clean, rounded, layered beds."
+   },
+   {
+    "q": "How does glacial outwash form?",
+    "a": "Meltwater pours off the front of a glacier in streams loaded with sediment. As they spread out and slow, they drop sand and gravel in broad, flat outwash plains. Streams that flowed in tunnels in or under the ice leave long, winding ridges called eskers."
+   },
+   {
+    "q": "Why is outwash a good aquifer?",
+    "a": "Because it is clean, sorted sand and gravel — about 20–40% open space, with pores big enough for water to flow freely. In glaciated country, outwash is a primary source of well water and supplies much of the steady base flow of streams."
+   },
+   {
+    "q": "Where is glacial outwash found?",
+    "a": "In front of every former ice margin. Much of Cape Cod and the south shore of Long Island are outwash plains, laid down beside the moraines that mark the edge of the last ice sheet, roughly 16,000 to 20,000 years ago."
+   }
+  ],
+  "next": [
+   {
+    "slug": "glacial-till",
+    "note": "the unsorted material the ice dropped directly"
+   },
+   {
+    "slug": "river-deposits",
+    "note": "the same process, running today"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Physical Geology (BCcampus) — Glacial deposition",
+    "url": "https://opentextbc.ca/geology/chapter/16-4-glacial-deposition/"
+   },
+   {
+    "label": "Maine Geological Survey — Surficial geology glossary",
+    "url": "https://www.maine.gov/DACF/mgs/pubs/mapuse/surficial/surf-glossary.htm"
+   },
+   {
+    "label": "USGS Ground Water Atlas — Glacial deposits of the upper Midwest",
+    "url": "https://pubs.usgs.gov/ha/ha730/ch_j/J-text2.html"
+   },
+   {
+    "label": "Wikipedia — Cape Cod",
+    "url": "https://en.wikipedia.org/wiki/Cape_Cod"
+   }
+  ]
+ },
+ {
+  "slug": "marine-clay",
+  "name": "Marine clay",
+  "family": "deposit",
+  "ph": "Soil pH depends on the clay's lime content",
+  "tagline": "Clay and silt that settled on the floor of a sea left behind by the melting ice — farmland where it drains, and prone to landslides where it is disturbed.",
+  "forms": "Where the weight of the ice sheet had pressed the land down, the sea followed the retreating ice onto the lowlands. Fine rock flour carried out by meltwater settled slowly onto the sea floor. In eastern Canada this was the Champlain Sea, which covered the St. Lawrence Lowland and reached up the Ottawa Valley about 12,000 to 10,000 years ago.",
+  "type": "Surficial deposit — fine marine sediment (clay and silt)",
+  "madeOf": "Clayey silt: the Geological Survey of Canada describes the Champlain Sea's Leda clay as composed of glacially ground, non-clay minerals. The map description of the Ottawa-area unit adds minor laminae of fine sand.",
+  "grain": "Clay and silt: grains too small to see, smooth to the touch. Fine sand turns up as thin laminae in places.",
+  "grainClass": "fine",
+  "colour": "Grey tones dominate in the Ottawa-basin units described by the Geological Survey of Canada (light grey in some, dark grey in others), with reddish layers more common in the Ottawa valley than in the Gatineau valley (Paper 85-21). The map description of the Ottawa-area unit lists many more, from pink and red-brown to olive, blue-grey and black.",
+  "luster": "Dull and earthy.",
+  "streak": "Not a streak material.",
+  "streakHex": "#8e8f8b",
+  "hardness": "Not rock. The map description of the Ottawa-area unit reads: stiff; plastic and slippery where damp, tough and intensely fractured where dry.",
+  "density": "Varies with water content; there is no single figure for a loose sediment.",
+  "porosity": "Holds a lot of water in a loose structure (Geological Survey of Canada), but the pores are so fine that water moves through it very slowly.",
+  "soak": 0,
+  "acid": "Often a little: the map description of the Ottawa-area unit says it is generally calcareous, meaning it contains lime, which fizzes in acid.",
+  "fizz": "some",
+  "formsFrom": "Rock flour and other fine sediment carried by glacial meltwater into a sea and settled on its floor.",
+  "becomes": "Shale or mudstone, if it were ever buried and compacted; for now, farm soil and the banks of river valleys.",
+  "howLong": "The Champlain Sea lasted roughly 2,000 years, about 12,000 to 10,000 years ago (The Canadian Encyclopedia).",
+  "world": "The St. Lawrence Lowland and the Ottawa Valley, the area the Champlain Sea covered: about 55,000 km² between Quebec City and Brockville and up the Ottawa River valley (The Canadian Encyclopedia).",
+  "what": "Clay and silt that settled on the floor of the sea that flooded the lowlands as the ice melted. In the Ottawa and St. Lawrence valleys it is the Champlain Sea's Leda clay, which the Geological Survey of Canada describes as a clayey silt of glacially ground, non-clay minerals.",
+  "identify": "Smooth, fine and sticky when wet, hard and cracked into blocks when dry. A moist pinch rolled between finger and thumb makes a ribbon. Shells of salt- or brackish-water molluscs turn up in places, which is how geologists know it was laid down in the sea.",
+  "wears": "It is already fine sediment, so it does not weather like rock. Streams cut gullies in it, and the map description of the Ottawa-area unit calls it very susceptible to landslide activity. Disturbed sensitive clay can lose its strength and flow like a liquid (Geological Survey of Canada).",
+  "above": "Heavy, fine-grained ground: stiff, plastic and slippery where damp and cracked into blocks where dry (map description). Properly drained, Champlain Sea clay makes the best farmland in Quebec (The Canadian Encyclopedia). Beside rivers and cuts it can slide.",
+  "where": "The St. Lawrence Lowland and the Ottawa Valley, in the area the Champlain Sea covered: from Quebec City to Brockville and up the Ottawa River valley.",
+  "lives": "Farm crops, where it is drained. The shells of salt- and brackish-water molluscs are common in the clay itself (map description).",
+  "uses": "Farmland, where it is drained. It is also the ground engineers have to plan around, because disturbed sensitive clay can lose strength and flow.",
+  "soilEffect": "neutral",
+  "swatch": "#8b8f8c",
+  "texture": "layered",
+  "faqs": [
+   {
+    "q": "What is marine clay?",
+    "a": "Clay and silt that settled on the floor of a sea. In the Ottawa and St. Lawrence valleys it was laid down in the Champlain Sea, about 12,000 to 10,000 years ago, and is often called Leda clay."
+   },
+   {
+    "q": "What is Leda clay?",
+    "a": "The name for the Champlain Sea's clay. The Geological Survey of Canada describes it as a clayey silt composed of glacially ground, non-clay minerals, held in a loose structure that can hold a lot of water."
+   },
+   {
+    "q": "Why does marine clay cause landslides?",
+    "a": "Some of it is sensitive: if disturbed, it can lose strength, collapse and behave like a liquid. The Canadian Encyclopedia lists landslides in Champlain Sea clays at the Saint-Maurice Valley (1663), Saint-Alban (1894) and Nicolet (1955), and the Geological Survey of Canada documents an earthflow in sensitive Champlain Sea sediments at Lemieux, in the South Nation River valley, in 1993."
+   },
+   {
+    "q": "Is marine clay good for farming?",
+    "a": "Where it is properly drained, yes: The Canadian Encyclopedia calls the drained Champlain Sea clays the best agricultural land in Quebec. The map description of the Ottawa-area unit calls it stiff, and plastic and slippery where damp."
+   }
+  ],
+  "next": [
+   {
+    "slug": "glacial-till",
+    "note": "the unsorted material the ice itself dropped"
+   },
+   {
+    "slug": "river-deposits",
+    "note": "fine sediment laid down by rivers rather than by the sea"
+   },
+   {
+    "slug": "shale",
+    "note": "what clay becomes when it is buried and compacted"
+   }
+  ],
+  "sources": [
+   {
+    "label": "The Canadian Encyclopedia — Champlain Sea",
+    "url": "https://www.thecanadianencyclopedia.ca/en/article/champlain-sea"
+   },
+   {
+    "label": "Aylsworth and Hunter, Geological Survey of Canada — sensitive Leda clay (Canadian Geotechnical Society, Geohazards 2003)",
+    "url": "https://cgs.ca/docs/geohazards/edmonton2003/GeohazardsPDFdocuments/Technical_Papers/Session5/5-4_Aylsworth.pdf"
+   },
+   {
+    "label": "Gadd, Geological Survey of Canada Paper 85-21 — Lithofacies of Leda Clay in the Ottawa Basin of the Champlain Sea (1986)",
+    "url": "https://download-telecharger.services.geo.ca/pub/nrcan_rncan/publications/STPublications_PublicationsST/120/120619/pa_85_21.pdf"
+   },
+   {
+    "label": "Macrostrat — map unit \"Marine Clay And Silt\" (map source 504), as returned for Wakefield, Quebec",
+    "url": "https://macrostrat.org/api/v2/geologic_units/map?lat=45.64&lng=-75.93&response=long"
+   }
+  ]
+ }
+]

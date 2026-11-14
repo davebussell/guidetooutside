@@ -1,0 +1,4159 @@
+{
+ "fish": [
+  {
+   "slug": "walleye",
+   "name": "Walleye",
+   "latin": "Sander vitreus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "great-lakes-st-lawrence",
+    "appalachian",
+    "central-hardwoods",
+    "great-plains",
+    "western-mountains"
+   ],
+   "where": "Rock shoals, weed edges and river channels — deep by day, shallow at dusk.",
+   "identify": "Olive-gold flanks, a spiny first dorsal, and the big glassy eye that gives it the name and lets it hunt in low light.",
+   "note": "The most sought-after freshwater fish across the north. Light-shy: dawn, dusk and windy overcast days are best.",
+   "tactic": "Jig and minnow on the bottom, or troll a bottom bouncer along the 5–8 m break."
+  },
+  {
+   "slug": "smallmouth-bass",
+   "name": "Smallmouth bass",
+   "latin": "Micropterus dolomieu",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "great-lakes-st-lawrence",
+    "acadian-forest",
+    "central-hardwoods",
+    "appalachian",
+    "boreal-forest",
+    "northeast-coast",
+    "great-plains"
+   ],
+   "where": "Rocky points, current seams and clear gravel bottoms.",
+   "identify": "Bronze-brown with vertical bars, red eye, and a jaw that ends level with the eye — not past it.",
+   "note": "Pound for pound the hardest fighter in fresh water. Loves cool, clear, rocky water.",
+   "tactic": "Tube jig or drop-shot on rock; topwater at first light."
+  },
+  {
+   "slug": "largemouth-bass",
+   "name": "Largemouth bass",
+   "latin": "Micropterus nigricans",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts",
+    "hawaii-tropics"
+   ],
+   "where": "Weed beds, lily pads, docks and any shade in warm, slow water.",
+   "identify": "Green with a dark lateral stripe, and an upper jaw that extends past the back of the eye.",
+   "note": "One of the most widely stocked gamefish on the continent. Ambush predator — fish structure, not open water.",
+   "tactic": "Weedless plastic worm in the salad; frog on the pads at dawn.",
+   "excludeCountries": [
+    "GB",
+    "IE"
+   ]
+  },
+  {
+   "slug": "northern-pike",
+   "name": "Northern pike",
+   "latin": "Esox lucius",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    1,
+    2,
+    3
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "great-lakes-st-lawrence",
+    "great-plains",
+    "western-mountains"
+   ],
+   "where": "Shallow weedy bays in spring and fall; deep weed edges in the heat of summer.",
+   "identify": "Long torpedo body, duck-like jaws, light bean-shaped spots on a dark green flank.",
+   "note": "Aggressive and abundant. Handle with a jaw grip and long pliers — the teeth are serious.",
+   "tactic": "Large spoon, spinnerbait or a suspended jerkbait over weed tops.",
+   "caution": "Use a wire or heavy fluorocarbon leader, and cradle big fish horizontally."
+  },
+  {
+   "slug": "muskellunge",
+   "name": "Muskellunge",
+   "latin": "Esox masquinongy",
+   "group": "fish",
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "boreal-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods"
+   ],
+   "where": "Deep weed edges, rock bars and river current breaks in big water.",
+   "identify": "Like a pike but with dark bars on a light flank — the reverse pattern — and pointed tail lobes.",
+   "note": "The fish of ten thousand casts. Fall is the trophy season as water cools.",
+   "tactic": "Oversized bucktails and gliders, with a figure-eight at the boat every cast."
+  },
+  {
+   "slug": "lake-trout",
+   "name": "Lake trout",
+   "latin": "Salvelinus namaycush",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "great-lakes-st-lawrence",
+    "acadian-forest",
+    "western-mountains"
+   ],
+   "where": "Deep, cold, clear lakes — shallow right after ice-out and again in fall, deep all summer.",
+   "identify": "Pale cream spots on a dark green-grey body, and a deeply forked tail.",
+   "note": "A slow-growing, long-lived fish; a big one may be forty years old. Release the giants.",
+   "tactic": "Jigging spoons and tubes deep in summer; shallow trolling right after ice-out."
+  },
+  {
+   "slug": "brook-trout",
+   "name": "Brook trout",
+   "latin": "Salvelinus fontinalis",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "western-mountains",
+    "mediterranean-california"
+   ],
+   "where": "Small, cold, shaded streams and beaver ponds — anywhere the water stays under 20°C.",
+   "identify": "Called speckled trout (and omble de fontaine) in much of Canada. Worm-like pale vermiculations on a dark green back, red spots ringed in blue, and white-edged lower fins.",
+   "note": "The native char of the east and a barometer of clean cold water. Many streams close in fall for spawning.",
+   "tactic": "A small spinner, a worm, or a dry fly, working upstream and staying out of sight."
+  },
+  {
+   "slug": "rainbow-trout",
+   "name": "Rainbow trout",
+   "latin": "Oncorhynchus mykiss",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts",
+    "hawaii-tropics"
+   ],
+   "where": "Cold rivers, tailwaters and stocked lakes across the continent.",
+   "identify": "A pink-red band down the flank, small black spots over the whole body and tail.",
+   "note": "Stocked almost everywhere, wild in the west. The sea-run form is steelhead.",
+   "tactic": "Nymphs under an indicator in rivers; small spoons and float-fished bait in lakes.",
+   "monthsByRegion": {
+    "deserts": [
+     11,
+     12,
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "slug": "brown-trout",
+   "name": "Brown trout",
+   "latin": "Salmo trutta",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "great-plains",
+    "western-mountains",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "Undercut banks, log jams and deep runs in rivers; big ones feed at night.",
+   "identify": "Butter-brown flanks with black and red spots ringed in pale halos; few or no spots on the tail.",
+   "note": "Introduced from Europe, and the wariest trout in the river. Big browns are nocturnal.",
+   "tactic": "Streamers at dusk and after dark; drifted nymphs by day.",
+   "within": {
+    "deserts": {
+     "minLat": 34.5
+    }
+   }
+  },
+  {
+   "slug": "yellow-perch",
+   "name": "Yellow perch",
+   "latin": "Perca flavescens",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime"
+   ],
+   "where": "Weed edges, docks and sandy flats, always in schools.",
+   "identify": "Golden-yellow with five to eight (usually about seven) dark vertical bars and orange lower fins.",
+   "note": "The best-eating panfish in the north and the mainstay of the ice season. Find one, find fifty.",
+   "tactic": "Small jig tipped with a minnow head, right on the bottom."
+  },
+  {
+   "slug": "black-crappie",
+   "name": "Black crappie",
+   "latin": "Pomoxis nigromaculatus",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    1,
+    2
+   ],
+   "regions": [
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "great-plains",
+    "mediterranean-california"
+   ],
+   "where": "Brush piles, standing timber and docks; shallow to spawn in spring, suspended over basins in summer and winter.",
+   "identify": "Silvery with irregular black speckling, a deep flat body and seven or eight dorsal spines.",
+   "note": "Spring spawn in the shallows is the year's easiest fishing. Paper-thin mouth — set the hook gently.",
+   "tactic": "Small jig or minnow under a slip float, right at the depth the sonar shows them."
+  },
+  {
+   "slug": "bluegill",
+   "name": "Bluegill",
+   "latin": "Lepomis macrochirus",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts",
+    "hawaii-tropics"
+   ],
+   "where": "Shallow weedy bays, docks and beds in gravel; everywhere warm and slow.",
+   "identify": "Deep round body, a solid black ear flap, and a small mouth.",
+   "note": "The fish that teaches children to fish. Beds appear as pale saucers in the shallows in early summer.",
+   "tactic": "A worm under a bobber. That is the whole method."
+  },
+  {
+   "slug": "channel-catfish",
+   "name": "Channel catfish",
+   "latin": "Ictalurus punctatus",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "great-plains",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "River holes, dam tailraces and warm reservoirs; feeds most at night.",
+   "identify": "Deeply forked tail, scattered dark spots on young fish, and long whiskers.",
+   "note": "Summer nights on a riverbank are the classic. Handles warm, murky water that shuts other species down.",
+   "tactic": "Cut bait or a chunk of shad on a bottom rig, after dark.",
+   "caution": "Pectoral and dorsal spines can puncture — grip from behind the fins.",
+   "excludeCountries": [
+    "PT"
+   ]
+  },
+  {
+   "slug": "chinook-salmon",
+   "name": "Chinook salmon",
+   "latin": "Oncorhynchus tshawytscha",
+   "group": "fish",
+   "months": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "boreal-north",
+    "great-lakes-st-lawrence",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california"
+   ],
+   "where": "River mouths and staging areas in late summer, then up the tributaries.",
+   "identify": "Black gums at the base of the teeth, small black spots on both tail lobes, and real size — often over 10 kg on the Pacific, smaller in the Great Lakes.",
+   "note": "King salmon. In the Great Lakes an introduced fishery; on the Pacific, the wild runs are tightly regulated.",
+   "tactic": "Trolled spoons and flashers off the river mouth; drifted roe once they run.",
+   "caution": "Pacific chinook seasons change year to year and sometimes week to week — check before you go."
+  },
+  {
+   "slug": "coho-salmon",
+   "name": "Coho salmon",
+   "latin": "Oncorhynchus kisutch",
+   "group": "fish",
+   "months": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "boreal-north",
+    "great-lakes-st-lawrence",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california"
+   ],
+   "where": "Lower rivers and tributaries in fall.",
+   "whereSea": "Estuaries and lower rivers in fall; aggressive in the salt through summer.",
+   "identify": "White gums, spots only on the upper tail lobe, and a bright silver body turning deep red in the river.",
+   "note": "Acrobatic and willing — the salmon most likely to chase a fast lure.",
+   "tactic": "Spinners and jigs in the river.",
+   "tacticSea": "Bucktail-trolled at speed in the salt; spinners and jigs in the river."
+  },
+  {
+   "slug": "steelhead",
+   "name": "Steelhead",
+   "latin": "Oncorhynchus mykiss",
+   "group": "fish",
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "regions": [
+    "great-lakes-st-lawrence",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california"
+   ],
+   "where": "Tributary rivers from fall through spring; holding in deep slots and tailouts.",
+   "identify": "A sea-run or lake-run rainbow: chrome-bright, small black spots, a faint pink stripe that brightens in the river.",
+   "note": "Cold, hard, and worth it. A winter fishery for people who like being cold.",
+   "tactic": "Float-fished roe or a jig through the slot; swung streamers on the fly."
+  },
+  {
+   "slug": "atlantic-salmon",
+   "name": "Atlantic salmon",
+   "latin": "Salmo salar",
+   "group": "fish",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast"
+   ],
+   "where": "The great rivers of the Maritimes, Québec and Maine.",
+   "identify": "Sparse X-shaped black spots above the lateral line, a slim wrist to the tail, and no spots on the tail.",
+   "note": "Populations are fragile; most rivers are fly-only, catch-and-release, and often require a guide.",
+   "tactic": "A wet fly swung through a known pool — and a licence, a guide where required, and patience.",
+   "caution": "Heavily regulated and in places closed entirely. Check the river-by-river rules every season."
+  },
+  {
+   "slug": "striped-bass",
+   "name": "Striped bass",
+   "latin": "Morone saxatilis",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "acadian-forest",
+    "northeast-coast",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "great-plains",
+    "mediterranean-california"
+   ],
+   "where": "Surf, estuaries, rips and rocky points on the Atlantic; big reservoirs and the California Delta inland.",
+   "whereSea": "Surf, estuaries, rips and rocky points on the Atlantic.",
+   "identify": "Silver with seven or eight unbroken horizontal black stripes, and a large mouth.",
+   "note": "The great Atlantic gamefish. Follows bait — find the birds and the bait, and the stripers are under them.",
+   "tactic": "Live shad; heavy jigs and baitfish lures in white, chrome or chartreuse, with heavy weights where the current is strong.",
+   "tacticSea": "Live eels and plugs at night; metal into a blitz by day.",
+   "monthsFresh": {
+    "months": [10, 11, 12, 1, 2, 3, 4, 5],
+    "text": "In fresh water, away from the sea: the Florida Fish and Wildlife Conservation Commission says striper fishing is best from fall through spring.",
+    "source": "https://myfwc.com/wildlifehabitats/profiles/freshwater/striped-bass/"
+   },
+   "caution": "Slot limits are strict and change often; many fisheries are catch-and-release only.",
+   "byRegion": {
+    "mediterranean-california": {
+     "where": "In California, the Delta and the Sacramento River, which from Courtland to Colusa is one of the most popular stretches during the spring spawning run.",
+     "whereSea": "In California, San Francisco Bay, where the fishing peaks in summer and autumn, and the surf off the San Francisco, San Mateo and Marin beaches in summer.",
+     "tactic": "Threadfin shad, sardines, anchovies and worms as bait in the Delta; plugs, jigs and spoons trolled, often two together.",
+     "tacticSea": "Drift live shiner perch or anchovies in the bay; troll plugs, jigs and spoons; cast heavy metal when anchovy schools bring them close to the beach.",
+     "monthsFresh": {
+      "months": [3, 4, 5],
+      "text": "In fresh water in California: CDFW says winter fishing is poor because stripers do not feed actively in cold water, and that in spring the Sacramento River from Courtland to Colusa is one of the most popular stretches.",
+      "source": "https://wildlife.ca.gov/Fishing/Inland/Striped-Bass"
+     },
+     "source": "https://wildlife.ca.gov/Fishing/Inland/Striped-Bass"
+    }
+   }
+  },
+  {
+   "slug": "arctic-grayling",
+   "name": "Arctic grayling",
+   "latin": "Thymallus arcticus",
+   "group": "fish",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "boreal-north",
+    "western-mountains"
+   ],
+   "where": "Clear, cold northern rivers and lake outlets.",
+   "identify": "An enormous sail-like dorsal fin flecked with turquoise and red, over a silver-purple body.",
+   "note": "The signature fish of the far north, and one of the most beautiful on the continent.",
+   "tactic": "Small dry flies and tiny spinners in fast, clear water."
+  },
+  {
+   "slug": "lake-whitefish",
+   "name": "Lake whitefish",
+   "latin": "Coregonus clupeaformis",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    11,
+    12
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "western-mountains"
+   ],
+   "where": "Deep basins of big cold lakes; a mainstay of the ice fishery.",
+   "identify": "Small, blunt, overhanging snout above a small mouth; silver body, deeply forked tail.",
+   "note": "Excellent smoked. A schooling bottom feeder that responds to a jigged spoon and a slow lift.",
+   "tactic": "Jigging spoon or a small tungsten jig, right on the bottom in 15–25 m."
+  },
+  {
+   "slug": "burbot",
+   "name": "Burbot",
+   "latin": "Lota lota",
+   "group": "fish",
+   "months": [
+    12,
+    1,
+    2,
+    3
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime"
+   ],
+   "where": "Deep cold lakes and big rivers — the only freshwater cod, and it spawns under the ice.",
+   "identify": "Eel-like tail, mottled brown-yellow skin, and a single barbel on the chin.",
+   "note": "Ugly, nocturnal, and superb eating — sometimes called poor man's lobster. Peak in midwinter after dark.",
+   "tactic": "A glow jig with cut bait, on the bottom, at night."
+  },
+  {
+   "slug": "redfish",
+   "name": "Redfish",
+   "latin": "Sciaenops ocellatus",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "gulf-coast",
+    "southeastern",
+    "florida-peninsula"
+   ],
+   "where": "Grass flats, oyster bars and marsh edges — tailing in inches of water on a rising tide.",
+   "identify": "Copper-bronze with at least one black spot at the base of the tail, and an underslung mouth.",
+   "note": "The Gulf and southeast inshore staple. Sight-fishing tailing reds on a flat is the best of it.",
+   "tactic": "Gold spoon, soft plastic or a crab fly, cast ahead of a moving fish.",
+   "localNames": [
+    {
+     "name": "red drum",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "speckled-trout",
+   "name": "Speckled trout",
+   "latin": "Cynoscion nebulosus",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "gulf-coast",
+    "southeastern",
+    "florida-peninsula"
+   ],
+   "where": "Grass flats, deeper holes and passes; moves with water temperature.",
+   "identify": "Silver-grey with distinct round black spots on the back and tail, and two prominent canine teeth.",
+   "note": "Not a trout at all but a drum. Best on a moving tide over grass.",
+   "tactic": "Soft plastic under a popping cork, worked across the flat.",
+   "localNames": [
+    {
+     "name": "spotted seatrout",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "snook",
+   "name": "Snook",
+   "latin": "Centropomus undecimalis",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "florida-peninsula",
+    "gulf-coast"
+   ],
+   "where": "Mangrove roots, bridge lights, passes and beach troughs in south Florida.",
+   "identify": "A sharp black lateral line running right through the tail, and a sloping forehead over a protruding lower jaw.",
+   "note": "Structure-loving and hard on tackle. Highly regulated with seasonal closures and a tight slot.",
+   "tactic": "Live bait or a white jig worked tight to structure, especially on a night tide under lights.",
+   "caution": "Cold snaps kill snook, and Florida closes the season in winter and again through the summer spawn. Always check current rules."
+  },
+  {
+   "slug": "halibut",
+   "name": "Pacific halibut",
+   "latin": "Hippoglossus stenolepis",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "boreal-north",
+    "pacific-maritime"
+   ],
+   "where": "Sand and gravel bottoms in 30–100 m off the BC, Washington and Alaska coasts.",
+   "identify": "A huge diamond-shaped flatfish, both eyes on the dark right side, with a crescent-shaped tail.",
+   "note": "Season lengths and limits are set annually by international quota, and days can be few.",
+   "tactic": "A heavy jig or bait on the bottom, drifted with the tide.",
+   "caution": "Strictly quota-managed; check the current season dates and size limits before booking."
+  },
+  {
+   "slug": "lingcod",
+   "name": "Lingcod",
+   "latin": "Ophiodon elongatus",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "pacific-maritime",
+    "mediterranean-california"
+   ],
+   "where": "Rocky reefs and pinnacles along the Pacific coast.",
+   "identify": "A big mottled head full of teeth, long body, and flesh that is sometimes bright blue-green (harmless — it cooks white).",
+   "note": "An ambush predator that will follow a hooked rockfish to the surface.",
+   "tactic": "Heavy jigs bounced on the reef; swimbaits on a lead head."
+  },
+  {
+   "slug": "kokanee",
+   "name": "Kokanee",
+   "latin": "Oncorhynchus nerka",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california"
+   ],
+   "where": "Deep, cold interior lakes in BC, the Rockies and the Northwest.",
+   "identify": "A landlocked sockeye: bright silver in summer, turning brilliant red with a green head to spawn.",
+   "note": "Plankton feeders, so a lure has to provoke a strike rather than look like dinner. Superb smoked.",
+   "tactic": "Trolled dodger and a small pink hoochie, slow, at the depth the sonar marks them."
+  },
+  {
+   "slug": "european-perch",
+   "name": "European perch",
+   "latin": "Perca fluviatilis",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean"
+   ],
+   "where": "Weed edges, jetties, moorings and drop-offs in lakes, canals and slow rivers — and the brackish archipelagos of the Baltic.",
+   "identify": "Five to eight dark bars on a greenish flank, bright red-orange lower fins, and a spiny first dorsal fin with a black blotch at the back.",
+   "note": "Europe's everyday predator and the twin of the North American yellow perch. Small ones shoal in their hundreds; big perch hunt alone at dawn and dusk.",
+   "tactic": "A small spinner, drop-shot worm or jig along the weed edge; a lobworm under a float for the big ones.",
+   "caution": "Some countries and regions close predator fishing in spring — check local seasons. Never move live perch: introduced perch have harmed native fish, notably in Australia, where it is called redfin.",
+   "excludeCountries": [
+    "PT"
+   ]
+  },
+  {
+   "slug": "zander",
+   "name": "Zander",
+   "latin": "Sander lucioperca",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean"
+   ],
+   "where": "Deep, coloured water in big rivers, canals, reservoirs and lowland lakes — on drop-offs, snags and harbour walls, moving up to feed at dusk.",
+   "identify": "Slim and glassy-eyed, with grey-brown saddles, rows of black spots on the spiny dorsal fin, and long fang-like canine teeth.",
+   "note": "The walleye's European cousin and the largest of the perch family. Light-shy: dusk, night and murky water are the times.",
+   "tactic": "A soft-plastic shad hopped slowly along the bottom, or a small deadbait fished with almost no resistance.",
+   "caution": "Spring closed seasons protect spawning zander in many countries, and some waters set minimum sizes. It is non-native across western Europe — never move live fish."
+  },
+  {
+   "slug": "common-carp",
+   "name": "Common carp",
+   "latin": "Cyprinus carpio",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts",
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "east-african-highlands",
+    "southern-savanna",
+    "highveld-drakensberg",
+    "namib-karoo",
+    "cape-fynbos",
+    "madagascar-islands"
+   ],
+   "where": "Warm, weedy, silty lakes, gravel pits, canals and slow rivers — margins, lily pads, and the patches of bubbles and mud that mark feeding fish.",
+   "identify": "Big bronze scales (or the scattered big scales of a mirror carp), a long dorsal fin, and two pairs of barbels at a rubbery, tube-like mouth.",
+   "note": "Europe's great specimen fish, kept in Roman ponds and monastery stews long before anyone fished for sport. Wary, strong and long-lived; most are released.",
+   "tactic": "A hair-rigged boilie or tiger nut over a bed of bait, or floating bread on a calm summer day.",
+   "caution": "Invasive across North America and in much of Africa and the southern hemisphere — never move live carp. Use an unhooking mat and keep big fish wet."
+  },
+  {
+   "slug": "tench",
+   "name": "Tench",
+   "latin": "Tinca tinca",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "great-lakes-st-lawrence",
+    "western-mountains",
+    "pacific-maritime",
+    "north-africa-mediterranean"
+   ],
+   "where": "Still, weedy, muddy lakes, ponds, gravel pits and canals; look for tiny bubbles fizzing up beside the lilies at first light.",
+   "identify": "Olive-green and very slimy, with tiny scales, small red-orange eyes, rounded fins, and one small barbel at each corner of the mouth.",
+   "note": "The fish of misty summer dawns. It grubs on the bottom among the weed and fights far harder than it looks.",
+   "tactic": "Sweetcorn, maggots or a worm on a float or a small feeder, right on the bottom close to the weed.",
+   "caution": "Invasive in Quebec, Lake Champlain and British Columbia — report it and never move it; Ontario prohibits possessing or transporting live tench."
+  },
+  {
+   "slug": "roach",
+   "name": "Roach",
+   "latin": "Rutilus rutilus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean"
+   ],
+   "where": "Nearly every lowland lake, canal and slow river; big shoals drop into deeper, slower water in winter.",
+   "identify": "Silver with a blue-green back, bright red eyes, reddish lower fins, and a dorsal fin set directly above the pelvic fins.",
+   "note": "The bread and butter of European coarse and match fishing. A roach of 1 kg (2 lb) is a fish of a lifetime.",
+   "tactic": "Maggots, casters or bread punch under a fine float, feeding a little and often.",
+   "excludeCountries": [
+    "PT"
+   ]
+  },
+  {
+   "slug": "common-bream",
+   "name": "Common bream",
+   "latin": "Abramis brama",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe"
+   ],
+   "where": "Big lowland lakes, reservoirs, canals and slow rivers; shoals graze soft bottoms, often in deeper water.",
+   "identify": "Deep, flat-sided and slimy; bronze as an adult (silvery when young), with a long anal fin and a mouth that shoots out into a tube.",
+   "note": "A shoal fish caught in numbers: find the shoal, then keep it in front of you with groundbait. Coloured water and fizzing bubbles give bream away.",
+   "tactic": "A method or swimfeeder packed with groundbait, and worm, maggot or corn on the hook, fished into dusk.",
+   "excludeCountries": [
+    "PT"
+   ]
+  },
+  {
+   "slug": "barbel",
+   "name": "Barbel",
+   "latin": "Barbus barbus",
+   "group": "fish",
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe"
+   ],
+   "where": "Fast, clean, gravel-bottomed rivers: under overhanging trees, in channels between weed beds and in the deeper glides below weirs.",
+   "identify": "Long and muscular with a flat belly, an underslung mouth with four barbels, and a bronze back over a pale belly.",
+   "note": "The power fish of European rivers, built to hold station in strong current. Most active at dawn, dusk and after dark.",
+   "tactic": "Pellets, luncheon meat or a feeder of hemp and pellets on the bottom, on tackle strong enough to stop it reaching snags.",
+   "caution": "In England and Wales rivers are closed to coarse fishing from 15 March to 15 June. Barbel roe is poisonous — never eat it. Rest a beaten barbel upright in the current until it swims away."
+  },
+  {
+   "slug": "chub",
+   "name": "Chub",
+   "latin": "Squalius cephalus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe"
+   ],
+   "where": "Rivers of every size — under overhanging willows, beside snags and rafts of debris, and in the slack water beside fast runs.",
+   "identify": "Thick-set and broad-headed with a big white-lipped mouth, large dark-edged scales in a net pattern, and a convex, reddish anal fin.",
+   "note": "Eats almost anything and bolts at a shadow. Chub keep feeding in cold weather when other river fish go quiet, which makes them the winter river fish.",
+   "tactic": "Bread flake or cheese paste trotted or ledgered under the willows; a slug or a small plug in summer."
+  },
+  {
+   "slug": "european-grayling",
+   "name": "European grayling",
+   "latin": "Thymallus thymallus",
+   "group": "fish",
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    1,
+    2
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "pannonian-steppe"
+   ],
+   "where": "Cold, clear, fast rivers over clean gravel — shoals hold in steady runs and pool tails; also clear lakes in Scandinavia.",
+   "identify": "A tall, sail-like dorsal fin flecked with purple and red, silver-grey flanks with scattered dark spots, and a small mouth set low.",
+   "note": "The 'lady of the stream'. It gives sport on the fly through autumn and winter, long after the trout season has closed.",
+   "tactic": "Small weighted nymphs bumped along the bottom; tiny dry flies on summer evenings.",
+   "caution": "Grayling spawn in spring and are protected then — in England and Wales the river season runs 16 June to 14 March. Very sensitive to pollution: handle gently and release quickly."
+  },
+  {
+   "slug": "arctic-char",
+   "name": "Arctic char",
+   "latin": "Salvelinus alpinus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "atlantic-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest"
+   ],
+   "where": "Deep, cold, clear lakes in the Alps, Scandinavia, Iceland, Britain and Ireland; sea-run char in Arctic rivers from Norway to Nunavut.",
+   "identify": "Pale pink-to-cream spots on a dark back, a belly that turns brilliant red-orange at spawning, and white-edged lower fins.",
+   "note": "The most northerly freshwater fish on Earth. In southern lakes it is a deep-water relic of the Ice Age; in the Arctic, a sea-run fish of great size.",
+   "tactic": "Small spoons trolled or jigged deep in summer, small jigs through the ice in late winter, and spinners at Arctic river mouths.",
+   "caution": "Lake populations are small and sensitive to warming and pollution. Follow local limits, and check closed seasons around the autumn spawn."
+  },
+  {
+   "slug": "wels-catfish",
+   "name": "Wels catfish",
+   "latin": "Silurus glanis",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "continental-europe",
+    "pannonian-steppe",
+    "boreal-europe",
+    "atlantic-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "north-africa-mediterranean"
+   ],
+   "where": "Big lowland rivers, deep holes below dams, reservoirs and weedy lakes; it hunts the shallows at night.",
+   "identify": "Huge and scaleless, with a broad flat head, two long whiskers and four short ones under the chin, a tiny dorsal fin, and an anal fin that runs almost to the tail.",
+   "note": "Europe's largest freshwater fish — the biggest rod-caught wels passed 130 kg. Native in central and eastern Europe; introduced, and now enormous, in Spain, Italy and France.",
+   "tactic": "Big livebait or a bunch of pellets on the bottom or under a float at night; the traditional wooden 'clonk' slapped on the surface calls them up.",
+   "caution": "Use very heavy tackle and land a big fish by hand with a glove. In Sweden the wels is endangered and fully protected — release it at once. In Spain and Italy it is invasive, and the rules on releasing it differ by region.",
+   "excludeCountries": [
+    "NO",
+    "GB",
+    "IE"
+   ]
+  },
+  {
+   "slug": "european-whitefish",
+   "name": "European whitefish",
+   "latin": "Coregonus lavaretus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "alpine-europe",
+    "boreal-europe",
+    "continental-europe",
+    "atlantic-europe"
+   ],
+   "where": "Deep, cold, clean lakes — the Alpine lakes, Scandinavia, and the lake country of northern Germany and Poland — and the brackish Baltic coasts.",
+   "identify": "Silver and herring-like, with a small head, a short snout over a small mouth, big scales, an adipose fin and a deeply forked tail.",
+   "note": "A plankton feeder that is caught on tiny nymphs. Alpine anglers fish strings of them deep in the lakes for Felchen; smoked whitefish is superb.",
+   "tactic": "A string of tiny nymphs jigged slowly at the depth the shoal is feeding; small jigs and flies through the ice in the north.",
+   "caution": "Many lakes close in autumn and early winter for spawning. In Britain the powan, schelly and gwyniad are rare relics and legally protected — they may not be fished."
+  },
+  {
+   "slug": "european-sea-bass",
+   "name": "European sea bass",
+   "latin": "Dicentrarchus labrax",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "atlantic-europe",
+    "mediterranean-europe",
+    "north-africa-mediterranean",
+    "sahara-nile"
+   ],
+   "where": "Surf beaches, rocky headlands, estuaries and harbour walls — wherever white water, weed and bait come together.",
+   "identify": "Silver-grey and streamlined, with two separate dorsal fins (the first spiny), a large mouth, and a sharp spine on the gill cover.",
+   "note": "The top shore gamefish of the Atlantic coast and a cousin of the North American striped bass. Slow-growing in the north, so the size limit matters.",
+   "tactic": "Surface lures or soft plastics over rocks at dawn and dusk; peeler crab or ragworm in the surf.",
+   "caution": "The rules are set every year. In 2026, UK and northern EU waters were catch-and-release only in February and March, then three bass a day of at least 42 cm (two a day in the Bay of Biscay). Mind the gill-cover spines."
+  },
+  {
+   "slug": "gilthead-seabream",
+   "name": "Gilthead seabream",
+   "latin": "Sparus aurata",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "mediterranean-europe",
+    "atlantic-europe",
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "sahel-savanna"
+   ],
+   "where": "Sand and seagrass, harbours, mussel beds and estuaries; brackish lagoons and river mouths through spring and summer.",
+   "identify": "A deep, oval, silver body with a golden bar between the eyes, a dark spot high on the gill cover, and a red edge to the gill cover.",
+   "note": "The dorade of French menus and the dorada of Spanish ones. It cracks mussels and crabs with heavy crushing teeth, and reaches north to southwest England and Ireland.",
+   "tactic": "Crab, mussel or prawn on a light bottom rig close to rocks and mussel beds; wait for a firm pull before striking.",
+   "caution": "Minimum sizes apply in most countries. Keep fingers away from the mouth — those teeth crush shells.",
+   "excludeCountries": [
+    "NO",
+    "SE",
+    "DK",
+    "DE",
+    "PL",
+    "NL",
+    "BE",
+    "FI",
+    "EE",
+    "LV",
+    "LT"
+   ]
+  },
+  {
+   "slug": "atlantic-mackerel",
+   "name": "Atlantic mackerel",
+   "latin": "Scomber scombrus",
+   "group": "fish",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "atlantic-europe",
+    "boreal-europe",
+    "mediterranean-europe",
+    "north-africa-mediterranean",
+    "acadian-forest",
+    "northeast-coast"
+   ],
+   "where": "Open water off piers, breakwaters, rocky points and boats in summer, chasing fry in fast-moving shoals near the surface.",
+   "identify": "Torpedo-shaped, with wavy black tiger stripes on a blue-green back, a plain silver-white belly, and a row of small finlets before the forked tail.",
+   "note": "The summer fish of every pier. When the shoals are in, everyone catches — which is exactly why it pays to take only a few.",
+   "tactic": "A string of feathers or small lures cast out and wound back fast, or jigged under a boat.",
+   "caution": "Both Atlantic stocks are low. Take only what you will eat that day; in Canada the recreational limit is 20 mackerel a day, on one line with up to three hooks."
+  },
+  {
+   "slug": "pollack",
+   "name": "Pollack",
+   "latin": "Pollachius pollachius",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "atlantic-europe",
+    "boreal-europe",
+    "mediterranean-europe"
+   ],
+   "where": "Rocky shores, kelp beds, reefs and wrecks on Atlantic coasts from Norway to Portugal (not the Mediterranean itself); the big ones on deep offshore wrecks.",
+   "identify": "Bronze-green to olive back, a dark lateral line that curves up over the pectoral fin, and a jutting lower jaw with no chin barbel.",
+   "note": "A hard-diving fish that bolts for the kelp the moment it is hooked. Shore pollack are summer fish; the biggest come from deep wrecks.",
+   "tactic": "Soft-plastic eels on a long, slow retrieve over kelp and wrecks; float-fished ragworm or sandeel from the rocks.",
+   "caution": "Celtic Seas pollack are at low levels: Ireland brought in a three-fish daily bag limit on 1 June 2026, and the UK agreed one too. Fish hauled up from deep wrecks rarely survive release."
+  },
+  {
+   "slug": "atlantic-cod",
+   "name": "Atlantic cod",
+   "latin": "Gadus morhua",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "atlantic-europe",
+    "boreal-europe",
+    "continental-europe",
+    "acadian-forest",
+    "northeast-coast",
+    "boreal-forest"
+   ],
+   "where": "Rough ground, reefs and wrecks — from the beach on winter nights, and from boats over deeper banks; Norway's coast in late winter when the skrei come in to spawn.",
+   "identify": "A pale, curving lateral line, a single barbel on the chin, three dorsal fins, and a speckled olive-brown back.",
+   "note": "The fish that built the North Atlantic's fishing towns. Northern Norway now holds the biggest cod and the most anglers chasing them.",
+   "tactic": "A pirk or big soft lure jigged near the bottom; lugworm and squid from the beach after dark.",
+   "caution": "Baltic cod have collapsed, and recreational cod fishing has been banned across much of the Baltic in recent years. Atlantic Canada's cod are still rebuilding — fish only in the open recreational seasons and limits."
+  },
+  {
+   "slug": "european-eel",
+   "name": "European eel",
+   "latin": "Anguilla anguilla",
+   "group": "fish",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean",
+    "sahara-nile"
+   ],
+   "where": "Any water connected to the sea — rivers, lakes, canals, ditches, estuaries and coasts — hidden in mud, stones and weed by day.",
+   "identify": "Snake-like and slimy with tiny buried scales, one long fin running round the tail, and a lower jaw that juts past the upper.",
+   "note": "Critically endangered. Every European eel hatched in the Sargasso Sea and drifted to Europe as a larva, and the numbers arriving have fallen by about 90% since the 1970s. Don't fish for them.",
+   "tactic": "Don't target eels. If one takes a bait meant for something else, unhook it quickly in the water — or cut the line close if the hook is deep — and let it go.",
+   "caution": "Closed or protected across much of its range: Ireland's eel fishery has been closed since 2009, anglers in England must return every eel, and recreational eel fishing is banned in EU waters of the Mediterranean and Black Sea. Never keep one."
+  },
+  {
+   "slug": "nile-perch",
+   "name": "Nile perch",
+   "latin": "Lates niloticus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahara-nile",
+    "sahel-savanna",
+    "guinean-forest",
+    "congo-basin",
+    "east-african-highlands"
+   ],
+   "where": "Big lakes and rivers — Lake Nasser, Lakes Victoria, Albert and Turkana, the Nile below Murchison Falls, and the Niger, Volta and Senegal. Big fish hold deep on drop-offs and rocky points; young ones stay in the shallows.",
+   "identify": "A huge silver perch with a blue sheen, a dorsal fin cut deeply into spiny and soft halves, a rounded tail, and a dark eye ringed in bright yellow.",
+   "note": "One of the biggest freshwater fish on Earth — rod-caught fish over 100 kg have come from Lake Nasser. Native to the Nile and West Africa’s big rivers; put into Lake Victoria in the 1950s, where it is blamed for the loss of hundreds of native cichlids and now supports a huge export fishery.",
+   "tactic": "Troll or cast big deep-diving plugs along drop-offs and rocky points at first light, on heavy tackle.",
+   "caution": "Nile crocodiles live in Lake Nasser and along the Nile, and hippos crowd the Victoria Nile below Murchison Falls — fish with a local guide and keep back from the water’s edge, especially at dusk."
+  },
+  {
+   "slug": "nile-tilapia",
+   "name": "Nile tilapia",
+   "latin": "Oreochromis niloticus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahara-nile",
+    "sahel-savanna",
+    "guinean-forest",
+    "east-african-highlands",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Warm, shallow, weedy margins of lakes, rivers, dams and irrigation canals, from the Nile delta to Lake Victoria and — introduced — Lake Kariba.",
+   "identify": "Deep-bodied and grey-brown with faint bars, and the tell: regular dark vertical stripes right across the tail fin. Breeding males turn reddish, especially on the fins.",
+   "note": "The world’s most important farmed tilapia and a staple food fish from Egypt to Ghana to Uganda; in Zimbabwe and Zambia, tilapias are simply ‘bream’. A grazer, so it bites best on small baits near the bottom or the weed.",
+   "tactic": "A small hook with a worm or dough bait under a light float, close to the weed; a small nymph on the fly.",
+   "caution": "Bilharzia (schistosomiasis) is spread by snails in warm, still fresh water across much of Africa — where it occurs, fish from a boat or a dry bank rather than wading, and tell a doctor about the exposure if you feel unwell afterwards."
+  },
+  {
+   "slug": "mozambique-tilapia",
+   "name": "Mozambique tilapia",
+   "latin": "Oreochromis mossambicus",
+   "group": "fish",
+   "months": [
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "regions": [
+    "southern-savanna",
+    "namib-karoo",
+    "cape-fynbos",
+    "madagascar-islands"
+   ],
+   "where": "Warm dams, farm ponds, coastal lakes and the quiet upper reaches of estuaries from the Zambezi to the Eastern Cape — anywhere still, weedy and warm.",
+   "identify": "Deep-bodied and dull silvery-olive with a few dark blotches along the side and no regular stripes on the tail. Breeding males turn black with a white throat, red-edged fins and a pointed, duck-bill snout.",
+   "note": "South Africa’s blue kurper: a willing, good-eating panfish of warm dams and the fish many children catch first. Native to the south-east, carried around the tropics, and now Vulnerable at home because farmed Nile tilapia interbreed with it.",
+   "tactic": "Earthworm or bread dough on a small hook under a float, close to the weed edge on a warm afternoon.",
+   "caution": "Bilharzia occurs in warm, still water in the lowveld, KwaZulu-Natal and further north — don’t wade or swim where it is present. Never move live tilapia from one water to another.",
+   "localNames": [
+    {
+     "name": "blue kurper",
+     "regions": [
+      "cape-fynbos",
+      "southern-savanna",
+      "namib-karoo"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tigerfish",
+   "name": "Tigerfish",
+   "latin": "Hydrocynus vittatus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahel-savanna",
+    "congo-basin",
+    "east-african-highlands",
+    "southern-savanna"
+   ],
+   "where": "Big, warm, well-oxygenated rivers and lakes — the Zambezi, Lake Kariba, the Okavango, the Congo, Lake Tanganyika and the Niger. Current seams, drop-offs, rocky points and channel edges.",
+   "identify": "Silver with dark horizontal stripes along the upper sides, a red-orange tail edged in black, and big fang-like teeth that overlap the jaws even with the mouth shut.",
+   "note": "Africa’s great freshwater gamefish: fast, acrobatic and hard to keep on the hook. On the Zambezi and Kariba the best of it runs from about August to November, when the river is low, clear and warming.",
+   "tactic": "Fast spinners, spoons or plugs — or a drifted strip of fish — on a short wire trace; on the fly, a baitfish pattern on a sinking line.",
+   "caution": "Crocodiles and hippos share most tigerfish water: land fish from the boat, keep hands out of the water, and give hippos a wide berth, especially at dusk.",
+   "within": {
+    "east-african-highlands": {
+     "minLat": 1,
+     "maxLat": 7
+    }
+   }
+  },
+  {
+   "slug": "goliath-tigerfish",
+   "name": "Goliath tigerfish",
+   "latin": "Hydrocynus goliath",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "congo-basin"
+   ],
+   "where": "The Congo River and its big tributaries and lakes — fast, oxygen-rich water in deep channels and the eddies beside rapids.",
+   "identify": "A heavy, silver-grey tigerfish with a thick, tuna-like body, a black adipose fin and enormous dagger-like teeth — the largest of all the tigerfish.",
+   "note": "The mbenga of the Congo, and one of the most fearsome fish in fresh water. Few anglers ever get a shot at one; a trip for it is a full expedition.",
+   "tactic": "Whole or cut fish bait, or big lures, on heavy tackle and a strong wire trace, worked through the eddies below rapids.",
+   "caution": "Remote, fast and dangerous water: go only with an experienced local outfitter, and handle the jaws with long pliers — those teeth take chunks out of large fish."
+  },
+  {
+   "slug": "sharptooth-catfish",
+   "name": "Sharptooth catfish",
+   "latin": "Clarias gariepinus",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "sahara-nile",
+    "sahel-savanna",
+    "guinean-forest",
+    "congo-basin",
+    "east-african-highlands",
+    "southern-savanna",
+    "highveld-drakensberg",
+    "namib-karoo",
+    "cape-fynbos"
+   ],
+   "where": "Almost any warm fresh water — big rivers, dams, swamps, floodplain pools, even canals. Shallow, muddy, weedy margins by night; it breathes air and can outlast a drying pool.",
+   "identify": "A long, eel-like body, a flat bony head, four pairs of whiskers, and one very long dorsal fin with no small fatty fin behind it. Dark grey to olive above, white below.",
+   "note": "South Africa’s ‘barbel’ and the most widespread catfish in Africa — its name comes from the Gariep, the Orange River. Hardy, nocturnal and strong; the record tops 40 kg.",
+   "tactic": "Liver, worms or a strip of fish on the bottom after dark, near a weed bed or where a stream comes in.",
+   "caution": "The pectoral spines puncture — grip firmly behind the head. Outside its native range, including the Western Cape, it is an invasive alien: never move live fish.",
+   "localNames": [
+    {
+     "name": "barbel",
+     "regions": [
+      "southern-savanna",
+      "highveld-drakensberg",
+      "namib-karoo",
+      "cape-fynbos"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vundu",
+   "name": "Vundu",
+   "latin": "Heterobranchus longifilis",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "sahel-savanna",
+    "guinean-forest",
+    "congo-basin",
+    "east-african-highlands",
+    "southern-savanna"
+   ],
+   "where": "Deep holes and channels in big rivers and lakes — the Zambezi, Lake Kariba, the Congo, Lake Tanganyika and the Niger. Most active at night.",
+   "identify": "A massive olive-brown catfish with whiskers long enough to reach the belly fins, and a fatty (adipose) fin behind the dorsal that is almost as long as the dorsal itself.",
+   "note": "The largest true freshwater fish in southern Africa, at up to 1.5 m and 55 kg. A night-time scavenger that takes the smelliest baits going.",
+   "tactic": "Heavy tackle and a strong-smelling bait — fatty meat, blood bait or, famously on Kariba, blue soap — on the bottom of a deep hole after dark.",
+   "caution": "Night fishing on Kariba and the Zambezi means crocodiles and hippos: stay in the boat or well back from the edge, with a good light.",
+   "regionCountries": {
+    "east-african-highlands": [
+     "UG",
+     "SS",
+     "CD",
+     "TZ",
+     "ET"
+    ]
+   }
+  },
+  {
+   "slug": "smallmouth-yellowfish",
+   "name": "Smallmouth yellowfish",
+   "latin": "Labeobarbus aeneus",
+   "group": "fish",
+   "months": [
+    9,
+    10,
+    11,
+    3,
+    4,
+    5
+   ],
+   "regions": [
+    "highveld-drakensberg",
+    "namib-karoo"
+   ],
+   "where": "Clear runs, riffles and rocky glides of the Vaal and Orange rivers, and the big dams on them; introduced into a few other river systems.",
+   "identify": "A big, streamlined, bronze-gold barb with large scales, golden fins and a small mouth.",
+   "note": "The Vaal’s signature fish and the heart of South African fly-fishing for indigenous species. Catchable all year; October is the best month, with April and May close behind.",
+   "tactic": "Dead-drift a heavy nymph and a small caddis pupa through the riffles, or fish a worm or a small crab on the bottom.",
+   "caution": "The Vaal can rise fast when dams upstream release water — check flows before wading. Handle fish with wet hands and get them back quickly."
+  },
+  {
+   "slug": "largemouth-yellowfish",
+   "name": "Largemouth yellowfish",
+   "latin": "Labeobarbus kimberleyensis",
+   "group": "fish",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "highveld-drakensberg",
+    "namib-karoo"
+   ],
+   "where": "Deep pools and the slow water above weirs and below rapids in the Orange and lower Vaal; the Orange below Gariep Dam and Van der Kloof Dam are the best of it.",
+   "identify": "A yellowfish built for hunting: a longer, heavier head and a big mouth. The largest scaled fish native to southern Africa.",
+   "note": "A slow-growing predator — about five years to reach 30 cm — and a prize for fly anglers. Most are caught in winter, May to September, when the rivers run low and clear.",
+   "tactic": "Black or olive Woolly Buggers and strip-leech streamers; a Dahlberg Diver on the surface for the take of a lifetime.",
+   "caution": "Near Threatened and listed under South Africa’s TOPS regulations: every largemouth yellowfish must be released immediately."
+  },
+  {
+   "slug": "dusky-kob",
+   "name": "Dusky kob",
+   "latin": "Argyrosomus japonicus",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "cape-fynbos",
+    "southern-savanna"
+   ],
+   "where": "Estuaries, river mouths and surf from False Bay to southern Mozambique. Young fish live in their home estuary; big adults move to the surf and nearshore water.",
+   "identify": "A long, silvery-bronze drum with a coppery head, a big mouth, and in life a row of pale spots along the lateral line.",
+   "note": "South Africa’s great estuary fish, best after dark — and in trouble: the breeding stock is down to a few percent of its unfished size. Cape estuaries fish best in summer; big adults move up the KwaZulu-Natal coast to spawn in winter and spring.",
+   "tactic": "Live mullet or a whole squid (chokka) after dark near the mouth; a soft-plastic paddletail worked along the channel.",
+   "caution": "From the shore and in estuaries east of Cape Agulhas the limit is one kob a day, at least 60 cm; boat rules differ. Release big breeding fish whenever you can.",
+   "localNames": [
+    {
+     "name": "kabeljou",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "galjoen",
+   "name": "Galjoen",
+   "latin": "Dichistius capensis",
+   "group": "fish",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "cape-fynbos",
+    "namib-karoo"
+   ],
+   "where": "Rough, foamy white water close to rocks and reef along the Cape and Namibian coasts, often within an easy cast of the shore.",
+   "identify": "A deep, short, heavily scaled fish with thick lips and spiny fins; black among the rocks and silver-bronze over sand, changing colour almost instantly.",
+   "note": "South Africa’s national fish and the classic Cape shore-angling target. It grazes mussels, barnacles and red bait in the surf, and fights hard in the wash.",
+   "tactic": "Red bait or mussel on a small, strong hook, with just enough lead to hold in the white water right against the rocks.",
+   "caution": "Closed season from 15 October to the end of February; two a day at 35 cm or more, and galjoen may not be sold. Namibia sets its own rules."
+  },
+  {
+   "slug": "snoek",
+   "name": "Snoek",
+   "latin": "Thyrsites atun",
+   "group": "fish",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "cape-fynbos",
+    "namib-karoo"
+   ],
+   "where": "Shoals over the shelf off the Cape west coast, the western Agulhas Bank and Namibia, coming inshore after pilchards and anchovies.",
+   "identify": "Long, thin and steel-blue, with a black membrane on the long first dorsal fin, small finlets behind the fins, and fang-like teeth.",
+   "note": "The Cape’s winter fish: the traditional snoek run brings shoals inshore from about May to July, though it is less dependable than it once was. Not the American snook — an oily, bony, delicious snake mackerel, best braaied or smoked.",
+   "tactic": "Metal jigs or spoons, or a pilchard bait, wherever the shoal is feeding — watch for working birds.",
+   "caution": "The teeth cut deep: keep fingers clear of the mouth and hold them with a cloth. Minimum 60 cm, 10 a day."
+  },
+  {
+   "slug": "yellowtail-amberjack",
+   "name": "Yellowtail",
+   "latin": "Seriola lalandi",
+   "group": "fish",
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "regions": [
+    "cape-fynbos",
+    "southern-savanna"
+   ],
+   "where": "Reefs, pinnacles and points off the Cape — Cape Point, False Bay and the Agulhas Bank — and up the KwaZulu-Natal coast with the winter sardine run.",
+   "identify": "A big, torpedo-shaped jack: dark blue above and white below with a sharp line between, a yellow-bronze stripe along the side, and a bright yellow tail.",
+   "note": "The hard-pulling shoal fish of the Cape ski-boats. Summer into autumn is the Cape season; in winter they follow the sardines up the east coast. Line-caught yellowtail is a SASSI green-list choice.",
+   "tactic": "Live bait, metal jigs or poppers into a feeding shoal, on heavy spinning tackle.",
+   "caution": "Ten a day and no minimum size, but let the small ones go — they mature at about 55–60 cm.",
+   "localNames": [
+    {
+     "name": "Cape yellowtail",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "giant-trevally",
+   "name": "Giant trevally",
+   "latin": "Caranx ignobilis",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahara-nile",
+    "swahili-coast",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Coral reefs, reef channels, atoll flats and surf from the Red Sea down the East African coast to South Africa, and around the Seychelles and Madagascar. Young fish live in estuaries.",
+   "identify": "A thick, powerful jack with a steep, blunt head, hard scutes along the base of the tail, and silver-grey to black colouring; mature males can be almost black.",
+   "note": "The bully of the reef and a bucket-list fish on fly, above all on the outer atolls of the Seychelles. Most sport-caught GTs are now released.",
+   "tactic": "Big poppers and stickbaits worked hard over reef edges and channels; on the flats, a big baitfish fly on a 12-weight.",
+   "caution": "Large GTs can carry ciguatera toxin — one more reason to let them go.",
+   "localNames": [
+    {
+     "name": "GT",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "african-threadfin",
+   "name": "Giant African threadfin",
+   "latin": "Polydactylus quadrifilis",
+   "group": "fish",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahel-savanna",
+    "guinean-forest",
+    "congo-basin",
+    "southern-savanna"
+   ],
+   "where": "Sandy and muddy shallows, surf beaches and river mouths along the West African coast from Senegal to Angola; the biggest fish stay out in the sea.",
+   "identify": "A big silver fish with a pointed, see-through snout, a bright yellow pectoral fin with four long white threads beneath it, and a deeply forked tail.",
+   "note": "West Africa’s great surf and estuary gamefish, reaching 2 m. The world record came from the mouth of Angola’s Kwanza River.",
+   "tactic": "Live or cut bait, or a big soft-plastic or bucktail jig, fished through the surf near a river mouth."
+  },
+  {
+   "slug": "bluefish",
+   "name": "Bluefish",
+   "latin": "Pomatomus saltatrix",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "acadian-forest",
+    "northeast-coast",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "sahel-savanna",
+    "namib-karoo",
+    "cape-fynbos",
+    "southern-savanna"
+   ],
+   "where": "Surf beaches, rocky points, harbour walls and river mouths wherever baitfish shoal — the Atlantic beaches from Cape Cod to Florida, the Bosphorus and the Black Sea coast, and in South Africa the Cape’s beaches and estuary mouths in summer and the KwaZulu-Natal surf in winter.",
+   "identify": "Blue-green above and silver below, with a big head, a jutting lower jaw and a single row of knife-edged teeth. The short, spiny first dorsal fin folds into a groove and runs straight into the long second one, and there are no finlets before the forked tail.",
+   "note": "A fast, schooling predator that drives baitfish into the shallows and keeps attacking after it has fed. South Africa’s elf follow the sardines: summer and autumn fish in the Cape, they move up to KwaZulu-Natal for the winter and spawn there in spring. American bluefish make the same journey, wintering off Florida and summering off New England.",
+   "tactic": "Metal spoons, poppers or a fresh sardine (pilchard) bait on a short wire trace, cast where birds and bait show — best early and late in the day.",
+   "caution": "The teeth cut: unhook with long pliers and never wade among feeding fish. In South Africa elf are closed from 1 October to 30 November; otherwise four a day at 30 cm or more on a DFFE recreational permit (online or at the Post Office), and they may not be sold in KwaZulu-Natal. US limits are set by each state and the ASMFC — check before you keep one.",
+   "monthsByRegion": {
+    "cape-fynbos": [
+     12,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "southern-savanna": [
+     12,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "namib-karoo": [
+     12,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "localNames": [
+    {
+     "name": "elf",
+     "regions": [
+      "cape-fynbos",
+      "southern-savanna",
+      "namib-karoo"
+     ]
+    },
+    {
+     "name": "shad",
+     "regions": [
+      "cape-fynbos",
+      "southern-savanna",
+      "namib-karoo"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "white-steenbras",
+   "name": "White steenbras",
+   "latin": "Lithognathus lithognathus",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "regions": [
+    "cape-fynbos"
+   ],
+   "where": "Sandy beaches and mixed sand-and-rock shorelines in the surf zone, and the lower, sandy reaches of estuaries such as the Berg, Heuningnes, Knysna and Swartkops. Young fish spend their first two or three years in estuaries.",
+   "identify": "A big, silvery seabream with a mother-of-pearl sheen, a pointed nose and a small mouth — tiny teeth at the front, crushing molars behind. Young fish carry dark crossbars that fade with age.",
+   "note": "Once the backbone of Cape shore angling, now Endangered after decades of over-fishing. It feeds on sandbanks by blowing a jet of water into prawn and worm burrows. Spring to autumn is the time; it is scarce in Cape surf and estuaries in winter, when adults are thought to move east to spawn off the Transkei.",
+   "tactic": "Live sand or mud prawn, or a bloodworm, on a light running trace in the surf gutters and estuary channels on a rising tide.",
+   "caution": "One a day at 60 cm or more, on a DFFE recreational permit (online or at the Post Office), and it may never be sold. Most are not mature until about 65 cm, so WWF-SASSI asks anglers to tag and release every white steenbras. No fishing at all in no-take marine protected areas, including the restricted zones of the Table Mountain MPA around the Cape Peninsula.",
+   "localNames": [
+    {
+     "name": "pignose grunter",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "hottentot-seabream",
+   "name": "Hottentot seabream",
+   "latin": "Pachymetopon blochii",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "cape-fynbos",
+    "namib-karoo"
+   ],
+   "where": "Kelp beds and rocky reefs down to about 55 m between Port Nolloth and Cape Agulhas — rock ledges, breakwaters and harbour walls from the shore, and inshore reefs from small boats off the Peninsula and the west coast.",
+   "identify": "A small, deep-bodied, bronze-grey to brownish seabream with a yellowish eye, a distinct lateral line, small dark fins and a small mouth lined with incisor teeth. Young fish are dusky brown.",
+   "note": "The everyday reef fish of the Cape west coast and the most commonly landed reef fish there. A resident that stays on its home reef and spawns year-round, which helps it stand up to fishing; the stock was last assessed as harvested sustainably.",
+   "tactic": "Small hooks with red bait, mussel, prawn or a strip of squid (chokka), fished on the bottom close to the kelp.",
+   "caution": "Ten a day at 22 cm or more, on a DFFE recreational permit (online or at the Post Office), within the overall limit of ten fish a day. No fishing in no-take marine protected areas, including the restricted zones of the Table Mountain MPA.",
+   "localNames": [
+    {
+     "name": "Cape bream",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "white-musselcracker",
+   "name": "White musselcracker",
+   "latin": "Sparodon durbanensis",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    1
+   ],
+   "regions": [
+    "cape-fynbos",
+    "southern-savanna"
+   ],
+   "where": "High-profile inshore reefs, deep gullies and rocky points down to about 20 m, from False Bay to KwaZulu-Natal — the rocky coast of the Eastern Cape and southern KwaZulu-Natal above all.",
+   "identify": "A heavy, silver-grey seabream with darker fins, a white belly and massive jaws: four incisor-like teeth at the front of each jaw, the middle two enlarged and curved. In the water it shows a bluish glow.",
+   "note": "A trophy fish of the rock anglers and spearfishers, built to crush mussels, sea urchins and snails. It is most common off KwaZulu-Natal in winter (June and July) and along the south-east Cape coast in spring and summer (August to December), when adults gather to spawn.",
+   "tactic": "A whole crab, a bunch of mussel or red bait on a strong hook and heavy line, fished right in the white water at the foot of the rocks.",
+   "caution": "Two a day at 60 cm or more, on a DFFE recreational permit (online or at the Post Office), and it may not be sold. It lives over 30 years and matures late; stocks are thought to be about a fifth of their historical size, so release the big breeders. No fishing in no-take marine protected areas.",
+   "localNames": [
+    {
+     "name": "brusher",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "leerfish",
+   "name": "Leerfish",
+   "latin": "Lichia amia",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "regions": [
+    "mediterranean-europe",
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "sahel-savanna",
+    "guinean-forest",
+    "namib-karoo",
+    "cape-fynbos",
+    "southern-savanna"
+   ],
+   "where": "Surf, river mouths and estuaries: in South Africa the estuary mouths and beaches of the Eastern and Western Cape — the Garden Route estuaries among them — in summer, and the KwaZulu-Natal surf in winter; around the Mediterranean, river mouths and rough inshore water such as the Ebro Delta in Spain.",
+   "identify": "A long, deep, flattened jack, brown above and silver-white below, with a pointed snout and a wildly wavy lateral line that curves up over the pectoral fin and dips behind it. The tips of the dorsal and anal fins are black; it has no hard scutes on the tail.",
+   "note": "A surface-feeding predator of mullet and other shoaling fish, rarely more than 500 m from shore. South African adults migrate to KwaZulu-Natal in winter to spawn and return to the Cape for the summer, when they hunt the estuary mouths; in the Mediterranean they are most plentiful in summer.",
+   "tactic": "A live mullet swum near the surface at an estuary mouth, or surface plugs and stickbaits worked fast through the surf.",
+   "caution": "In South Africa two a day at 70 cm or more, on a DFFE recreational permit (online or at the Post Office), and it may not be sold. Females mature at about 85 cm and the South African adult stock has collapsed, so release the big fish. Mediterranean countries set their own minimum sizes — check locally.",
+   "localNames": [
+    {
+     "name": "garrick",
+     "regions": [
+      "cape-fynbos",
+      "southern-savanna",
+      "namib-karoo"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "spotted-grunter",
+   "name": "Spotted grunter",
+   "latin": "Pomadasys commersonnii",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "cape-fynbos",
+    "southern-savanna",
+    "swahili-coast",
+    "madagascar-islands"
+   ],
+   "where": "Sand- and mudbanks of estuaries on a rising tide — the Breede, Knysna, Kromme, Swartkops, Kowie and Great Fish estuaries in the Cape, Durban harbour, St Lucia and Kosi Bay in KwaZulu-Natal — and the estuaries and sheltered bays of Mozambique and East Africa.",
+   "identify": "Dark grey above, silver-white below, with many small brown spots over the back, sides and dorsal fin but not the head, a dark spot on the edge of the gill cover, and a small mouth with thick lips. Young fish have no spots.",
+   "note": "One of South Africa’s most important estuary angling fish. It feeds over the banks by jetting water into the mud to blow prawns, worms and small clams out of their burrows. In the Cape it is scarce in winter and returns as the water warms in spring; most fish stay in one estuary for life.",
+   "tactic": "Live mud or sand prawn on a light running trace over the banks on the push of the tide; a small prawn fly cast to feeding fish in the shallows.",
+   "caution": "In South Africa five a day at 40 cm or more, on a DFFE recreational permit (online or at the Post Office), and it may not be sold. Listed as Vulnerable in South Africa’s 2018 National Biodiversity Assessment — WWF-SASSI asks anglers to release them. Spearfishing is not allowed in South African estuaries."
+  },
+  {
+   "slug": "white-seabream",
+   "name": "White seabream",
+   "latin": "Diplodus sargus",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "atlantic-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "namib-karoo",
+    "cape-fynbos",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Rocky shores and the surf beside them — gullies, white water, breakwaters and harbour walls — around the Mediterranean and the Atlantic coasts of France and Iberia, and along the whole South African coast east of Cape Point.",
+   "identify": "A deep, oval, silver seabream with a big black saddle on the tail stalk. Mediterranean fish carry nine alternating dark and pale bars and a black spot above the pectoral fin; large Cape blacktail are plain silvery-grey, with only faint bars on the young.",
+   "note": "The ‘dassie’ of South African rock anglers and the third most commonly caught shore fish on the country’s east and south coasts; the sar or sargo of Mediterranean rock fishing. A resident of its home reef that feeds in the surf at dawn on seaweed, mussels, worms and crabs.",
+   "tactic": "A small, strong hook with prawn, mussel or red bait, fished light in the wash close to the rocks.",
+   "caution": "In South Africa five a day at 20 cm or more, on a DFFE recreational permit (online or at the Post Office), and it may not be sold. European countries set their own minimum sizes — in France 23 cm on the Mediterranean and 25 cm on the Atlantic coast; check local rules.",
+   "localNames": [
+    {
+     "name": "blacktail",
+     "regions": [
+      "cape-fynbos",
+      "southern-savanna",
+      "namib-karoo"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "red-roman",
+   "name": "Red roman",
+   "latin": "Chrysoblephus laticeps",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "cape-fynbos"
+   ],
+   "where": "Inshore and offshore reefs with high relief, down to about 100 m, between Cape Point and the Eastern Cape — mostly fished from ski-boats; deep-water rock ledges sometimes produce one from the shore.",
+   "identify": "A vivid orange seabream with a broad, concave forehead, a blue bar between the eyes and a white, saddle-like mark on the back below the middle of the dorsal fin.",
+   "note": "A slow-growing reef fish that lives on a patch of reef no bigger than a few thousand square metres and starts adult life as a female, turning male as it grows. That loyalty to one reef is why marine protected areas such as Tsitsikamma and Goukamma protect it so well.",
+   "tactic": "It takes almost any bait: squid (chokka), sardine or prawn on the bottom over broken reef, on a short, strong trace.",
+   "caution": "Two a day at 30 cm or more, on a DFFE recreational permit (online or at the Post Office). No fishing in no-take marine protected areas — around Cape Town that includes the six restricted zones of the Table Mountain MPA."
+  },
+  {
+   "slug": "cape-kurper",
+   "name": "Cape kurper",
+   "latin": "Sandelia capensis",
+   "group": "fish",
+   "water": "fresh",
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "regions": [
+    "cape-fynbos"
+   ],
+   "where": "Quiet pools and slow margins of the Cape’s coastal rivers, among rocks, roots and overhanging plants — from the Verlorenvlei south to the Cape Flats and east to the Coega River near Gqeberha.",
+   "identify": "A small fish, yellow to golden-brown with dark markings that run onto the dorsal and anal fins. Breeding males turn darker, with vertical bars and blackened fins and lower jaw.",
+   "note": "A native of Western and Eastern Cape rivers and a member of the climbing-gourami family, able to gulp air at the surface. In summer the male defends a nest on the bottom and guards the eggs alone. Many populations have declined through habitat loss and predation by introduced bass.",
+   "tactic": "Not a fish to target. If one takes a small fly or worm meant for something else, wet your hands, unhook it in the water and let it go at once.",
+   "caution": "Indigenous and in decline: in the Western Cape every indigenous freshwater fish caught must be released alive, and fishing public inland waters needs a CapeNature freshwater angling licence. Further national protection may apply. Never move fish from one water to another."
+  },
+  {
+   "slug": "common-dentex",
+   "name": "Common dentex",
+   "latin": "Dentex dentex",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "mediterranean-europe",
+    "north-africa-mediterranean",
+    "sahara-nile"
+   ],
+   "where": "Rocky reefs, rubble and drop-offs, mostly 15–50 m deep, around the Mediterranean, the Canaries and Madeira — fished from boats with live bait, jigs and big lures.",
+   "identify": "A big, oval, flat-sided seabream with rows of strong canine teeth, the front ones largest. Young fish are grey with black spots on the back; they turn pink as they mature, and old fish are bluish-grey with the spots faded.",
+   "note": "The dentice of Mediterranean boat anglers: a solitary hunter of fish, squid and octopus that gathers in groups only for a few weeks to spawn in spring. Caught all year, but warm-season days are best. Long-lived, slow-growing and now scarce outside marine reserves.",
+   "tactic": "A live squid or small fish slow-trolled or drifted along the reef edge, or a heavy jig worked close to the bottom.",
+   "caution": "Listed as Vulnerable. Minimum sizes and bag limits vary by country and marine reserve — check local rules, and release big breeding fish."
+  },
+  {
+   "slug": "flathead-grey-mullet",
+   "name": "Flathead grey mullet",
+   "latin": "Mugil cephalus",
+   "group": "fish",
+   "water": "both",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "northeast-coast",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "mediterranean-california",
+    "hawaii-tropics",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "sahel-savanna",
+    "guinean-forest",
+    "swahili-coast",
+    "southern-savanna",
+    "namib-karoo",
+    "cape-fynbos",
+    "madagascar-islands"
+   ],
+   "where": "Harbours, marinas, estuaries, lagoons and river mouths almost anywhere warm — shoals cruise quays and the lower reaches of rivers, and often run far upstream into fresh water.",
+   "identify": "A stout, round-bodied fish with a broad, flat head, a thin upper lip and a clear, fatty eyelid that covers most of the eye. Olive-green above, silver on the sides, often with six or seven dark stripes along the flank; it has no visible lateral line.",
+   "note": "Found in coastal water in every warm and temperate sea. A grazer of algae, detritus and tiny animals, so it ignores most lures: bread and dough are the classic baits. Shoals move to sea to spawn, and young fish depend on estuaries.",
+   "tactic": "Bread flake or dough on a small hook under a light float, after loose-feeding bread in a harbour or estuary to get the shoal feeding.",
+   "caution": "In South Africa mullet carry a 50-a-day limit with no size limit; an angling permit covers rod and line only, so netting them for bait needs separate authorisation — check with DFFE first. Elsewhere minimum sizes vary (30 cm on France’s Atlantic and Channel coasts).",
+   "localNames": [
+    {
+     "name": "striped mullet",
+     "regions": [
+      "northeast-coast",
+      "southeastern",
+      "gulf-coast",
+      "florida-peninsula",
+      "mediterranean-california",
+      "hawaii-tropics"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "garfish",
+   "name": "Garfish",
+   "latin": "Belone belone",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "atlantic-europe",
+    "boreal-europe",
+    "continental-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean"
+   ],
+   "where": "Open water close inshore in summer — off piers, breakwaters, rocky points and over seagrass, often with the mackerel; the shallow, brackish coasts of Denmark and the Baltic in May and June.",
+   "identify": "Long and thin, bluish-green above with a silver-grey belly, both jaws drawn out into a narrow beak lined with widely spaced teeth, and the dorsal and anal fins set well back on the body. The bones are green.",
+   "note": "It arrives inshore in April and May to spawn over seagrass, sticking its eggs to the blades with long threads, and heads back to open sea in autumn. Hooked, it leaps and tail-walks across the surface.",
+   "tactic": "A strip of mackerel or fish under a small float set shallow, or a small spinner or a bright fly retrieved just under the surface.",
+   "caution": "Some countries set a minimum size — 30 cm on France’s Atlantic and Channel coasts. Handle the beak with care: it is lined with teeth."
+  },
+  {
+   "slug": "ballan-wrasse",
+   "name": "Ballan wrasse",
+   "latin": "Labrus bergylta",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "atlantic-europe",
+    "boreal-europe",
+    "mediterranean-europe",
+    "north-africa-mediterranean"
+   ],
+   "where": "Rocky shores, kelp and reef from the low-tide line down to about 30 m — deep gullies, rock ledges and harbour walls on Atlantic coasts from Norway to Morocco. Records from the Mediterranean itself are doubtful.",
+   "identify": "A heavy, deep-bodied wrasse with a big head, thick, wrinkled lips, a long spiny dorsal fin and large scales. Colour varies from plain green or brown to red-brown covered in pale spots.",
+   "note": "Every ballan wrasse starts life as a female; a few change into males after four to fourteen years. It lives up to 34 years and feeds only by day, crushing mussels and crabs. Now a favourite catch-and-release target on light lure tackle.",
+   "tactic": "Small soft-plastic worms and creature baits, or a crab bait, fished tight to the rock and weed in daylight.",
+   "caution": "Long-lived — up to 34 years — so put them back. Wild wrasse are also trapped live for use as cleaner fish on salmon farms, a fishery Scotland has regulated with mandatory measures since 2021."
+  },
+  {
+   "slug": "black-seabream",
+   "name": "Black seabream",
+   "latin": "Spondyliosoma cantharus",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "atlantic-europe",
+    "mediterranean-europe",
+    "pannonian-steppe",
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "sahel-savanna"
+   ],
+   "where": "Rough ground, reefs and seagrass over sand and gravel; in Britain the south coast of England, Sussex above all, in late spring and summer, when adults come inshore to nest; around the Mediterranean, rocky coasts and harbours.",
+   "identify": "An oval, grey-silver seabream with a small head and mouth, faint lengthwise lines and six to nine dark vertical bars, and no dark spots. Males guarding nests turn almost black.",
+   "note": "In spring adults move inshore and the males dig crater-shaped nests in sand or gravel over flat bedrock, then guard the eggs. Sussex’s Kingmere Rocks is the most important known nesting site in Britain. Summer is the season; catches dry up when the fish go deep for the winter.",
+   "tactic": "Strips of squid, mackerel or sandeel on a light two-hook flapper rig over rough ground; ragworm and mussel also take them.",
+   "caution": "In the Sussex IFCA district the minimum size is 23 cm, and inside Kingmere Marine Conservation Zone part of the ground is closed to angling from 1 April to 30 June, with four bream a day allowed elsewhere in the zone. Other areas set their own limits."
+  },
+  {
+   "slug": "european-flounder",
+   "name": "European flounder",
+   "latin": "Platichthys flesus",
+   "group": "fish",
+   "water": "both",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "atlantic-europe",
+    "boreal-europe",
+    "continental-europe",
+    "mediterranean-europe",
+    "pannonian-steppe"
+   ],
+   "where": "Estuaries, harbours, shallow sandy bays and the lower reaches of rivers, often in very shallow water close to the edge. In Britain flounder have been found far up the Severn, Dovey and Wyre.",
+   "identify": "An oval flatfish, usually with both eyes on the right side, dull brown or olive above with darker blotches and sometimes reddish spots, pearly white below. The skin is rough, with rows of prickly bumps along the lateral line and the bases of the fins.",
+   "note": "The one European flatfish that lives much of its life in fresh and brackish water. It feeds on the bottom, mostly by night, on worms, shrimps and shellfish, and moves to deeper water at sea in winter to spawn in spring.",
+   "tactic": "Ragworm or lugworm on a light, two- or three-hook flapper rig with beads or a small spoon, cast short into the channel edges.",
+   "caution": "Minimum sizes vary — 20 cm on France’s Atlantic and Channel coasts — and rules differ between tidal and fresh water; check locally."
+  },
+  {
+   "slug": "great-barracuda",
+   "name": "Great barracuda",
+   "latin": "Sphyraena barracuda",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "hawaii-tropics",
+    "sahara-nile",
+    "sahel-savanna",
+    "guinean-forest",
+    "swahili-coast",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Reefs, wrecks, channels, mangrove edges and seagrass flats — the flats and reefs of south Florida, the Red Sea and East African coast, Madagascar, northern KwaZulu-Natal, and West Africa from Mauritania to Nigeria.",
+   "identify": "A long, pike-like fish with a big, pointed head, a jutting lower jaw and fang-like teeth. Blue-grey above and silver below, with dark oblique bars on the upper side that stop short of the lateral line, scattered black blotches low on the flank, and a dark tail with white tips.",
+   "note": "An ambush predator that relies on surprise and short bursts of speed — up to about 58 km/h (36 mph). Young fish school in mangroves and estuaries; big adults hunt alone around reefs and wrecks.",
+   "tactic": "A fast-retrieved tube lure or a bright plug over the flats and reef edges; live bait on a wire trace from a boat.",
+   "caution": "Barracuda can carry ciguatera toxin in many tropical waters, though it has not been reported from them in the eastern Atlantic — ask locally before eating one. In south-east Florida and the Keys the limit is two a day at 15–36 in (38–91 cm) fork length, with one larger fish allowed. Use a wire trace and keep hands clear of the teeth."
+  },
+  {
+   "slug": "atlantic-tarpon",
+   "name": "Atlantic tarpon",
+   "latin": "Megalops atlanticus",
+   "group": "fish",
+   "water": "both",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "sahel-savanna",
+    "guinean-forest"
+   ],
+   "where": "Estuaries, lagoons, river mouths, mangrove creeks and passes — in Florida the Keys and Boca Grande Pass; in West Africa from Senegal to Angola, with famous fisheries in the Bijagós Islands of Guinea-Bissau and at Port-Gentil in Gabon.",
+   "identify": "A huge, deep silver fish with very large, armour-like scales, a big upturned mouth with a long bony plate in the lower jaw, and a last dorsal ray drawn out into a long filament that nearly reaches the tail.",
+   "note": "The silver king: famous for leaping clear of the water when hooked. It can gulp air into its swim bladder and so thrives in warm, oxygen-poor water. In West Africa the season runs through the dry months, about October to May; in Florida it is fished all year, and Boca Grande Pass carries extra gear rules from April to June.",
+   "tactic": "Live mullet or crab drifted through a pass or river mouth on a circle hook; a big baitfish fly cast to rolling fish.",
+   "caution": "Florida is catch-and-release only: tarpon of 40 in (102 cm) or more must stay in the water, and one may be kept only with a tarpon tag in pursuit of a record. West African rules vary — release them."
+  },
+  {
+   "slug": "narrow-barred-spanish-mackerel",
+   "name": "Narrow-barred Spanish mackerel",
+   "latin": "Scomberomorus commerson",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahara-nile",
+    "swahili-coast",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Pinnacles, reef edges and the shelf off KwaZulu-Natal and Mozambique, and the reefs and channels of the Red Sea and East African coast — trolled from ski-boats and launches; seldom taken from the shore.",
+   "identify": "A long, blue-grey and silver mackerel covered in many thin, wavy vertical bars, with rows of finlets before the tail and a lateral line that drops sharply below the end of the second dorsal fin.",
+   "note": "The king mackerel, couta or katonkel of South Africa and the kingfish of East Africa. Shoals move south from Mozambique into KwaZulu-Natal waters in summer, roughly November to March, to feed; on the tropical coast it is caught all year.",
+   "tactic": "A live or dead bait — a mackerel or a garfish — slow-trolled on a wire trace over reef pinnacles at first light.",
+   "caution": "In South Africa ten a day, no size limit, on a DFFE recreational permit (online or at the Post Office). Ciguatera poisoning has been reported from this species — ask locally before eating fish from tropical reefs.",
+   "localNames": [
+    {
+     "name": "couta",
+     "regions": [
+      "southern-savanna"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "crevalle-jack",
+   "name": "Crevalle jack",
+   "latin": "Caranx hippos",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "sahel-savanna",
+    "guinean-forest"
+   ],
+   "where": "River mouths, lagoon inlets, channels, surf beaches, harbour walls and rocky points wherever baitfish shoal — along West Africa from Senegal to Angola, with the Bijagós Islands, Sierra Leone and the Gulf of Guinea among the best ground, and in the Americas from the Carolinas round Florida to Texas. Young fish fill the lagoons and estuaries.",
+   "identify": "A deep, heavy jack with a steep, blunt head, olive to blue-green above and silvery to brassy below, a black spot on the edge of the gill cover, another at the base of the pectoral fin and a row of hard scutes along the rear of the lateral line. The chest is bare except for a small patch of scales in front of the pelvic fins, and the anal-fin lobe and the underside of the tail stalk are yellow.",
+   "note": "A schooling hunter that pins sardines and anchovies against the surface and grunts when it is landed. In the Gulf of Guinea big shoals move inshore from about September to December, and young fish live in the lagoons all year until they head to sea at about 12 cm. West Africa grows the biggest crevalle jacks: the IGFA world record came from Angola.",
+   "tactic": "Poppers, stickbaits, metal jigs or a live mullet worked fast where birds and bait show at a river mouth or along the surf, on strong line with a heavy leader — it fights long and deep.",
+   "caution": "Ciguatera has been reported from crevalle jack — ask locally before eating a big one from tropical reefs. West African rules vary — ask locally. In the United States each state sets its own limits; check before you keep one.",
+   "localNames": [
+    {
+     "name": "jack crevalle",
+     "regions": [
+      "southeastern",
+      "gulf-coast",
+      "florida-peninsula"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "west-african-ladyfish",
+   "name": "West African ladyfish",
+   "latin": "Elops lacerta",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahel-savanna",
+    "guinean-forest"
+   ],
+   "where": "Lagoons, estuaries, tidal creeks and shallow sandy or muddy shores along the West African coast — the Lagos Lagoon, the Ébrié lagoon at Abidjan and the Cross River among them — running some way up tidal rivers. Schools work the channels and the bars at lagoon mouths.",
+   "identify": "A slim, round-bodied, bright silver fish with a large mouth, a bony plate between the arms of the lower jaw, a single dorsal fin in the middle of the back and a deeply forked tail. The scales are small — 72 to 83 along the lateral line — and there is no long trailing ray on the dorsal fin.",
+   "note": "A fast, leaping, schooling predator of sardines and other small fish, shrimps and molluscs. A cousin of the tarpon, it starts life at sea as a see-through, ribbon-like larva. It is easily confused with the Senegalese ladyfish, which shares the coast and is told apart only by its scale and gill-raker counts.",
+   "tactic": "Small silver spoons, spinners, shallow-running plugs or a baitfish fly on light tackle, worked through lagoon channels and river mouths on a moving tide; a strip of fish under a float also takes them.",
+   "caution": "West African rules vary — ask locally."
+  },
+  {
+   "slug": "blackchin-tilapia",
+   "name": "Blackchin tilapia",
+   "latin": "Sarotherodon melanotheron",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahel-savanna",
+    "guinean-forest"
+   ],
+   "where": "Shallow, sheltered water in brackish lagoons, mangrove creeks and estuaries from Senegal to Cameroon — the Lagos Lagoon, Lake Nokoué and the Porto-Novo lagoon in Benin, the Ébrié lagoon at Abidjan and the Keta lagoon in Ghana — around mangrove roots, jetties and the brush parks (acadjas) of the Benin lagoons.",
+   "identify": "A small, deep-bodied tilapia, silvery with blue, gold or orange tints, with dark blotches on the chin and throat of adults, a dark rear edge to the gill cover, dark tips to the soft rays of the dorsal fin and irregular spots or faint bars along the sides.",
+   "note": "The tilapia of West Africa’s coastal lagoons, and one of the few in which the male, not the female, broods the eggs in his mouth. It breeds all year in the warm lagoons, grazes mostly at night on algae, detritus and tiny animals, and lives in anything from fresh water to lagoons saltier than the sea.",
+   "tactic": "A small hook with bread, dough or a scrap of worm under a light float, fished close to mangrove roots, jetties and brush parks; loose-feed a little bread to draw the shoal.",
+   "caution": "Never move live tilapia between waters: introduced blackchin tilapia have overrun ponds and lagoons in Florida, Hawaii, the Philippines and Thailand. West African rules vary — ask locally."
+  },
+  {
+   "slug": "cassava-croaker",
+   "name": "Cassava croaker",
+   "latin": "Pseudotolithus senegalensis",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahel-savanna",
+    "guinean-forest"
+   ],
+   "where": "Mud, sand and broken ground from the beach out to about 70 m along the coast from Senegal to Angola — off surf beaches near river mouths, and on the inshore grounds fished from canoes and boats. Smaller fish come into shallow water, but it seldom enters lagoons or estuaries.",
+   "identify": "A long, silvery-grey croaker with a big, oblique mouth, a slightly jutting lower jaw and a pair of large canine teeth at the front of the upper jaw. Rows of small dark spots follow the scale rows, the spiny dorsal fin has a black tip, the tail is pointed and the inside of the gill cover is black.",
+   "note": "West Africa’s most valuable bottom fish and a staple of every coastal market. It hunts small fish, prawns and crabs over soft ground and spawns from November to March in the Gulf of Guinea. Heavy trawl and canoe fishing have made it Endangered.",
+   "tactic": "Cut fish, squid or a whole prawn on a running ledger, fished on the bottom from the beach or from a boat over mud; a jig or soft plastic bounced slowly along the bottom.",
+   "caution": "Listed as Endangered by the IUCN: keep only what you need and return fish under about 35 cm, the size at which they mature. West African rules vary — ask locally."
+  },
+  {
+   "slug": "gorean-snapper",
+   "name": "Gorean snapper",
+   "latin": "Lutjanus goreensis",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahel-savanna",
+    "guinean-forest"
+   ],
+   "where": "Rocky ground, reefs, wrecks and harbour breakwaters down to about 50 m from Senegal to Congo, chiefly in the Gulf of Guinea and around the Cape Verde Islands. Young fish live in estuaries, lagoon mouths and the lower reaches of rivers.",
+   "identify": "A stocky red snapper with a pointed head, a steep forehead and big eyes: vermilion on the back, pink in large fish, fading to white below, with a thin blue line — whole or broken into spots — from the upper jaw under the eye to the corner of the gill cover. Young fish are plain brownish.",
+   "note": "A voracious predator of fish, crabs and other bottom animals, named after Gorée Island off Dakar. Little is known of its life history; off Lagos, fish sampled in 2008–2010 reached about 56 cm and 3 kg.",
+   "tactic": "Live or cut bait — sardine, a strip of mullet, crab or squid — on a short, strong trace fished hard against rocks and wrecks, or a jig worked through the structure. Lean on it at once to keep it out of the rocks.",
+   "caution": "Snapper teeth cut: unhook with pliers. West African rules vary — ask locally."
+  },
+  {
+   "slug": "silver-catfish",
+   "name": "Silver catfish",
+   "latin": "Chrysichthys nigrodigitatus",
+   "group": "fish",
+   "water": "both",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "sahel-savanna",
+    "guinean-forest"
+   ],
+   "where": "Soft mud and sand bottoms of coastal lagoons, creeks, rivers and reservoirs from Senegal to Angola, from brackish lagoon water far up into fresh water — the Lagos, Lekki and Badagry lagoons, the Ébrié lagoon at Abidjan, and the Niger and its reservoirs, such as Lake Kainji.",
+   "identify": "A grey to silvery catfish with a pointed snout, four pairs of barbels, a stiff, sharp spine at the front of the dorsal fin and of each pectoral fin, a small fleshy fin before the tail and a forked tail whose upper lobe is longer than the lower.",
+   "note": "The mâchoiron of French-speaking West Africa and one of the most valued lagoon fish of the coast. It feeds on the bottom on insects, seeds, small clams and detritus, taking more prawns and fish as it grows. In Nigeria it spawns once a year, in December and January, in pairs in dark hollows on the bottom.",
+   "tactic": "A running ledger with worm, prawn or a strip of fish, fished on the bottom in lagoon channels, creek mouths and deep river bends.",
+   "caution": "Mind the dorsal and pectoral spines, which can give a painful wound — hold the fish firmly behind the head. West African rules vary — ask locally.",
+   "localNames": [
+    {
+     "name": "bagrid catfish",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "milkfish",
+   "name": "Milkfish",
+   "latin": "Chanos chanos",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "swahili-coast",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Clear lagoons, sand flats, channels and mangrove creeks along the East African coast and around Madagascar, the Seychelles and Mauritius, south to southern Mozambique and KwaZulu-Natal. Shoals cruise and feed on the flats on the rising tide; young fish live in estuaries.",
+   "identify": "A long, streamlined, silvery fish with a small, toothless mouth, a single, sail-like dorsal fin in the middle of the back, long sickle-shaped pectoral fins and a big, deeply forked tail. Olive green on the back; the fins have dark edges.",
+   "note": "A grazer of algae and tiny animals that grows to well over a metre and runs like a tuna when hooked. Fly anglers stalk it on the flats of the Seychelles atolls with small algae flies; elsewhere it is mostly a net and pond fish, and one of the most important farmed fish in South-East Asia, where it is bangus or bandeng.",
+   "tactic": "A small algae fly, or a strand of green weed or bread on a small hook, put right in front of feeding fish in calm, clear water, on a long, light leader with plenty of backing.",
+   "caution": "No fishing in Kenya’s marine national parks — Malindi, Watamu, Mombasa and Kisite. In South Africa ten a day within the overall daily limit of ten fish, on a DFFE recreational permit (online or at the Post Office)."
+  },
+  {
+   "slug": "mangrove-red-snapper",
+   "name": "Mangrove red snapper",
+   "latin": "Lutjanus argentimaculatus",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "swahili-coast",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Mangrove creeks, rocky estuary banks, harbour walls and snags for the young fish — the creeks of the Kenyan and Tanzanian coast, Mozambique’s estuaries, and Kosi Bay, St Lucia and the other KwaZulu-Natal estuaries — and coral and rocky reefs down to 100 m and more, fished from boats, for the big adults.",
+   "identify": "A heavy snapper, greenish-brown to bronze on the back and reddish on the sides — fish from deep water are red all over — with a silvery or whitish belly and prominent canine teeth. Young fish carry about eight pale bars on the sides and two blue lines across the cheek.",
+   "note": "The river snapper or rock salmon of South African estuary anglers and the mangrove jack of Australia: an ambush predator that lies under mangrove roots, ledges and fallen trees, hunts mostly at night and bolts for cover the moment it takes. Young fish grow up in estuaries, even in fresh water, and move out to offshore reefs as they mature.",
+   "tactic": "A live mullet or prawn, or a lure or soft plastic cast tight to mangrove roots and rock ledges, on strong line with the drag locked — the first few seconds decide it.",
+   "caution": "In South Africa five a day at 40 cm or more, on a DFFE recreational permit (online or at the Post Office), and it may not be sold. Ciguatera has been reported — ask locally before eating a big reef fish. No fishing in Kenya’s marine national parks.",
+   "localNames": [
+    {
+     "name": "river snapper",
+     "regions": [
+      "southern-savanna"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "talang-queenfish",
+   "name": "Talang queenfish",
+   "latin": "Scomberoides commersonnianus",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "swahili-coast",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Clear coastal water around reefs, points, river mouths and offshore islands, and estuary channels on the push of the tide — the reef edges and creek mouths of Kenya, Tanzania and Mozambique, Madagascar, and in South Africa from Algoa Bay north, above all Durban Bay, Richards Bay and St Lucia.",
+   "identify": "A long, flat-sided, silvery fish, blue-grey on the back, with a single row of large, oval dark blotches along or just above the lateral line, a big mouth whose upper jaw reaches past the eye, a deeply forked tail and semi-detached, finlet-like rays at the back of the dorsal and anal fins. The skin feels like leather: its tiny scales are buried in it.",
+   "note": "A fast, acrobatic hunter of small fish, squid, mantis shrimps and swimming crabs that often leaps when hooked. Young fish live by rasping scales off other fish. In South Africa it is most plentiful in KwaZulu-Natal in summer, and the IGFA world record came from Umkomaas.",
+   "tactic": "Poppers, stickbaits and fast spoons worked across the surface near reef edges and river mouths, or a live baitfish on a short wire trace; on fly, a fast-stripped baitfish pattern.",
+   "caution": "The spines in front of the dorsal and anal fins are sharp and can give a painful wound — handle the fish with a cloth. In South Africa ten a day within the overall daily limit of ten fish, on a DFFE recreational permit. No fishing in Kenya’s marine national parks.",
+   "localNames": [
+    {
+     "name": "largemouth queenfish",
+     "regions": "all"
+    }
+   ]
+  },
+  {
+   "slug": "spangled-emperor",
+   "name": "Spangled emperor",
+   "latin": "Lethrinus nebulosus",
+   "group": "fish",
+   "water": "salt",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "regions": [
+    "swahili-coast",
+    "southern-savanna",
+    "madagascar-islands"
+   ],
+   "where": "Coral and rocky reefs, sand between reefs, seagrass beds and lagoon channels from about 10 to 75 m along the East African coast, around Madagascar and the Indian Ocean islands, and south to southern Mozambique and Sodwana Bay — mostly fished from boats, and from the shore from Kosi Bay northwards.",
+   "identify": "A deep, yellowish-bronze emperor with a long, sloping snout and thick lips, a white or pale blue spot at the centre of many scales and three blue streaks or rows of blue spots running forward and down from the eye. The fins are whitish to yellow and the dorsal fin is edged red; there is no red on the gill cover.",
+   "note": "One of the most important line fish of the tropical Indian Ocean, feeding over sand and reef on sea urchins, shellfish, crabs and worms. Young fish school over shallow sand and seagrass; adults move deeper as they grow. The similar emperors caught south of Sodwana Bay, off KwaZulu-Natal and the Eastern Cape, were described as a separate species in 2022.",
+   "tactic": "Squid, crab, prawn or cut fish on a two-hook bottom rig fished on sand beside the reef; small jigs and soft plastics dragged slowly along the bottom.",
+   "caution": "Ciguatera has been reported — ask locally before eating a big reef fish. In South Africa ten a day within the overall daily limit of ten fish, on a DFFE recreational permit; most of its South African range lies inside the iSimangaliso marine protected area, which has its own rules. No fishing in Kenya’s marine national parks."
+  }
+ ],
+ "fishExtraRegions": [
+  {
+   "northern-pike": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe"
+   ],
+   "brown-trout": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe"
+   ],
+   "rainbow-trout": [
+    "atlantic-europe",
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe",
+    "mediterranean-europe",
+    "pannonian-steppe"
+   ],
+   "atlantic-salmon": [
+    "atlantic-europe",
+    "boreal-europe",
+    "continental-europe"
+   ],
+   "burbot": [
+    "continental-europe",
+    "boreal-europe",
+    "alpine-europe"
+   ],
+   "brook-trout": [
+    "alpine-europe",
+    "boreal-europe",
+    "continental-europe"
+   ],
+   "lake-trout": [
+    "alpine-europe",
+    "boreal-europe"
+   ],
+   "largemouth-bass": [
+    "mediterranean-europe",
+    "atlantic-europe"
+   ],
+   "channel-catfish": [
+    "mediterranean-europe"
+   ]
+  },
+  {
+   "rainbow-trout": [
+    "north-africa-mediterranean",
+    "east-african-highlands",
+    "southern-savanna",
+    "highveld-drakensberg",
+    "cape-fynbos"
+   ],
+   "brown-trout": [
+    "north-africa-mediterranean",
+    "east-african-highlands",
+    "southern-savanna",
+    "highveld-drakensberg"
+   ],
+   "largemouth-bass": [
+    "north-africa-mediterranean",
+    "east-african-highlands",
+    "southern-savanna",
+    "highveld-drakensberg",
+    "namib-karoo",
+    "cape-fynbos",
+    "madagascar-islands"
+   ],
+   "smallmouth-bass": [
+    "cape-fynbos",
+    "highveld-drakensberg",
+    "southern-savanna"
+   ],
+   "bluegill": [
+    "north-africa-mediterranean",
+    "southern-savanna",
+    "highveld-drakensberg",
+    "cape-fynbos",
+    "madagascar-islands"
+   ],
+   "northern-pike": [
+    "north-africa-mediterranean"
+   ],
+   "common-carp": [
+    "north-africa-mediterranean",
+    "sahara-nile",
+    "east-african-highlands",
+    "southern-savanna",
+    "highveld-drakensberg",
+    "namib-karoo",
+    "cape-fynbos",
+    "madagascar-islands"
+   ]
+  },
+  {
+   "brown-trout": [
+    "cape-fynbos"
+   ],
+   "giant-trevally": [
+    "hawaii-tropics"
+   ]
+  }
+ ],
+ "garden": [
+  {
+   "slug": "honey-bee",
+   "name": "Honey bee",
+   "latin": "Apis mellifera",
+   "group": "pollinator",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": "all",
+   "where": "Anything in flower, especially in mass — clover, fruit blossom, borage, oregano left to bloom.",
+   "identify": "Golden-brown, banded, furry thorax, and pollen packed onto the hind legs in visible baskets.",
+   "note": "Managed and not native, but the workhorse of orchard and field pollination. A colony works within about 3 km of the hive.",
+   "caution": "Never spray anything, even organic, on open flowers in the middle of a sunny day."
+  },
+  {
+   "slug": "bumble-bee",
+   "name": "Bumble bees",
+   "latin": "Bombus spp.",
+   "group": "pollinator",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "Tomatoes, blueberries, squash, and any deep flower; they nest in old rodent holes and grass tussocks.",
+   "identify": "Big, round and very furry, in black with yellow, orange or white bands.",
+   "note": "The best pollinator you have. They buzz-pollinate — vibrating the flower to shake pollen loose — which tomatoes, blueberries and cranberries respond to especially well. Tomatoes can self-pollinate and honey bees work commercial blueberries, but a bumble bee does both better.",
+   "caution": "Leave rough grass and a corner of bare ground; that is where they nest."
+  },
+  {
+   "slug": "mason-bee",
+   "name": "Mason bee",
+   "latin": "Osmia spp.",
+   "group": "pollinator",
+   "months": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "Early fruit blossom. Nests in hollow stems and drilled blocks, sealing cells with mud.",
+   "identify": "Small, dark metallic blue-black, carrying pollen dry on the underside of the abdomen rather than on the legs.",
+   "note": "A few hundred mason bees can pollinate an orchard that would need thousands of honey bees — they work in cold, wet spring weather and carry pollen loose on their bellies. Solitary, docile, and easy to house."
+  },
+  {
+   "slug": "hoverfly",
+   "name": "Hoverfly",
+   "latin": "Syrphidae",
+   "group": "pollinator",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": "all",
+   "where": "Umbels — dill, fennel, coriander gone to flower — and anywhere aphids live.",
+   "identify": "Wasp-striped but a true fly: two wings not four, huge eyes, and it hovers dead still in mid-air.",
+   "note": "Double value: the adult pollinates, and the slug-like larvae of the aphid-eating kinds (the striped Syrphus, Toxomerus and Eupeodes flies, like the one pictured) each eat hundreds of aphids. The bee-like drone flies are pollinators only — their larvae live in wet muck. Plant an umbel and you get the lot."
+  },
+  {
+   "slug": "monarch",
+   "name": "Monarch butterfly",
+   "latin": "Danaus plexippus",
+   "group": "pollinator",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "mediterranean-california"
+   ],
+   "where": "Milkweed for the caterpillars; any nectar — especially late asters and goldenrod — for the migrating adults.",
+   "identify": "Orange with heavy black veins and a white-spotted black border. The caterpillar is banded yellow, white and black.",
+   "note": "Eastern monarchs fly to central Mexico each autumn, several generations removed from the ones that left. Milkweed is the only plant their caterpillars eat."
+  },
+  {
+   "slug": "swallowtail",
+   "name": "Swallowtail butterflies",
+   "latin": "Papilio spp.",
+   "group": "pollinator",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": "all",
+   "where": "Black swallowtails on carrot-family plants — dill, parsley, fennel, Queen Anne's lace; tiger swallowtails on cherry, tulip tree, ash and birch; giant swallowtails on citrus and prickly ash. Males gather on wet gravel and mud.",
+   "identify": "Large, with tails on the hindwings. Swallowtails are the family Papilionidae; the common ones here are all in the genus Papilio — eastern and Canadian tiger swallowtails (P. glaucus, P. canadensis) with black-and-yellow stripes, the black swallowtail (P. polyxenes) with rows of yellow and blue spots, the western tiger (P. rutulus) and the big giant swallowtail (P. cresphontes).",
+   "note": "If you find fat green caterpillars with black bands on your dill, leave them. Plant enough dill for both of you."
+  },
+  {
+   "slug": "hummingbird",
+   "name": "Ruby-throated hummingbird",
+   "latin": "Archilochus colubris",
+   "group": "pollinator",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "great-lakes-st-lawrence",
+    "acadian-forest",
+    "central-hardwoods",
+    "northeast-coast",
+    "southeastern",
+    "appalachian",
+    "great-plains",
+    "boreal-forest"
+   ],
+   "where": "Tubular red and orange flowers — bee balm, salvia, honeysuckle, runner beans.",
+   "identify": "Tiny, iridescent green above; the male has a black-looking throat that flares ruby in the right light.",
+   "note": "The east's only breeding hummingbird. It crosses the Gulf of Mexico non-stop, twice a year, weighing about as much as a nickel."
+  },
+  {
+   "slug": "ladybug",
+   "name": "Lady beetle",
+   "latin": "Coccinellidae",
+   "group": "beneficial",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": "all",
+   "where": "Wherever aphids are — on rose tips, bean tops and the underside of leaves.",
+   "identify": "The adult everyone knows; the larva is the useful one — a spiky, alligator-shaped grey-and-orange creature that looks like a pest.",
+   "note": "A single larva eats several hundred aphids before pupating. Learn the larva so you never squash one by mistake."
+  },
+  {
+   "slug": "green-lacewing",
+   "name": "Green lacewing",
+   "latin": "Chrysoperla spp.",
+   "group": "beneficial",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": "all",
+   "where": "Anywhere soft-bodied pests gather; eggs on fine stalks under leaves.",
+   "identify": "Delicate pale green adult with lacy wings and gold eyes. Eggs sit singly on the ends of hair-thin stalks.",
+   "note": "Its larva is called the aphid lion, and it earns the name. Those stalked eggs are a sign your garden is working."
+  },
+  {
+   "slug": "praying-mantis",
+   "name": "Praying mantis",
+   "latin": "Mantidae",
+   "group": "beneficial",
+   "months": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "central-hardwoods",
+    "northeast-coast",
+    "great-lakes-st-lawrence",
+    "southeastern",
+    "great-plains",
+    "mediterranean-california",
+    "gulf-coast"
+   ],
+   "where": "Perennial borders and tall grass; egg cases glued to stems over winter.",
+   "identify": "Long green or brown body, triangular head that swivels, and folded raptorial front legs.",
+   "note": "A generalist predator: it eats pests and beneficials alike, so it is a fine garden inhabitant but not a pest-control plan."
+  },
+  {
+   "slug": "ground-beetle",
+   "name": "Ground beetle",
+   "latin": "Carabidae",
+   "group": "beneficial",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": "all",
+   "where": "Under boards, stones and mulch; hunting on the soil surface at night.",
+   "identify": "Shiny black or bronze, fast-running, with grooved wing covers and long legs.",
+   "note": "One of the great unsung allies — it eats slugs, cutworms, root maggots and weed seeds. Leave mulch and a few boards for it to shelter under."
+  },
+  {
+   "slug": "braconid-wasp",
+   "name": "Braconid wasp",
+   "latin": "Braconidae",
+   "group": "beneficial",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": "all",
+   "where": "Look for the result rather than the wasp: white rice-like cocoons standing up on the back of a hornworm.",
+   "identify": "A tiny, harmless, thread-waisted wasp. The cocoons on a caterpillar's back are the unmistakable sign.",
+   "note": "If you find a hornworm covered in white cocoons, leave it exactly where it is — it is already dying and about to release dozens more wasps."
+  },
+  {
+   "slug": "garden-spider",
+   "name": "Garden orb weaver",
+   "latin": "Argiope aurantia",
+   "group": "beneficial",
+   "months": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "A big orb web strung between tall plants, usually rebuilt each morning.",
+   "identify": "Striking black and yellow, with a heavy zig-zag band of silk down the middle of the web.",
+   "note": "Harmless to people and a serious predator of flying pests. Walk around the web rather than through it."
+  },
+  {
+   "slug": "earthworm",
+   "name": "Earthworm",
+   "latin": "Lumbricus terrestris",
+   "group": "soil",
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+   ],
+   "regions": "all",
+   "where": "Everywhere the soil is moist and has organic matter to eat. Castings appear on the surface overnight.",
+   "identify": "Familiar; look for the saddle-like clitellum a third of the way down a mature worm.",
+   "note": "Worm counts are the cheapest soil test there is: dig a 20 cm cube and count. Ten or more is a healthy garden.",
+   "caution": "In northern forests introduced earthworms are damaging — they strip the duff layer native plants need. Never dump bait worms in the woods."
+  },
+  {
+   "slug": "aphid",
+   "name": "Aphids",
+   "latin": "Aphidoidea",
+   "group": "pest",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": "all",
+   "where": "Growing tips, flower buds and the underside of young leaves, in dense colonies.",
+   "identify": "Tiny pear-shaped insects, green, black or pink, with two little tailpipes at the rear. Sticky honeydew and ants tending them are the giveaway.",
+   "note": "Rarely worth spraying. A hard jet of water knocks them off, and lady beetles and hoverflies arrive within a week or two if you leave them alone."
+  },
+  {
+   "slug": "tomato-hornworm",
+   "name": "Tomato hornworm",
+   "latin": "Manduca quinquemaculata",
+   "group": "pest",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "Tomatoes, peppers and potatoes — find them by the dark pellets of frass on leaves below.",
+   "identify": "A very large green caterpillar with white chevrons and a stiff horn at the rear. It hides in plain sight.",
+   "note": "Hand-pick — but if it wears white cocoons, leave it: parasitic wasps have already won. The adult is the big sphinx moth that hovers at dusk."
+  },
+  {
+   "slug": "cabbage-white",
+   "name": "Cabbage white",
+   "latin": "Pieris rapae",
+   "group": "pest",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "regions": [
+    "boreal-north",
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts",
+    "hawaii-tropics"
+   ],
+   "where": "Any brassica: kale, cabbage, broccoli, mustards.",
+   "identify": "A plain white butterfly with one or two black wing spots. The caterpillar is velvety green and lies along a leaf vein.",
+   "note": "The single most reliable pest of a brassica bed. Floating row cover from the day you transplant is the whole answer."
+  },
+  {
+   "slug": "colorado-potato-beetle",
+   "name": "Colorado potato beetle",
+   "latin": "Leptinotarsa decemlineata",
+   "group": "pest",
+   "months": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "regions": [
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "deserts"
+   ],
+   "where": "Potatoes, and eggplant when the potatoes run out.",
+   "identify": "A round beetle with ten black stripes on a cream back; orange egg clusters and fat pink humpbacked larvae underneath the leaves.",
+   "note": "Squash the orange eggs on the leaf underside twice a week and you will rarely need to do anything else. Famously resistant to insecticides."
+  },
+  {
+   "slug": "squash-bug",
+   "name": "Squash bug",
+   "latin": "Anasa tristis",
+   "group": "pest",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": [
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "western-mountains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "Squash and pumpkins, hiding under leaves and at the base of stems.",
+   "identify": "A flat grey-brown shield-shaped bug; bronze egg clusters laid in neat V patterns in the angle of leaf veins.",
+   "note": "Lay a board beside the plants overnight — they gather under it and you can collect them at dawn. Rub the bronze eggs off with your thumb."
+  },
+  {
+   "slug": "squash-vine-borer",
+   "name": "Squash vine borer",
+   "latin": "Melittia cucurbitae",
+   "group": "pest",
+   "months": [
+    6,
+    7,
+    8
+   ],
+   "regions": [
+    "central-hardwoods",
+    "northeast-coast",
+    "great-lakes-st-lawrence",
+    "southeastern",
+    "great-plains",
+    "gulf-coast",
+    "appalachian"
+   ],
+   "where": "Inside the stem at the base of a squash plant.",
+   "identify": "The adult is a day-flying orange-and-black moth that looks like a wasp. The damage is sudden wilting plus sawdust-like frass at the stem base.",
+   "note": "The reason a healthy zucchini collapses overnight in July. Bury a couple of leaf nodes so the vine roots at several points, and plant a second succession in early July."
+  },
+  {
+   "slug": "japanese-beetle",
+   "name": "Japanese beetle",
+   "latin": "Popillia japonica",
+   "group": "pest",
+   "months": [
+    6,
+    7,
+    8
+   ],
+   "regions": [
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "central-hardwoods",
+    "acadian-forest",
+    "appalachian",
+    "southeastern",
+    "great-plains"
+   ],
+   "where": "Roses, grapes, beans and raspberry leaves, feeding in groups in full sun.",
+   "identify": "Metallic green body with copper wing covers and small white tufts along the sides. Leaves are skeletonised to lace.",
+   "note": "Knock them into soapy water first thing in the morning while they are sluggish. Traps pull in more beetles than they catch — put them at the far end of the property or not at all."
+  },
+  {
+   "slug": "slug",
+   "name": "Slugs",
+   "latin": "Gastropoda",
+   "group": "pest",
+   "months": [
+    4,
+    5,
+    6,
+    9,
+    10
+   ],
+   "regions": "all",
+   "where": "Under mulch, boards and pots; out at night and after rain.",
+   "identify": "The silvery slime trail and ragged holes in the middle of leaves, not at the edges.",
+   "note": "Worst in a wet spring on the coast. Beer traps, a night patrol with a flashlight, and iron-phosphate bait all work; salt does not belong in soil."
+  },
+  {
+   "slug": "cucumber-beetle",
+   "name": "Cucumber beetle",
+   "latin": "Acalymma vittatum",
+   "group": "pest",
+   "months": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "regions": [
+    "boreal-forest",
+    "acadian-forest",
+    "great-lakes-st-lawrence",
+    "northeast-coast",
+    "appalachian",
+    "central-hardwoods",
+    "southeastern",
+    "gulf-coast",
+    "florida-peninsula",
+    "great-plains",
+    "pacific-maritime",
+    "mediterranean-california",
+    "deserts"
+   ],
+   "where": "Cucumbers, melons and squash, from the moment the seedlings emerge.",
+   "identify": "Small and yellow with three black stripes down the back, or with twelve spots.",
+   "note": "The real harm is bacterial wilt, which it carries — a beetle-free plant rarely wilts. Row cover until flowering, then remove it so bees can work."
+  },
+  {
+   "slug": "flea-beetle",
+   "name": "Flea beetle",
+   "latin": "Alticini",
+   "group": "pest",
+   "months": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "regions": "all",
+   "where": "Eggplant, arugula, radish and young brassicas.",
+   "identify": "Tiny shiny black beetles that jump like fleas when disturbed, leaving leaves peppered with shot-holes.",
+   "note": "Cosmetic on a big plant, fatal on a seedling. Cover new transplants for the first three weeks and they will outgrow it."
+  },
+  {
+   "slug": "spider-mite",
+   "name": "Spider mites",
+   "latin": "Tetranychus urticae",
+   "group": "pest",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": "all",
+   "where": "Hot, dry, dusty conditions — greenhouse tomatoes, beans, and anything against a sunny wall.",
+   "identify": "Leaves take on a fine bronze stippling; fine webbing appears in the leaf axils. Tap a leaf over white paper to see the moving specks.",
+   "note": "Dry air is what lets them explode. Hosing the undersides of leaves regularly is the simplest control."
+  },
+  {
+   "slug": "cutworm",
+   "name": "Cutworms",
+   "latin": "Noctuidae",
+   "group": "pest",
+   "months": [
+    4,
+    5,
+    6
+   ],
+   "regions": "all",
+   "where": "Just under the soil surface beside a transplant; feeding at night.",
+   "identify": "Fat grey-brown caterpillars that curl into a tight C when you dig them up. A seedling severed cleanly at ground level is the sign.",
+   "note": "A cardboard collar pushed 2 cm into the soil around each transplant ends the problem for the season."
+  },
+  {
+   "slug": "earwig",
+   "name": "Earwig",
+   "latin": "Forficula auricularia",
+   "group": "pest",
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "regions": "all",
+   "where": "Dark damp crevices by day; feeding on soft growth and ripe fruit at night.",
+   "identify": "Slim brown insect with a pair of pincers at the rear.",
+   "note": "Genuinely both — it chews seedlings and dahlia petals, and it also eats aphids and codling moth eggs. A rolled newspaper or a stuffed flowerpot traps them if numbers get out of hand."
+  }
+ ],
+ "audit": {
+  "note": "Regional-accuracy audit (RF, 2026-10-14): steelhead's 'appalachian' region removed. Source: ncfishes.com / NC Wildlife Resources Commission — North Carolina's salmonids are rainbow, brown and brook trout (plus landlocked kokanee); no steelhead run exists in the Appalachian region as the site draws it (34–42 N, 85–78 W). The Lake Erie steelhead tributaries fall in the site's great-lakes-st-lawrence region.",
+  "regionChanges": {
+   "steelhead": {
+    "before": [
+     "great-lakes-st-lawrence",
+     "appalachian",
+     "western-mountains",
+     "pacific-maritime",
+     "mediterranean-california"
+    ],
+    "after": [
+     "great-lakes-st-lawrence",
+     "western-mountains",
+     "pacific-maritime",
+     "mediterranean-california"
+    ]
+   }
+  }
+ },
+ "sources": [
+  {
+   "note": "Regional-accuracy round 2 (agent C, 2026-10-14): country and box rules (excludeCountries, regionCountries, within) and per-region months (monthsByRegion), read by src/lib/nature.ts creaturesNow when the place is given, and by fishByWater. Each change lists its source.",
+   "changes": [
+    {
+     "slug": "largemouth-bass",
+     "field": "excludeCountries",
+     "before": null,
+     "after": [
+      "GB",
+      "IE"
+     ],
+     "source": "IUCN Global Invasive Species Database, Micropterus salmoides: alien range lists Portugal, Spain, France, Italy, Germany, Poland, Norway…; no United Kingdom or Ireland record https://www.iucngisd.org/gisd/speciesname/Micropterus+salmoides"
+    },
+    {
+     "slug": "wels-catfish",
+     "field": "excludeCountries",
+     "before": null,
+     "after": [
+      "NO",
+      "GB",
+      "IE"
+     ],
+     "source": "Store norske leksikon, Malle: 'I Norden forekommer den bare i Sør-Finland og Sørøst-Sverige' https://snl.no/malle ; Angling Times / Environment Agency: wels 'can be legally kept in the UK under permit in stillwaters with no inlet or outlet streams', and are removed when found in flowing water https://www.anglingtimes.co.uk/news/stories/two-big-catfish-found-in-tiny-park-stream ; USFWS risk screening (2026): GBIF holds no Irish records https://www.fws.gov/sites/default/files/documents/2026-08/ecological-risk-screening-summary-wels-catfish-jul-2026.pdf"
+    },
+    {
+     "slug": "roach",
+     "field": "excludeCountries",
+     "before": null,
+     "after": [
+      "PT"
+     ],
+     "source": "Knowledge and Management of Aquatic Ecosystems (2015), non-native fish of the Portuguese Tagus: roach and perch are first records (Ribeiro & Veríssimo 2014; Vale Longo reservoir), common bream and channel catfish unrecorded; achigã (largemouth bass), lúcio (pike), zander and wels are the established non-natives https://www.kmae-journal.org/articles/kmae/pdf/2015/01/kmae140065.pdf"
+    },
+    {
+     "slug": "common-bream",
+     "field": "excludeCountries",
+     "before": null,
+     "after": [
+      "PT"
+     ],
+     "source": "Knowledge and Management of Aquatic Ecosystems (2015), non-native fish of the Portuguese Tagus: roach and perch are first records (Ribeiro & Veríssimo 2014; Vale Longo reservoir), common bream and channel catfish unrecorded; achigã (largemouth bass), lúcio (pike), zander and wels are the established non-natives https://www.kmae-journal.org/articles/kmae/pdf/2015/01/kmae140065.pdf"
+    },
+    {
+     "slug": "european-perch",
+     "field": "excludeCountries",
+     "before": null,
+     "after": [
+      "PT"
+     ],
+     "source": "Knowledge and Management of Aquatic Ecosystems (2015), non-native fish of the Portuguese Tagus: roach and perch are first records (Ribeiro & Veríssimo 2014; Vale Longo reservoir), common bream and channel catfish unrecorded; achigã (largemouth bass), lúcio (pike), zander and wels are the established non-natives https://www.kmae-journal.org/articles/kmae/pdf/2015/01/kmae140065.pdf"
+    },
+    {
+     "slug": "channel-catfish",
+     "field": "excludeCountries",
+     "before": null,
+     "after": [
+      "PT"
+     ],
+     "source": "Knowledge and Management of Aquatic Ecosystems (2015), non-native fish of the Portuguese Tagus: roach and perch are first records (Ribeiro & Veríssimo 2014; Vale Longo reservoir), common bream and channel catfish unrecorded; achigã (largemouth bass), lúcio (pike), zander and wels are the established non-natives https://www.kmae-journal.org/articles/kmae/pdf/2015/01/kmae140065.pdf"
+    },
+    {
+     "slug": "gilthead-seabream",
+     "field": "excludeCountries",
+     "before": null,
+     "after": [
+      "NO",
+      "SE",
+      "DK",
+      "DE",
+      "PL",
+      "NL",
+      "BE",
+      "FI",
+      "EE",
+      "LV",
+      "LT"
+     ],
+     "source": "FishBase, Sparus aurata distribution: 'Eastern Atlantic: British Isles, Strait of Gibraltar to Cape Verde and around the Canary Islands; also in the Mediterranean' — not the North Sea or the Baltic https://www.fishbase.se/summary/Sparus-aurata.html"
+    },
+    {
+     "slug": "tigerfish",
+     "field": "within",
+     "before": null,
+     "after": {
+      "east-african-highlands": {
+       "minLat": 1,
+       "maxLat": 7
+      }
+     },
+     "source": "FishBase, Hydrocynus forskahlii distribution: 'Nile River, including Lake Albert… Lake Turkana and Omo River' — in the East African highlands region only the Turkana–Omo basin and the Albert Nile, 600 km from Nairobi https://fishbase.se/summary/4496"
+    },
+    {
+     "slug": "vundu",
+     "field": "regionCountries",
+     "before": null,
+     "after": {
+      "east-african-highlands": [
+       "UG",
+       "SS",
+       "CD",
+       "TZ",
+       "ET"
+      ]
+     },
+     "source": "FishBase, Heterobranchus longifilis distribution: the Nile, the Congo system, the Zambezi, Lakes Tanganyika and Edward, West African basins — not Kenya's or Rwanda's highland rivers https://fishbase.se/summary/Heterobranchus-longifilis.html"
+    },
+    {
+     "slug": "rainbow-trout",
+     "field": "monthsByRegion",
+     "before": null,
+     "after": {
+      "deserts": [
+       11,
+       12,
+       1,
+       2,
+       3
+      ]
+     },
+     "source": "Arizona Game and Fish Department, Community Fishing Program: rainbow trout 'stocked in the winter' https://www.azgfd.com/fishing/community/ ; AZGFD release: trout 'stocked in Urban Fishing waters at two-week intervals from November to March' https://www.outdoorhub.com/?p=351634"
+    },
+    {
+     "slug": "brown-trout",
+     "field": "within",
+     "before": null,
+     "after": {
+      "deserts": {
+       "minLat": 34.5
+      }
+     },
+     "source": "No brown trout in the low-desert valley waters: AZGFD's Community Fishing Program stocks rainbow trout (winter), channel catfish and bluegill only https://www.azgfd.com/fishing/community/ ; the record's own habitat is cold streams, which in the deserts region lie north of the Mogollon Rim (Lees Ferry, the Truckee at Reno, the Boise River)."
+    },
+    {
+     "slug": "bluefish",
+     "field": "monthsByRegion",
+     "before": null,
+     "after": {
+      "cape-fynbos": [
+       12,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "southern-savanna": [
+       12,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "namib-karoo": [
+       12,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ]
+     },
+     "source": "DFFE, Marine Living Resources Act regulations, Annexure 2: elf/shad closed '1 September to 30 November' — so the open season runs December to August (the six-month shift of the northern months gave December–September) https://source.acts.co.za/marine-living-resources-act-1998/r1111_annexure_2__closed_season.php"
+    },
+    {
+     "slug": "striped-bass",
+     "field": "regions",
+     "before": [
+      "acadian-forest",
+      "great-lakes-st-lawrence",
+      "northeast-coast",
+      "central-hardwoods",
+      "southeastern",
+      "gulf-coast",
+      "great-plains",
+      "mediterranean-california"
+     ],
+     "after": [
+      "acadian-forest",
+      "northeast-coast",
+      "central-hardwoods",
+      "southeastern",
+      "gulf-coast",
+      "great-plains",
+      "mediterranean-california"
+     ],
+     "source": "Ontario Fishing Regulations Summary, FMZ 20 (Lake Ontario): striped bass is not among the species with a season https://www.ontario.ca/document/ontario-fishing-regulations-summary/fisheries-management-zone-20 ; the St Lawrence population below Montréal is the one the region text means and is managed by Québec (DFO/MELCCFP), not fished from the Great Lakes towns."
+    }
+   ]
+  },
+  {
+   "note": "Audit of 10 November 2026 (fish package): alternative names moved from `name` to `localNames`, each with the regions where it is used; src/lib/fishing-waters.ts localName prints only those. Reasons in scripts/fix-fish-local-names.mjs.",
+   "changes": [
+    {
+     "slug": "redfish",
+     "field": "name",
+     "before": "Redfish (red drum)",
+     "after": "Redfish"
+    },
+    {
+     "slug": "redfish",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "red drum",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "speckled-trout",
+     "field": "name",
+     "before": "Speckled trout (spotted seatrout)",
+     "after": "Speckled trout"
+    },
+    {
+     "slug": "speckled-trout",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "spotted seatrout",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "mozambique-tilapia",
+     "field": "name",
+     "before": "Mozambique tilapia (blue kurper)",
+     "after": "Mozambique tilapia"
+    },
+    {
+     "slug": "mozambique-tilapia",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "blue kurper",
+       "regions": [
+        "cape-fynbos",
+        "southern-savanna",
+        "namib-karoo"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "sharptooth-catfish",
+     "field": "name",
+     "before": "Sharptooth catfish (barbel)",
+     "after": "Sharptooth catfish"
+    },
+    {
+     "slug": "sharptooth-catfish",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "barbel",
+       "regions": [
+        "southern-savanna",
+        "highveld-drakensberg",
+        "namib-karoo",
+        "cape-fynbos"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dusky-kob",
+     "field": "name",
+     "before": "Dusky kob (kabeljou)",
+     "after": "Dusky kob"
+    },
+    {
+     "slug": "dusky-kob",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "kabeljou",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "yellowtail-amberjack",
+     "field": "name",
+     "before": "Yellowtail (Cape yellowtail)",
+     "after": "Yellowtail"
+    },
+    {
+     "slug": "yellowtail-amberjack",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "Cape yellowtail",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "giant-trevally",
+     "field": "name",
+     "before": "Giant trevally (GT)",
+     "after": "Giant trevally"
+    },
+    {
+     "slug": "giant-trevally",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "GT",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "bluefish",
+     "field": "name",
+     "before": "Bluefish (elf, shad)",
+     "after": "Bluefish"
+    },
+    {
+     "slug": "bluefish",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "elf",
+       "regions": [
+        "cape-fynbos",
+        "southern-savanna",
+        "namib-karoo"
+       ]
+      },
+      {
+       "name": "shad",
+       "regions": [
+        "cape-fynbos",
+        "southern-savanna",
+        "namib-karoo"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "white-steenbras",
+     "field": "name",
+     "before": "White steenbras (pignose grunter)",
+     "after": "White steenbras"
+    },
+    {
+     "slug": "white-steenbras",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "pignose grunter",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "hottentot-seabream",
+     "field": "name",
+     "before": "Hottentot seabream (Cape bream)",
+     "after": "Hottentot seabream"
+    },
+    {
+     "slug": "hottentot-seabream",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "Cape bream",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "white-musselcracker",
+     "field": "name",
+     "before": "White musselcracker (brusher)",
+     "after": "White musselcracker"
+    },
+    {
+     "slug": "white-musselcracker",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "brusher",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "leerfish",
+     "field": "name",
+     "before": "Leerfish (garrick)",
+     "after": "Leerfish"
+    },
+    {
+     "slug": "leerfish",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "garrick",
+       "regions": [
+        "cape-fynbos",
+        "southern-savanna",
+        "namib-karoo"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "white-seabream",
+     "field": "name",
+     "before": "White seabream (blacktail)",
+     "after": "White seabream"
+    },
+    {
+     "slug": "white-seabream",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "blacktail",
+       "regions": [
+        "cape-fynbos",
+        "southern-savanna",
+        "namib-karoo"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "flathead-grey-mullet",
+     "field": "name",
+     "before": "Flathead grey mullet (striped mullet)",
+     "after": "Flathead grey mullet"
+    },
+    {
+     "slug": "flathead-grey-mullet",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "striped mullet",
+       "regions": [
+        "northeast-coast",
+        "southeastern",
+        "gulf-coast",
+        "florida-peninsula",
+        "mediterranean-california",
+        "hawaii-tropics"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "narrow-barred-spanish-mackerel",
+     "field": "name",
+     "before": "Couta (narrow-barred Spanish mackerel)",
+     "after": "Narrow-barred Spanish mackerel"
+    },
+    {
+     "slug": "narrow-barred-spanish-mackerel",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "couta",
+       "regions": [
+        "southern-savanna"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "crevalle-jack",
+     "field": "name",
+     "before": "Crevalle jack (jack crevalle)",
+     "after": "Crevalle jack"
+    },
+    {
+     "slug": "crevalle-jack",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "jack crevalle",
+       "regions": [
+        "southeastern",
+        "gulf-coast",
+        "florida-peninsula"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "silver-catfish",
+     "field": "name",
+     "before": "Silver catfish (bagrid catfish)",
+     "after": "Silver catfish"
+    },
+    {
+     "slug": "silver-catfish",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "bagrid catfish",
+       "regions": "all"
+      }
+     ]
+    },
+    {
+     "slug": "mangrove-red-snapper",
+     "field": "name",
+     "before": "Mangrove red snapper (river snapper)",
+     "after": "Mangrove red snapper"
+    },
+    {
+     "slug": "mangrove-red-snapper",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "river snapper",
+       "regions": [
+        "southern-savanna"
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "talang-queenfish",
+     "field": "name",
+     "before": "Talang queenfish (largemouth queenfish)",
+     "after": "Talang queenfish"
+    },
+    {
+     "slug": "talang-queenfish",
+     "field": "localNames",
+     "before": null,
+     "after": [
+      {
+       "name": "largemouth queenfish",
+       "regions": "all"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

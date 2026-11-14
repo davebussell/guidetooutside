@@ -1,0 +1,407 @@
+{
+ "atlas-cedar": {
+  "author": "Mourad Harzallah",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Atlas cedar",
+  "source": "https://www.inaturalist.org/observations/235930050",
+  "src": "/landscape/atlas-cedar.webp",
+  "taxon": "Cedrus atlantica"
+ },
+ "bald-cypress": {
+  "author": "William J. Deml",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Bald cypress",
+  "source": "https://www.inaturalist.org/observations/146379113",
+  "src": "/landscape/bald-cypress.webp",
+  "taxon": "Taxodium distichum"
+ },
+ "balsam-fir": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Balsam fir",
+  "source": "https://www.inaturalist.org/observations/136613876",
+  "src": "/landscape/balsam-fir.webp",
+  "taxon": "Abies balsamea"
+ },
+ "beach-grass": {
+  "author": "Henrique Pacheco",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "American beachgrass",
+  "source": "https://www.inaturalist.org/observations/245766288",
+  "src": "/landscape/beach-grass.webp",
+  "taxon": "Calamagrostis breviligulata"
+ },
+ "big-bluestem": {
+  "author": "Evan H",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Big bluestem",
+  "source": "https://www.inaturalist.org/observations/237165296",
+  "src": "/landscape/big-bluestem.webp",
+  "taxon": "Andropogon gerardi"
+ },
+ "black-spruce": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Black spruce",
+  "source": "https://www.inaturalist.org/observations/308427426",
+  "src": "/landscape/black-spruce.webp",
+  "taxon": "Picea mariana"
+ },
+ "california-poppy": {
+  "author": "Annette Herz",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "California poppy",
+  "source": "https://www.inaturalist.org/observations/108094155",
+  "src": "/landscape/california-poppy.webp",
+  "taxon": "Eschscholzia californica"
+ },
+ "coast-redwood": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Coast redwood",
+  "source": "https://www.inaturalist.org/observations/123664186",
+  "src": "/landscape/coast-redwood.webp",
+  "taxon": "Sequoia sempervirens"
+ },
+ "coconut-palm": {
+  "author": "Claude Kolwelter",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Coconut palm",
+  "source": "https://www.inaturalist.org/observations/132299439",
+  "src": "/landscape/coconut-palm.webp",
+  "taxon": "Cocos nucifera"
+ },
+ "common-heather": {
+  "author": "Thomas Dreux",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Heather",
+  "source": "https://www.inaturalist.org/observations/98703169",
+  "src": "/landscape/common-heather.webp",
+  "taxon": "Calluna vulgaris"
+ },
+ "cordgrass": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Smooth cordgrass",
+  "source": "https://www.inaturalist.org/observations/81916296",
+  "src": "/landscape/cordgrass.webp",
+  "taxon": "Sporobolus alterniflorus"
+ },
+ "date-palm": {
+  "author": "Анна Митрошенкова",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Date palm",
+  "source": "https://www.inaturalist.org/observations/196106897",
+  "src": "/landscape/date-palm.webp",
+  "taxon": "Phoenix dactylifera"
+ },
+ "eastern-hemlock": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Eastern hemlock",
+  "source": "https://www.inaturalist.org/observations/229114789",
+  "src": "/landscape/eastern-hemlock.webp",
+  "taxon": "Tsuga canadensis"
+ },
+ "european-beech": {
+  "author": "SteveM4560",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "European beech",
+  "source": "https://www.inaturalist.org/observations/250115846",
+  "src": "/landscape/european-beech.webp",
+  "taxon": "Fagus sylvatica"
+ },
+ "european-larch": {
+  "author": "Bob",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "European larch",
+  "source": "https://www.inaturalist.org/observations/151109392",
+  "src": "/landscape/european-larch.webp",
+  "taxon": "Larix decidua"
+ },
+ "feather-grass": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Feather grass",
+  "source": "https://www.inaturalist.org/observations/371522906",
+  "src": "/landscape/feather-grass.webp",
+  "taxon": "Stipa pennata"
+ },
+ "fever-tree": {
+  "author": "Tony Rebelo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "name": "Fever tree",
+  "source": "https://www.inaturalist.org/observations/229582157",
+  "src": "/landscape/fever-tree.webp",
+  "taxon": "Vachellia xanthophloea"
+ },
+ "grandidier-baobab": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Grandidier's baobab",
+  "source": "https://www.inaturalist.org/observations/137601664",
+  "src": "/landscape/grandidier-baobab.webp",
+  "taxon": "Adansonia grandidieri"
+ },
+ "great-rhododendron": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Great rhododendron",
+  "source": "https://www.inaturalist.org/observations/295669939",
+  "src": "/landscape/great-rhododendron.webp",
+  "taxon": "Rhododendron maximum"
+ },
+ "joshua-tree": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Joshua tree",
+  "source": "https://www.inaturalist.org/observations/72509340",
+  "src": "/landscape/joshua-tree.webp",
+  "taxon": "Yucca brevifolia"
+ },
+ "king-protea": {
+  "author": "Ren Hoekstra",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "King protea",
+  "source": "https://www.inaturalist.org/observations/125807302",
+  "src": "/landscape/king-protea.webp",
+  "taxon": "Protea cynaroides"
+ },
+ "live-oak": {
+  "author": "Clifton Ladd",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Southern live oak",
+  "source": "https://www.inaturalist.org/observations/48790051",
+  "src": "/landscape/live-oak.webp",
+  "taxon": "Quercus virginiana"
+ },
+ "longleaf-pine": {
+  "author": "Kyle Copas",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Longleaf pine",
+  "source": "https://www.inaturalist.org/observations/432045",
+  "src": "/landscape/longleaf-pine.webp",
+  "taxon": "Pinus palustris"
+ },
+ "mopane": {
+  "author": "Tony Rebelo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "name": "Mopane",
+  "source": "https://www.inaturalist.org/observations/135827250",
+  "src": "/landscape/mopane.webp",
+  "taxon": "Colophospermum mopane"
+ },
+ "ohia-lehua": {
+  "author": "Rorey",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "ʻŌhiʻa lehua",
+  "source": "https://www.inaturalist.org/observations/173369936",
+  "src": "/landscape/ohia-lehua.webp",
+  "taxon": "Metrosideros polymorpha"
+ },
+ "oil-palm": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Oil palm",
+  "source": "https://www.inaturalist.org/observations/103480969",
+  "src": "/landscape/oil-palm.webp",
+  "taxon": "Elaeis guineensis"
+ },
+ "olive-tree": {
+  "author": "zebedeugalinha",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Olive",
+  "source": "https://www.inaturalist.org/observations/388825391",
+  "src": "/landscape/olive-tree.webp",
+  "taxon": "Olea europaea europaea"
+ },
+ "paper-birch": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Paper birch",
+  "source": "https://www.inaturalist.org/observations/99837066",
+  "src": "/landscape/paper-birch.webp",
+  "taxon": "Betula papyrifera"
+ },
+ "ponderosa-pine": {
+  "author": "Aiva Noringseth",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Ponderosa pine",
+  "source": "https://www.inaturalist.org/observations/304577306",
+  "src": "/landscape/ponderosa-pine.webp",
+  "taxon": "Pinus ponderosa"
+ },
+ "quaking-aspen": {
+  "author": "Loren Cassin Sackett",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Quaking aspen",
+  "source": "https://www.inaturalist.org/observations/137233050",
+  "src": "/landscape/quaking-aspen.webp",
+  "taxon": "Populus tremuloides"
+ },
+ "quiver-tree": {
+  "author": "Tony Rebelo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "name": "Quiver tree",
+  "source": "https://www.inaturalist.org/observations/9169479",
+  "src": "/landscape/quiver-tree.webp",
+  "taxon": "Aloidendron dichotomum"
+ },
+ "red-grass": {
+  "author": "Shaun Swanepoel",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Red grass",
+  "source": "https://www.inaturalist.org/observations/70988057",
+  "src": "/landscape/red-grass.webp",
+  "taxon": "Themeda triandra"
+ },
+ "red-mangrove": {
+  "author": "Reid Hardin",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Red mangrove",
+  "source": "https://www.inaturalist.org/observations/67490329",
+  "src": "/landscape/red-mangrove.webp",
+  "taxon": "Rhizophora mangle"
+ },
+ "red-maple": {
+  "author": "Sandy Wolkenberg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Red maple",
+  "source": "https://www.inaturalist.org/observations/34643990",
+  "src": "/landscape/red-maple.webp",
+  "taxon": "Acer rubrum"
+ },
+ "sabal-palmetto": {
+  "author": "William J. Deml",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Cabbage palm",
+  "source": "https://www.inaturalist.org/observations/146350685",
+  "src": "/landscape/sabal-palmetto.webp",
+  "taxon": "Sabal palmetto"
+ },
+ "saguaro": {
+  "author": "Rachel Stringham",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Saguaro",
+  "source": "https://www.inaturalist.org/observations/150378273",
+  "src": "/landscape/saguaro.webp",
+  "taxon": "Carnegiea gigantea"
+ },
+ "scots-pine": {
+  "author": "Георгий Виноградов (Georgy Vinogradov)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Scots pine",
+  "source": "https://www.inaturalist.org/observations/20924018",
+  "src": "/landscape/scots-pine.webp",
+  "taxon": "Pinus sylvestris"
+ },
+ "shagbark-hickory": {
+  "author": "Laura Clark",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Shagbark hickory",
+  "source": "https://www.inaturalist.org/observations/205593255",
+  "src": "/landscape/shagbark-hickory.webp",
+  "taxon": "Carya ovata"
+ },
+ "sugar-maple": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Sugar maple",
+  "source": "https://www.inaturalist.org/observations/99837051",
+  "src": "/landscape/sugar-maple.webp",
+  "taxon": "Acer saccharum"
+ },
+ "sword-fern": {
+  "author": "Ed Alverson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Western sword fern",
+  "source": "https://www.inaturalist.org/observations/56186918",
+  "src": "/landscape/sword-fern.webp",
+  "taxon": "Polystichum kruckebergii × munitum"
+ },
+ "tamarack": {
+  "author": "Tom Scavo",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Tamarack",
+  "source": "https://www.inaturalist.org/observations/324061512",
+  "src": "/landscape/tamarack.webp",
+  "taxon": "Larix laricina"
+ },
+ "umbrella-thorn": {
+  "author": "Tony Rebelo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "name": "Umbrella thorn",
+  "source": "https://www.inaturalist.org/observations/287136128",
+  "src": "/landscape/umbrella-thorn.webp",
+  "taxon": "Vachellia tortilis heteracantha"
+ },
+ "umbrella-tree": {
+  "author": "B. Phalan",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Umbrella tree",
+  "source": "https://www.inaturalist.org/observations/256916753",
+  "src": "/landscape/umbrella-tree.webp",
+  "taxon": "Musanga cecropioides"
+ },
+ "western-redcedar": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Western redcedar",
+  "source": "https://www.inaturalist.org/observations/217719394",
+  "src": "/landscape/western-redcedar.webp",
+  "taxon": "Thuja plicata"
+ },
+ "white-pine": {
+  "author": "Richard Littauer",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "name": "Eastern white pine",
+  "source": "https://www.inaturalist.org/observations/45500282",
+  "src": "/landscape/white-pine.webp",
+  "taxon": "Pinus strobus"
+ }
+}

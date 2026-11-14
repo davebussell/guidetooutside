@@ -1,0 +1,1903 @@
+{
+ "recipes": [
+  {
+   "slug": "crushed-tomatoes",
+   "title": "Crushed tomatoes, water-bath canned",
+   "crop": "tomato",
+   "method": "water-bath",
+   "tagline": "The plainest, most useful jar in the pantry: tomatoes and nothing else, ready for any sauce in February.",
+   "makes": "About 7 × 1 L (quart) jars from 10 kg (22 lb) of tomatoes; 6.4 kg (14 lb) fills 9 × 500 ml (pint) jars",
+   "active": "1½ hours",
+   "total": "2½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "The lemon juice is not optional: tomatoes sit near pH 4.6 and the added acid is what makes a boiling-water bath safe. Use bottled juice, not fresh — the acidity of fresh lemons varies.",
+    "Do not add onions, peppers, celery, garlic or oil — that is a different, low-acid recipe and needs a tested salsa or pressure-canning recipe.",
+    "A little sugar may be added to soften the acid taste, but never leave the acid out.",
+    "Use only jars made for canning with new two-piece lids; a sealed lid is concave and does not flex.",
+    "Skip tomatoes from frost-killed or dead vines and anything soft or mouldy — they can be less acidic and spoil the batch."
+   ],
+   "source": {
+    "label": "NCHFP: Crushed Tomatoes (with no added liquid)",
+    "url": "https://nchfp.uga.edu/how/can/tomatoes-and-tomato-products/crushed-tomatoes-with-no-added-liquid/"
+   },
+   "ingredients": [
+    "10 kg (22 lb) ripe paste or slicing tomatoes — reckon about 1.25 kg (2¾ lb) per litre jar",
+    "Bottled lemon juice: 2 tablespoons (30 ml) per 1 L jar, 1 tablespoon (15 ml) per 500 ml jar — or citric acid, ½ teaspoon per 1 L jar, ¼ teaspoon per 500 ml jar",
+    "Salt, optional: 1 teaspoon (5 ml) per 1 L jar, for flavour only"
+   ],
+   "process": {
+    "jars": "1 L (quart) · 500 ml (pint) in brackets",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 45,
+    "altitude": "500 ml jars: 35 min. For both sizes add 5 min at 300–900 m (1,001–3,000 ft), 10 min at 900–1,800 m (3,001–6,000 ft), 15 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Wash the jars and keep them hot in the canner while the water heats; wash the lids in hot soapy water and set them aside. A child can wash and sort the tomatoes while you set up.",
+    "Dip the tomatoes in boiling water 30–60 seconds until the skins split, then into cold water. Slip the skins, cut out the cores and trim any bruises or black spots. Quarter them.",
+    "Put about a sixth of the quarters in a large pot and crush them with a masher while heating hard and stirring, so they give up their juice and come to the boil. Add the rest a few handfuls at a time, stirring constantly — these don’t need crushing, they soften in the hot juice. Once everything is in, boil gently 5 minutes.",
+    "Put the lemon juice (or citric acid) into each hot jar first — 2 tablespoons per litre, 1 per 500 ml — and the salt if you are using it.",
+    "Fill the jars with hot tomatoes, leaving 1.25 cm (½ inch) headspace. Run a chopstick down the inside to free bubbles, top up if needed, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower the jars into the canner so the water covers them by at least 5 cm (2 inches). Bring to a full rolling boil, then start the clock: 1 L jars 45 minutes, 500 ml jars 35 minutes at 0–300 m. Keep it boiling the whole time; if it stops, bring it back and start the clock again.",
+    "Turn off the heat, take off the lid and wait 5 minutes. Lift the jars straight up onto a towel and leave them 12–24 hours untouched. Press each lid: a sealed one is concave and does not spring back. Refrigerate any that did not seal and use within a week."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard, best within a year. Refrigerate after opening and use within a week.",
+   "variations": "Paste tomatoes (Roma, San Marzano, Amish Paste) give a thicker jar; slicers give more juice. For a smooth purée, pass the hot tomatoes through a food mill and can them as tomato juice instead (its own times, below).",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "whole-tomatoes-in-juice",
+   "title": "Whole or halved tomatoes in juice, water-bath canned",
+   "crop": "tomato",
+   "method": "water-bath",
+   "tagline": "Whole peeled tomatoes under their own juice — the jar you open for a winter stew when you want pieces, not purée.",
+   "makes": "7 × 1 L (quart) jars from 9.5 kg (21 lb) of tomatoes, plus extra tomatoes for the juice; 5.9 kg (13 lb) fills 9 × 500 ml (pint) jars",
+   "active": "1½ hours",
+   "total": "3½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Acid goes in every jar before the tomatoes — the 85 minutes is about how slowly heat reaches the centre of a tight-packed jar, and it assumes the lemon juice or citric acid is there.",
+    "The 85 minutes is for tomatoes covered in tomato juice. Tomatoes packed in water or with no added liquid are different recipes with different times; do not mix them up.",
+    "Keep the jars under at least 5 cm of boiling water for the whole 85 minutes and restart the clock if the boil stops.",
+    "No onions, peppers, celery or herbs in the jar; season when you cook with them in winter."
+   ],
+   "source": {
+    "label": "NCHFP: Whole or Halved Tomatoes (packed in tomato juice)",
+    "url": "https://nchfp.uga.edu/how/can/tomatoes-and-tomato-products/whole-or-halved-tomatoes-packed-in-tomato-juice/"
+   },
+   "ingredients": [
+    "9.5 kg (21 lb) firm ripe tomatoes, small to medium so they fit through the jar mouth",
+    "Tomato juice to cover — about 2–3 L, pressed from an extra 3–4 kg (7–9 lb) of soft tomatoes by the tomato-juice method (heat, crush, press through a food mill)",
+    "Bottled lemon juice: 2 tablespoons (30 ml) per 1 L jar, 1 tablespoon (15 ml) per 500 ml jar — or citric acid, ½ teaspoon per 1 L jar, ¼ teaspoon per 500 ml jar",
+    "Salt, optional: 1 teaspoon (5 ml) per 1 L jar"
+   ],
+   "process": {
+    "jars": "1 L (quart) or 500 ml (pint) — same time",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 85,
+    "altitude": "Both sizes: 90 min at 300–900 m (1,001–3,000 ft), 95 min at 900–1,800 m (3,001–6,000 ft), 100 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Make the juice first from your softest tomatoes: quarter, heat and crush them in a pot, simmer 5 minutes, press through a food mill and keep hot. Set the washed jars in the canner to heat; wash the lids and set aside.",
+    "Wash the tomatoes for the jars — a child’s job — then dip them in boiling water 30–60 seconds until the skins split and drop them into cold water. Slip the skins and cut out the cores. Leave whole, or halve the big ones.",
+    "Put the lemon juice (or citric acid) into each hot jar, with salt if you like.",
+    "Hot pack: put the peeled tomatoes in a large pot, pour in enough hot juice to cover them completely and boil gently 5 minutes.",
+    "Fill the jars with the hot tomatoes to 1.25 cm (½ inch) from the rim, then ladle in hot juice to cover them, keeping that 1.25 cm headspace. Slide a chopstick around the inside to free bubbles, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower the jars into the canner with water at least 5 cm (2 inches) over the lids — this is a long process and the level drops. Bring to a full rolling boil, then time it: 85 minutes for both 1 L and 500 ml jars at 0–300 m. Add boiling water around (not onto) the jars if the level falls.",
+    "Turn off the heat, uncover, wait 5 minutes, then lift the jars onto a towel. Leave 12–24 hours; check that every lid is concave and firm. Refrigerate any that did not seal and use within a week."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and use within a week.",
+   "variations": "The same page gives a raw pack — raw peeled tomatoes in the jar with hot juice poured over, same headspace and the same 85 minutes — which is quicker on the stove but floats more and loses more liquid.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "tomato-sauce",
+   "title": "Plain tomato sauce, water-bath canned",
+   "crop": "tomato",
+   "method": "water-bath",
+   "tagline": "Unseasoned tomato sauce boiled down from juice — thin for soups, thick for pasta — with every flavour decision left for the day you open it.",
+   "makes": "About 7 × 1 L (quart) jars of thin sauce from 16 kg (35 lb) of tomatoes, or of thick sauce from 21 kg (46 lb); for 9 × 500 ml (pint) jars use 9.5 kg (21 lb) thin or 12.7 kg (28 lb) thick",
+   "active": "2 hours",
+   "total": "4–5 hours, plus 12–24 hours cooling",
+   "safety": [
+    "Acid in every jar, measured, before the sauce goes in. Boiling the sauce down concentrates the tomato but does not make it acidic enough on its own.",
+    "This is plain sauce: no onion, garlic, peppers, herbs, oil or thickeners. Seasoned ‘spaghetti sauce’ is a low-acid mixture with its own tested pressure-canning recipe.",
+    "Headspace is a tight 6 mm (¼ inch) for sauce, less than for crushed tomatoes — measure it.",
+    "Keep the sauce at a boil when you fill the jars; a cooled, thick sauce heats slowly in the canner."
+   ],
+   "source": {
+    "label": "NCHFP: Standard Tomato Sauce",
+    "url": "https://nchfp.uga.edu/how/can/tomatoes-and-tomato-products/standard-tomato-sauce/"
+   },
+   "ingredients": [
+    "16 kg (35 lb) ripe tomatoes for thin sauce, or 21 kg (46 lb) for thick sauce — paste tomatoes cook down fastest",
+    "Bottled lemon juice: 2 tablespoons (30 ml) per 1 L jar, 1 tablespoon (15 ml) per 500 ml jar — or citric acid, ½ teaspoon per 1 L jar, ¼ teaspoon per 500 ml jar",
+    "Salt, optional: 1 teaspoon (5 ml) per 1 L jar"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "6 mm (¼ inch)",
+    "minutes": 35,
+    "altitude": "1 L jars: 40 min. For both sizes add 5 min at 300–900 m (1,001–3,000 ft), 10 min at 900–1,800 m (3,001–6,000 ft), 15 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Wash the tomatoes (a child can do this), cut out stems and any bruised or dark patches. Quarter about 500 g into a large pot and heat hard while crushing them; as it boils, keep adding and crushing quarters so the pot never stops boiling. Simmer 5 minutes once everything is in.",
+    "Press the hot pulp through a food mill or sieve to take out skins and seeds. Pour the juice into the widest pot you own — a wide pot evaporates faster.",
+    "Simmer, stirring now and then so it does not catch, until the volume has dropped by a third for thin sauce or by half for thick sauce. Mark the starting level on a wooden spoon handle so you can tell. This takes an hour or more.",
+    "Set the washed jars to heat in the canner and wash the lids. Put the lemon juice (or citric acid) into each hot jar, plus salt if you like.",
+    "Fill the jars with boiling-hot sauce, leaving only 6 mm (¼ inch) headspace. Free any bubbles with a chopstick, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and time it: 500 ml jars 35 minutes, 1 L jars 40 minutes at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes, lift the jars onto a towel and leave 12–24 hours. Check the seals; refrigerate any that failed and use within a week."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and use within 5–7 days.",
+   "variations": "Thin sauce (reduced by a third) is the better all-rounder — thicken it in the pan in winter. If a smooth texture matters less, make the crushed-tomatoes recipe instead and use its headspace and times (1.25 cm; 500 ml 35 min, 1 L 45 min).",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "salsa",
+   "title": "Choice salsa, water-bath canned",
+   "crop": "tomato",
+   "also": [
+    "pepper",
+    "hot-pepper",
+    "onion"
+   ],
+   "method": "water-bath",
+   "tagline": "The tested salsa that lets you choose the peppers and onions — mild or fierce — as long as the measured cups and the lemon juice stay exactly as written.",
+   "makes": "About 6 × 500 ml (pint) jars",
+   "active": "1¼ hours",
+   "total": "2 hours, plus 12–24 hours cooling",
+   "safety": [
+    "Measure everything in metric or everything in US cups — never mix the two, or the acid ratio shifts.",
+    "What may not change: 6 cups tomatoes, 9 cups onions and/or peppers, 1½ cups bottled lemon or lime juice. These proportions were tested with many kinds of tomato, pepper and onion; shift them and the salsa may not be acidic enough for a boiling-water bath.",
+    "What may change: which peppers (bell, jalapeño, habanero, any colour) and the onion-to-pepper split, as long as the total stays at 9 cups.",
+    "Do not substitute vinegar for the lemon or lime juice, and do not use bottled key lime juice. Fresh citrus varies in acidity; the bottled juice standardizes it.",
+    "No other vegetables (corn, beans, carrots, garlic) and no thickeners, flour or cornstarch — they were not tested. Season at the table with cilantro, cumin or garlic rather than in the jar.",
+    "Wear gloves for hot peppers and keep hands away from eyes — and keep small helpers on tomato and onion duty."
+   ],
+   "source": {
+    "label": "NCHFP: Choice Salsa",
+    "url": "https://nchfp.uga.edu/how/can/salsa/choice-salsa/"
+   },
+   "ingredients": [
+    "1.5 L (6 cups) peeled, cored, seeded and chopped ripe tomatoes — about 2 kg (4½ lb) whole, measured level in dry measuring cups",
+    "2.25 L (9 cups) diced onions and/or peppers, any mix: sweet bell peppers of any colour, hot peppers, or both — measured level in dry measuring cups",
+    "375 ml (1½ cups) commercially bottled lemon or lime juice, measured in a liquid measuring cup",
+    "15 ml (3 teaspoons) canning or pickling salt"
+   ],
+   "process": {
+    "jars": "500 ml (pint) or 250 ml (half-pint) — same time",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 15,
+    "altitude": "Both sizes: 20 min at 300–1,800 m (1,001–6,000 ft), 25 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Set 6 washed 500 ml jars (or 12 × 250 ml) to heat in the canner and wash the lids. Peel and dice the onions into 6 mm (¼ inch) pieces. Wash and core the bell peppers, strip out seeds and membranes, and dice the same size.",
+    "Wear gloves for the hot peppers. Stem them, keep or discard as many seeds and membranes as the heat you want, and dice 6 mm. Measure the onions and peppers together: 9 level cups, no more, no less.",
+    "Dip the tomatoes in boiling water 30–60 seconds until the skins split, then into cold water. Peel, core, squeeze or scoop out the seeds and chop into 6 mm–1.25 cm pieces. Measure 6 level cups. A child can measure and level the cups.",
+    "Combine the vegetables in a large pot with the lemon juice and salt. Bring to a boil over medium heat, stirring, then lower the heat and simmer 3 minutes, stirring so it does not scorch.",
+    "Ladle the hot salsa into the hot jars, leaving 1.25 cm (½ inch) headspace. Free bubbles with a chopstick and top up to the same headspace, wipe the rims with a damp paper towel, centre the lids and screw the bands on fingertip-tight.",
+    "Lower the jars into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and process 15 minutes for 500 ml or 250 ml jars at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours, check the seals, and refrigerate any that did not seal — plus whatever did not fit in a jar — to eat fresh."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate once opened and use within a week.",
+   "variations": "Paste tomatoes give a thicker salsa than slicers. Go all sweet peppers for a salsa children will eat, or make the 9 cups mostly jalapeño for a hot one — the process time is the same.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "tomato-juice",
+   "title": "Tomato juice, water-bath canned",
+   "crop": "tomato",
+   "method": "water-bath",
+   "tagline": "A clear use for a glut of soft, juicy slicers: hot-pressed juice that will not separate in the jar.",
+   "makes": "About 7 × 1 L (quart) jars from 10.4 kg (23 lb) of tomatoes; 6.4 kg (14 lb) fills 9 × 500 ml (pint) jars",
+   "active": "1¼ hours",
+   "total": "2½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Acid in every jar, measured, before the juice — tomato juice is canned in boiling water only because the lemon juice or citric acid is added.",
+    "Plain tomato only. Adding celery, onion, peppers or carrot makes a vegetable-juice blend, which has its own tested recipe and limits.",
+    "Fresh, firm, ripe tomatoes; none from frost-killed vines and nothing going soft.",
+    "A little sugar can balance the acid taste if you like, but the acid itself never comes out."
+   ],
+   "source": {
+    "label": "NCHFP: Tomato Juice",
+    "url": "https://nchfp.uga.edu/how/can/tomatoes-and-tomato-products/tomato-juice/"
+   },
+   "ingredients": [
+    "10.4 kg (23 lb) ripe juicy tomatoes — about 1.5 kg (3¼ lb) per litre jar",
+    "Bottled lemon juice: 2 tablespoons (30 ml) per 1 L jar, 1 tablespoon (15 ml) per 500 ml jar — or citric acid, ½ teaspoon per 1 L jar, ¼ teaspoon per 500 ml jar",
+    "Salt, optional: 1 teaspoon (5 ml) per 1 L jar"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 35,
+    "altitude": "1 L jars: 40 min. For both sizes add 5 min at 300–900 m (1,001–3,000 ft), 10 min at 900–1,800 m (3,001–6,000 ft), 15 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Set the washed jars to heat in the canner and wash the lids. Wash the tomatoes — a good job for a child at the sink — pull the stems and trim away any bruised or dark spots.",
+    "To keep the juice from separating, work fast and hot: quarter about 500 g (1 lb) straight into a large pot and bring to a boil while crushing with a masher. Keep cutting quarters and adding them to the boiling pot, crushing as you go, so it never drops below a hard boil. Once all the tomatoes are in, simmer 5 minutes.",
+    "Press the hot pulp through a food mill or sieve to remove skins and seeds. Return the juice to the pot and bring it back to a boil.",
+    "Put the lemon juice (or citric acid) into each hot jar, plus salt if you like.",
+    "Fill the jars with boiling juice, leaving 1.25 cm (½ inch) headspace. Wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and time it: 500 ml jars 35 minutes, 1 L jars 40 minutes at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes, lift the jars onto a towel and leave them 12–24 hours. Check the seals; refrigerate any that did not seal and drink within a few days."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and use within 5–7 days.",
+   "variations": "If you do not mind the juice separating into a clear layer and pulp, simply quarter all the tomatoes into the pot, crush, heat and simmer 5 minutes before pressing — the same times apply. Shake the jar before pouring.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "dill-pickles-fresh-pack",
+   "title": "Quick fresh-pack dill pickles",
+   "crop": "cucumber",
+   "also": [
+    "dill"
+   ],
+   "method": "pickle",
+   "tagline": "Kosher-style dills without the weeks of fermenting: an overnight salt soak, a hot spiced brine, and a short bath.",
+   "makes": "7–9 × 500 ml (pint) jars",
+   "active": "1 hour over two days",
+   "total": "12-hour soak plus 1½ hours, then 12–24 hours cooling",
+   "safety": [
+    "Vinegar must be 5% acidity and the vinegar-to-water ratio of the brine stays as written; do not dilute it to soften the sourness.",
+    "Use canning or pickling salt — table salt clouds the brine. If you want less salt, follow one of the NCHFP’s tested reduced-sodium pickle recipes rather than trimming this one.",
+    "Trim the blossom end; it carries enzymes that turn pickles soft.",
+    "Garlic, hot pepper and extra spice are not in this tested recipe. If you want garlic dills, use a tested recipe that includes garlic rather than adding cloves to this one.",
+    "Every cucumber stays below the brine; a jar with a cucumber poking out of the liquid is a jar to refrigerate and eat first."
+   ],
+   "source": {
+    "label": "NCHFP: Quick Fresh-Pack Dill Pickles",
+    "url": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/quick-fresh-pack-dill-pickles/"
+   },
+   "ingredients": [
+    "3.6 kg (8 lb) pickling cucumbers, 7.5–12.5 cm (3–5 inches) long",
+    "For the overnight soak: 7.5 L (2 US gallons) water and 175 ml (¾ cup) canning or pickling salt",
+    "For the brine: 1.5 L (6 cups) vinegar (5%), 2 L (8 cups) water, 125 ml (½ cup) canning or pickling salt, 60 ml (¼ cup) sugar",
+    "30 ml (2 tablespoons) whole mixed pickling spice, tied in a square of clean cloth",
+    "Whole mustard seed: 1 teaspoon (5 ml) per jar — about 45 ml (3 tablespoons) in all",
+    "Fresh dill: 1½ heads per jar, about 14 heads — or dill seed, 1½ teaspoons (7 ml) per jar"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 10,
+    "altitude": "1 L jars: 15 min. At 300–1,800 m (1,001–6,000 ft): 500 ml 15 min, 1 L 20 min. Above 1,800 m (6,000 ft): 500 ml 20 min, 1 L 25 min."
+   },
+   "steps": [
+    "The evening before: wash the cucumbers well (children are good at this) and cut a 2 mm (1/16 inch) slice off each blossom end — it holds an enzyme that softens pickles — leaving 6 mm (¼ inch) of stem. Dissolve 175 ml salt in 7.5 L water, pour it over the cucumbers in a food-grade bucket or crock, and leave 12 hours.",
+    "Next day, drain the cucumbers. Wash 9 × 500 ml jars and keep them hot; wash the lids and set aside. Fill the canner and heat the water to about 60 °C (140 °F) for a raw pack.",
+    "Make the brine: combine the vinegar, 125 ml salt, sugar and 1.9 L water in a large pot, drop in the bag of pickling spice and bring to a boil.",
+    "Pack the cucumbers upright into the hot jars, snug but not crushed — a child can stand them in. Add 1 teaspoon mustard seed and 1½ heads of dill (or 1½ teaspoons dill seed) to each jar.",
+    "Pour the boiling brine over the cucumbers, leaving 1.25 cm (½ inch) headspace and making sure every cucumber is under the brine. Free bubbles with a chopstick, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and process 500 ml jars 10 minutes (1 L jars 15 minutes) at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours, check the seals, and give them 4–6 weeks in the cupboard to turn into proper dills."
+   ],
+   "keeps": "12 months in a cool dark cupboard; crispest in the first six. Refrigerate after opening and eat within a month or two.",
+   "variations": "The source also allows a low-temperature pasteurization instead of the boiling bath — holding the jars in 82–85 °C (180–185 °F) water for 30 minutes, checked with a thermometer the whole time — which gives a crisper pickle but is easy to get wrong; stick with the boiling bath for a first batch.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "bread-and-butter-pickles",
+   "title": "Bread-and-butter pickles",
+   "crop": "cucumber",
+   "also": [
+    "onion",
+    "zucchini"
+   ],
+   "method": "pickle",
+   "tagline": "Sweet, turmeric-yellow cucumber and onion slices — the pickle most children will actually eat, and the one that uses up the big cucumbers.",
+   "makes": "About 8 × 500 ml (pint) jars",
+   "active": "1¼ hours",
+   "total": "5 hours including the ice soak, plus 12–24 hours cooling",
+   "safety": [
+    "The 1 L of 5% vinegar to 2.7 kg of cucumbers and 2 L of onions is the tested ratio — the sugar can be cut only by following a tested reduced-sugar recipe, and the vinegar is never cut.",
+    "Pickling or canning salt for the ice soak; drain well, or the syrup ends up watery.",
+    "The jars are hot-packed — bring the slices back to a boil with the syrup before filling, so the 10 minutes in the canner is enough.",
+    "Skip the pickling-lime firming option on the source page unless you follow its three rinses exactly; the crushed-ice soak is the simple way to crisp slices."
+   ],
+   "source": {
+    "label": "NCHFP: Bread-and-Butter Pickles",
+    "url": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/bread-and-butter-pickles/"
+   },
+   "ingredients": [
+    "2.7 kg (6 lb) pickling cucumbers, 10–12.5 cm (4–5 inches) long",
+    "2 L (8 cups) thinly sliced onions — about 1.4 kg (3 lb)",
+    "125 ml (½ cup) canning or pickling salt",
+    "1 L (4 cups) vinegar (5%)",
+    "900 g (4½ cups) sugar",
+    "30 ml (2 tablespoons) mustard seed",
+    "22 ml (1½ tablespoons) celery seed",
+    "15 ml (1 tablespoon) ground turmeric",
+    "Plenty of crushed or cubed ice"
+   ],
+   "process": {
+    "jars": "500 ml (pint) or 1 L (quart) — same time",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 10,
+    "altitude": "Both sizes: 15 min at 300–1,800 m (1,001–6,000 ft), 20 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Wash the cucumbers and cut 2 mm (1/16 inch) off each blossom end. Slice them 5 mm (3/16 inch) thick — a mandoline makes this even — and slice the onions thinly.",
+    "Toss the cucumbers and onions with the salt in a big bowl, bury them under 5 cm (2 inches) of ice and refrigerate 3–4 hours, adding ice as it melts. Then drain them well.",
+    "Set 8 washed 500 ml jars to heat in the canner and wash the lids.",
+    "Combine the vinegar, sugar, mustard seed, celery seed and turmeric in a large pot and boil 10 minutes. Add the drained cucumbers and onions and bring slowly back to a boil, stirring gently.",
+    "Fill the hot jars with slices and the hot syrup, leaving 1.25 cm (½ inch) headspace. Free bubbles with a chopstick, top up with syrup if needed, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and process 10 minutes for 500 ml or 1 L jars at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours and check the seals. Let them sit 4–5 weeks before opening; the flavour needs the time."
+   ],
+   "keeps": "12 months in a cool dark cupboard. Refrigerate after opening and eat within a couple of months.",
+   "variations": "Squash bread-and-butters: swap slender zucchini or yellow summer squash, 2.5–4 cm (1–1½ inches) across, for the cucumbers — same quantities, same times. The lime variation is not for squash.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "dilly-beans",
+   "title": "Dilly beans (pickled green beans)",
+   "crop": "green-beans",
+   "also": [
+    "dill",
+    "garlic"
+   ],
+   "method": "pickle",
+   "tagline": "Whole beans standing to attention in a garlicky dill brine — the first jar most families let the children pack.",
+   "makes": "About 8 × 500 ml (pint) jars",
+   "active": "45 minutes",
+   "total": "1½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Equal parts 5% vinegar and water, with the salt as written, is the tested brine; do not weaken it, and do not add more water to stretch it.",
+    "Because the process is only 5 minutes, the jars must be sterilized in boiling water for 10 minutes first — a hot jar from the dishwasher is not enough.",
+    "One clove of garlic per jar is the tested amount; garlic is a low-acid vegetable and more of it was not tested.",
+    "Pints only. Quarts hold more cold bean in the middle and no time has been established for them.",
+    "Beans must be young and tender; tough, stringy late beans stay tough in the jar."
+   ],
+   "source": {
+    "label": "NCHFP: Dilled Beans",
+    "url": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/dilled-beans/"
+   },
+   "ingredients": [
+    "1.8 kg (4 lb) fresh tender green or yellow beans, 12–15 cm (5–6 inches) long",
+    "8–16 heads of fresh dill (1–2 per jar)",
+    "8 cloves garlic, optional (1 per jar)",
+    "125 ml (½ cup) canning or pickling salt",
+    "1 L (4 cups) white vinegar (5%)",
+    "1 L (4 cups) water",
+    "5 ml (1 teaspoon) hot red pepper flakes, optional"
+   ],
+   "process": {
+    "jars": "500 ml (pint) only",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 5,
+    "altitude": "10 min at 300–1,800 m (1,001–6,000 ft), 15 min above 1,800 m (6,000 ft). No tested time for 1 L jars — use pints."
+   },
+   "steps": [
+    "Sterilize the jars, because the process is under 10 minutes: stand 8 × 500 ml jars upright on the rack in the canner, fill the canner and jars with hot water to 2.5 cm (1 inch) above the rims, and boil 10 minutes (one minute more for each 300 m above sea level). Leave them in the hot water until you fill them. Wash the lids and set aside.",
+    "Wash the beans and snap or trim the ends — snapping is a job a four-year-old takes seriously. Cut them to 10 cm (4 inch) lengths, so they stand below the jar’s shoulder.",
+    "Lift out a jar, drain it, and drop in 1–2 dill heads and a garlic clove if using. Stand the beans upright in the jar, packed close, leaving 1.25 cm (½ inch) headspace. Trim any that stand too tall.",
+    "Combine the salt, vinegar, water and pepper flakes in a pot and bring to a boil.",
+    "Pour the boiling brine over the beans, leaving 1.25 cm (½ inch) headspace and making sure the beans are covered. Free bubbles with a chopstick, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and process 500 ml jars 5 minutes at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours and check the seals. Wait at least two weeks before opening so the brine gets into the beans."
+   ],
+   "keeps": "12 months in a cool dark cupboard. Refrigerate after opening and eat within a month.",
+   "variations": "Yellow wax beans and green beans can be mixed in one jar for colour. Skip the pepper flakes for a jar the children will eat with their fingers.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pickled-beets",
+   "title": "Pickled beets",
+   "crop": "beet",
+   "also": [
+    "onion"
+   ],
+   "method": "pickle",
+   "tagline": "Sweet-sour beet slices with cinnamon and clove — the pickle that makes a winter plate look like something.",
+   "makes": "About 8 × 500 ml (pint) jars",
+   "active": "1¼ hours",
+   "total": "2½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Beets are a low-acid vegetable; only the 1 L of 5% vinegar to 500 ml of water makes them a boiling-water job. Never add more water or beet cooking liquid to the brine.",
+    "Discard the water the beets were cooked in — the recipe is written with fresh water in the pickling liquid.",
+    "The 30 minutes is longer than most pickles because beet slices are dense; do not shorten it for small jars.",
+    "Onions are the only extra the recipe allows; stick to the amount given or leave them out."
+   ],
+   "source": {
+    "label": "NCHFP: Pickled Beets",
+    "url": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/"
+   },
+   "ingredients": [
+    "3.2 kg (7 lb) beets, 5–6 cm (2–2½ inches) across",
+    "1 L (4 cups) vinegar (5%)",
+    "7 ml (1½ teaspoons) canning or pickling salt",
+    "400 g (2 cups) sugar",
+    "500 ml (2 cups) fresh water",
+    "2 cinnamon sticks",
+    "12 whole cloves",
+    "4–6 small onions, 5–6 cm across, optional"
+   ],
+   "process": {
+    "jars": "500 ml (pint) or 1 L (quart) — same time",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 30,
+    "altitude": "Both sizes: 35 min at 300–900 m (1,001–3,000 ft), 40 min at 900–1,800 m (3,001–6,000 ft), 45 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Cut the beet tops off leaving 2.5 cm (1 inch) of stem, and leave the root on, so they do not bleed their colour while cooking. Scrub them well — a child with a vegetable brush is ideal — and sort by size.",
+    "Cover beets of a similar size with boiling water and cook until tender, about 25–30 minutes. Drain and throw the cooking water away — it does not go in the jars. Let the beets cool enough to handle, trim roots and stems, slip the skins off with your thumbs and slice 6 mm (¼ inch) thick. Peel and thinly slice the onions.",
+    "Set 8 washed 500 ml jars to heat in the canner and wash the lids.",
+    "Combine the vinegar, salt, sugar and 500 ml fresh water in a large pot. Tie the cinnamon and cloves in a square of cloth and drop it in. Bring to a boil, add the beets and onions and simmer 5 minutes. Fish out the spice bag.",
+    "Fill the hot jars with beets and onions, leaving 1.25 cm (½ inch) headspace, then ladle in the hot liquid to the same headspace. Free bubbles with a chopstick, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and process 30 minutes for 500 ml or 1 L jars at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours, check the seals, and wipe the jars — beet juice stains."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and eat within a month.",
+   "variations": "Pickled whole baby beets: use beets 2.5–4 cm (1–1½ inches) across and pack them whole instead of sliced, same brine and the same 30 minutes. Onions may be left out.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pickled-jalapeno-rings",
+   "title": "Home-style pickled jalapeños",
+   "crop": "hot-pepper",
+   "also": [
+    "carrot",
+    "onion",
+    "garlic"
+   ],
+   "method": "pickle",
+   "tagline": "Taqueria-style jalapeño strips with carrot and onion in a plain vinegar brine — the tested, lime-free way to put up a hot-pepper glut.",
+   "makes": "About 6 × 500 ml (pint) jars",
+   "active": "1 hour",
+   "total": "1¾ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Equal parts 5% vinegar and water is the tested brine for this quantity of peppers, carrot and onion — do not add more vegetables, more water or more garlic than the recipe gives.",
+    "Carrot, onion and garlic are low-acid; one crushed clove per jar and the amounts written are what was tested.",
+    "Peppers are raw-packed, so the brine must be boiling when it goes in and the jars go into a hot (not boiling) canner.",
+    "Gloves on, hands off faces, and wash the cutting board before the next job; capsaicin lingers.",
+    "The NCHFP recipe for true jalapeño rings uses an 18-hour lime soak for crispness, and its three rinse-and-soak cycles are what make it safe; this Ball recipe gets a similar jar without the lime."
+   ],
+   "source": {
+    "label": "Ball: Home-Style Pickled Jalapeños",
+    "url": "https://www.ballmasonjars.com/blog?cid=home-style-pickled-jalapenos"
+   },
+   "ingredients": [
+    "1.6 kg (3½ lb) jalapeño peppers, seeded and quartered lengthwise",
+    "250 ml (1 cup) thinly sliced white onion",
+    "2 large carrots, thinly sliced",
+    "625 ml (2½ cups) white vinegar (5%)",
+    "625 ml (2½ cups) water",
+    "30 ml (2 tablespoons) pickling salt",
+    "15 ml (1 tablespoon) sugar",
+    "6 cloves garlic, crushed (1 per jar)",
+    "Calcium chloride (Pickle Crisp), optional: ⅛ teaspoon per jar"
+   ],
+   "process": {
+    "jars": "500 ml (pint)",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 10,
+    "altitude": "Ball’s altitude chart: add 5 min at 300–900 m (1,001–3,000 ft), 10 min at 900–1,800 m (3,001–6,000 ft), 15 min at 1,800–2,400 m (6,001–8,000 ft), 20 min at 2,400–3,000 m (8,001–10,000 ft)."
+   },
+   "steps": [
+    "Set 6 washed 500 ml jars to heat in simmering water in the canner — not boiling — and wash the lids. Put on gloves before touching a pepper; this is one recipe where the children slice carrots and onions and stay off the peppers.",
+    "Halve the jalapeños lengthwise, scrape out the seeds and membranes, then cut each half lengthwise again into long strips. Toss the strips with the onion and carrot in a big bowl.",
+    "Combine the vinegar, water, salt and sugar in a stainless steel or enamelled pot and bring to a boil.",
+    "Put 1 crushed garlic clove in a hot jar and pack it tightly with the pepper mixture, leaving 1.25 cm (½ inch) headspace. Add ⅛ teaspoon Pickle Crisp if you want them firmer.",
+    "Ladle the boiling liquid over the vegetables, keeping the 1.25 cm headspace and making sure everything is covered. Free bubbles with a chopstick, wipe the rim, centre the lid and screw the band on fingertip-tight. Repeat jar by jar.",
+    "Lower into the canner with at least 2.5 cm (1 inch) of water over the lids, bring to a full rolling boil and process 10 minutes at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours without tightening the bands, then check the seals."
+   ],
+   "keeps": "12 months in a cool dark cupboard. Refrigerate after opening and use within a month or two.",
+   "variations": "Leave more membrane in for heat, or use a mix of red and green jalapeños late in the season for a prettier jar. The brine, vegetables and time stay the same.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "zucchini-relish",
+   "title": "Zucchini relish",
+   "crop": "zucchini",
+   "also": [
+    "onion",
+    "pepper",
+    "hot-pepper"
+   ],
+   "method": "pickle",
+   "tagline": "Bernardin’s hot-dog relish for the zucchini that got away — a touch of horseradish and one hot pepper give it its bite.",
+   "makes": "About 6 × 500 ml (pint) jars",
+   "active": "1½ hours over two days",
+   "total": "Overnight salting plus 2½ hours, then 24 hours cooling",
+   "safety": [
+    "Zucchini, onion and peppers are all low-acid; the 625 ml of 5% vinegar for these measured cups of vegetable is what makes the relish a boiling-water job. Measure the chopped vegetables, do not guess by weight alone.",
+    "Salt overnight, rinse and wring — the salting pulls water out so the vinegar is not diluted in the pot.",
+    "Boil it down until thick (about 45 minutes); a watery relish was not what was tested and separates in the jar.",
+    "No cornstarch or flour to thicken, and no extra vegetables. The horseradish is prepared (vinegar-packed) horseradish, not fresh grated root."
+   ],
+   "source": {
+    "label": "Bernardin: Zucchini Relish",
+    "url": "https://www.bernardin.ca/recipes/en/zucchini-relish.htm?Lang=EN-US"
+   },
+   "ingredients": [
+    "2 kg (4¼ lb) zucchini, about 14 medium — finely chopped to measure 3 L (12 cups)",
+    "675 g (1½ lb) onion, about 5 medium — finely chopped to measure 1 L (4 cups)",
+    "2 large sweet red peppers",
+    "1 large sweet green pepper",
+    "75 ml (⅓ cup) pickling salt",
+    "625 ml (2½ cups) granulated sugar",
+    "15 ml (1 tablespoon) each ground nutmeg and ground turmeric",
+    "625 ml (2½ cups) white vinegar (5%)",
+    "60 ml (4 tablespoons) prepared horseradish",
+    "1 large hot pepper, seeds and all, chopped"
+   ],
+   "process": {
+    "jars": "500 ml (pint)",
+    "headspace": "1 cm (½ inch)",
+    "minutes": 15,
+    "altitude": "Bernardin’s chart: add 5 min at 306–915 m (1,001–3,000 ft), 10 min at 916–1,830 m (3,001–6,000 ft), 15 min at 1,831–2,440 m (6,001–8,000 ft), 20 min at 2,441–3,050 m (8,001–10,000 ft)."
+   },
+   "steps": [
+    "The day before: pulse the zucchini in a food processor until finely chopped and measure 12 cups; do the same with the onions and measure 4 cups. Seed the sweet peppers, finely chop the green one and cut the red ones into 6 mm (¼ inch) cubes. Toss everything in a large glass or stainless bowl with the pickling salt, cover and refrigerate overnight.",
+    "Next day, tip the vegetables into a colander, rinse under cold running water, then line the colander with cheesecloth and twist the bundle hard to wring out as much water as you can — a satisfying job for strong small hands.",
+    "Put the vegetables in a large stainless steel pot with the sugar, nutmeg, turmeric, vinegar, horseradish and hot pepper. Bring to a boil, then lower the heat and boil gently, stirring often, until thick — about 45 minutes.",
+    "Meanwhile set 6 washed 500 ml jars on the rack in the canner, cover with water and heat to a simmer (82 °C / 180 °F). Wash the lids in hot soapy water and set them aside with the bands.",
+    "Ladle the hot relish into a hot jar to within 1 cm (½ inch) of the rim. Slide a plastic knife or chopstick around the inside to free bubbles, wipe the rim clean of any stickiness, centre the lid and screw the band down to fingertip-tight. Put the jar back in the canner and repeat.",
+    "With the jars covered by water, put the lid on the canner and bring it to a full boil. Process 15 minutes at 0–300 m.",
+    "Turn off the heat, lift the jars out without tilting and cool them upright, undisturbed, 24 hours. Do not retighten the bands. Check that every lid curves down; refrigerate any that did not seal."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and use within a month or two.",
+   "variations": "Leave out the hot pepper for a mild relish children will eat on everything — the vinegar ratio does not change. Nutmeg is the flavour people either love or leave out; it can be dropped.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "green-tomato-salsa",
+   "title": "Green tomato salsa verde",
+   "crop": "tomato",
+   "also": [
+    "hot-pepper",
+    "onion",
+    "garlic",
+    "cilantro"
+   ],
+   "method": "water-bath",
+   "tagline": "The frost-night answer for a counter full of green tomatoes: a sharp, cumin-scented salsa verde in small jars.",
+   "makes": "About 6 × 250 ml (half-pint) jars",
+   "active": "1 hour",
+   "total": "1¾ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Measure everything in metric or everything in US cups — never mix the two, or the acid ratio shifts.",
+    "The 125 ml of bottled lime juice against 7 cups of green tomato and 2 cups of onion is the tested ratio; use bottled juice, never fresh, and never less.",
+    "Use between 5 and 10 hot peppers as written — never more than 10 — and do not add other vegetables; onion and garlic are already at their tested amounts.",
+    "Half-pint (250 ml) jars only — the 20 minutes was established for that size.",
+    "Green tomatoes from frost-killed plants are fine to eat but should not be canned; pick them before the frost.",
+    "Wear gloves for hot peppers and keep children away from the pepper board."
+   ],
+   "source": {
+    "label": "Ball: Green Tomato Salsa Verde",
+    "url": "https://www.ballmasonjars.com/blog?cid=green-tomato-salsa-verde-0"
+   },
+   "ingredients": [
+    "1.75 L (7 cups) chopped, cored, peeled green tomatoes — about 12 medium",
+    "5–10 jalapeño, habanero or Scotch bonnet peppers, seeded and finely chopped",
+    "500 ml (2 cups) chopped red onion — about 2 large",
+    "2 cloves garlic, finely chopped",
+    "125 ml (½ cup) bottled lime juice",
+    "125 ml (½ cup) loosely packed finely chopped cilantro",
+    "10 ml (2 teaspoons) ground cumin",
+    "5 ml (1 teaspoon) dried oregano",
+    "5 ml (1 teaspoon) salt",
+    "5 ml (1 teaspoon) freshly ground black pepper"
+   ],
+   "process": {
+    "jars": "250 ml (half-pint)",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 20,
+    "altitude": "Ball’s altitude chart: add 5 min at 300–900 m (1,001–3,000 ft), 10 min at 900–1,800 m (3,001–6,000 ft), 15 min at 1,800–2,400 m (6,001–8,000 ft), 20 min at 2,400–3,000 m (8,001–10,000 ft)."
+   },
+   "steps": [
+    "Set 6 washed 250 ml jars to heat in simmering water in the canner — do not boil them — and wash the lids in warm soapy water.",
+    "Wash the green tomatoes (a child’s job) and dip them in boiling water about a minute, then into cold water. Green skins do not always slip; peel with a paring knife where they cling. Core and chop, and measure 7 cups.",
+    "Gloves on for the peppers: stem, seed and finely chop as many as you want between 5 and 10. Chop the onion, garlic and cilantro.",
+    "Combine the tomatoes, peppers, onion, garlic and lime juice in a large pot and bring to a boil. Stir in the cilantro, cumin, oregano, salt and pepper, lower the heat and simmer 5 minutes.",
+    "Ladle the hot salsa into a hot jar, leaving 1.25 cm (½ inch) headspace. Free bubbles with a chopstick, wipe the rim, centre the lid and screw the band on fingertip-tight. Repeat.",
+    "Lower the jars into the canner with at least 2.5 cm (1 inch) of water over the lids, cover, bring to a full rolling boil and process 20 minutes at 0–300 m.",
+    "Turn off the heat, uncover and wait 5 minutes. Lift the jars onto a towel, leave 12–24 hours without touching the bands, and check the seals."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and use within a week.",
+   "variations": "Five jalapeños makes a salsa most of the family can eat; ten habaneros is a different animal. The cilantro cooks out somewhat — add a fresh handful when you open a jar.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pickled-carrots",
+   "title": "Pickled carrots",
+   "crop": "carrot",
+   "method": "pickle",
+   "tagline": "Sweet-sour carrot coins with mustard and celery seed — a bright lunchbox pickle from the roots that will not all fit in the cold room.",
+   "makes": "About 4 × 500 ml (pint) jars",
+   "active": "45 minutes",
+   "total": "1½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Carrots are low-acid; this brine is unusually strong (5½ cups vinegar to 1 cup water) and that ratio is the whole safety case. Do not add water to soften it.",
+    "Half-cook the carrots in the brine (hot pack) — the tested 15 minutes assumes hot carrots going into the jar.",
+    "Pints only; no time was established for quarts.",
+    "Two headspaces: carrots to 2.5 cm from the rim, liquid to 1.25 cm. Carrots above the liquid darken and soften."
+   ],
+   "source": {
+    "label": "NCHFP: Pickled Carrots",
+    "url": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/"
+   },
+   "ingredients": [
+    "1.25 kg (2¾ lb) peeled carrots — about 1.6 kg (3½ lb) as pulled",
+    "1.375 L (5½ cups) white distilled vinegar (5%)",
+    "250 ml (1 cup) water",
+    "400 g (2 cups) sugar",
+    "10 ml (2 teaspoons) canning salt",
+    "40 ml (8 teaspoons) mustard seed — 2 teaspoons per jar",
+    "20 ml (4 teaspoons) celery seed — 1 teaspoon per jar"
+   ],
+   "process": {
+    "jars": "500 ml (pint)",
+    "headspace": "1.25 cm (½ inch) of liquid over carrots packed to 2.5 cm (1 inch)",
+    "minutes": 15,
+    "altitude": "20 min at 300–1,800 m (1,001–6,000 ft), 25 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Set 4 washed 500 ml jars to heat in the canner and wash the lids. Scrub, peel and wash the carrots again — a child can peel the fat ones — and cut them into rounds about 1.25 cm (½ inch) thick.",
+    "Combine the vinegar, water, sugar and salt in a large pot, bring to a boil and boil gently 3 minutes.",
+    "Add the carrots, bring back to a boil, then lower to a simmer until they are half-cooked, about 10 minutes.",
+    "Put 2 teaspoons mustard seed and 1 teaspoon celery seed in the bottom of each hot jar.",
+    "Fill the jars with hot carrots to 2.5 cm (1 inch) from the rim, then ladle in the hot liquid to 1.25 cm (½ inch) from the rim. Free bubbles with a chopstick and top up, wipe the rims with a damp paper towel, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and process 15 minutes at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours, check the seals, and wait 3–5 days before opening the first jar."
+   ],
+   "keeps": "12 months in a cool dark cupboard. Refrigerate after opening and eat within a month.",
+   "variations": "Mixed orange, yellow and purple carrots make a jar worth giving away. For sticks rather than coins, keep them the same thickness and the same half-cooking time.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "applesauce",
+   "title": "Applesauce, water-bath canned",
+   "crop": "apple",
+   "method": "water-bath",
+   "tagline": "Sound apples — seconds are fine once the bruises are cut away — into the easiest jar of the year; no added acid needed, and sugar optional.",
+   "makes": "About 7 × 1 L (quart) jars from 9.5 kg (21 lb) of apples; 6.1 kg (13½ lb) fills 9 × 500 ml (pint) jars",
+   "active": "1¼ hours",
+   "total": "2½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Apples are a high-acid fruit; no lemon juice or citric acid is needed for safety — the ascorbic acid is only for colour. That holds for fresh, firm apples with no rot or mould: cut out bruises, never use windfalls, and refrigerate or freeze sauce made from apples that have been stored a long time, which can be less acidic.",
+    "Hot pack only: the sauce must be boiling when it goes into the jars, which is why it is reheated after milling.",
+    "Sugar is for taste, not safety; leave it out entirely if you like.",
+    "Do not add butter, cream or thickeners — this is a plain fruit recipe. Cinnamon goes on at the table."
+   ],
+   "source": {
+    "label": "NCHFP: Applesauce",
+    "url": "https://nchfp.uga.edu/how/can/fruits-and-fruit-products/applesauce/"
+   },
+   "ingredients": [
+    "9.5 kg (21 lb) sweet, juicy, crisp apples — about 1.4 kg (3 lb) per litre jar; for a tart sauce, use 1–2 parts tart apples to 3 parts sweet",
+    "125 ml (½ cup) water for the pot",
+    "Ascorbic acid, optional, to stop browning: 1 teaspoon (3 g) in 4 L of cold water, or six crushed 500 mg vitamin C tablets",
+    "Sugar, optional: 30 ml (⅛ cup) per litre of sauce, or to taste"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 15,
+    "altitude": "1 L jars: 20 min. 500 ml: 20 min at 300–1,800 m (1,001–6,000 ft), 25 min above 1,800 m. 1 L: 25 min at 300–900 m (1,001–3,000 ft), 30 min at 900–1,800 m (3,001–6,000 ft), 35 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Set the washed jars to heat in the canner and wash the lids. Wash, peel and core the apples; children can wash and feed the peeler. If it will be a while before they cook, drop the slices into the ascorbic-acid water.",
+    "Drain the slices into an 8–10 L pot, add the ½ cup of water and heat quickly, stirring now and then so nothing catches, until tender — 5–20 minutes depending on the variety.",
+    "Press through a food mill or sieve for a smooth sauce, or mash in the pot for a chunky one. Taste; stir in sugar if you want it (⅛ cup per litre is the starting point).",
+    "Bring the sauce back to a boil, stirring — it spits, so keep little helpers back.",
+    "Fill the hot jars with boiling sauce, leaving 1.25 cm (½ inch) headspace. Work a chopstick through to free trapped air, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and time it: 500 ml jars 15 minutes, 1 L jars 20 minutes at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes, lift the jars onto a towel and leave 12–24 hours. Check the seals; refrigerate any that failed and eat within a week."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and eat within a week.",
+   "variations": "Mixing varieties — a McIntosh for softness, a Cortland or Spartan for body, a crab or two for tang — gives the best sauce.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "apple-butter",
+   "title": "Apple butter, water-bath canned",
+   "crop": "apple",
+   "method": "water-bath",
+   "tagline": "A long, slow pot of apples, cider and spice cooked down to something that mounds on a spoon — the whole house smells of it.",
+   "makes": "About 9–10 × 500 ml (pint) jars, or twice as many 250 ml",
+   "active": "1½ hours",
+   "total": "4–5 hours, plus 12–24 hours cooling",
+   "safety": [
+    "Because 250 ml and 500 ml jars are processed only 5 minutes, they must be sterilized in boiling water for 10 minutes before filling. Quart jars get 10 minutes in the canner and skip the pre-boil.",
+    "The cider and vinegar are part of the tested recipe; the vinegar sharpens and acidifies, so do not leave it out or swap it for water.",
+    "Cook until it truly mounds — a thin butter weeps and was not what was tested.",
+    "Headspace is a tight 6 mm (¼ inch)."
+   ],
+   "source": {
+    "label": "NCHFP: Apple Butter",
+    "url": "https://nchfp.uga.edu/how/can/fruits-and-fruit-products/apple-butter/"
+   },
+   "ingredients": [
+    "3.6 kg (8 lb) tasty apples — McIntosh, Golden Delicious, Cortland, Jonagold or a mix",
+    "500 ml (2 cups) apple cider (sweet, unfermented)",
+    "500 ml (2 cups) vinegar (5%) — cider vinegar is traditional",
+    "450 g (2¼ cups) white sugar",
+    "500 g (2¼ cups, packed) brown sugar",
+    "30 ml (2 tablespoons) ground cinnamon",
+    "15 ml (1 tablespoon) ground cloves"
+   ],
+   "process": {
+    "jars": "250 ml (half-pint) or 500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "6 mm (¼ inch)",
+    "minutes": 5,
+    "altitude": "1 L jars: 10 min. 250/500 ml: 10 min at 300–1,800 m (1,001–6,000 ft), 15 min above 1,800 m. 1 L: 15 min at 300–1,800 m, 20 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Wash the apples, pull the stems, quarter and core them — no need to peel. Put them in a large heavy pot with the cider and vinegar and cook slowly until soft.",
+    "Press the fruit through a food mill, colander or strainer to leave the skins behind. A child can turn the food-mill handle.",
+    "Return the pulp to the pot with both sugars and the spices. Cook slowly, stirring often and more often as it thickens — it spits, so a long spoon and a splatter screen help. Expect 1–2 hours.",
+    "Test for doneness: lift a spoonful, hold it away from the steam 2 minutes, and see if it stays mounded on the spoon. Or spoon a little onto a plate — when no ring of liquid separates around the edge, it is ready.",
+    "Sterilize the jars while the butter finishes, because the process is under 10 minutes: boil the empty 250 ml or 500 ml jars, covered by water, 10 minutes (one minute more per 300 m above sea level) and keep them in the hot water. Wash the lids.",
+    "Fill the hot jars with boiling-hot butter, leaving 6 mm (¼ inch) headspace. Free bubbles, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and process 250 ml or 500 ml jars 5 minutes at 0–300 m (1 L jars, which need not be sterilized: 10 minutes).",
+    "Turn off the heat, uncover, wait 5 minutes and lift the jars onto a towel. Leave 12–24 hours, check the seals and store."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and use within a month.",
+   "variations": "A slow cooker on low, lid ajar, will do the long reduction overnight — not part of the tested method, so the mound test still decides doneness, and the butter comes to a full boil on the stove before filling the jars. The NCHFP also publishes a reduced-sugar apple butter with its own method.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pear-halves",
+   "title": "Pear halves in light syrup or juice",
+   "crop": "pear",
+   "method": "water-bath",
+   "tagline": "Bartletts picked hard and ripened in a box, then put up in a light syrup or plain apple juice — winter dessert on a shelf.",
+   "makes": "About 7 × 1 L (quart) jars from 8 kg (17½ lb) of pears; 5 kg (11 lb) fills 9 × 500 ml (pint) jars",
+   "active": "1½ hours",
+   "total": "2½ hours, plus 12–24 hours cooling",
+   "safety": [
+    "Pears are acidic enough on their own; the syrup is for flavour, colour and shape, not safety, so a very light syrup or plain juice is just as safe as a heavy one.",
+    "Hot pack only — 5 minutes boiling in the liquid before filling — and the processing time assumes it.",
+    "Use ripe, sound fruit; cut away bruises generously and leave out anything soft or fermenting.",
+    "Boiling-water processing is the better choice for pears; the source notes that pressure canning can turn them pink."
+   ],
+   "source": {
+    "label": "NCHFP: Pears, Halved",
+    "url": "https://nchfp.uga.edu/how/can/fruits-and-fruit-products/pears-halved/"
+   },
+   "ingredients": [
+    "8 kg (17½ lb) ripe but firm pears — about 1.1 kg (2½ lb) per litre jar",
+    "Anti-browning bath: 1 teaspoon (3 g) ascorbic acid, or six crushed 500 mg vitamin C tablets, in 4 L (1 US gallon) cold water",
+    "Light syrup for a 7-quart load: 2.25 L (9 cups) water with 450 g (2¼ cups) sugar — for 9 pints, 1.45 L (5¾ cups) water with 300 g (1½ cups) sugar",
+    "Very light syrup instead, if you prefer: 2.6 L (10½ cups) water with 250 g (1¼ cups) sugar for 7 quarts — or skip syrup and use plain apple juice, white grape juice or water"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 20,
+    "altitude": "1 L jars: 25 min. For both sizes add 5 min at 300–900 m (1,001–3,000 ft), 10 min at 900–1,800 m (3,001–6,000 ft), 15 min above 1,800 m (6,000 ft)."
+   },
+   "steps": [
+    "Set the washed jars to heat in the canner and wash the lids. Mix the ascorbic-acid bath in a big bowl.",
+    "Wash and peel the pears, halve them lengthwise and scoop out the core with a melon baller or a metal measuring spoon — children manage the scooping once an adult has halved. Drop the halves straight into the ascorbic-acid water.",
+    "Heat the water and sugar for the syrup (or the juice) to a boil in a wide pot.",
+    "Drain the pears and boil them 5 minutes in the syrup or juice. Raw-packed pears turn out poorly, so do not skip this.",
+    "Fill the hot jars with the hot pear halves, cut side down and overlapping, and cover with the hot cooking liquid, leaving 1.25 cm (½ inch) headspace. Free bubbles with a chopstick, top up, wipe the rims, centre the lids and screw the bands on fingertip-tight.",
+    "Lower into the canner with at least 5 cm (2 inches) of water over the lids, bring to a full rolling boil and time it: 500 ml jars 20 minutes, 1 L jars 25 minutes at 0–300 m.",
+    "Turn off the heat, uncover, wait 5 minutes, lift the jars onto a towel and leave 12–24 hours. Check the seals; refrigerate any that failed and eat within a few days."
+   ],
+   "keeps": "12–18 months in a cool dark cupboard. Refrigerate after opening and eat within 3–4 days.",
+   "variations": "A vanilla bean or a strip of lemon zest in the syrup is a flavouring, not a vegetable, and is fine. Asian pears are a different fruit with their own NCHFP recipe that requires added lemon juice — do not use these times for them.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pickled-garlic",
+   "title": "Refrigerator pickled garlic (garlic in vinegar)",
+   "crop": "garlic",
+   "method": "pickle",
+   "tagline": "Whole peeled cloves kept under full-strength vinegar in the fridge — the safe way to have mellow pickled garlic through the winter without a canner.",
+   "makes": "A 250 ml (half-pint) jar holds about 2 heads of garlic (around 25 cloves); scale up jar by jar",
+   "active": "20 minutes",
+   "total": "20 minutes, then 1–2 weeks in the fridge before eating",
+   "safety": [
+    "This is a refrigerator pickle, not a canned one: garlic is a low-acid vegetable and there is no tested boiling-water time for plain garlic on any of the public canning sites. It stays cold from the day it is made.",
+    "Undiluted vinegar or wine only. Diluting it with water or oil raises the pH and makes the jar unsafe.",
+    "Never put raw garlic in oil at room temperature — garlic in oil has caused botulism outbreaks. Garlic in oil belongs in the freezer, or in the fridge for no more than 4 days.",
+    "Keep every clove under the liquid. Throw out the jar — cloves and liquid — at the first sign of mould or yeast on the surface.",
+    "Cloves that turn blue or green in vinegar are safe; the pigment reaction is cosmetic and more common with immature garlic."
+   ],
+   "source": {
+    "label": "UC ANR 8568: Garlic — Safe Methods to Store, Preserve, and Enjoy (storing garlic in wine or vinegar)",
+    "url": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf"
+   },
+   "ingredients": [
+    "Firm, cured garlic cloves, peeled and left whole — about 2 heads (100 g) per 250 ml jar",
+    "Undiluted (full-strength) vinegar to cover — white or wine vinegar, 5% acidity; roughly 200 ml per 250 ml jar — or a dry white or red wine instead",
+    "Optional: a few whole peppercorns, a pinch of chili flakes or cumin seed, or a bay leaf"
+   ],
+   "steps": [
+    "Break the heads into cloves and peel them — a job children do happily if you crack the skins first by pressing each clove under the flat of a knife. Discard any soft, sprouting or bruised cloves.",
+    "Pack the whole cloves into a clean 250 ml jar with the spices, if using, leaving room so the liquid can cover them completely.",
+    "Pour in full-strength vinegar (or wine) until every clove is submerged, with a little to spare. Do not dilute it with water.",
+    "Put the lid on, write the date and a ‘best before’ four months on, and put the jar straight in the refrigerator — never on the counter.",
+    "Wait a week or two for the raw bite to soften. Eat the cloves as a pickle, chop them into dressings, and use the garlicky vinegar in vinaigrettes."
+   ],
+   "keeps": "About 4 months in the refrigerator — label the jar. Longer is not unsafe in itself, but mould becomes likely and the flavour fades.",
+   "variations": "A mix of white vinegar and dry white wine is pleasant; so is a jar of cloves in red wine vinegar with a pinch of dried rosemary (dried spices only — fresh herbs are not in the tested method). Oregon State’s garlic page gives the same method and the same rules.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pressure-canned-green-beans",
+   "title": "Green beans, pressure canned",
+   "crop": "green-beans",
+   "method": "pressure",
+   "tagline": "The first thing most people pressure-can, and the jar that teaches the whole method: plain beans, salt if you like, nothing else.",
+   "makes": "About 9 × 500 ml (pint) jars from 4 kg (9 lb) of beans, or 7 × 1 L (quart) jars from 6.4 kg (14 lb)",
+   "active": "1 hour",
+   "total": "2½ hours including venting, processing and cooling the canner",
+   "safety": [
+    "Green beans are a low-acid vegetable and can only be canned in a pressure canner. A boiling-water bath, however long, does not reach the 116 °C (240 °F) needed to kill Clostridium botulinum spores.",
+    "Do not add bacon, onion, butter or tomatoes — those are different recipes with their own tested times, or no tested time at all.",
+    "Vent the canner for 10 minutes before pressurising; trapped air makes the inside cooler than the gauge says.",
+    "If a jar has lost a lot of liquid, that is a quality issue, not a safety one, as long as it sealed and was processed the full time. Use it first.",
+    "Know your altitude. Much of southern Quebec and Ontario sits under 300 m, but the Laurentians, Eastern Townships and Gatineau Hills climb above it, and the weighted gauge jumps to 15 psi the moment you do."
+   ],
+   "source": {
+    "label": "NCHFP: Beans, snap and Italian — pieces (green and wax)",
+    "url": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/"
+   },
+   "ingredients": [
+    "6.4 kg (14 lb) young, tender green or wax beans for 7 L jars — 4 kg (9 lb) for 9 × 500 ml jars",
+    "Canning or pickling salt, optional: 1 teaspoon (5 ml) per 1 L jar, ½ teaspoon per 500 ml jar — flavour only",
+    "Boiling water to cover"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "2.5 cm (1 inch)",
+    "minutes": 20,
+    "note": "at 10 psi (weighted gauge)",
+    "altitude": "1 L jars: 25 min. Weighted gauge: 10 psi at 0–300 m (0–1,000 ft), 15 psi above 300 m. Dial gauge: 11 psi at 0–600 m (0–2,000 ft), 12 psi at 600–1,200 m, 13 psi at 1,200–1,800 m, 14 psi at 1,800–2,400 m. Processing time does not change with altitude for pressure canning — only the pressure does."
+   },
+   "steps": [
+    "Put 5–7.5 cm (2–3 inches) of water in the pressure canner and set it to heat. Wash the jars and keep them hot; wash the lids in hot soapy water and set them aside.",
+    "Rinse the beans and snap off both ends. Leave whole or snap into 2.5 cm (1 inch) pieces — this is the job for small hands, and a child can fill a bowl while you fill the canner.",
+    "Hot pack (best texture): drop the beans into boiling water, bring back to the boil and boil 5 minutes. Raw pack: skip the boil and pack the raw beans tightly instead.",
+    "Fill the hot jars — loosely for hot pack, tightly for raw — leaving 2.5 cm (1 inch) headspace. Add salt if using. Cover with the hot cooking liquid (or boiling water for raw pack), keeping that 2.5 cm headspace.",
+    "Run a chopstick or bubble tool around the inside to free trapped air, top up if needed, wipe the rims, centre the lids and screw the bands on fingertip-tight. Lower the jars onto the rack.",
+    "Lock the lid, leave the weight off the vent and heat on high until steam streams steadily out. Let it vent for a full 10 minutes, then put the weight on (or close the petcock) and bring to pressure: 10 psi weighted or 11 psi dial at 0–300 m.",
+    "Start timing when the weight begins to rock or the dial reaches pressure: 500 ml jars 20 minutes, 1 L jars 25 minutes. Adjust the heat to hold the pressure steady; if it ever drops below target, bring it back and start the full time again.",
+    "Turn off the heat and let the canner cool on its own — never run water over it or lift the weight early. When the gauge reads zero (or the lock drops), remove the weight, wait 10 minutes, then open the lid away from your face.",
+    "Lift the jars straight up onto a towel and leave them 12–24 hours. Press each lid: a sealed one is dished and does not move. Refrigerate any that did not seal and eat within a few days."
+   ],
+   "keeps": "Best within 12 months in a cool dark cupboard, safe longer if the seal holds. Refrigerate after opening and use within 3–4 days. Never taste a jar that has lost its seal, bulges, leaks, spurts or smells off: treat it as containing botulinum toxin and dispose of it following NCHFP’s steps for spoiled canned food.",
+   "variations": "Wax beans and flat Italian (Romano) beans use the same times. Mixed-colour jars are pretty on the shelf and taste the same.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pressure-canned-carrots",
+   "title": "Carrots, pressure canned",
+   "crop": "carrot",
+   "method": "pressure",
+   "tagline": "For the carrots that will not fit in the cold room: sweet, soft, and ready for soup, stew or a toddler’s plate in a minute.",
+   "makes": "About 9 × 500 ml (pint) jars from 5 kg (11 lb) of topped carrots, or 7 × 1 L (quart) jars from 8 kg (17½ lb)",
+   "active": "1 hour",
+   "total": "2½ hours including venting, processing and cooling the canner",
+   "safety": [
+    "Carrots are low-acid: pressure canner only. The same times cover hot and raw pack, and they do not shorten for small dice.",
+    "Do not pack in a sugar glaze, butter or stock — plain water or the cooking water only.",
+    "Big woody carrots make a fibrous jar; it is a quality problem, not a safety one, but it is why the recipe asks for small ones.",
+    "Never leave the weight off to speed things up, and never cool the canner under the tap — a sudden pressure drop siphons liquid out of the jars and can break them."
+   ],
+   "source": {
+    "label": "NCHFP: Carrots — sliced or diced",
+    "url": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/"
+   },
+   "ingredients": [
+    "8 kg (17½ lb) carrots without tops for 7 L jars — 5 kg (11 lb) for 9 × 500 ml jars; small young carrots give the best jar",
+    "Canning or pickling salt, optional: 1 teaspoon (5 ml) per 1 L jar, ½ teaspoon per 500 ml jar",
+    "Boiling water to cover"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "2.5 cm (1 inch)",
+    "minutes": 25,
+    "note": "at 10 psi (weighted gauge)",
+    "altitude": "1 L jars: 30 min. Weighted gauge: 10 psi at 0–300 m (0–1,000 ft), 15 psi above 300 m. Dial gauge: 11 psi at 0–600 m (0–2,000 ft), 12 psi at 600–1,200 m, 13 psi at 1,200–1,800 m, 14 psi at 1,800–2,400 m. Processing time does not change with altitude for pressure canning — only the pressure does."
+   },
+   "steps": [
+    "Put 5–7.5 cm (2–3 inches) of water in the pressure canner and start heating it. Wash the jars and keep them hot; wash the lids and set them aside.",
+    "Scrub, peel and rinse the carrots again, then slice into coins or dice. A child with a crinkle cutter can do the slicing once the carrots are peeled.",
+    "Hot pack: put the carrots in a pot, cover with boiling water, bring to the boil and simmer 5 minutes. Raw pack: fill the jars tightly with raw slices instead.",
+    "Fill the hot jars leaving 2.5 cm (1 inch) headspace. Add salt if using. Cover with the hot cooking liquid or boiling water, keeping the 2.5 cm headspace.",
+    "Free the air bubbles with a chopstick, adjust the liquid, wipe the rims, fit the lids and bands fingertip-tight, and set the jars on the rack.",
+    "Lock the lid and let steam vent hard for 10 minutes before adding the weight. Bring to 10 psi (weighted) or 11 psi (dial) at 0–300 m.",
+    "Time from the moment the weight rocks or the dial reads pressure: 500 ml jars 25 minutes, 1 L jars 30 minutes. If the pressure drops, bring it back and restart the clock.",
+    "Let the canner cool naturally to zero, remove the weight, wait 10 minutes, open the lid away from you and lift the jars onto a towel. Leave 12–24 hours, then check the seals and remove the bands."
+   ],
+   "keeps": "Best within 12 months in a cool dark cupboard. Refrigerate after opening and use within 3–4 days.",
+   "variations": "Mixing carrots with other vegetables changes the recipe; follow NCHFP’s mixed-vegetables page (longer times) rather than this one.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pressure-canned-potatoes",
+   "title": "Potatoes, cubed and pressure canned",
+   "crop": "potato",
+   "method": "pressure",
+   "tagline": "Hot-packed cubes that go straight from jar to frying pan: the fastest home-fries you will ever make, from the potatoes that would not keep.",
+   "makes": "About 9 × 500 ml (pint) jars from 6 kg (13 lb) of potatoes, or 7 × 1 L (quart) jars from 9 kg (20 lb)",
+   "active": "1¼ hours",
+   "total": "3 hours including venting, processing and cooling the canner",
+   "safety": [
+    "Potatoes are low-acid and dense: pressure canner only, hot pack only. There is no tested raw-pack time, so do not pack them raw.",
+    "Cubes must be 1.25 cm (½ inch) or whole potatoes under 5 cm (2 inches) across — bigger pieces heat too slowly for the tested time.",
+    "Cover with fresh boiling water. The cooking water is thick with starch and slows heat penetration.",
+    "No butter, milk, cream or mashing — mashed potatoes cannot be safely canned at home."
+   ],
+   "source": {
+    "label": "NCHFP: Potatoes, white — cubed or whole",
+    "url": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/"
+   },
+   "ingredients": [
+    "9 kg (20 lb) small to medium mature potatoes for 7 L jars — 6 kg (13 lb) for 9 × 500 ml jars",
+    "Anti-browning soak: 1 teaspoon (3 g) ascorbic acid stirred into 4 L (1 gallon) cold water",
+    "Canning or pickling salt, optional: 1 teaspoon (5 ml) per 1 L jar, ½ teaspoon per 500 ml jar",
+    "Fresh boiling water to cover — not the cooking water"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "2.5 cm (1 inch)",
+    "minutes": 35,
+    "note": "at 10 psi (weighted gauge)",
+    "altitude": "1 L jars: 40 min. Weighted gauge: 10 psi at 0–300 m (0–1,000 ft), 15 psi above 300 m. Dial gauge: 11 psi at 0–600 m (0–2,000 ft), 12 psi at 600–1,200 m, 13 psi at 1,200–1,800 m, 14 psi at 1,800–2,400 m. Processing time does not change with altitude for pressure canning — only the pressure does."
+   },
+   "steps": [
+    "Set the pressure canner heating with 5–7.5 cm (2–3 inches) of water. Wash the jars and keep them hot; wash the lids and set aside.",
+    "Wash and peel the potatoes, cutting away any eyes, green patches or bruises. Cut into 1.25 cm (½ inch) cubes and drop them straight into the ascorbic-acid water so they do not brown. A child can do the dropping — and count the cubes.",
+    "Drain the cubes, cover with fresh water in a big pot, bring to the boil and boil 2 minutes (whole small potatoes 2.5–5 cm across get 10 minutes). Drain.",
+    "Fill the hot jars with the hot cubes, leaving 2.5 cm (1 inch) headspace. Add salt if using.",
+    "Cover with fresh boiling water, not the starchy cooking water, keeping 2.5 cm headspace. Free the bubbles, wipe the rims, fit the lids fingertip-tight and load the canner.",
+    "Lock the lid, vent steam for 10 minutes, then weight the vent and bring to 10 psi weighted or 11 psi dial at 0–300 m.",
+    "Time once at pressure: 500 ml jars 35 minutes, 1 L jars 40 minutes. Hold the pressure steady; if it drops, bring it back and start over.",
+    "Cool the canner naturally to zero, remove the weight, wait 10 minutes, open away from your face, and lift the jars onto a towel for 12–24 hours. Check the seals and label."
+   ],
+   "keeps": "Best within 12 months. Drain and rinse before frying or roasting. Refrigerate after opening and use within 3–4 days.",
+   "variations": "Whole new potatoes no bigger than 5 cm across use the same times with a 10-minute pre-boil. Potatoes that have been stored cold may darken in the jar — harmless, but a reason to can from fresh-dug stock.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pressure-canned-pumpkin-cubes",
+   "title": "Pumpkin and winter squash cubes, pressure canned",
+   "crop": "pumpkin",
+   "also": [
+    "winter-squash"
+   ],
+   "method": "pressure",
+   "tagline": "The only safe way to put squash in a jar: firm cubes in water, which you drain and mash the day you bake the pie.",
+   "makes": "About 9 × 500 ml (pint) jars from 4.5 kg (10 lb) of squash, or 7 × 1 L (quart) jars from 7.3 kg (16 lb)",
+   "active": "1¼ hours",
+   "total": "3½ hours including venting, processing and cooling the canner",
+   "safety": [
+    "Purée cannot be canned at home, full stop. Mashed pumpkin is so thick that heat crawls to the centre of the jar unevenly, and tests at the University of Minnesota found batch-to-batch thickness varied too much for any single time to cover. No research has established a safe home-canning time, so none exists — for purée, pumpkin butter or pie filling.",
+    "Cubes only, 2.5 cm (1 inch), boiled just 2 minutes so they stay firm and the water can move between them.",
+    "Pressure canner only; this is a low-acid vegetable, and adding sugar, vinegar or lemon does not change that.",
+    "Mash after you open the jar: drain the cubes, press through a sieve or mash, and use as you would canned pumpkin.",
+    "For a smooth product that keeps, freeze it instead — see frozen squash purée."
+   ],
+   "source": {
+    "label": "NCHFP: Pumpkins and winter squash — cubed",
+    "url": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/pumpkins-and-winter-squash-cubed/"
+   },
+   "ingredients": [
+    "7.3 kg (16 lb) hard-rinded pumpkin or winter squash for 7 L jars — 4.5 kg (10 lb) for 9 × 500 ml jars; about 1 kg (2¼ lb) per litre jar. Pie pumpkins, butternut and buttercup work better than jack-o’-lantern types",
+    "Water for boiling and covering"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "2.5 cm (1 inch)",
+    "minutes": 55,
+    "note": "at 10 psi (weighted gauge)",
+    "altitude": "1 L jars: 90 min. Weighted gauge: 10 psi at 0–300 m (0–1,000 ft), 15 psi above 300 m. Dial gauge: 11 psi at 0–600 m (0–2,000 ft), 12 psi at 600–1,200 m, 13 psi at 1,200–1,800 m, 14 psi at 1,800–2,400 m. Processing time does not change with altitude for pressure canning — only the pressure does."
+   },
+   "steps": [
+    "Start the pressure canner heating with 5–7.5 cm (2–3 inches) of water. Wash the jars and keep them hot.",
+    "Wash the squash, split it and scoop out the seeds (save them to roast — a child’s job). Cut into 2.5 cm (1 inch) wide slices, peel each slice, then cut into 2.5 cm (1 inch) cubes.",
+    "Put the cubes in a pot, cover with water, bring to the boil and boil 2 minutes. Do not cook them soft and do not mash.",
+    "Fill the hot jars with the cubes and the cooking liquid, leaving 2.5 cm (1 inch) headspace. The cubes should stay whole and swim in liquid.",
+    "Free the air bubbles, wipe the rims, centre the lids and tighten the bands fingertip-tight. Set the jars on the rack.",
+    "Lock the lid, vent steam for 10 minutes, then weight the vent and bring to 10 psi weighted or 11 psi dial at 0–300 m.",
+    "Time once at pressure: 500 ml jars 55 minutes, 1 L jars 90 minutes. Keep the pressure steady; if it falls below target, bring it back and start the full time again.",
+    "Cool the canner naturally to zero, remove the weight, wait 10 minutes, open the lid away from you and lift the jars onto a towel. Leave 12–24 hours before checking seals."
+   ],
+   "keeps": "Best within 12 months. Drain and mash on the day you use it. Refrigerate after opening and use within 3–4 days.",
+   "variations": "Any hard winter squash — butternut, buttercup, hubbard, kabocha — cans the same way. Spaghetti squash is a poor choice because it falls into strands.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pressure-canned-dry-beans",
+   "title": "Dry beans, soaked and pressure canned",
+   "crop": "dry-beans",
+   "method": "pressure",
+   "tagline": "Your own shelled beans — or a 10 kg sack from the store — turned into ready-to-eat jars without the overnight planning every single time.",
+   "makes": "About 9 × 500 ml (pint) jars from 1.5 kg (3¼ lb) of dry beans, or 7 × 1 L (quart) jars from 2.3 kg (5 lb)",
+   "active": "1 hour, plus soaking",
+   "total": "Overnight soak, then about 3½ hours including the 30-minute boil, processing and cooling",
+   "safety": [
+    "Beans must be soaked and boiled 30 minutes before they go in the jar. Dry beans packed raw with water — the so-called dry-canning shortcut — do not heat through and have no tested time.",
+    "Leave the full 2.5 cm (1 inch) headspace; beans swell and a jar packed to the brim will siphon and may not seal.",
+    "Pressure canner only, 75/90 minutes. These are among the longest home-canning times for a reason: a jar of beans is dense.",
+    "Plain beans in water only. Tomato sauce, molasses, pork and seasonings belong to NCHFP’s separate baked-bean recipes with their own times."
+   ],
+   "source": {
+    "label": "NCHFP: Beans or peas — shelled, dried, all varieties",
+    "url": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/"
+   },
+   "ingredients": [
+    "2.3 kg (5 lb) dry beans or peas of one kind — kidney, pinto, black, navy, cranberry, chickpea — for 7 L jars; 1.5 kg (3¼ lb) for 9 × 500 ml jars",
+    "Water for soaking and boiling",
+    "Canning or pickling salt, optional: 1 teaspoon (5 ml) per 1 L jar, ½ teaspoon per 500 ml jar"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "2.5 cm (1 inch)",
+    "minutes": 75,
+    "note": "at 10 psi (weighted gauge)",
+    "altitude": "1 L jars: 90 min. Weighted gauge: 10 psi at 0–300 m (0–1,000 ft), 15 psi above 300 m. Dial gauge: 11 psi at 0–600 m (0–2,000 ft), 12 psi at 600–1,200 m, 13 psi at 1,200–1,800 m, 14 psi at 1,800–2,400 m. Processing time does not change with altitude for pressure canning — only the pressure does."
+   },
+   "steps": [
+    "Sort through the beans and throw out stones and shrivelled ones — a job a child can do on a tray. Rinse.",
+    "Soak one of two ways. Long soak: cover with plenty of cold water and leave 12–18 hours somewhere cool, then drain. Quick soak: cover with boiling water, boil 2 minutes, take off the heat, leave 1 hour, drain.",
+    "Set the pressure canner heating with 5–7.5 cm (2–3 inches) of water, and keep the washed jars hot.",
+    "Cover the drained beans with fresh water, bring to the boil and boil 30 minutes. They will still be firm; the canner finishes the cooking.",
+    "Add salt to the hot jars if using. Fill with beans and their cooking liquid, leaving 2.5 cm (1 inch) headspace — the beans keep swelling, so do not pack them tight.",
+    "Free the bubbles, wipe the rims, fit the lids fingertip-tight and load the canner. Lock the lid, vent steam for 10 minutes, then bring to 10 psi weighted or 11 psi dial at 0–300 m.",
+    "Time once at pressure: 500 ml jars 75 minutes, 1 L jars 90 minutes. Hold the pressure; if it drops, bring it back and restart the clock.",
+    "Cool the canner naturally to zero, remove the weight, wait 10 minutes, open away from your face, lift the jars onto a towel, and leave 12–24 hours before checking the seals."
+   ],
+   "keeps": "Best within 12 months. Drain and rinse for salads; use the liquid in soups. Refrigerate after opening and use within 3–4 days.",
+   "variations": "Any whole dry bean or whole dry pea (kidney, pinto, black, navy, cranberry, chickpea, black-eyed pea) uses the same method and times. Do not use it for split peas or red or split lentils, which cook down to a purée no tested time covers. Jars of black beans and chickpeas are the ones that disappear fastest.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "sauerkraut",
+   "title": "Sauerkraut, crock or jar fermented",
+   "crop": "cabbage",
+   "method": "ferment",
+   "tagline": "Cabbage, salt and three weeks of patience. The oldest recipe in this library, and the one a six-year-old can make almost entirely alone.",
+   "makes": "About 2 L from a 2.3 kg (5 lb) batch in a 4 L jar; 9 L from 11 kg (25 lb) in a 20 L crock",
+   "active": "45 minutes",
+   "total": "3–6 weeks of fermenting",
+   "safety": [
+    "The salt is the recipe: 3 tablespoons per 2.3 kg (about 2.25% by weight). It is what lets the lactic-acid bacteria win and keeps the texture crisp. Do not cut it, and do not use iodized table salt, which clouds the brine.",
+    "Everything must stay under the brine. Cabbage in the air is where mould starts.",
+    "Surface scum is yeast and comes off with a spoon; coloured fuzzy mould, slime or an off smell means discard the batch.",
+    "Fermented kraut is a high-acid food, which is why it can be water-bath canned — but only with the tested times, and canning stops the live culture. Refrigerated kraut keeps its crunch and its bacteria.",
+    "Kraut that never got sour (too cold, too little salt) is not safe to can or keep. If it does not taste properly tangy after six weeks, compost it."
+   ],
+   "source": {
+    "label": "NCHFP: Sauerkraut",
+    "url": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/"
+   },
+   "ingredients": [
+    "2.3 kg (5 lb) firm, fresh cabbage per 4 L (1 gallon) of container — scale up by the same ratio",
+    "3 tablespoons (45 ml, about 50 g) canning or pickling salt per 2.3 kg cabbage — about 2.25% by weight; if you have a scale, 22 g per kilogram of shredded cabbage",
+    "Top-up brine only if needed: 1½ tablespoons (22 ml) canning salt per 950 ml (1 quart) water, boiled and cooled"
+   ],
+   "process": {
+    "jars": "500 ml (pint) hot pack · 1 L (quart) in brackets",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 10,
+    "altitude": "Hot pack 1 L jars: 15 min. Raw pack: 500 ml 20 min, 1 L 25 min. At 305–915 m (1,001–3,000 ft) hot pack is 15/20 min and raw pack 25/30 min; at 915–1,830 m (3,001–6,000 ft) hot pack 15/20 min and raw pack 30/35 min; above 1,830 m hot pack 20/25 min and raw pack 35/40 min."
+   },
+   "steps": [
+    "Pull off the loose outer leaves, rinse the heads, quarter them and cut out the cores. Shred to about the thickness of a quarter (about 2 mm) with a knife, mandoline or food processor.",
+    "Weigh the shredded cabbage into a big bowl, add the salt, and mix and squeeze with clean hands for several minutes until the cabbage goes limp and glossy and juice gathers in the bottom. Children love this step; the bowl can go on the floor.",
+    "Pack the cabbage into a clean 4 L jar or crock a handful at a time, pressing down hard with a fist or a wooden spoon so the juice rises above it. Leave at least 10–12 cm (4–5 inches) of space at the top.",
+    "If after an hour the juice does not cover the cabbage, top up with the cooled brine. Lay a plate or lid that fits inside the container on top, and weight it with a sealed jar of water or a brine-filled bag so everything stays 2.5–5 cm (1–2 inches) under the liquid. Cover with a clean tea towel.",
+    "Leave it somewhere 21–24 °C (70–75 °F) and it will finish in 3–4 weeks; at 15–18 °C (60–65 °F) allow 5–6 weeks. Below 15 °C it may not ferment at all; above 24 °C the kraut goes soft.",
+    "Look in two or three times a week. A white film or bubbly scum on the surface is wild yeast and is normal — skim it off, rinse the plate and weight, and put them back. Fuzzy, coloured mould, a slimy texture or a bad smell means the batch is finished, in the bin.",
+    "It is done when the bubbling stops and it tastes clean and sour all the way through. Put the whole container, covered, in the fridge, or pack into jars and refrigerate.",
+    "To can instead (optional): for a hot pack, bring the kraut and its juice to a boil, stirring, and fill hot jars firmly with 1.25 cm (½ inch) headspace; for a raw pack, fill cold jars firmly and cover with juice to the same headspace. Process in a boiling-water canner: hot pack 500 ml jars 10 minutes and 1 L jars 15 minutes; raw pack 500 ml 20 minutes and 1 L 25 minutes, at 0–300 m. Cool 12–24 hours and check the seals."
+   ],
+   "keeps": "Tightly covered in the fridge, several months — it slowly gets more sour. Canned, best within a year in a cool dark cupboard; refrigerate after opening.",
+   "variations": "A tablespoon of caraway or juniper per 2.3 kg goes in with the salt. A quarter of the cabbage swapped for shredded carrot or apple, with the salt kept at the same percentage of the total weight, makes a good fridge kraut — but mixed krauts are not the tested recipe, so keep them in the fridge and do not can them. Red cabbage makes a magenta kraut that stains everything cheerfully.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "fermented-dill-pickles",
+   "title": "Brine-fermented dill pickles",
+   "crop": "cucumber",
+   "also": [
+    "dill",
+    "garlic"
+   ],
+   "method": "ferment",
+   "tagline": "Real deli pickles: cucumbers, dill, garlic and a salt brine, soured by the same bacteria that make kraut. No vinegar bite, just depth.",
+   "makes": "About 2 × 1 L jars of pickles per 4 L (1 gallon) crock",
+   "active": "30 minutes",
+   "total": "3–6 weeks of fermenting",
+   "safety": [
+    "The brine as mixed is strong — 125 ml salt to 2 L water works out near 7% — because the cucumbers are mostly water and dilute it as they ferment to somewhere around 4%. That is why you cannot cut the salt and why the cucumber weight per container matters.",
+    "Canning or pickling salt only; iodized or anti-caking salt clouds the brine and can slow the ferment.",
+    "Keep everything under the brine and skim scum as soon as you see it. Soft, slimy or foul-smelling pickles are spoiled — do not can or eat them.",
+    "The 5% vinegar is part of the tested recipe; it gives the ferment a safe start. Do not leave it out.",
+    "Use the tested canning times only on properly soured pickles. Half-fermented cucumbers are not acidic enough for a water bath."
+   ],
+   "source": {
+    "label": "NCHFP: Dill pickles (fermented)",
+    "url": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/"
+   },
+   "ingredients": [
+    "1.8 kg (4 lb) pickling cucumbers about 10 cm (4 inches) long, per 4 L (1 gallon) of container",
+    "2 tablespoons (30 ml) dill seed, or 4–5 heads of fresh or dried dill",
+    "125 ml (½ cup) canning or pickling salt",
+    "60 ml (¼ cup) vinegar, 5% acidity",
+    "2 L (8 cups) water",
+    "Optional: 2 cloves garlic, 2 dried hot red peppers, 2 teaspoons (10 ml) whole mixed pickling spice"
+   ],
+   "process": {
+    "jars": "500 ml (pint) · 1 L (quart) in brackets",
+    "headspace": "1.25 cm (½ inch)",
+    "minutes": 10,
+    "altitude": "1 L jars: 15 min. At 305–1,830 m (1,001–6,000 ft): 500 ml 15 min, 1 L 20 min. Above 1,830 m: 500 ml 20 min, 1 L 25 min. Alternative that keeps them crisper: low-temperature pasteurization — jars in water at 49–60 °C, then heat to 82–85 °C (180–185 °F) and hold exactly 30 minutes with a thermometer, never hotter."
+   },
+   "steps": [
+    "Pick or buy cucumbers no more than a day old; limp ones make hollow pickles. Scrub them gently and cut a thin slice (about 2 mm, 1/16 inch) off the blossom end — it carries an enzyme that softens pickles. Leave a stub of stem.",
+    "Put half the dill and spices (and garlic and peppers, if using) in the bottom of a scrubbed 4 L crock, food-grade bucket or wide glass jar. A child can hand you the cucumbers to stand upright and pack snugly, then add the rest of the dill and spice on top.",
+    "Stir the salt into the water and vinegar until it dissolves, and pour it over the cucumbers so they are covered.",
+    "Set a plate that fits inside the container on top and weight it with a sealed jar of water so the cucumbers stay 2.5–5 cm (1–2 inches) under the brine. Cover with a clean tea towel.",
+    "Keep the container at 21–24 °C (70–75 °F) for about 3–4 weeks. At 13–18 °C (55–65 °F) it takes 5–6 weeks. Avoid anything above 27 °C (80 °F) — the pickles soften and spoil.",
+    "Look in several times a week and skim any white film or scum off the surface at once; rinse the plate and weight before putting them back. If the pickles go soft, slimy or smell bad, throw the batch out.",
+    "They are done when the bubbling has stopped and a pickle cut in half is the same translucent olive colour all the way through, with no white core. Taste one.",
+    "For the fridge: leave them in their brine, covered, and keep skimming. To can: pour the brine into a pot, bring to a boil and simmer 5 minutes, straining through coffee filters if you want it clear. Pack the pickles into hot jars, cover with the hot brine leaving 1.25 cm (½ inch) headspace, free the bubbles, wipe the rims and fit the lids fingertip-tight. Process in a boiling-water canner: 500 ml jars 10 minutes, 1 L jars 15 minutes at 0–300 m. Cool 12–24 hours and check the seals."
+   ],
+   "keeps": "In the fridge in their brine, 4–6 months, as long as you keep skimming the surface. Canned, best within a year; refrigerate after opening.",
+   "variations": "A few grape, oak, horseradish or black-currant leaves in the crock add tannin and help with crunch.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "fermented-hot-sauce",
+   "title": "Fermented hot sauce (refrigerator only)",
+   "crop": "hot-pepper",
+   "also": [
+    "garlic"
+   ],
+   "method": "ferment",
+   "tagline": "Brined peppers, soured for a few weeks and blended: the sauce every pepper-grower ends up making. Ours stays in the fridge, because nobody has published a tested canning time for it.",
+   "makes": "About 500 ml of sauce from 500 g of peppers",
+   "active": "30 minutes",
+   "total": "2–4 weeks of fermenting",
+   "safety": [
+    "This is a refrigerator recipe. No university or Bernardin lab has published a tested water-bath time for home fermented hot sauce, and a blended sauce is thick enough that heat penetration cannot be guessed. Do not can it.",
+    "The brine is 5% by weight (50 g salt per litre of water). Weigh the salt; spoon measures vary between salt brands.",
+    "Peppers must stay under the brine. Anything poking into the air grows mould.",
+    "The vinegar at the end is for flavour and extra margin. Keep it in the fridge and use it within a few months; anything soft, slimy, pink or mouldy is finished.",
+    "Wear gloves, do not touch your face, and run the blender outdoors or under the range hood — the fumes from a litre of blended habaneros will clear a kitchen."
+   ],
+   "source": {
+    "label": "No tested home-canning recipe exists. Temperature, scum handling and spoilage signs follow NCHFP’s fermented dill pickles; the 5% brine is not from a tested source. Refrigerator only.",
+    "url": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/"
+   },
+   "ingredients": [
+    "500 g (1 lb) hot peppers of any kind — jalapeño, cayenne, Hungarian wax, habanero, or a mix with some sweet red pepper to tame it",
+    "2–4 cloves garlic, optional",
+    "Brine: 50 g (about 3 tablespoons) canning or pickling salt dissolved in 1 L (4 cups) water — a 5% brine; use the full amount even if you do not need it all",
+    "60–125 ml (¼–½ cup) vinegar, 5% acidity, to finish"
+   ],
+   "steps": [
+    "Put on gloves — the capsaicin lingers on skin for hours — and keep children well back from the cutting board for this one; they can take over at the blending stage. Wash the peppers, pull off the stems, and halve or slice them. Leave the seeds in for more heat or scrape them out.",
+    "Pack the peppers and garlic into a clean 1 L glass jar, stopping 5 cm (2 inches) from the top.",
+    "Stir the salt into the water until it dissolves completely and pour the brine over the peppers to cover them. Save the rest of the brine in the fridge for topping up.",
+    "Hold the peppers under the brine with a small jar, a fermentation weight or a zip bag filled with the spare brine. Cover the jar loosely — a lid left a quarter-turn open, or a fermentation airlock — so gas can escape.",
+    "Leave it at 21–24 °C (70–75 °F), out of direct sun. It will fizz within a few days and smell sharp and pleasant. Check every day or two: top up with brine if the level drops and skim any white film at once. Fuzzy or coloured mould, slime or a rotten smell means discard it.",
+    "After 2 weeks (up to 4 for a deeper flavour) the bubbling slows and the brine tastes clearly sour. Pour off and keep the brine, tip the peppers and garlic into a blender, and blend smooth with the vinegar and as much brine as you need for a pourable sauce.",
+    "Strain through a sieve for a thin sauce or leave it thick. Bottle, label with the date, and keep it in the fridge. It will keep fermenting very slowly, so burp the bottle for the first week."
+   ],
+   "keeps": "In the fridge, 3 months or more — the colour dulls before the flavour goes. It is not shelf-stable. If it turns fizzy and foamy again or smells off, compost it.",
+   "variations": "Add a carrot or half an onion to the jar for body and sweetness; a few slices of fresh ginger or a strip of lime zest at the blending stage. For a Louisiana-style sauce use only red cayenne and blend with brine alone.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "frozen-corn",
+   "title": "Frozen sweet corn, on the cob and whole kernel",
+   "crop": "sweet-corn",
+   "method": "freeze",
+   "tagline": "Blanched the same day it was picked, August corn tastes like August in February. Kernels for chowder, a few cobs for a treat.",
+   "makes": "About 1 kg of kernels from a dozen average ears; a dozen cobs fills a 4 L freezer bag",
+   "active": "45 minutes",
+   "total": "1½ hours including cooling and packing",
+   "safety": [
+    "Blanching is not optional for corn: 4 minutes for kernels, 7–11 minutes on the cob by size. Unblanched corn keeps freezing but turns starchy and stale within weeks.",
+    "Time from when the water returns to the boil, not from when the corn goes in. Use enough water (4 L per 450 g) so it recovers fast.",
+    "Cool as long as you blanched, in ice water, and drain thoroughly — wet corn freezes as a block with ice crystals through it.",
+    "Freeze no more than will go solid within 24 hours (roughly 1–1.5 kg per 30 L of freezer space at a time), with packages spread out until frozen."
+   ],
+   "source": {
+    "label": "NCHFP: Freezing corn",
+    "url": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-corn/"
+   },
+   "ingredients": [
+    "Sweet corn picked that morning if you can — it loses sugar by the hour",
+    "A large pot of boiling water: 4 L (1 gallon) per 450 g (1 lb) of corn",
+    "A sink or tub of ice water: about 450 g of ice per 450 g of corn"
+   ],
+   "steps": [
+    "Shuck the corn and pull off the silk — the best job in the garden for a child, outside, over the compost. Trim any wormy tips.",
+    "Bring the big pot to a rolling boil. Lower in a few ears at a time without crowding so the water comes back to the boil quickly.",
+    "For corn on the cob, time from when the water returns to the boil: small ears (3.2 cm, 1¼ inches across or less) 7 minutes, medium (3.2–3.8 cm) 9 minutes, large (over 3.8 cm, 1½ inches) 11 minutes. For whole kernel corn, blanch the ears 4 minutes.",
+    "Lift the ears straight into the ice water and leave them there as long as they boiled. Cobs must be chilled to the core or the frozen corn tastes of cob; swap in fresh ice as it melts.",
+    "Drain well. For cobs: pat dry, wrap each in plastic or pack several in a freezer bag, press out the air, seal and freeze. For kernels: stand each ear in a wide bowl and cut down with a sharp knife about two-thirds the depth of the kernel, leaving the tough base on the cob.",
+    "Pack the kernels into freezer bags or boxes leaving 1.25 cm (½ inch) headspace, press out the air, label with the date and freeze flat so they stack."
+   ],
+   "keeps": "8–12 months at −18 °C (0 °F) for best quality. Cook kernels from frozen; thaw cobs in the fridge before boiling or they cook unevenly.",
+   "variations": "For cream-style corn, blanch 4 minutes, cut just the kernel tips, then scrape the cobs with the back of the knife to get the milk; pack with 1.25 cm headspace. Leftover cobs make a sweet stock for chowder — simmer 30 minutes and freeze that too.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "frozen-green-beans-and-peas",
+   "title": "Frozen green beans and peas",
+   "crop": "green-beans",
+   "also": [
+    "peas"
+   ],
+   "method": "freeze",
+   "tagline": "The two crops that come all at once and go over in days. Three minutes in boiling water for beans, a minute and a half for peas, and they are saved.",
+   "makes": "About 1 kg of beans fills three 1 L freezer bags; 1 kg of pea pods gives about 400 g of shelled peas",
+   "active": "30–45 minutes",
+   "total": "1 hour including shelling, cooling and packing",
+   "safety": [
+    "Blanching times are the recipe: beans 3 minutes, peas 1½ minutes, counted from when the water returns to the boil. Under-blanched vegetables keep their enzymes and go tough and dull-coloured in the freezer; over-blanched ones go mushy.",
+    "Use plenty of water — 4 L per 450 g — so the boil recovers fast, and chill in ice water for the same number of minutes.",
+    "Drain well. Surface water turns into a block of ice and freezer burn.",
+    "Do not add salt or butter before freezing; season when you cook them."
+   ],
+   "source": {
+    "label": "NCHFP: Blanching times for vegetables",
+    "url": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-times/"
+   },
+   "ingredients": [
+    "Young, tender green or wax beans with the seeds just forming, and/or peas picked while the pods are full but still sweet",
+    "A large pot of boiling water: 4 L (1 gallon) per 450 g (1 lb) of vegetables",
+    "A tub of ice water: about 450 g of ice per 450 g of vegetables"
+   ],
+   "steps": [
+    "Wash the beans in cold water, snip off the ends and cut or snap into 5–10 cm (2–4 inch) pieces. Shell the peas. Both are perfect jobs for a child at the table with a bowl in their lap.",
+    "Bring the big pot to a hard boil. Add no more than 450 g of vegetables at a time so the water comes back to the boil within a minute.",
+    "Time from when the water returns to the boil: beans 3 minutes, peas 1½ minutes. Keep beans and peas in separate batches — their times are different.",
+    "Lift them out with a strainer basket straight into the ice water and chill for the same time they boiled (3 minutes for beans, 1½ for peas). Scoop them out and drain thoroughly in a colander, shaking off the water.",
+    "Spread on a clean tea towel and pat dry. Pack into freezer bags or boxes leaving 1.25 cm (½ inch) headspace, press out the air, seal and label.",
+    "Lay the bags flat in a single layer on a freezer shelf until solid, then stack. For loose, scoopable peas, freeze them first on a tray and bag once hard."
+   ],
+   "keeps": "8–12 months at −18 °C (0 °F). Cook from frozen in a little boiling water or straight into soup; thawing first makes them soggy.",
+   "variations": "Sugar-snap and snow peas in the pod blanch 1½–3 minutes depending on size. Steam blanching takes about half again as long as water blanching.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "frozen-tomatoes-whole",
+   "title": "Whole tomatoes, frozen without blanching",
+   "crop": "tomato",
+   "method": "freeze",
+   "tagline": "The zero-effort way to save tomatoes on a night you have none to spare: wash, core, bag. The skins slip off under the tap in January.",
+   "makes": "A 4 L freezer bag holds about 2 kg of medium tomatoes",
+   "active": "10 minutes",
+   "total": "Overnight to freeze solid",
+   "safety": [
+    "Tomatoes are one of the few vegetables that need no blanching before freezing; the skins come off after instead.",
+    "They will be soft and watery when thawed. Frozen tomatoes are for cooking — sauce, soup, stew — not salads or slicing.",
+    "Freeze them bare. Garlic, onion and herbs change in the freezer, some stronger and some weaker; season when you cook.",
+    "Use freezer bags or freezer-grade boxes, not bread bags or yogurt tubs, which let moisture out and freezer burn in."
+   ],
+   "source": {
+    "label": "University of Nebraska–Lincoln Extension: Freezing tomatoes (whole, with peels)",
+    "url": "https://food.unl.edu/article/freezing-tomatoes/"
+   },
+   "ingredients": [
+    "Firm, ripe tomatoes of any kind — paste types freeze with less water, but slicers and cherry tomatoes are fine",
+    "Nothing else"
+   ],
+   "steps": [
+    "Sort the tomatoes and set aside any that are split or soft for tonight’s supper. Rub the rest clean under cold running water and dry them with a towel — a child can wash and dry while you core.",
+    "Cut out the stem scar and the hard core around it with the tip of a paring knife.",
+    "Set the whole tomatoes, not touching, on a baking sheet and freeze until rock hard, usually overnight.",
+    "Tip the frozen tomatoes into freezer bags, press out as much air as you can, seal and label with the date. Return to the freezer at once.",
+    "To use, run a frozen tomato under warm water for a few seconds and the skin slides off in your hand. Drop into soup, sauce or chili frozen, or thaw in a bowl and pour off the extra liquid for a thicker sauce."
+   ],
+   "keeps": "About 8 months at −18 °C (0 °F) for best quality. Cook straight from frozen, or thaw in the fridge and use the same day.",
+   "variations": "Cherry tomatoes freeze the same way and go into a pan whole to roast from frozen. If you would rather peel first, dip in boiling water about 1 minute until the skins split, slip them, then tray-freeze as above.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "frozen-roasted-peppers",
+   "title": "Roasted peppers, frozen",
+   "crop": "pepper",
+   "also": [
+    "hot-pepper"
+   ],
+   "method": "freeze",
+   "tagline": "Char them while the grill is still out, then pull a bag of smoky strips for pizza or chili all winter. Sweet or hot, same method.",
+   "makes": "About 1 kg of fresh peppers gives 500–600 g of roasted strips, enough for four 250 ml tubs",
+   "active": "40 minutes",
+   "total": "1½ hours including steaming and cooling",
+   "safety": [
+    "Hot peppers: gloves, and glasses if you are grilling a lot of them. Capsaicin oil in the eyes or under fingernails hurts for hours, and the smoke off a grill full of chiles makes people cough.",
+    "Cool roasted peppers to fridge temperature within 2 hours and freeze them within 3 days — a warm bowl of roasted peppers is a good place for bacteria to grow.",
+    "Roasting is a quality step, not a preservation one. Freezing is what keeps them; roasted peppers at room temperature are not safe.",
+    "Peppers are low-acid, so this frozen recipe is the simple route. Canning them needs a pressure canner and NCHFP’s tested peppers recipe, which these roasted strips are not.",
+    "Do not store them under oil in the fridge or the cupboard: peppers or garlic in oil is a botulism risk unless frozen."
+   ],
+   "source": {
+    "label": "Colorado State University Extension (Food Smart Colorado): Processing roasted chile peppers",
+    "url": "https://foodsmartcolorado.colostate.edu/processing-roasted-chile-peppers"
+   },
+   "ingredients": [
+    "Thick-walled sweet peppers, or hot peppers such as Anaheim, poblano, Hungarian wax or jalapeño — any quantity",
+    "Nothing else; season when you cook with them"
+   ],
+   "steps": [
+    "Wash the peppers and leave them whole. For hot peppers, put on gloves and keep children away from the cutting board — they can help later with the labelling. Prick thick peppers once with a knife so they do not burst.",
+    "Blister the skins over high heat: on a hot grill, under the broiler on the top rack, or directly over a gas burner, turning with tongs until the skin is blackened and puffed on all sides. A slow roast over a flame gives a sweeter, smokier result than a fast one.",
+    "Drop the hot peppers into a covered bowl or a food-grade bag and let them steam 10–15 minutes; the skins loosen and the flesh finishes cooking.",
+    "Peel if you like — the charred skin rubs off with your fingers or a paper towel, rinsing lightly if needed — then pull out the stem and seeds and tear or slice into strips. Or skip peeling: whole roasted peppers frozen in their skins are easier to peel once thawed.",
+    "Cool the peppers quickly — spread on a tray in the fridge or over a bowl of ice — and get them cold within 2 hours of roasting. If they wait in the fridge, use or freeze them within 3 days.",
+    "Pack in freezer bags with the air pressed out, or in rigid tubs with 1.25 cm (½ inch) headspace. Pack in meal-sized amounts; label sweet and hot clearly and freeze."
+   ],
+   "keeps": "Best within a year at −18 °C (0 °F). Use from frozen in cooked dishes, or thaw in the fridge; the strips will be soft.",
+   "variations": "Unroasted peppers freeze too: halve or slice sweet peppers and freeze raw with no headspace for crunch-free cooking use, or blanch halves 3 minutes and strips 2 minutes for a softer result. Hot peppers freeze whole and raw, stems off.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "frozen-squash-puree",
+   "title": "Roasted squash and pumpkin purée, frozen",
+   "crop": "winter-squash",
+   "also": [
+    "pumpkin"
+   ],
+   "method": "freeze",
+   "tagline": "The safe way to put up smooth pumpkin for pie, soup and muffins — in the freezer, in the amounts your recipes call for.",
+   "makes": "A 2 kg butternut or pie pumpkin gives about 1 L of purée, four 250 ml portions",
+   "active": "30 minutes",
+   "total": "2 hours including roasting and cooling",
+   "safety": [
+    "This is the home route for smooth pumpkin. Purée cannot be canned safely at home at any pressure or time — it is too thick and too variable for heat to penetrate predictably — so it goes in the freezer or it goes in cubes in a pressure canner.",
+    "Cook until fully soft and cool quickly before packing; a big warm tub of purée takes hours to chill in the middle.",
+    "Leave 1.25 cm headspace in rigid containers — purée expands as it freezes and will pop a lid.",
+    "Thaw in the fridge, not on the counter, and use within a few days of thawing."
+   ],
+   "source": {
+    "label": "NCHFP: Freezing winter squash",
+    "url": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-winter-squash/"
+   },
+   "ingredients": [
+    "Mature winter squash or pie pumpkin with a hard rind — butternut, buttercup, kabocha, hubbard, sugar pumpkin",
+    "Nothing else: no sugar, salt or spice until you bake"
+   ],
+   "steps": [
+    "Heat the oven to 200 °C (400 °F). Wash the squash, halve it with a heavy knife (the adult’s job) and scoop out the seeds and strings with a spoon — the child’s job, with the seeds set aside for roasting.",
+    "Lay the halves cut-side down on a lined baking sheet and roast until a knife slides into the thickest part with no resistance, 45–75 minutes depending on size. You can boil, steam or pressure-cook chunks instead; roasting just tastes better and drives off water.",
+    "Scoop the flesh from the rind and mash with a potato masher, or purée in a food processor for pie-smooth texture. If it looks watery, drain it in a sieve for half an hour.",
+    "Set the pot or bowl of purée in a sink of cold water and stir now and then until it is cool to the touch — do not pack it warm.",
+    "Measure into freezer boxes or bags in the amounts your recipes use (a 540 ml tin of pumpkin is about 2 cups), leaving 1.25 cm (½ inch) headspace in boxes. Press bags flat and squeeze out the air.",
+    "Label with squash type, amount and date, and freeze flat until solid before stacking."
+   ],
+   "keeps": "8–12 months at −18 °C (0 °F). Thawed purée weeps liquid; pour it off or stir it back in depending on the recipe. Use within 3–4 days of thawing.",
+   "variations": "Freeze some of it already seasoned as pie filling base (purée, brown sugar, spice) if you know it is only ever going into pie. Freeze 2-tablespoon blobs in an ice-cube tray for stirring into a toddler’s porridge.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "pesto-cubes",
+   "title": "Basil pesto cubes, frozen",
+   "crop": "basil",
+   "also": [
+    "garlic"
+   ],
+   "method": "freeze",
+   "tagline": "Pick the basil before the first frost night takes it, blitz it, freeze it in cubes. One cube on hot pasta in February is the whole point of the herb bed.",
+   "makes": "About 375 ml of pesto, 24 ice-cube-tray cubes, from 2 cups of leaves",
+   "active": "20 minutes",
+   "total": "Overnight to freeze solid",
+   "safety": [
+    "Pesto is garlic and herbs in oil, and oil keeps the air out: exactly the conditions in which Clostridium botulinum grows at room temperature or in a slow fridge. Fresh pesto is a fridge food for no more than 3 days; anything beyond that must be frozen.",
+    "Never leave the jar on the counter or in a cupboard, and do not top it with oil and call it preserved.",
+    "Thaw in the fridge and eat within a day or two; do not refreeze.",
+    "Wash and dry the basil thoroughly — soil on the leaves is the usual source of spores, and water in the paste shortens even its fridge life."
+   ],
+   "source": {
+    "label": "NCHFP: Freezing pesto",
+    "url": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pesto/"
+   },
+   "ingredients": [
+    "500 ml (2 cups) packed fresh basil leaves, stems removed",
+    "125 ml (½ cup) olive oil",
+    "60 ml (¼ cup) pine nuts, walnuts or sunflower seeds",
+    "2 cloves garlic",
+    "¼ teaspoon (1 ml) salt",
+    "Optional, best added after thawing: 125 ml (½ cup) finely grated Parmesan"
+   ],
+   "steps": [
+    "Pick the basil in the morning, before it is wilted by sun or blackened by frost. Have a child strip the leaves off the stems into a colander; rinse and spin or pat them completely dry — water makes grey pesto.",
+    "Put the basil, nuts, garlic and salt in a food processor and pulse until finely chopped, scraping down the sides.",
+    "With the motor running, pour in the oil in a thin stream until you have a loose, spoonable paste. Leave the cheese out if you plan to freeze it — it stirs in better after thawing, and the pesto freezes cleaner without it.",
+    "Spoon into an ice-cube tray, smooth the tops and film the surface with a little extra oil to slow browning. Or pack into small freezer jars with 1.25 cm (½ inch) headspace.",
+    "Freeze overnight. Pop the cubes out and move them into a labelled freezer bag, squeezing out the air. Any pesto not going into the freezer goes in the fridge now and gets eaten within 3 days.",
+    "To use, drop a cube or two into hot drained pasta or a soup pot, or thaw in the fridge and stir in the cheese."
+   ],
+   "keeps": "Up to a year at −18 °C (0 °F); the colour darkens before the flavour fades. In the fridge, 3 days, no more.",
+   "variations": "Swap half the basil for parsley or arugula to stretch a thin harvest; make a garlic-scape version in June with the same method. For plain frozen basil, chop the leaves, pack into cube trays with just enough water or oil to bind, and freeze — the same 3-day fridge rule applies to the oil version.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "frozen-berries",
+   "title": "Tray-frozen berries: raspberries, strawberries, haskap",
+   "crop": "raspberry",
+   "also": [
+    "strawberry",
+    "haskap"
+   ],
+   "method": "freeze",
+   "tagline": "No sugar, no syrup, nothing to measure — a single layer on a tray, then a bag you can pour from. The way to save a picking before it moulds overnight.",
+   "makes": "A standard baking sheet holds about 1 kg of berries per freezing round",
+   "active": "15 minutes",
+   "total": "3–4 hours to freeze hard, then bag",
+   "safety": [
+    "Tray-freeze and bag promptly: berries left loose in the freezer freezer-burn within days. The quality rule here is the whole method.",
+    "Freeze no more than will go hard within 24 hours, in single layers; a deep bowl of berries freezes slowly and bleeds juice.",
+    "Thawed berries are soft and weep juice — they are for cooking, baking and blending, not a fruit plate. Do not refreeze a thawed bag.",
+    "Wash before freezing, not after; frozen berries thaw too fast under the tap."
+   ],
+   "source": {
+    "label": "NCHFP: Dry or tray packing for fruits",
+    "url": "https://nchfp.uga.edu/how/freeze/freeze-general-information/dry-or-tray-packing-for-fruits/"
+   },
+   "ingredients": [
+    "Fully ripe, firm berries — raspberries, strawberries or haskap — picked dry if possible",
+    "Nothing else"
+   ],
+   "steps": [
+    "Sort the berries and pull out leaves, stems and any that are mushy or mouldy; those go to the chickens or the compost. Children are good at this, especially if allowed to eat the rejects.",
+    "Rinse gently in a colander under cold water and drain well. Spread on a clean towel and let them dry for a few minutes — wet berries freeze with a frost coat and clump.",
+    "Hull strawberries with a paring knife or the tip of a teaspoon; leave raspberries and haskap whole.",
+    "Spread in a single layer, not touching, on a parchment-lined baking sheet. Slide onto a flat freezer shelf.",
+    "As soon as they are hard — usually 2–4 hours — pour them into labelled freezer bags or boxes, press out the air and seal. Do not leave them on the open tray overnight or they dry out and pick up freezer smells.",
+    "Pour out what you need and reseal the bag. Use from frozen in porridge, muffins, pancakes and smoothies; thaw in the fridge for sauce."
+   ],
+   "keeps": "8–12 months at −18 °C (0 °F). Haskap and raspberries keep their flavour best; strawberries soften most on thawing.",
+   "variations": "For a sweeter pack NCHFP gives a sugar pack: 175 ml (¾ cup) sugar stirred gently into each litre (about 600 g) of berries until it dissolves, then packed with headspace. Sliced strawberries hold their shape better in sugar than whole ones. Haskap behave like blueberries in the freezer and in every muffin recipe.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "dried-apple-rings",
+   "title": "Dried apple rings",
+   "crop": "apple",
+   "method": "dry",
+   "tagline": "Leathery, chewy, lunchbox-sized apple: the drying recipe to start with, because it forgives almost everything except skipping the dip.",
+   "makes": "About 500 g of dried rings from 5 kg of fresh apples (they lose about nine-tenths of their weight)",
+   "active": "40 minutes",
+   "total": "6–12 hours in a dehydrator, plus 4–10 days of conditioning",
+   "safety": [
+    "The ascorbic-acid or lemon dip is what stops the apples browning and losing flavour and vitamin C; Colorado State also counts it as an antimicrobial step that helps destroy bacteria during drying, so do not skip it.",
+    "Dry at 60 °C (140 °F) — hotter case-hardens the outside and traps moisture inside, which is where mould starts weeks later.",
+    "Condition for 4–10 days before you put the jar away. Any sign of condensation means back into the dehydrator; any mould during storage means the whole jar is compost.",
+    "Store cool, dry and dark in airtight containers. Warm storage halves the shelf life."
+   ],
+   "source": {
+    "label": "Colorado State University Extension, PreserveSmart: Drying apples",
+    "url": "https://apps.chhs.colostate.edu/preservesmart/produce/drying/apples"
+   },
+   "ingredients": [
+    "Firm, ripe apples — any amount; crisp tart kinds (Cortland, Honeycrisp, Empire, Liberty) dry best",
+    "Anti-browning dip, choose one: 1 teaspoon (5 ml, 3 g) ascorbic acid powder stirred into 500 ml (2 cups) cold water; or equal parts bottled lemon juice and cold water; or 1 teaspoon (5 g) citric acid in 1 L (1 quart) cold water"
+   ],
+   "steps": [
+    "Wash the apples. Peel if you like (the skins go leathery but are fine to eat), core, and slice into rings 3–6 mm (⅛–¼ inch) thick — a mandoline or an apple peeler-corer keeps them even. Cut out any bruises.",
+    "Drop the slices into the dip as you go and let them soak 3–5 minutes. A child can be in charge of the dipping bowl, pushing the rings under with a spoon.",
+    "Drain the rings in a colander and blot on a towel. Lay them in a single layer on the dehydrator trays without overlapping.",
+    "Dry at 60 °C (140 °F). Plan on 6–12 hours, turning the trays around halfway if your dehydrator dries unevenly. In an oven, use the lowest setting with the door cracked and expect up to twice as long.",
+    "Test a cooled ring, not a warm one: it should be leathery and pliable, bending without snapping and with no wet spot when torn in half. Err on the dry side.",
+    "Cool completely, then condition: pack loosely into a glass jar, seal, and leave 4–10 days on the counter, shaking daily. If moisture beads on the glass, dry them longer. This evens out the moisture between pieces and is what stops mould.",
+    "Pack into airtight jars or freezer bags in amounts you will use within a week or two of opening, label, and store cool and dark."
+   ],
+   "keeps": "6–12 months in a cool, dark cupboard — closer to a year at 16 °C (60 °F), six months at 27 °C (80 °F). Once opened, use within a few weeks and watch for softening.",
+   "variations": "A pinch of cinnamon shaken over the trays before drying. Pears dry the same way at the same temperature. For a crisp apple chip, slice paper-thin and dry until brittle, and condition them like the rings.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "fruit-leather",
+   "title": "Fruit leather, apple or berry",
+   "crop": "apple",
+   "also": [
+    "strawberry",
+    "raspberry",
+    "haskap",
+    "rhubarb"
+   ],
+   "method": "dry",
+   "tagline": "Purée poured thin and dried into a roll-up: the snack children ask for by name, made from the fruit that was too soft for anything else.",
+   "makes": "500 ml (2 cups) of purée makes one 33 × 38 cm (13 × 15 inch) sheet, about 8 roll-ups",
+   "active": "20 minutes",
+   "total": "6–8 hours in a dehydrator, up to 18 in an oven",
+   "safety": [
+    "Dry at 60 °C (140 °F) until there is no indentation in the centre. A tacky middle means moisture, and moisture means mould within a few weeks.",
+    "Use plastic wrap or a purpose-made sheet to line the tray, never waxed paper or foil.",
+    "The lemon juice or ascorbic acid for apple leather is to keep the colour; sweetener is optional and does not affect keeping.",
+    "At room temperature it lasts about a month; for longer, the freezer. If a roll ever smells fermented or shows spots, discard it."
+   ],
+   "source": {
+    "label": "NCHFP: Fruit leathers",
+    "url": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/"
+   },
+   "ingredients": [
+    "500 ml (2 cups) fruit purée per sheet: ripe or slightly overripe apples, strawberries, raspberries, haskap, or a mix — stems, peels and seeds removed",
+    "For light-coloured fruit (apple, pear): 2 teaspoons (10 ml) lemon juice or ⅛ teaspoon (375 mg) ascorbic acid per 500 ml of purée",
+    "Optional sweetener: 60–125 ml (¼–½ cup) honey, sugar or corn syrup per 500 ml purée, to taste",
+    "Optional spice: start with ⅛ teaspoon (0.5 ml) cinnamon or similar per 500 ml purée"
+   ],
+   "steps": [
+    "Wash the fruit in cool water. Peel and core apples and simmer the chunks with a splash of water until soft; berries can be used raw. Pull out stems and any bad spots — a child can hull and sort while you cook.",
+    "Purée until completely smooth in a blender or food processor. Stir in the lemon juice or ascorbic acid for pale fruit, and sweetener and spice if using. For seedy raspberries, press through a sieve.",
+    "Line the dehydrator tray or a rimmed baking sheet with plastic wrap or the dehydrator’s fruit-leather sheet, smoothing out wrinkles. Do not use waxed paper or foil — the leather welds to them.",
+    "Pour on the purée and spread it about 3 mm (⅛ inch) thick, a little thicker at the edges, which dry first. 500 ml covers a 33 × 38 cm sheet.",
+    "Dry at 60 °C (140 °F): roughly 6–8 hours in a dehydrator, up to 18 hours in an oven on its lowest setting with the door propped open.",
+    "It is done when you press the centre and your finger leaves no dent, and the sheet peels from the plastic in one piece. While still warm, peel it off, roll it up in a fresh piece of plastic wrap, and let it cool.",
+    "Cut the roll into lengths with scissors — the best part for small helpers — and store in an airtight jar or bag."
+   ],
+   "keeps": "Up to 1 month at room temperature, tightly wrapped; up to 1 year in the freezer. Keeps longer in the fridge than on the shelf.",
+   "variations": "Half apple purée with half berry or rhubarb purée stretches a small berry picking and sets a cleaner leather. Unsweetened applesauce from a jar works as the base. Sprinkle with chopped nuts or coconut before drying for a chewier bar.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "dried-herbs",
+   "title": "Dried herbs, air-dried and dehydrated",
+   "crop": "hardy-herbs",
+   "also": [
+    "parsley",
+    "dill",
+    "basil"
+   ],
+   "method": "dry",
+   "tagline": "Bunches of thyme hanging from a nail, basil laid flat in the dehydrator: the whole herb bed in six jars before the frost takes it.",
+   "makes": "A loose grocery bag of fresh herbs dries down to one or two 250 ml jars",
+   "active": "20 minutes",
+   "total": "1–4 hours in a dehydrator; 1–2 weeks hanging",
+   "safety": [
+    "Tender, juicy herbs — basil, mint, lemon balm, tarragon — mould in a hanging bundle before they dry. They go in the dehydrator or a well-ventilated paper bag.",
+    "Keep the dehydrator under 46 °C (115 °F) unless the air is very humid; hotter cooks off the volatile oils you are trying to keep.",
+    "A hanging bundle must be small and loose. A thick bunch stays damp in the middle and grows grey mould that you will not see until you crumble it.",
+    "Dried herbs are 3–4 times stronger than fresh, so use about a third of the amount a recipe gives for fresh."
+   ],
+   "source": {
+    "label": "NCHFP: Drying herbs",
+    "url": "https://nchfp.uga.edu/how/dry/recipes/herbs/"
+   },
+   "ingredients": [
+    "Sturdy herbs for hanging: rosemary, sage, thyme, summer savory, parsley (dill and coriander seed heads go in a paper bag)",
+    "Tender herbs for the dehydrator or the paper-bag method: basil, mint, lemon balm, tarragon, oregano and marjoram leaves, chives",
+    "String and a paper bag, or a dehydrator with mesh liners"
+   ],
+   "steps": [
+    "Cut herbs in the morning once the dew has dried, ideally just before they flower when the oils are strongest. Rinse in cool water, shake off the drops, and throw out anything bruised, dirty or yellow. Children can strip leaves from stems and spot the bad ones.",
+    "Hanging method, for the sturdy herbs: tie 5–8 stems in a small bundle with string, hang them upside down somewhere warm, airy and out of the sun — a kitchen beam or a closet — and leave 1–2 weeks until the leaves crumble.",
+    "Paper-bag method, for tender or dusty herbs: punch holes in the sides of a paper bag, put a small bundle inside leaves-down, gather the bag around the stems with an elastic, and hang it where air moves. The bag catches falling leaves and keeps dust and light off.",
+    "Dehydrator method, best for basil, mint and anything with a lot of moisture: lay leaves or short sprigs in a single layer on the trays and dry at 35–46 °C (95–115 °F), or up to 52 °C (125 °F) in muggy weather, for 1–4 hours. Check after an hour; basil goes from limp to crisp quickly.",
+    "They are dry when leaves crumble between your fingers and stems snap rather than bend. Anything still bendy goes back.",
+    "Strip the leaves and store them whole — crumble at the stove, not before, to keep the oils in. Pack into small airtight jars, label, and keep in a cool, dark cupboard away from the stove.",
+    "Check the jars the first week. Any mist on the glass means they were not fully dry: tip them back onto a tray and dry further."
+   ],
+   "keeps": "Best flavour within a year; after that they are safe but dull. Store whole, airtight, cool and dark, and never shake a jar over a steaming pot.",
+   "variations": "Dill heads and coriander seed hang in a paper bag until the seed drops. Make your own herbes de Provence or an Italian mix once everything is dry. For herbs you use mostly in cooked dishes (parsley, chives, dill), freezing chopped in cubes keeps more of the fresh flavour than drying.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "dried-hot-peppers",
+   "title": "Dried hot peppers and chili flakes",
+   "crop": "hot-pepper",
+   "method": "dry",
+   "tagline": "A year of chili flakes from a single plant: slice, dry, and crumble. Gloves on, windows open, children at a distance.",
+   "makes": "1 kg of fresh hot peppers gives about 100–150 g dried — a full 500 ml jar of flakes",
+   "active": "30 minutes",
+   "total": "8–12 hours in a dehydrator, plus 4–10 days of conditioning",
+   "safety": [
+    "Gloves, always, and do not touch your face. Capsaicin does not wash off with water alone; use soap and oil, then soap again.",
+    "Grind and dry with ventilation. Hot-pepper dust in a closed kitchen will send everyone out coughing, and small children are the most affected.",
+    "Dry until tough to brittle and condition before storing; a leathery pepper that still has moisture inside moulds in the jar.",
+    "A ristra — whole peppers strung and hung to air-dry — only works with thin-walled red peppers in a dry climate. In a humid Quebec or Ontario September the inside rots before the outside dries, so hang them indoors near a dehumidifier or use the dehydrator."
+   ],
+   "source": {
+    "label": "Colorado State University Extension, PreserveSmart: Drying hot peppers",
+    "url": "https://apps.chhs.colostate.edu/preservesmart/produce/drying/peppers-hot"
+   },
+   "ingredients": [
+    "Ripe hot peppers, any kind — cayenne, jalapeño, Thai, habanero, Hungarian wax — firm and unblemished",
+    "Disposable or rubber gloves; a pair of glasses does not hurt"
+   ],
+   "steps": [
+    "Put on gloves before you touch the peppers and keep them on until the trays are loaded. Wash the peppers and drain well. This is one recipe to do while the children are elsewhere; they can help with the labelling at the end.",
+    "Cut off the stems. For thick-walled peppers, slice into 0.5–1 cm (¼–⅜ inch) rings or strips; split thin cayenne and Thai types lengthwise. Remove the seeds and membranes for milder flakes, or leave them for heat.",
+    "Lay in a single layer on the dehydrator trays, cut side up, not touching.",
+    "Dry at 60 °C (140 °F) for 8–12 hours, until the pieces are tough to brittle and snap rather than bend. An oven on its lowest setting with the door cracked takes up to twice as long; run the range hood and open a window, because the air will carry capsaicin.",
+    "Cool completely on the trays. Condition in a loosely filled, sealed jar for 4–10 days, shaking daily; if any moisture shows on the glass, dry them longer.",
+    "Store whole in airtight jars in a cool dark cupboard, or grind to flakes or powder in a spice grinder in small batches — outdoors or under the hood, and let the dust settle before opening the lid."
+   ],
+   "keeps": "6–12 months in a cool dark cupboard for best colour and heat; the freezer keeps them longer. Whole dried peppers hold their flavour better than flakes, and flakes better than powder.",
+   "variations": "For a ristra, New Mexico State Extension’s method is to string whole mature red pods through the stems with a needle and heavy thread, hang them stem-up where air moves freely, and wait for shrunken, dark-red, still-flexible pods. Smoke jalapeños on the grill before drying for homemade chipotle. Sweet peppers dry the same way for soup flakes.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "dried-tomatoes",
+   "title": "Dried cherry and paste tomatoes",
+   "crop": "tomato",
+   "method": "dry",
+   "tagline": "Halved cherry tomatoes dried to chewy, sweet-sour coins — the concentrated taste of the whole summer in a jar. Kept dry, not in oil.",
+   "makes": "About 70–150 g of dried tomatoes from 2 kg of fresh cherry or paste tomatoes",
+   "active": "30 minutes",
+   "total": "6–12 hours in a dehydrator, plus 4–10 days of conditioning",
+   "safety": [
+    "Do not store dried tomatoes under oil at room temperature. Oil seals the air out and a low-acid tomato with a little moisture left in it is exactly what Clostridium botulinum needs; store-bought ones are acidified in a factory. If you make an oil-packed jar at home, it lives in the fridge and is eaten within 4 days, or goes in the freezer.",
+    "Dry to brittle and condition for 4–10 days before sealing a jar for the cupboard. Pieces that are still pliable belong in the fridge or freezer.",
+    "Peeling is a texture choice, not a safety step; the 30-second blanch is just to loosen skins.",
+    "Any musty smell, soft spots or mould in the jar: discard the lot."
+   ],
+   "source": {
+    "label": "Colorado State University Extension, PreserveSmart: Drying tomatoes",
+    "url": "https://apps.chhs.colostate.edu/preservesmart/produce/drying/tomatoes"
+   },
+   "ingredients": [
+    "Ripe cherry tomatoes or paste tomatoes (Roma, San Marzano, Amish Paste) — meaty, low-juice kinds dry fastest and best",
+    "Optional: a light sprinkle of salt, or dried oregano or basil, on the cut sides"
+   ],
+   "steps": [
+    "Wash and dry the tomatoes. Halve cherry tomatoes; slice paste tomatoes 0.5–1 cm (¼–⅜ inch) thick or into quarters lengthwise. Peeling is optional — if you want skinless pieces, dip whole tomatoes 30 seconds in boiling water, then into ice water, and slip the skins first. Colorado State also suggests an optional 3–5 minute dip in 1 teaspoon citric acid per litre of water as an antimicrobial step. A child can halve cherry tomatoes with a table knife.",
+    "Scoop the wettest seed gel out of large slices with a fingertip; it only slows the drying. Lay the pieces cut side up in a single layer on the dehydrator trays, and salt or herb the surfaces lightly if you like.",
+    "Dry at 60 °C (140 °F) for 6–12 hours — cherry halves toward the short end, thick slices toward the long. In an oven on its lowest setting with the door cracked, expect up to twice as long. Rotate the trays once.",
+    "Test a cooled piece. For a shelf-stable jar, dry until crisp and brittle; for a chewy snack texture, stop at leathery and keep those in the fridge or freezer.",
+    "Cool completely, then condition: pack loosely in a sealed jar for 4–10 days, shaking daily. If moisture fogs the glass, return them to the dehydrator.",
+    "Pack into airtight jars or freezer bags, label, and store in a cool dark cupboard, the fridge or the freezer. Rehydrate in hot water or broth for 20–30 minutes before using, or grind the crisp ones into tomato powder for soups."
+   ],
+   "keeps": "Crisp-dried and conditioned: 6–12 months in a cool dark cupboard, longer in the freezer. Leathery ones: a few weeks in the fridge, a year in the freezer. Oil-packed: 4 days in the fridge.",
+   "variations": "Whole dried cherry tomatoes blitzed with dried basil and salt make a seasoning powder for popcorn. To use them like oil-packed, cover a few days’ worth with olive oil, garlic and herbs in a small jar and keep it in the fridge for 4 days at most.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "strawberry-jam",
+   "title": "Strawberry jam with Original Fruit Pectin",
+   "crop": "strawberry",
+   "method": "water-bath",
+   "tagline": "Canada’s jam. Eight jars in under an hour, set every time, from the berries picked the same morning or from the freezer in January.",
+   "makes": "About 8 × 250 ml jars",
+   "active": "40 minutes",
+   "total": "1¼ hours including processing; 24 hours to cool and set",
+   "safety": [
+    "The sugar and fruit amounts are the pectin maker’s recipe: 1,250 ml crushed fruit, 1,750 ml sugar, one 57 g package of Original Fruit Pectin. Cutting the sugar with regular pectin gives a runny jam that can mould; for less sugar, use a no-sugar-needed pectin and its own recipe instead.",
+    "Powdered and liquid pectins are not interchangeable — they go in at different points and want different sugar. This recipe is for Bernardin Original (powdered) pectin.",
+    "Boil hard for exactly 1 minute after the sugar returns it to a rolling boil. Less and it will not set; much more and it goes stiff and dark.",
+    "Process the jars in the boiling-water canner the full 10 minutes. Inverting jars or sealing with paraffin wax are not safe substitutes.",
+    "Do not double the batch. Jam that is too deep in the pot cannot reach the gel point before it overcooks."
+   ],
+   "source": {
+    "label": "Bernardin: Classic ‘Easy’ Strawberry Jam (Original Fruit Pectin)",
+    "url": "https://www.bernardin.ca/recipes/en/classic-easy-strawberry-jam.htm"
+   },
+   "ingredients": [
+    "1,250 ml (5 cups) crushed strawberries — about 2.5 L (2½ quarts) whole berries, roughly 1.5–1.7 kg",
+    "1,750 ml (7 cups, about 1.4 kg) granulated sugar",
+    "60 ml (4 tablespoons) lemon juice",
+    "1 package (57 g) Bernardin Original Fruit Pectin (powdered)",
+    "½ teaspoon (2 ml) butter or margarine, optional, to cut the foam"
+   ],
+   "process": {
+    "jars": "250 ml (half-pint) · 125 ml (quarter-pint) same time",
+    "headspace": "0.5 cm (¼ inch)",
+    "minutes": 10,
+    "altitude": "Same time for 250 ml jars. Above 305 m (1,000 ft) add 5 min; above 915 m (3,000 ft) add 10 min; above 1,830 m (6,000 ft) add 15 min; above 2,440 m (8,000 ft) add 20 min."
+   },
+   "steps": [
+    "Put 8 clean 250 ml jars on the rack of a boiling-water canner, cover with water and heat to a simmer (82 °C, 180 °F). Wash the lids in hot soapy water and set them aside dry; Bernardin lids are not pre-heated.",
+    "Wash and hull the strawberries. Crush them one layer at a time with a potato masher — a child’s job, in a wide bowl — and measure exactly 1,250 ml (5 cups). Measure the sugar into a separate bowl.",
+    "Put the crushed berries and lemon juice in a large, deep stainless-steel pot with the butter, and whisk in the pectin until it dissolves.",
+    "Over high heat bring to a full rolling boil, one that keeps boiling when you stir. Add all the sugar at once and, stirring constantly, bring it back to a full rolling boil that cannot be stirred down. Boil hard exactly 1 minute, stirring the whole time. Take off the heat and skim the foam.",
+    "Ladle the hot jam into one hot jar at a time to 0.5 cm (¼ inch) from the rim. Slide a plastic knife or bubble tool down the inside to free air, adjust the headspace, wipe the rim, centre the lid and screw the band down just until fingertip-tight. Return the jar to the canner and fill the rest.",
+    "Make sure the jars are covered by at least 2.5 cm (1 inch) of water, put the lid on and bring to a full rolling boil. Start timing then: 10 minutes at 0–305 m (0–1,000 ft).",
+    "Turn off the heat, remove the lid, wait 5 minutes, then lift the jars out without tilting onto a towel. Leave them 24 hours without touching the bands.",
+    "Check the seals: a sealed lid curves down and does not flex. Remove the bands, wipe the jars, label and store. Any jar that did not seal goes in the fridge to eat first."
+   ],
+   "keeps": "Best within a year in a cool dark cupboard; the colour browns after that but the jam is sound while sealed. Refrigerate after opening and use within 3 weeks.",
+   "variations": "Frozen strawberries work: thaw, then crush and measure as fresh. For a chunkier jam, crush only half the berries and quarter the rest. Keep everything else exactly the same.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "raspberry-jam",
+   "title": "Raspberry jam with liquid pectin",
+   "crop": "raspberry",
+   "method": "water-bath",
+   "tagline": "The brightest jar on the shelf, from the canes that fruit again in September. Liquid pectin keeps the cooking short and the flavour fresh.",
+   "makes": "About 6 × 250 ml jars",
+   "active": "30 minutes",
+   "total": "1 hour including processing; 24 hours to cool and set",
+   "safety": [
+    "This is a liquid-pectin recipe: the sugar goes in with the fruit at the start and the pectin at the end. Do not swap in powdered pectin without switching to its recipe, and do not change the 1,000 ml fruit to 1,625 ml sugar ratio.",
+    "A full rolling boil, then exactly 1 minute after the pectin goes in. Timing by the clock, not by eye.",
+    "Process in a boiling-water canner 10 minutes with the jars fully covered. Open-kettle sealing (hot jam, lid on, no bath) is not safe and often fails to seal.",
+    "Skim the foam before filling; foam trapped under the lid can spoil the seal."
+   ],
+   "source": {
+    "label": "Bernardin: Raspberry Jam — Liquid Pectin",
+    "url": "https://www.bernardin.ca/recipes/en/raspberry-jam-liquid-pectin.htm"
+   },
+   "ingredients": [
+    "1,000 ml (4 cups) prepared raspberries — about 1.5 L of whole berries, crushed; press some or all through a sieve first if you want fewer seeds",
+    "1,625 ml (6½ cups, about 1.3 kg) granulated sugar",
+    "1 pouch (85 ml) Bernardin Liquid Pectin",
+    "½ teaspoon (2 ml) butter or margarine, optional, to reduce foaming"
+   ],
+   "process": {
+    "jars": "250 ml (half-pint) · 125 ml (quarter-pint) same time",
+    "headspace": "0.5 cm (¼ inch)",
+    "minutes": 10,
+    "altitude": "Same time for 250 ml jars. Above 305 m (1,000 ft) add 5 min; above 915 m (3,000 ft) add 10 min; above 1,830 m (6,000 ft) add 15 min; above 2,440 m (8,000 ft) add 20 min."
+   },
+   "steps": [
+    "Put 6 clean 250 ml jars on the rack of a boiling-water canner, cover with water and heat to a simmer (82 °C, 180 °F). Wash the lids and set them aside dry.",
+    "Pick over the raspberries and crush them in a bowl with a potato masher — small hands do this well — measuring 1,000 ml (4 cups) when done. Sieve out some seeds first if you prefer.",
+    "In a large, deep stainless-steel pot, stir together the crushed fruit, all of the sugar and the butter.",
+    "Over high heat, stirring, bring to a full rolling boil that cannot be stirred down. Squeeze in the whole pouch of liquid pectin, return to a full boil and boil hard exactly 1 minute, stirring constantly. Remove from the heat and skim the foam.",
+    "Ladle into one hot jar at a time to 0.5 cm (¼ inch) from the rim. Free the air bubbles with a plastic tool, adjust the headspace, wipe the rim, centre the lid and screw the band on fingertip-tight. Return to the canner and repeat.",
+    "With the jars covered by at least 2.5 cm (1 inch) of water, put the lid on, bring to a full rolling boil and process 10 minutes at 0–305 m (0–1,000 ft).",
+    "Turn off the heat, remove the lid, wait 5 minutes and lift the jars straight up onto a towel. Leave 24 hours, then check that each lid is dished and firm, remove the bands, label and store."
+   ],
+   "keeps": "Best within a year in a cool dark cupboard. Refrigerate after opening and use within 3 weeks.",
+   "variations": "Half raspberries, half blackberries or black raspberries, measured together to the same 1,000 ml. Everbearing fall raspberries make a slightly softer, deeper-flavoured jam than July ones.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "strawberry-rhubarb-jam",
+   "title": "Strawberry rhubarb jam with Original Fruit Pectin",
+   "crop": "strawberry",
+   "also": [
+    "rhubarb"
+   ],
+   "method": "water-bath",
+   "tagline": "June in a jar: the first strawberries and the last tender rhubarb, set with powdered pectin so the tartness stays sharp.",
+   "makes": "About 6 × 250 ml jars",
+   "active": "40 minutes",
+   "total": "1¼ hours including processing; 24 hours to cool and set",
+   "safety": [
+    "Rhubarb leaves are poisonous (oxalic acid). Trim stalks well below the leaf and keep the leaves away from children and the compost bowl that pets get into.",
+    "Fruit, sugar and pectin stay at the tested amounts: 875 ml strawberries, 250 ml rhubarb, 1,300 ml sugar, one 57 g package of Original Fruit Pectin. More rhubarb than this changes the set and is not the tested recipe.",
+    "Bottled lemon or lime juice — the acidity of fresh citrus varies and the set depends on it.",
+    "Powdered pectin goes in before the boil; the sugar after. Boil hard exactly 1 minute. Process 10 minutes in a boiling-water canner."
+   ],
+   "source": {
+    "label": "Bernardin: Strawberry Rhubarb Spring Festival Jam (Original Fruit Pectin)",
+    "url": "https://www.bernardin.ca/recipes/en/strawberry-rhubarb-spring-festival-jam.htm"
+   },
+   "ingredients": [
+    "875 ml (3½ cups) crushed strawberries — about 2 L (2 quarts) whole berries",
+    "250 ml (1 cup) finely chopped rhubarb, about 2 medium stalks",
+    "5–10 ml (1–2 teaspoons) finely grated lemon rind, about 1 lemon",
+    "50 ml (¼ cup) bottled lemon or lime juice",
+    "1 package (57 g) Bernardin Original Fruit Pectin (powdered)",
+    "1,300 ml (5¼ cups, about 1.05 kg) granulated sugar",
+    "½ teaspoon (2 ml) butter or margarine, optional, to reduce foaming"
+   ],
+   "process": {
+    "jars": "250 ml (half-pint) · 125 ml (quarter-pint) same time",
+    "headspace": "0.5 cm (¼ inch)",
+    "minutes": 10,
+    "altitude": "Same time for 250 ml jars. Above 305 m (1,000 ft) add 5 min; above 915 m (3,000 ft) add 10 min; above 1,830 m (6,000 ft) add 15 min; above 2,440 m (8,000 ft) add 20 min."
+   },
+   "steps": [
+    "Put 6 clean 250 ml jars on the rack of a boiling-water canner, cover with water and heat to a simmer (82 °C, 180 °F). Wash the lids and set them aside dry.",
+    "Wash and hull the strawberries and crush them one layer at a time; measure 875 ml (3½ cups). Wash the rhubarb, trim off every bit of leaf, and chop finely; measure 250 ml (1 cup). A child can crush berries while you chop. Measure the sugar into a bowl.",
+    "In a large, deep stainless-steel pot, stir together the strawberries, rhubarb, lemon rind, lemon juice, butter and the pectin.",
+    "Over high heat bring to a full rolling boil. Add all the sugar at once and, stirring constantly, return to a full rolling boil that cannot be stirred down. Boil hard exactly 1 minute, stirring. Remove from the heat and skim the foam.",
+    "Ladle into one hot jar at a time to 0.5 cm (¼ inch) from the rim. Free the bubbles, adjust the headspace, wipe the rim, centre the lid and tighten the band fingertip-tight. Return to the canner and fill the rest.",
+    "Cover the jars with at least 2.5 cm (1 inch) of water, lid on, bring to a full rolling boil and process 10 minutes at 0–305 m (0–1,000 ft).",
+    "Turn off the heat, take off the lid, wait 5 minutes, lift the jars straight up onto a towel and leave 24 hours. Check the seals, remove the bands, label and store."
+   ],
+   "keeps": "Best within a year in a cool dark cupboard. Refrigerate after opening and use within 3 weeks.",
+   "variations": "Frozen rhubarb and strawberries from June work in October: thaw, chop and crush, and measure as fresh. A vanilla bean split into the pot and fished out before jarring is a popular addition that does not change the recipe.",
+   "checked": "October 2026"
+  },
+  {
+   "slug": "haskap-jam",
+   "title": "Haskap freezer jam (no cooking, no canning)",
+   "crop": "haskap",
+   "method": "freeze",
+   "tagline": "Nobody has published a tested canning recipe for haskap, so this one follows Bernardin’s tested freezer-jam method for blueberries instead: raw fruit, freezer pectin, ten minutes, and it tastes exactly like the berry.",
+   "makes": "About 5 × 250 ml jars",
+   "active": "15 minutes",
+   "total": "45 minutes including the 30-minute set",
+   "safety": [
+    "This is a freezer jam. There is no tested water-bath recipe for haskap from Bernardin, NCHFP or a Canadian university or provincial lab, and a recipe for a different fruit cannot be assumed to carry over to a jar on the shelf. Freezer jam does not rely on acidity or a seal, so the substitution is safe here.",
+    "It is not shelf-stable: in the fridge up to 3 weeks, in the freezer up to a year. Do not process it in a canner — this pectin and this sugar level are not designed for it.",
+    "Use Bernardin Freezer Jam Pectin specifically. Regular, liquid and no-sugar-needed pectins each want their own recipe and sugar.",
+    "Leave 1 cm headspace; the jam expands as it freezes and will crack a glass jar filled to the brim."
+   ],
+   "source": {
+    "label": "Bernardin: Blueberry Freezer Jam — Freezer Jam Pectin (followed with haskap in place of blueberries; no tested canned haskap recipe exists)",
+    "url": "https://www.bernardin.ca/recipes/en/blueberry-freezer-jam-freezer-jam-pectin.htm"
+   },
+   "ingredients": [
+    "1,000 ml (4 cups) crushed haskap — about 2 L of whole berries, roughly 1.2 kg",
+    "10 ml (2 teaspoons) lightly packed, finely grated orange zest, optional",
+    "375 ml (1½ cups, about 300 g) granulated sugar",
+    "1 pouch (45 g) Bernardin Freezer Jam Pectin"
+   ],
+   "steps": [
+    "Wash and rinse 5 Bernardin freezer jars with lids, or 250 ml mason jars with plastic storage lids. Rinse the haskap and pick out stems.",
+    "Crush the berries thoroughly by hand with a potato masher, or pulse in a food processor without puréeing — a child can mash. Measure 1,000 ml (4 cups) into a shallow pan.",
+    "Optional but worth it: heat the crushed fruit on the stove or in the microwave, stirring, just until it comes to a boil. It deepens the colour and flavour and softens the skins. Stir in the orange zest and set aside.",
+    "In a large bowl stir the sugar and the freezer-jam pectin together until evenly mixed.",
+    "Pour the fruit into the pectin-sugar mixture and stir for a full 3 minutes by the clock.",
+    "Ladle into the jars leaving 1 cm (½ inch) headspace, wipe the rims and put the lids on tightly. Leave on the counter about 30 minutes to thicken.",
+    "Label with the date and put the jars in the freezer, keeping out one for the fridge to eat now."
+   ],
+   "keeps": "Up to 3 weeks in the fridge; up to 1 year in the freezer. Thaw in the fridge overnight and stir before serving.",
+   "variations": "Haskap plus rhubarb, measured together to 1,000 ml, is the classic Prairie pairing.",
+   "checked": "October 2026"
+  }
+ ],
+ "alsoFor": {
+  "pepper": [
+   "salsa",
+   "zucchini-relish"
+  ],
+  "hot-pepper": [
+   "green-tomato-salsa",
+   "frozen-roasted-peppers",
+   "salsa",
+   "zucchini-relish"
+  ],
+  "zucchini": [
+   "bread-and-butter-pickles"
+  ],
+  "winter-squash": [
+   "pressure-canned-pumpkin-cubes"
+  ],
+  "pumpkin": [
+   "frozen-squash-puree"
+  ],
+  "carrot": [
+   "pickled-jalapeno-rings"
+  ],
+  "onion": [
+   "bread-and-butter-pickles",
+   "pickled-beets",
+   "zucchini-relish",
+   "pickled-jalapeno-rings",
+   "green-tomato-salsa",
+   "salsa"
+  ],
+  "garlic": [
+   "fermented-hot-sauce",
+   "pesto-cubes",
+   "dilly-beans",
+   "fermented-dill-pickles",
+   "pickled-jalapeno-rings",
+   "green-tomato-salsa"
+  ],
+  "peas": [
+   "frozen-green-beans-and-peas"
+  ],
+  "rhubarb": [
+   "strawberry-rhubarb-jam",
+   "fruit-leather"
+  ],
+  "strawberry": [
+   "frozen-berries",
+   "fruit-leather"
+  ],
+  "raspberry": [
+   "fruit-leather"
+  ],
+  "haskap": [
+   "frozen-berries",
+   "fruit-leather"
+  ],
+  "basil": [
+   "dried-herbs"
+  ],
+  "dill": [
+   "dill-pickles-fresh-pack",
+   "dilly-beans",
+   "fermented-dill-pickles",
+   "dried-herbs"
+  ],
+  "parsley": [
+   "dried-herbs"
+  ],
+  "cilantro": [
+   "green-tomato-salsa"
+  ]
+ }
+}

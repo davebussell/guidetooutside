@@ -1,0 +1,1266 @@
+{
+ "acorn": {
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/190487802",
+  "src": "/species/acorn.webp",
+  "taxon": "Quercus alba"
+ },
+ "alexanders": {
+  "author": "Matt Pelikan",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/116475849",
+  "src": "/species/alexanders.webp",
+  "taxon": "Smyrnium olusatrum"
+ },
+ "amaranth-greens": {
+  "author": "Kevin Faccenda",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/146930023",
+  "src": "/species/amaranth-greens.webp",
+  "taxon": "Amaranthus dubius"
+ },
+ "autumn-olive": {
+  "author": "FATCAT",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/398475532",
+  "src": "/species/autumn-olive.webp",
+  "taxon": "Elaeagnus umbellata"
+ },
+ "baobab": {
+  "author": "Cliff Tyllick",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/103403060",
+  "src": "/species/baobab.webp",
+  "taxon": "Adansonia digitata"
+ },
+ "beach-plum": {
+  "author": "Tom Norton",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/16131224",
+  "src": "/species/beach-plum.webp",
+  "taxon": "Prunus maritima"
+ },
+ "beechnut": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/94875347",
+  "src": "/species/beechnut.webp",
+  "taxon": "Fagus grandifolia"
+ },
+ "bilberry": {
+  "author": "Linda Lötjönen",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/311887284",
+  "src": "/species/bilberry.webp",
+  "taxon": "Vaccinium myrtillus"
+ },
+ "birch-sap": {
+  "author": "Andrew Sebastian",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/152682271",
+  "src": "/species/birch-sap.webp",
+  "taxon": "Betula pendula"
+ },
+ "black-cherry": {
+  "author": "Sandy Wolkenberg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/90837784",
+  "src": "/species/black-cherry.webp",
+  "taxon": "Prunus serotina"
+ },
+ "black-locust": {
+  "author": "Tom Scavo",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/287089551",
+  "src": "/species/black-locust.webp",
+  "taxon": "Robinia pseudoacacia"
+ },
+ "black-trumpet": {
+  "author": "Alan Rockefeller",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/4743825",
+  "src": "/species/black-trumpet.webp",
+  "taxon": "Craterellus cornucopioides"
+ },
+ "black-walnut": {
+  "author": "Sandy Wolkenberg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/32229842",
+  "src": "/species/black-walnut.webp",
+  "taxon": "Juglans nigra"
+ },
+ "blackberry": {
+  "author": "Sandy Wolkenberg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/182689793",
+  "src": "/species/blackberry.webp",
+  "taxon": "Rubus allegheniensis"
+ },
+ "blueberry": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/173995865",
+  "src": "/species/blueberry.webp",
+  "taxon": "Vaccinium angustifolium"
+ },
+ "bunchberry": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/143148175",
+  "src": "/species/bunchberry.webp",
+  "taxon": "Cornus canadensis"
+ },
+ "burdock-root": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/272523025",
+  "src": "/species/burdock-root.webp",
+  "taxon": "Arctium minus"
+ },
+ "camas": {
+  "author": "Ed Alverson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/52750451",
+  "src": "/species/camas.webp",
+  "taxon": "Camassia quamash maxima"
+ },
+ "cape-gooseberry": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/59742119",
+  "src": "/species/cape-gooseberry.webp",
+  "taxon": "Physalis peruviana"
+ },
+ "caper": {
+  "author": "Gianni Del Bufalo bygdb",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/14646426",
+  "src": "/species/caper.webp",
+  "taxon": "Capparis spinosa"
+ },
+ "carob": {
+  "author": "Tom W",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/270169135",
+  "src": "/species/carob.webp",
+  "taxon": "Ceratonia siliqua"
+ },
+ "carrageen": {
+  "author": "sugarsnap_t",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/193198382",
+  "src": "/species/carrageen.webp",
+  "taxon": "Chondrus crispus"
+ },
+ "cattail-shoots": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/168416470",
+  "src": "/species/cattail-shoots.webp",
+  "taxon": "Typha × glauca"
+ },
+ "chaga": {
+  "author": "Matt Bowser",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/21678136",
+  "src": "/species/chaga.webp",
+  "taxon": "Inonotus obliquus sterilis"
+ },
+ "chanterelle": {
+  "author": "Alan Rockefeller",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/136662503",
+  "src": "/species/chanterelle.webp",
+  "taxon": "Cantharellus roseocanus"
+ },
+ "chicken-of-the-woods": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/61805691",
+  "src": "/species/chicken-of-the-woods.webp",
+  "taxon": "Laetiporus sulphureus"
+ },
+ "chickweed": {
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/73290170",
+  "src": "/species/chickweed.webp",
+  "taxon": "Stellaria media"
+ },
+ "chicory": {
+  "author": "Hydrocycler (Elizabeth Dougherty)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/63594450",
+  "src": "/species/chicory.webp",
+  "taxon": "Cichorium intybus"
+ },
+ "chokecherry": {
+  "author": "Tom Norton",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/392969884",
+  "src": "/species/chokecherry.webp",
+  "taxon": "Prunus virginiana"
+ },
+ "cloudberry": {
+  "author": "Liz Crafford",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/229003046",
+  "src": "/species/cloudberry.webp",
+  "taxon": "Rubus chamaemorus"
+ },
+ "common-mallow": {
+  "author": "cwwood",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/12727547",
+  "src": "/species/common-mallow.webp",
+  "taxon": "Malva neglecta"
+ },
+ "common-milkweed": {
+  "author": "Violet T.",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/121154765",
+  "src": "/species/common-milkweed.webp",
+  "taxon": "Asclepias syriaca"
+ },
+ "common-sorrel": {
+  "author": "Jason Grant",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/13573026",
+  "src": "/species/common-sorrel.webp",
+  "taxon": "Rumex acetosa"
+ },
+ "cornelian-cherry": {
+  "author": "Markus Krieger",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/91676826",
+  "src": "/species/cornelian-cherry.webp",
+  "taxon": "Cornus mas"
+ },
+ "cow-parsnip": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/48814409",
+  "src": "/species/cow-parsnip.webp",
+  "taxon": "Heracleum maximum"
+ },
+ "cranberry": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/96158530",
+  "src": "/species/cranberry.webp",
+  "taxon": "Vaccinium macrocarpon"
+ },
+ "dandelion": {
+  "author": "Jason Grant",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/78075399",
+  "src": "/species/dandelion.webp",
+  "taxon": "Taraxacum officinale"
+ },
+ "desert-date": {
+  "author": "Karim Haddad",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/106195710",
+  "src": "/species/desert-date.webp",
+  "taxon": "Balanites aegyptiaca"
+ },
+ "dulse": {
+  "author": "Ian Manning",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/88981229",
+  "src": "/species/dulse.webp",
+  "taxon": "Palmaria palmata"
+ },
+ "dune-spinach": {
+  "author": "Henry de Lange",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/192717212",
+  "src": "/species/dune-spinach.webp",
+  "taxon": "Tetragonia decumbens"
+ },
+ "elderberry": {
+  "author": "David Anderson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/243622865",
+  "src": "/species/elderberry.webp",
+  "taxon": "Sambucus cerulea"
+ },
+ "elderflower": {
+  "author": "sudomir",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/88354608",
+  "src": "/species/elderflower.webp",
+  "taxon": "Sambucus canadensis"
+ },
+ "european-elderberry": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/135400375",
+  "src": "/species/european-elderberry.webp",
+  "taxon": "Sambucus nigra"
+ },
+ "european-elderflower": {
+  "author": "Alexis Tinker-Tsavalas",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/217962855",
+  "src": "/species/european-elderflower.webp",
+  "taxon": "Sambucus nigra"
+ },
+ "evening-primrose": {
+  "author": "maureen_c-m",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/14344583",
+  "src": "/species/evening-primrose.webp",
+  "taxon": "Oenothera biennis"
+ },
+ "fiddleheads": {
+  "author": "Tom Norton",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/44964214",
+  "src": "/species/fiddleheads.webp",
+  "taxon": "Matteuccia struthiopteris"
+ },
+ "fireweed": {
+  "author": "christine123",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/8877766",
+  "src": "/species/fireweed.webp",
+  "taxon": "Chamaenerion angustifolium"
+ },
+ "garlic-mustard": {
+  "author": "Quinten Wiegersma",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/25589816",
+  "src": "/species/garlic-mustard.webp",
+  "taxon": "Alliaria petiolata"
+ },
+ "giant-puffball": {
+  "author": "jonesor",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/92768143",
+  "src": "/species/giant-puffball.webp",
+  "taxon": "Calvatia gigantea"
+ },
+ "girolle": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/241726630",
+  "src": "/species/girolle.webp",
+  "taxon": "Cantharellus cibarius"
+ },
+ "goldenrod": {
+  "author": "aarongunnar",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/1943803",
+  "src": "/species/goldenrod.webp",
+  "taxon": "Solidago canadensis"
+ },
+ "ground-ivy": {
+  "author": "Sandy Wolkenberg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/281169073",
+  "src": "/species/ground-ivy.webp",
+  "taxon": "Glechoma hederacea"
+ },
+ "groundnut": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/246013710",
+  "src": "/species/groundnut.webp",
+  "taxon": "Apios americana"
+ },
+ "hawthorn": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/240402853",
+  "src": "/species/hawthorn.webp",
+  "taxon": "Crataegus monogyna"
+ },
+ "hazelnut": {
+  "author": "Ilona",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/304160990",
+  "src": "/species/hazelnut.webp",
+  "taxon": "Corylus americana"
+ },
+ "hedgehog-mushroom": {
+  "author": "Alisa Mazur",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/177508496",
+  "src": "/species/hedgehog-mushroom.webp",
+  "taxon": "Hydnum repandum"
+ },
+ "hen-of-the-woods": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/96926770",
+  "src": "/species/hen-of-the-woods.webp",
+  "taxon": "Grifola frondosa"
+ },
+ "hickory-nut": {
+  "author": "Tom Scavo",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/185358596",
+  "src": "/species/hickory-nut.webp",
+  "taxon": "Carya ovata"
+ },
+ "highbush-cranberry": {
+  "author": "Tom Norton",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/397251299",
+  "src": "/species/highbush-cranberry.webp",
+  "taxon": "Viburnum opulus americanum"
+ },
+ "huckleberry": {
+  "author": "Katja Schulz",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/853724",
+  "src": "/species/huckleberry.webp",
+  "taxon": "Vaccinium membranaceum"
+ },
+ "jerusalem-artichoke": {
+  "author": "ubuntu",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/62106339",
+  "src": "/species/jerusalem-artichoke.webp",
+  "taxon": "Helianthus tuberosus"
+ },
+ "juniper-berries": {
+  "author": "David Anderson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/16184408",
+  "src": "/species/juniper-berries.webp",
+  "taxon": "Juniperus communis kelleyi"
+ },
+ "kei-apple": {
+  "author": "Mahomed Desai",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/67852401",
+  "src": "/species/kei-apple.webp",
+  "taxon": "Dovyalis afra"
+ },
+ "king-bolete": {
+  "author": "Alan Rockefeller",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/4751351",
+  "src": "/species/king-bolete.webp",
+  "taxon": "Boletus edulis grandedulis"
+ },
+ "labrador-tea": {
+  "author": "CatherineK",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/10220502",
+  "src": "/species/labrador-tea.webp",
+  "taxon": "Rhododendron groenlandicum"
+ },
+ "lambs-quarters": {
+  "author": "Antonia Bookbinder",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/13334515",
+  "src": "/species/lambs-quarters.webp",
+  "taxon": "Chenopodium album"
+ },
+ "lingonberry": {
+  "author": "Tom Scavo",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/105171524",
+  "src": "/species/lingonberry.webp",
+  "taxon": "Vaccinium vitis-idaea"
+ },
+ "lions-mane": {
+  "author": "Katja Schulz",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/4846446",
+  "src": "/species/lions-mane.webp",
+  "taxon": "Hericium erinaceus"
+ },
+ "lobster-mushroom": {
+  "author": "Matt D'Agrosa",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/57491597",
+  "src": "/species/lobster-mushroom.webp",
+  "taxon": "Hypomyces lactifluorum"
+ },
+ "maple-sap": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/151986979",
+  "src": "/species/maple-sap.webp",
+  "taxon": "Acer saccharum"
+ },
+ "marsh-samphire": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/55320270",
+  "src": "/species/marsh-samphire.webp",
+  "taxon": "Salicornia europaea"
+ },
+ "marula": {
+  "author": "Shaun Swanepoel",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/11015260",
+  "src": "/species/marula.webp",
+  "taxon": "Sclerocarya birrea afra"
+ },
+ "matsutake": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/331285286",
+  "src": "/species/matsutake.webp",
+  "taxon": "Tricholoma murrillianum"
+ },
+ "mayapple": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/80815280",
+  "src": "/species/mayapple.webp",
+  "taxon": "Podophyllum peltatum"
+ },
+ "mediterranean-asparagus": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/209219556",
+  "src": "/species/mediterranean-asparagus.webp",
+  "taxon": "Asparagus acutifolius"
+ },
+ "miners-lettuce": {
+  "author": "larndesolen",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/24818327",
+  "src": "/species/miners-lettuce.webp",
+  "taxon": "Claytonia perfoliata"
+ },
+ "monkey-orange": {
+  "author": "Shaun Swanepoel",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/40242415",
+  "src": "/species/monkey-orange.webp",
+  "taxon": "Strychnos spinosa"
+ },
+ "morel": {
+  "author": "Сергей Неклюдов",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/101750576",
+  "src": "/species/morel.webp",
+  "taxon": "Morchella esculenta"
+ },
+ "mulberry": {
+  "author": "Lindsey G.",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/122326188",
+  "src": "/species/mulberry.webp",
+  "taxon": "Morus rubra"
+ },
+ "mussels": {
+  "author": "Tom",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/14311830",
+  "src": "/species/mussels.webp",
+  "taxon": "Mytilus galloprovincialis"
+ },
+ "myrtle": {
+  "author": "Christian Manke",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/196009292",
+  "src": "/species/myrtle.webp",
+  "taxon": "Myrtus communis"
+ },
+ "nettle": {
+  "author": "Randy A Nonenmacher",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/17449599",
+  "src": "/species/nettle.webp",
+  "taxon": "Urtica dioica dioica"
+ },
+ "nodding-onion": {
+  "author": "Jared Shorma",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/182425292",
+  "src": "/species/nodding-onion.webp",
+  "taxon": "Allium cernuum"
+ },
+ "num-num": {
+  "author": "Luiz Puodzius",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/255955206",
+  "src": "/species/num-num.webp",
+  "taxon": "Carissa macrocarpa"
+ },
+ "oregon-grape": {
+  "author": "Doodlepede",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/91565964",
+  "src": "/species/oregon-grape.webp",
+  "taxon": "Berberis aquifolium"
+ },
+ "oyster-mushroom": {
+  "author": "Katja Schulz",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/21968122",
+  "src": "/species/oyster-mushroom.webp",
+  "taxon": "Pleurotus ostreatus"
+ },
+ "parasol-mushroom": {
+  "author": "Kostas Zontanos",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/8388707",
+  "src": "/species/parasol-mushroom.webp",
+  "taxon": "Macrolepiota procera"
+ },
+ "pawpaw": {
+  "author": "Alex Abair",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/394600424",
+  "src": "/species/pawpaw.webp",
+  "taxon": "Asimina triloba"
+ },
+ "pecan": {
+  "author": "Sam Kieschnick",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/326226849",
+  "src": "/species/pecan.webp",
+  "taxon": "Carya illinoinensis"
+ },
+ "persimmon": {
+  "author": "Katja Schulz",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/2370169",
+  "src": "/species/persimmon.webp",
+  "taxon": "Diospyros virginiana"
+ },
+ "pineapple-weed": {
+  "author": "Tom Norton",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/83369821",
+  "src": "/species/pineapple-weed.webp",
+  "taxon": "Matricaria discoidea"
+ },
+ "pinyon": {
+  "author": "Eric Knight",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/249440253",
+  "src": "/species/pinyon.webp",
+  "taxon": "Pinus edulis"
+ },
+ "plantain-leaf": {
+  "author": "lemonsnapp",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/53762407",
+  "src": "/species/plantain-leaf.webp",
+  "taxon": "Plantago major"
+ },
+ "prickly-pear": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/131517813",
+  "src": "/species/prickly-pear.webp",
+  "taxon": "Opuntia lindheimeri"
+ },
+ "purslane": {
+  "author": "Sam Kieschnick",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/184555384",
+  "src": "/species/purslane.webp",
+  "taxon": "Portulaca oleracea"
+ },
+ "ramps": {
+  "author": "Daniel McClosky",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/22300719",
+  "src": "/species/ramps.webp",
+  "taxon": "Allium tricoccum"
+ },
+ "raspberry": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/229057612",
+  "src": "/species/raspberry.webp",
+  "taxon": "Rubus idaeus"
+ },
+ "red-clover": {
+  "author": "Tom Scavo",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/255662745",
+  "src": "/species/red-clover.webp",
+  "taxon": "Trifolium pratense"
+ },
+ "redbud": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/22234917",
+  "src": "/species/redbud.webp",
+  "taxon": "Cercis canadensis"
+ },
+ "rock-samphire": {
+  "author": "Ryan McMinds",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/45884812",
+  "src": "/species/rock-samphire.webp",
+  "taxon": "Crithmum maritimum"
+ },
+ "rose-hips": {
+  "author": "Tom Norton",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/32621058",
+  "src": "/species/rose-hips.webp",
+  "taxon": "Rosa rugosa"
+ },
+ "rowan": {
+  "author": "Therese Phillips",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/240876219",
+  "src": "/species/rowan.webp",
+  "taxon": "Sorbus aucuparia"
+ },
+ "saffron-milk-cap": {
+  "author": "Alan Rockefeller",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/253233776",
+  "src": "/species/saffron-milk-cap.webp",
+  "taxon": "Lactarius deliciosus piceus"
+ },
+ "salal": {
+  "author": "Gail A Baker",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/309020041",
+  "src": "/species/salal.webp",
+  "taxon": "Gaultheria shallon"
+ },
+ "salmonberry": {
+  "author": "Alex Abair",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/171875619",
+  "src": "/species/salmonberry.webp",
+  "taxon": "Rubus spectabilis"
+ },
+ "sassafras": {
+  "author": "Larry Jensen",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/231102573",
+  "src": "/species/sassafras.webp",
+  "taxon": "Sassafras albidum"
+ },
+ "sea-bamboo": {
+  "author": "Charleen Brunke",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/150842553",
+  "src": "/species/sea-bamboo.webp",
+  "taxon": "Ecklonia maxima"
+ },
+ "sea-beet": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/107334924",
+  "src": "/species/sea-beet.webp",
+  "taxon": "Beta vulgaris maritima"
+ },
+ "sea-buckthorn": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/40760685",
+  "src": "/species/sea-buckthorn.webp",
+  "taxon": "Hippophae rhamnoides"
+ },
+ "sea-grape": {
+  "author": "Josiah Londerée",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/139044383",
+  "src": "/species/sea-grape.webp",
+  "taxon": "Coccoloba uvifera"
+ },
+ "sea-lettuce": {
+  "author": "Benoit Renaud",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/61366195",
+  "src": "/species/sea-lettuce.webp",
+  "taxon": "Ulva lactuca"
+ },
+ "sea-purslane": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/215997037",
+  "src": "/species/sea-purslane.webp",
+  "taxon": "Atriplex portulacoides"
+ },
+ "selfheal": {
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/191755313",
+  "src": "/species/selfheal.webp",
+  "taxon": "Prunella vulgaris"
+ },
+ "serviceberry": {
+  "author": "Jonas Katona",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/299425828",
+  "src": "/species/serviceberry.webp",
+  "taxon": "Amelanchier utahensis"
+ },
+ "shea": {
+  "author": "Fuseini Mugisu Suhuyini",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/128769062",
+  "src": "/species/shea.webp",
+  "taxon": "Vitellaria paradoxa"
+ },
+ "sheep-sorrel": {
+  "author": "Kieran Hanrahan",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/166433783",
+  "src": "/species/sheep-sorrel.webp",
+  "taxon": "Rumex acetosella"
+ },
+ "sloe": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/312734317",
+  "src": "/species/sloe.webp",
+  "taxon": "Prunus spinosa"
+ },
+ "sochan": {
+  "author": "Eric Knight",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/96681104",
+  "src": "/species/sochan.webp",
+  "taxon": "Rudbeckia laciniata"
+ },
+ "sour-fig": {
+  "author": "Nicola van Berkel",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/140896587",
+  "src": "/species/sour-fig.webp",
+  "taxon": "Carpobrotus edulis edulis"
+ },
+ "spicebush": {
+  "author": "Kailey Alderfer",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/127895414",
+  "src": "/species/spicebush.webp",
+  "taxon": "Lindera benzoin"
+ },
+ "spider-plant": {
+  "author": "Arturo Benavides Mendoza",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/291584529",
+  "src": "/species/spider-plant.webp",
+  "taxon": "Cleome gynandra"
+ },
+ "spruce-tips": {
+  "author": "Lia Keener",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/372182162",
+  "src": "/species/spruce-tips.webp",
+  "taxon": "Picea sitchensis"
+ },
+ "st-georges-mushroom": {
+  "author": "Susan Marley",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/153840815",
+  "src": "/species/st-georges-mushroom.webp",
+  "taxon": "Calocybe gambosa"
+ },
+ "staghorn-sumac": {
+  "author": "Liren Varghese",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/16353880",
+  "src": "/species/staghorn-sumac.webp",
+  "taxon": "Rhus typhina"
+ },
+ "strawberry-tree": {
+  "author": "John Leszczynski",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/66080209",
+  "src": "/species/strawberry-tree.webp",
+  "taxon": "Arbutus unedo"
+ },
+ "suring": {
+  "author": "Joey Bom",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/190343020",
+  "src": "/species/suring.webp",
+  "taxon": "Oxalis pes-caprae"
+ },
+ "sweet-chestnut": {
+  "author": "John Powers",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/265239978",
+  "src": "/species/sweet-chestnut.webp",
+  "taxon": "Castanea sativa"
+ },
+ "sweet-cicely": {
+  "author": "Healthy Yards",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/78402884",
+  "src": "/species/sweet-cicely.webp",
+  "taxon": "Myrrhis odorata"
+ },
+ "sycamore-fig": {
+  "author": "Alan Manson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/79513667",
+  "src": "/species/sycamore-fig.webp",
+  "taxon": "Ficus sycomorus"
+ },
+ "tamarind": {
+  "author": "Maria Janeiro",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/264469153",
+  "src": "/species/tamarind.webp",
+  "taxon": "Tamarindus indica"
+ },
+ "termite-mushroom": {
+  "author": "madhavan a.p",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/167161173",
+  "src": "/species/termite-mushroom.webp",
+  "taxon": "Termitomyces microcarpus"
+ },
+ "thimbleberry": {
+  "author": "Alexander Wentworth",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/125985873",
+  "src": "/species/thimbleberry.webp",
+  "taxon": "Rubus parviflorus"
+ },
+ "tulbaghia": {
+  "author": "Gary Rogers",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/41557551",
+  "src": "/species/tulbaghia.webp",
+  "taxon": "Tulbaghia violacea"
+ },
+ "wapato": {
+  "author": "Tom Scavo",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/311560569",
+  "src": "/species/wapato.webp",
+  "taxon": "Sagittaria latifolia"
+ },
+ "waterblommetjie": {
+  "author": "Gabriel Campbell-Martinez",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/238140545",
+  "src": "/species/waterblommetjie.webp",
+  "taxon": "Aponogeton distachyos"
+ },
+ "watercress": {
+  "author": "fromtheloam",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/272135084",
+  "src": "/species/watercress.webp",
+  "taxon": "Nasturtium officinale"
+ },
+ "white-pine": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/389088389",
+  "src": "/species/white-pine.webp",
+  "taxon": "Pinus strobus"
+ },
+ "wild-apple": {
+  "author": "olmagon",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/314642764",
+  "src": "/species/wild-apple.webp",
+  "taxon": "Malus domestica"
+ },
+ "wild-asparagus": {
+  "author": "Cody Hinchliff",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/281986727",
+  "src": "/species/wild-asparagus.webp",
+  "taxon": "Asparagus officinalis"
+ },
+ "wild-bergamot": {
+  "author": "Bryan Connolly",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/230356752",
+  "src": "/species/wild-bergamot.webp",
+  "taxon": "Monarda fistulosa"
+ },
+ "wild-carrot": {
+  "author": "Daughter Dad",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/300704480",
+  "src": "/species/wild-carrot.webp",
+  "taxon": "Daucus carota"
+ },
+ "wild-currant": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/177523869",
+  "src": "/species/wild-currant.webp",
+  "taxon": "Ribes americanum"
+ },
+ "wild-fennel": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/127748017",
+  "src": "/species/wild-fennel.webp",
+  "taxon": "Foeniculum vulgare"
+ },
+ "wild-garlic": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/76756913",
+  "src": "/species/wild-garlic.webp",
+  "taxon": "Allium ursinum"
+ },
+ "wild-grape": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/396749532",
+  "src": "/species/wild-grape.webp",
+  "taxon": "Vitis riparia"
+ },
+ "wild-mint": {
+  "author": "elik03",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/237769693",
+  "src": "/species/wild-mint.webp",
+  "taxon": "Mentha canadensis"
+ },
+ "wild-plum": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/391937583",
+  "src": "/species/wild-plum.webp",
+  "taxon": "Prunus americana"
+ },
+ "wild-rice": {
+  "author": "Tim Messick",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/57978572",
+  "src": "/species/wild-rice.webp",
+  "taxon": "Zizania palustris"
+ },
+ "wild-rosemary": {
+  "author": "Deon van Eeden",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source": "https://www.inaturalist.org/observations/171173077",
+  "src": "/species/wild-rosemary.webp",
+  "taxon": "Eriocephalus africanus"
+ },
+ "wild-sarsaparilla": {
+  "author": "Tom Norton",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/365291505",
+  "src": "/species/wild-sarsaparilla.webp",
+  "taxon": "Aralia nudicaulis"
+ },
+ "wild-strawberry": {
+  "author": "Eric Lamb",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/53885842",
+  "src": "/species/wild-strawberry.webp",
+  "taxon": "Fragaria virginiana"
+ },
+ "wild-violet": {
+  "author": "Zihao Wang",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/162685710",
+  "src": "/species/wild-violet.webp",
+  "taxon": "Viola affinis"
+ },
+ "wintergreen": {
+  "author": "Tom Scavo",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/154342168",
+  "src": "/species/wintergreen.webp",
+  "taxon": "Gaultheria procumbens"
+ },
+ "wood-sorrel": {
+  "author": "Even Dankowicz",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/59146747",
+  "src": "/species/wood-sorrel.webp",
+  "taxon": "Oxalis stricta"
+ },
+ "wood-strawberry": {
+  "author": "Public domain (iNaturalist)",
+  "license": "CC0 (public domain)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "https://www.inaturalist.org/observations/84762208",
+  "src": "/species/wood-strawberry.webp",
+  "taxon": "Fragaria vesca americana"
+ },
+ "yarrow": {
+  "author": "Ed Alverson",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/225202560",
+  "src": "/species/yarrow.webp",
+  "taxon": "Achillea borealis borealis"
+ },
+ "yellow-morel": {
+  "author": "Сергей Неклюдов",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/101750576",
+  "src": "/species/yellow-morel.webp",
+  "taxon": "Morchella esculenta"
+ },
+ "yellowfoot": {
+  "author": "Christine Young",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://www.inaturalist.org/observations/98720160",
+  "src": "/species/yellowfoot.webp",
+  "taxon": "Craterellus tubaeformis"
+ }
+}

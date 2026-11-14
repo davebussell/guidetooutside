@@ -1,0 +1,1118 @@
+{
+"fort-mcmurray-alberta": {
+"lat": 56.7291997,
+"lon": -111.3885221,
+"lastSpringFrost": "May 16",
+"firstFallFrost": "Sep 24",
+"lastSpringFrostDoy": 136,
+"firstFallFrostDoy": 267,
+"frostFreeDays": 131
+},
+"thompson-manitoba": {
+"lat": 55.743347,
+"lon": -97.863464,
+"lastSpringFrost": "May 26",
+"firstFallFrost": "Oct 1",
+"lastSpringFrostDoy": 146,
+"firstFallFrostDoy": 274,
+"frostFreeDays": 128
+},
+"timmins-ontario": {
+"lat": 48.477473,
+"lon": -81.330414,
+"lastSpringFrost": "May 27",
+"firstFallFrost": "Oct 4",
+"lastSpringFrostDoy": 147,
+"firstFallFrostDoy": 277,
+"frostFreeDays": 130
+},
+"val-d-or-quebec": {
+"lat": 48.1023356,
+"lon": -77.7875715,
+"lastSpringFrost": "May 22",
+"firstFallFrost": "Oct 13",
+"lastSpringFrostDoy": 142,
+"firstFallFrostDoy": 286,
+"frostFreeDays": 144
+},
+"whitehorse-yukon": {
+"lat": 60.721571,
+"lon": -135.054932,
+"lastSpringFrost": "May 30",
+"firstFallFrost": "Sep 23",
+"lastSpringFrostDoy": 150,
+"firstFallFrostDoy": 266,
+"frostFreeDays": 116
+},
+"yellowknife-northwest-territories": {
+"lat": 62.4540807,
+"lon": -114.377385,
+"lastSpringFrost": "May 27",
+"firstFallFrost": "Sep 25",
+"lastSpringFrostDoy": 147,
+"firstFallFrostDoy": 268,
+"frostFreeDays": 121
+},
+"regina-saskatchewan": {
+"lat": 50.4479733,
+"lon": -104.6158764,
+"lastSpringFrost": "May 18",
+"firstFallFrost": "Sep 29",
+"lastSpringFrostDoy": 138,
+"firstFallFrostDoy": 272,
+"frostFreeDays": 134
+},
+"saguenay-quebec": {
+"lat": 48.405959,
+"lon": -71.069183,
+"lastSpringFrost": "May 22",
+"firstFallFrost": "Oct 10",
+"lastSpringFrostDoy": 142,
+"firstFallFrostDoy": 283,
+"frostFreeDays": 141
+},
+"saskatoon-saskatchewan": {
+"lat": 52.131802,
+"lon": -106.660767,
+"lastSpringFrost": "May 15",
+"firstFallFrost": "Sep 28",
+"lastSpringFrostDoy": 135,
+"firstFallFrostDoy": 271,
+"frostFreeDays": 136
+},
+"thunder-bay-ontario": {
+"lat": 48.406414,
+"lon": -89.259796,
+"lastSpringFrost": "May 19",
+"firstFallFrost": "Oct 18",
+"lastSpringFrostDoy": 139,
+"firstFallFrostDoy": 291,
+"frostFreeDays": 152
+},
+"winnipeg-manitoba": {
+"lat": 49.8955367,
+"lon": -97.1384584,
+"lastSpringFrost": "May 14",
+"firstFallFrost": "Oct 6",
+"lastSpringFrostDoy": 134,
+"firstFallFrostDoy": 279,
+"frostFreeDays": 145
+},
+"edmonton-alberta": {
+"lat": 53.5462055,
+"lon": -113.491241,
+"lastSpringFrost": "May 11",
+"firstFallFrost": "Oct 3",
+"lastSpringFrostDoy": 131,
+"firstFallFrostDoy": 276,
+"frostFreeDays": 145
+},
+"prince-george-british-columbia": {
+"lat": 53.9128645,
+"lon": -122.7453699,
+"lastSpringFrost": "May 10",
+"firstFallFrost": "Oct 1",
+"lastSpringFrostDoy": 130,
+"firstFallFrostDoy": 274,
+"frostFreeDays": 144
+},
+"sudbury-ontario": {
+"lat": 46.49272,
+"lon": -80.991211,
+"lastSpringFrost": "May 15",
+"firstFallFrost": "Oct 15",
+"lastSpringFrostDoy": 135,
+"firstFallFrostDoy": 288,
+"frostFreeDays": 153
+},
+"fredericton-new-brunswick": {
+"lat": 45.9488278,
+"lon": -66.6291827,
+"lastSpringFrost": "May 8",
+"firstFallFrost": "Oct 21",
+"lastSpringFrostDoy": 128,
+"firstFallFrostDoy": 294,
+"frostFreeDays": 166
+},
+"moncton-new-brunswick": {
+"lat": 46.0985679,
+"lon": -64.8004265,
+"lastSpringFrost": "May 13",
+"firstFallFrost": "Oct 21",
+"lastSpringFrostDoy": 133,
+"firstFallFrostDoy": 294,
+"frostFreeDays": 161
+},
+"montreal-quebec": {
+"lat": 45.5031824,
+"lon": -73.5698065,
+"lastSpringFrost": "May 5",
+"firstFallFrost": "Oct 30",
+"lastSpringFrostDoy": 125,
+"firstFallFrostDoy": 303,
+"frostFreeDays": 178
+},
+"ottawa-ontario": {
+"lat": 45.4208777,
+"lon": -75.6901106,
+"lastSpringFrost": "May 6",
+"firstFallFrost": "Oct 27",
+"lastSpringFrostDoy": 126,
+"firstFallFrostDoy": 300,
+"frostFreeDays": 174
+},
+"quebec-city-quebec": {
+"lat": 46.8137431,
+"lon": -71.2084061,
+"lastSpringFrost": "May 12",
+"firstFallFrost": "Oct 16",
+"lastSpringFrostDoy": 132,
+"firstFallFrostDoy": 289,
+"frostFreeDays": 157
+},
+"saint-john-new-brunswick": {
+"lat": 45.2787992,
+"lon": -66.0585188,
+"lastSpringFrost": "May 4",
+"firstFallFrost": "Nov 1",
+"lastSpringFrostDoy": 124,
+"firstFallFrostDoy": 305,
+"frostFreeDays": 181
+},
+"sherbrooke-quebec": {
+"lat": 45.403271,
+"lon": -71.889038,
+"lastSpringFrost": "May 13",
+"firstFallFrost": "Oct 11",
+"lastSpringFrostDoy": 133,
+"firstFallFrostDoy": 284,
+"frostFreeDays": 151
+},
+"halifax-nova-scotia": {
+"lat": 44.648618,
+"lon": -63.5859487,
+"lastSpringFrost": "May 1",
+"firstFallFrost": "Nov 5",
+"lastSpringFrostDoy": 121,
+"firstFallFrostDoy": 309,
+"frostFreeDays": 188
+},
+"hamilton-ontario": {
+"lat": 43.2560802,
+"lon": -79.8728583,
+"lastSpringFrost": "May 1",
+"firstFallFrost": "Oct 26",
+"lastSpringFrostDoy": 121,
+"firstFallFrostDoy": 299,
+"frostFreeDays": 178
+},
+"kingston-ontario": {
+"lat": 44.3054151,
+"lon": -76.4283781,
+"lastSpringFrost": "Apr 26",
+"firstFallFrost": "Nov 1",
+"lastSpringFrostDoy": 116,
+"firstFallFrostDoy": 305,
+"frostFreeDays": 189
+},
+"london-ontario": {
+"lat": 42.9836747,
+"lon": -81.2496068,
+"lastSpringFrost": "May 3",
+"firstFallFrost": "Oct 26",
+"lastSpringFrostDoy": 123,
+"firstFallFrostDoy": 299,
+"frostFreeDays": 176
+},
+"kelowna-british-columbia": {
+"lat": 49.8879177,
+"lon": -119.495902,
+"lastSpringFrost": "Apr 20",
+"firstFallFrost": "Oct 24",
+"lastSpringFrostDoy": 110,
+"firstFallFrostDoy": 297,
+"frostFreeDays": 187
+},
+"toronto-ontario": {
+"lat": 43.6534817,
+"lon": -79.3839347,
+"lastSpringFrost": "May 2",
+"firstFallFrost": "Oct 29",
+"lastSpringFrostDoy": 122,
+"firstFallFrostDoy": 302,
+"frostFreeDays": 180
+},
+"nanaimo-british-columbia": {
+"lat": 49.163877,
+"lon": -123.938122,
+"lastSpringFrost": "Apr 1",
+"firstFallFrost": "Nov 5",
+"lastSpringFrostDoy": 91,
+"firstFallFrostDoy": 309,
+"frostFreeDays": 218
+},
+"vancouver-british-columbia": {
+"lat": 49.2608724,
+"lon": -123.113952,
+"lastSpringFrost": "Mar 29",
+"firstFallFrost": "Nov 13",
+"lastSpringFrostDoy": 88,
+"firstFallFrostDoy": 317,
+"frostFreeDays": 229
+},
+"london-uk": {
+"lat": 51.507,
+"lon": -0.128,
+"lastSpringFrost": "May 5",
+"firstFallFrost": "Oct 23",
+"lastSpringFrostDoy": 125,
+"firstFallFrostDoy": 296,
+"frostFreeDays": 171
+},
+"cardiff-uk": {
+"lat": 51.481,
+"lon": -3.179,
+"lastSpringFrost": "May 4",
+"firstFallFrost": "Oct 22",
+"lastSpringFrostDoy": 124,
+"firstFallFrostDoy": 295,
+"frostFreeDays": 171
+},
+"glasgow-uk": {
+"lat": 55.861,
+"lon": -4.25,
+"lastSpringFrost": "May 18",
+"firstFallFrost": "Sep 25",
+"lastSpringFrostDoy": 138,
+"firstFallFrostDoy": 268,
+"frostFreeDays": 130
+},
+"inverness-uk": {
+"lat": 57.478,
+"lon": -4.224,
+"lastSpringFrost": "May 27",
+"firstFallFrost": "Oct 1",
+"lastSpringFrostDoy": 147,
+"firstFallFrostDoy": 274,
+"frostFreeDays": 127
+},
+"cork-ireland": {
+"lat": 51.898,
+"lon": -8.471,
+"lastSpringFrost": "May 10",
+"firstFallFrost": "Oct 13",
+"lastSpringFrostDoy": 130,
+"firstFallFrostDoy": 286,
+"frostFreeDays": 156
+},
+"galway-ireland": {
+"lat": 53.271,
+"lon": -9.057,
+"lastSpringFrost": "May 4",
+"firstFallFrost": "Oct 23",
+"lastSpringFrostDoy": 124,
+"firstFallFrostDoy": 296,
+"frostFreeDays": 172
+},
+"bordeaux-france": {
+"lat": 44.838,
+"lon": -0.579,
+"lastSpringFrost": "Apr 19",
+"firstFallFrost": "Nov 12",
+"lastSpringFrostDoy": 109,
+"firstFallFrostDoy": 316,
+"frostFreeDays": 207
+},
+"grenoble-france": {
+"lat": 45.188,
+"lon": 5.724,
+"lastSpringFrost": "Apr 25",
+"firstFallFrost": "Oct 31",
+"lastSpringFrostDoy": 115,
+"firstFallFrostDoy": 304,
+"frostFreeDays": 189
+},
+"brussels-belgium": {
+"lat": 50.85,
+"lon": 4.352,
+"lastSpringFrost": "May 4",
+"firstFallFrost": "Oct 19",
+"lastSpringFrostDoy": 124,
+"firstFallFrostDoy": 292,
+"frostFreeDays": 168
+},
+"bern-switzerland": {
+"lat": 46.948,
+"lon": 7.447,
+"lastSpringFrost": "May 11",
+"firstFallFrost": "Sep 26",
+"lastSpringFrostDoy": 131,
+"firstFallFrostDoy": 269,
+"frostFreeDays": 138
+},
+"rome-italy": {
+"lat": 41.903,
+"lon": 12.496,
+"lastSpringFrost": "Apr 6",
+"firstFallFrost": "Nov 28",
+"lastSpringFrostDoy": 96,
+"firstFallFrostDoy": 332,
+"frostFreeDays": 236
+},
+"milan-italy": {
+"lat": 45.464,
+"lon": 9.19,
+"lastSpringFrost": "Apr 15",
+"firstFallFrost": "Nov 7",
+"lastSpringFrostDoy": 105,
+"firstFallFrostDoy": 311,
+"frostFreeDays": 206
+},
+"naples-italy": {
+"lat": 40.852,
+"lon": 14.268,
+"lastSpringFrost": "Mar 25",
+"firstFallFrost": "Dec 4",
+"lastSpringFrostDoy": 84,
+"firstFallFrostDoy": 338,
+"frostFreeDays": 254
+},
+"turin-italy": {
+"lat": 45.07,
+"lon": 7.687,
+"lastSpringFrost": "Apr 20",
+"firstFallFrost": "Oct 30",
+"lastSpringFrostDoy": 110,
+"firstFallFrostDoy": 303,
+"frostFreeDays": 193
+},
+"florence-italy": {
+"lat": 43.77,
+"lon": 11.256,
+"lastSpringFrost": "Apr 19",
+"firstFallFrost": "Nov 14",
+"lastSpringFrostDoy": 109,
+"firstFallFrostDoy": 318,
+"frostFreeDays": 209
+},
+"palermo-italy": {
+"lat": 38.116,
+"lon": 13.361,
+"lastSpringFrost": "Jan 22",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 22,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 344
+},
+"venice-italy": {
+"lat": 45.441,
+"lon": 12.316,
+"lastSpringFrost": "Mar 31",
+"firstFallFrost": "Nov 17",
+"lastSpringFrostDoy": 90,
+"firstFallFrostDoy": 321,
+"frostFreeDays": 231
+},
+"porto-portugal": {
+"lat": 41.15,
+"lon": -8.611,
+"lastSpringFrost": "Feb 23",
+"firstFallFrost": "Dec 15",
+"lastSpringFrostDoy": 54,
+"firstFallFrostDoy": 349,
+"frostFreeDays": 295
+},
+"faro-portugal": {
+"lat": 37.019,
+"lon": -7.93,
+"lastSpringFrost": "Jan 12",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 12,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 354
+},
+"thessaloniki-greece": {
+"lat": 40.64,
+"lon": 22.944,
+"lastSpringFrost": "Apr 1",
+"firstFallFrost": "Nov 22",
+"lastSpringFrostDoy": 91,
+"firstFallFrostDoy": 326,
+"frostFreeDays": 235
+},
+"valletta-malta": {
+"lat": 35.899,
+"lon": 14.514,
+"lastSpringFrost": "Jan 5",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 5,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 361
+},
+"nicosia-cyprus": {
+"lat": 35.186,
+"lon": 33.382,
+"lastSpringFrost": "Mar 4",
+"firstFallFrost": "Dec 25",
+"lastSpringFrostDoy": 63,
+"firstFallFrostDoy": 359,
+"frostFreeDays": 296
+},
+"riga-latvia": {
+"lat": 56.95,
+"lon": 24.105,
+"lastSpringFrost": "May 17",
+"firstFallFrost": "Oct 3",
+"lastSpringFrostDoy": 137,
+"firstFallFrostDoy": 276,
+"frostFreeDays": 139
+},
+"vilnius-lithuania": {
+"lat": 54.687,
+"lon": 25.28,
+"lastSpringFrost": "May 19",
+"firstFallFrost": "Sep 27",
+"lastSpringFrostDoy": 139,
+"firstFallFrostDoy": 270,
+"frostFreeDays": 131
+},
+"warsaw-poland": {
+"lat": 52.23,
+"lon": 21.012,
+"lastSpringFrost": "May 11",
+"firstFallFrost": "Oct 1",
+"lastSpringFrostDoy": 131,
+"firstFallFrostDoy": 274,
+"frostFreeDays": 143
+},
+"krakow-poland": {
+"lat": 50.065,
+"lon": 19.945,
+"lastSpringFrost": "May 7",
+"firstFallFrost": "Oct 4",
+"lastSpringFrostDoy": 127,
+"firstFallFrostDoy": 277,
+"frostFreeDays": 150
+},
+"gdansk-poland": {
+"lat": 54.352,
+"lon": 18.647,
+"lastSpringFrost": "May 10",
+"firstFallFrost": "Oct 18",
+"lastSpringFrostDoy": 130,
+"firstFallFrostDoy": 291,
+"frostFreeDays": 161
+},
+"wroc-aw-poland": {
+"lat": 51.108,
+"lon": 17.039,
+"lastSpringFrost": "May 6",
+"firstFallFrost": "Oct 8",
+"lastSpringFrostDoy": 126,
+"firstFallFrostDoy": 281,
+"frostFreeDays": 155
+},
+"bratislava-slovakia": {
+"lat": 48.149,
+"lon": 17.107,
+"lastSpringFrost": "Apr 28",
+"firstFallFrost": "Oct 19",
+"lastSpringFrostDoy": 118,
+"firstFallFrostDoy": 292,
+"frostFreeDays": 174
+},
+"sofia-bulgaria": {
+"lat": 42.698,
+"lon": 23.322,
+"lastSpringFrost": "Apr 27",
+"firstFallFrost": "Oct 10",
+"lastSpringFrostDoy": 117,
+"firstFallFrostDoy": 283,
+"frostFreeDays": 166
+},
+"kyiv-ukraine": {
+"lat": 50.45,
+"lon": 30.523,
+"lastSpringFrost": "May 5",
+"firstFallFrost": "Oct 5",
+"lastSpringFrostDoy": 125,
+"firstFallFrostDoy": 278,
+"frostFreeDays": 153
+},
+"odesa-ukraine": {
+"lat": 46.482,
+"lon": 30.723,
+"lastSpringFrost": "Apr 14",
+"firstFallFrost": "Nov 4",
+"lastSpringFrostDoy": 104,
+"firstFallFrostDoy": 308,
+"frostFreeDays": 204
+},
+"tirana-albania": {
+"lat": 41.328,
+"lon": 19.818,
+"lastSpringFrost": "Apr 7",
+"firstFallFrost": "Nov 24",
+"lastSpringFrostDoy": 97,
+"firstFallFrostDoy": 328,
+"frostFreeDays": 231
+},
+"rabat-morocco": {
+"lat": 34.02,
+"lon": -6.841,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"marrakesh-morocco": {
+"lat": 31.629,
+"lon": -7.981,
+"lastSpringFrost": "Mar 1",
+"firstFallFrost": "Dec 10",
+"lastSpringFrostDoy": 60,
+"firstFallFrostDoy": 344,
+"frostFreeDays": 284
+},
+"fez-morocco": {
+"lat": 34.033,
+"lon": -5,
+"lastSpringFrost": "Mar 13",
+"firstFallFrost": "Dec 3",
+"lastSpringFrostDoy": 72,
+"firstFallFrostDoy": 337,
+"frostFreeDays": 265
+},
+"algiers-algeria": {
+"lat": 36.754,
+"lon": 3.059,
+"lastSpringFrost": "Feb 14",
+"firstFallFrost": "Dec 23",
+"lastSpringFrostDoy": 45,
+"firstFallFrostDoy": 357,
+"frostFreeDays": 312
+},
+"tunis-tunisia": {
+"lat": 36.806,
+"lon": 10.181,
+"lastSpringFrost": "Jan 30",
+"firstFallFrost": "Dec 25",
+"lastSpringFrostDoy": 30,
+"firstFallFrostDoy": 359,
+"frostFreeDays": 329
+},
+"tripoli-libya": {
+"lat": 32.887,
+"lon": 13.191,
+"lastSpringFrost": "Jan 1",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 1,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 365
+},
+"cairo-egypt": {
+"lat": 30.044,
+"lon": 31.236,
+"lastSpringFrost": "Jan 8",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 8,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 358
+},
+"alexandria-egypt": {
+"lat": 31.2,
+"lon": 29.919,
+"lastSpringFrost": "Jan 2",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 2,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 364
+},
+"luxor-egypt": {
+"lat": 25.687,
+"lon": 32.64,
+"lastSpringFrost": "Jan 17",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 17,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 349
+},
+"aswan-egypt": {
+"lat": 24.089,
+"lon": 32.899,
+"lastSpringFrost": "Jan 9",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 9,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 357
+},
+"khartoum-sudan": {
+"lat": 15.501,
+"lon": 32.559,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"addis-ababa-ethiopia": {
+"lat": 9.03,
+"lon": 38.74,
+"lastSpringFrost": "Jan 6",
+"firstFallFrost": "Dec 24",
+"lastSpringFrostDoy": 6,
+"firstFallFrostDoy": 358,
+"frostFreeDays": 352
+},
+"asmara-eritrea": {
+"lat": 15.322,
+"lon": 38.925,
+"lastSpringFrost": "Jan 4",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 4,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 362
+},
+"djibouti-djibouti": {
+"lat": 11.589,
+"lon": 43.145,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"mogadishu-somalia": {
+"lat": 2.047,
+"lon": 45.318,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"nairobi-kenya": {
+"lat": -1.292,
+"lon": 36.822,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"kisumu-kenya": {
+"lat": -0.092,
+"lon": 34.768,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"nakuru-kenya": {
+"lat": -0.303,
+"lon": 36.08,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"kampala-uganda": {
+"lat": 0.348,
+"lon": 32.582,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"kigali-rwanda": {
+"lat": -1.95,
+"lon": 30.059,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"dar-es-salaam-tanzania": {
+"lat": -6.792,
+"lon": 39.208,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"arusha-tanzania": {
+"lat": -3.387,
+"lon": 36.683,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"zanzibar-city-tanzania": {
+"lat": -6.165,
+"lon": 39.199,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"mwanza-tanzania": {
+"lat": -2.516,
+"lon": 32.917,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"maputo-mozambique": {
+"lat": -25.969,
+"lon": 32.573,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"lilongwe-malawi": {
+"lat": -13.963,
+"lon": 33.774,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"lusaka-zambia": {
+"lat": -15.387,
+"lon": 28.322,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"livingstone-zambia": {
+"lat": -17.842,
+"lon": 25.863,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"harare-zimbabwe": {
+"lat": -17.825,
+"lon": 31.033,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"gaborone-botswana": {
+"lat": -24.654,
+"lon": 25.908,
+"lastSpringFrost": "Aug 3",
+"firstFallFrost": "Jun 9",
+"lastSpringFrostDoy": 32,
+"firstFallFrostDoy": 342,
+"frostFreeDays": 310,
+"south": true
+},
+"maun-botswana": {
+"lat": -19.983,
+"lon": 23.417,
+"lastSpringFrost": "Jul 14",
+"firstFallFrost": "Jun 24",
+"lastSpringFrostDoy": 12,
+"firstFallFrostDoy": 357,
+"frostFreeDays": 345,
+"south": true
+},
+"windhoek-namibia": {
+"lat": -22.56,
+"lon": 17.083,
+"lastSpringFrost": "Aug 28",
+"firstFallFrost": "Jun 9",
+"lastSpringFrostDoy": 57,
+"firstFallFrostDoy": 342,
+"frostFreeDays": 285,
+"south": true
+},
+"swakopmund-namibia": {
+"lat": -22.678,
+"lon": 14.527,
+"lastSpringFrost": "Jul 5",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 3,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 363,
+"south": true
+},
+"cape-town-south-africa": {
+"lat": -33.925,
+"lon": 18.424,
+"lastSpringFrost": "Jul 14",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 12,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 354,
+"south": true
+},
+"stellenbosch-south-africa": {
+"lat": -33.932,
+"lon": 18.86,
+"lastSpringFrost": "Sep 10",
+"firstFallFrost": "Jun 17",
+"lastSpringFrostDoy": 70,
+"firstFallFrostDoy": 350,
+"frostFreeDays": 280,
+"south": true
+},
+"mbombela-south-africa": {
+"lat": -25.475,
+"lon": 30.97,
+"lastSpringFrost": "Jul 17",
+"firstFallFrost": "Jun 29",
+"lastSpringFrostDoy": 15,
+"firstFallFrostDoy": 362,
+"frostFreeDays": 347,
+"south": true
+},
+"george-south-africa": {
+"lat": -33.963,
+"lon": 22.462,
+"lastSpringFrost": "Aug 7",
+"firstFallFrost": "Jun 30",
+"lastSpringFrostDoy": 36,
+"firstFallFrostDoy": 363,
+"frostFreeDays": 327,
+"south": true
+},
+"maseru-lesotho": {
+"lat": -29.31,
+"lon": 27.478,
+"lastSpringFrost": "Oct 26",
+"firstFallFrost": "Apr 16",
+"lastSpringFrostDoy": 116,
+"firstFallFrostDoy": 288,
+"frostFreeDays": 172,
+"south": true
+},
+"mbabane-eswatini": {
+"lat": -26.305,
+"lon": 31.137,
+"lastSpringFrost": "Aug 24",
+"firstFallFrost": "Jun 15",
+"lastSpringFrostDoy": 53,
+"firstFallFrostDoy": 348,
+"frostFreeDays": 295,
+"south": true
+},
+"antananarivo-madagascar": {
+"lat": -18.879,
+"lon": 47.508,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"dakar-senegal": {
+"lat": 14.716,
+"lon": -17.467,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"bamako-mali": {
+"lat": 12.639,
+"lon": -8.003,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"niamey-niger": {
+"lat": 13.512,
+"lon": 2.112,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"ouagadougou-burkina-faso": {
+"lat": 12.371,
+"lon": -1.52,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"lagos-nigeria": {
+"lat": 6.524,
+"lon": 3.379,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"abuja-nigeria": {
+"lat": 9.076,
+"lon": 7.399,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"kano-nigeria": {
+"lat": 12.002,
+"lon": 8.592,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"port-harcourt-nigeria": {
+"lat": 4.815,
+"lon": 7.049,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"accra-ghana": {
+"lat": 5.604,
+"lon": -0.187,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"abidjan-cote-d-ivoire": {
+"lat": 5.36,
+"lon": -4.008,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"douala-cameroon": {
+"lat": 4.051,
+"lon": 9.768,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"libreville-gabon": {
+"lat": 0.416,
+"lon": 9.467,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"kinshasa-dr-congo": {
+"lat": -4.322,
+"lon": 15.307,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"brazzaville-republic-of-the-congo": {
+"lat": -4.263,
+"lon": 15.243,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"luanda-angola": {
+"lat": -8.839,
+"lon": 13.289,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366,
+"south": true
+},
+"freetown-sierra-leone": {
+"lat": 8.484,
+"lon": -13.234,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"monrovia-liberia": {
+"lat": 6.315,
+"lon": -10.807,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"nouakchott-mauritania": {
+"lat": 18.079,
+"lon": -15.965,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+},
+"n-djamena-chad": {
+"lat": 12.134,
+"lon": 15.056,
+"lastSpringFrost": "Rare",
+"firstFallFrost": "Rare",
+"lastSpringFrostDoy": 0,
+"firstFallFrostDoy": 366,
+"frostFreeDays": 366
+}
+}
