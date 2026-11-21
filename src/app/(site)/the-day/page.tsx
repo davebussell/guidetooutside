@@ -5,7 +5,6 @@ import { shareCard } from "@/lib/site";
 import { SERVED_ECOREGIONS as ECOREGIONS } from "@/lib/ecoregions";
 import { DAY_PHASES, type DayPhase } from "@/data/day-stories";
 import { PlaceFinder } from "@/components/PlaceFinder";
-import { YoungNaturalists } from "@/components/learn/YoungNaturalists";
 
 const title = "The day — where the sun is, and where everything else is because of it";
 const description =
@@ -50,9 +49,6 @@ async function DayIndex() {
           ))}
         </ul>
       </section>
-      <div className="mt-14">
-        <YoungNaturalists panel="the-day" />
-      </div>
       <section className="mt-12">
         <p className="eyebrow">Available for every region</p>
         <ul className="mt-3 columns-1 sm:columns-2 lg:columns-3 gap-8 text-sm">

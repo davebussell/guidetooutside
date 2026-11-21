@@ -3,12 +3,7 @@
  * (src/data/place-normals.json) on 12 sample dates, and exits non-zero on any
  * violation:
  *
- *  1. Season plan (/learn/plan/<town>): the full moon a week's note names is
- *     the almanac's full moon (src/lib/moon phasesBetween, as src/lib/almanac)
- *     on the town's own calendar day, for every town and week; the weekly
- *     daylight figure is within 0.5 minute of the sunTimes() difference between
- *     that Monday and the next (and the per-day figure within 0.05 of a seventh
- *     of it), the same method for every week.
+ *  1. (The season plan's checks left with the teaching-at-home pages, 18 November 2026.)
  *  2. Region stories (src/data/day-stories.ts): the lake clauses (pieces marked
  *     `lake`) are printed only within 25 km of a Great Lake shore
  *     (src/lib/great-lakes.ts) and the leaf clauses (`leaf`) only inside the
@@ -87,10 +82,6 @@ import { countryServed as townServed_ } from "../src/lib/scope";
 const NORMALS = (NORMALS_ALL as { place: { countryCode?: string } }[]).filter((e) => townServed_(e.place.countryCode)) as typeof NORMALS_ALL;
 import PLACE_NAMES from "../src/data/place-names.json";
 import { DAY_RHYTHMS, REGION_DAY, DAY_CHARACTERS, DAY_CHARACTER_PHASES, DAY_CHARACTER_SOWING, DAY_PHASES, captionKey, characterCaption, storyText, type DayPhase, type StoryPiece } from "../src/data/day-stories";
-import { planIntro, seasonPlan } from "../src/lib/learn/plan";
-import { phasesBetween } from "../src/lib/moon";
-import { fullMoonsOn } from "../src/lib/almanac";
-import { sunTimes } from "../src/lib/sun";
 import { greatLakesDistanceKm, nearGreatLake, NEAR_GREAT_LAKE_KM } from "../src/lib/great-lakes";
 import { leafOn, leafOnWindow } from "../src/lib/leaf-on";
 import { regionOf } from "../src/lib/region";
@@ -153,12 +144,6 @@ function localDateOf(d: Date, timeZone: string): string {
   const g = (t: string) => parts.find((p) => p.type === t)!.value;
   return `${g("year")}-${g("month")}-${g("day")}`;
 }
-const addDays = (iso: string, n: number) => new Date(new Date(`${iso}T12:00:00Z`).getTime() + n * 86400000).toISOString().slice(0, 10);
-const weekdayLong = (iso: string) => new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", timeZone: "UTC" });
-const dayMin = (lat: number, lon: number, iso: string): number | null => {
-  const t = sunTimes(lat, lon, new Date(`${iso}T12:00:00Z`));
-  return t.sunrise && t.sunset ? (t.sunset.getTime() - t.sunrise.getTime()) / 60000 : null;
-};
 
 /** Leaf-on, rebuilt from calendar dates: the window starts on the last-frost date and ends 14 days after the first-frost date. */
 function leafOnRef(c: Climate, iso: string, south: boolean): boolean {
@@ -173,180 +158,6 @@ function leafOnRef(c: Climate, iso: string, south: boolean): boolean {
     if (t >= start && t <= end) return true;
   }
   return false;
-}
-
-// ---- 1. the season plan --------------------------------------------------------
-
-function stubData(e: Entry, tz: string): LocalData {
-  return {
-    place: e.place,
-    climate: e.climate,
-    forecast: { timezone: tz, days: [], current: { temp: 5, code: 0, wind: 5, humidity: 60 }, soilTemp6cm: null },
-  } as unknown as LocalData;
-}
-
-// fullMoonsOn on the local calendar: 24 December 01:28 UTC is still 23 December in Ottawa, 24 December in Paris.
-{
-  const week = (from: string) => Array.from({ length: 7 }, (_, i) => addDays(from, i));
-  ok(JSON.stringify(fullMoonsOn(week("2026-11-23"), "America/Toronto").map((m) => m.date)) === '["2026-11-24"]', "fullMoonsOn Toronto 23-29 Nov");
-  ok(JSON.stringify(fullMoonsOn(week("2026-12-21"), "America/Toronto").map((m) => m.date)) === '["2026-12-23"]', "fullMoonsOn Toronto 21-27 Dec (full moon 01:28 UTC on the 24th)");
-  ok(JSON.stringify(fullMoonsOn(week("2026-12-21"), "Europe/Paris").map((m) => m.date)) === '["2026-12-24"]', "fullMoonsOn Paris 21-27 Dec");
-  ok(fullMoonsOn(week("2026-11-30"), "America/Toronto").length === 0, "fullMoonsOn finds a full moon 30 Nov-6 Dec");
-}
-
-// The almanac's own full moons, against PyEphem (4.2.1) for the two the audit named.
-{
-  const list = phasesBetween(new Date("2026-11-01T00:00:00Z"), 60).filter((p) => p.kind === "Full Moon");
-  const want = ["2026-11-24T14:53:00Z", "2026-12-24T01:28:00Z"];
-  list.forEach((p, i) => ok(Math.abs(p.date.getTime() - new Date(want[i]).getTime()) < 5 * 60000, `almanac full moon ${i}: ${p.date.toISOString()} is not within 5 min of PyEphem ${want[i]}`));
-  ok(list.length === 2, `expected two full moons in 60 days from 1 Nov 2026, got ${list.length}`);
-}
-
-let planWeeks = 0;
-let introChecked = 0;
-let barelyWeeks = 0;
-let tropicWeeks = 0;
-let moonWeeks = 0;
-let dayWeeks = 0;
-let worstDay = 0;
-let worstPerDay = 0;
-const ottawa = TABLE.find((e) => e.place.slug === "ottawa-ontario")!;
-for (const e of TABLE) {
-  const tz = zoneOf(e.place);
-  const data = stubData(e, tz);
-  for (const date of DATES) {
-    const weeks = seasonPlan(data, new Date(`${date}T15:00:00Z`));
-    ok(weeks.length === 8, `${e.place.slug} ${date}: ${weeks.length} weeks`);
-    // The opening paragraph is written from the place's own plan: nothing about acorns, a frost or a
-    // shortening day unless that is what the sun tables and the plan say here.
-    {
-      const intro = planIntro(data, weeks);
-      introChecked++;
-      const x = dayMin(e.place.lat, e.place.lon, weeks[0].start);
-      const y = dayMin(e.place.lat, e.place.lon, addDays(weeks[0].start, 7));
-      const d0 = x == null || y == null ? null : y - x;
-      const yr = Number(weeks[0].start.slice(0, 4));
-      const pkw = (dd: string) => {
-        const p1 = dayMin(e.place.lat, e.place.lon, dd);
-        const p2 = dayMin(e.place.lat, e.place.lon, addDays(dd, 7));
-        return p1 == null || p2 == null ? 0 : Math.abs(p2 - p1);
-      };
-      const pk0 = Math.max(pkw(`${yr}-03-17`), pkw(`${yr}-09-19`));
-      ok(!/acorn|halved|losing minutes|real date/i.test(intro), `${e.place.slug} ${date}: stock wording in the plan intro: ${intro}`);
-      const im = /This week the day is (losing|gaining) about (\d+) minutes?/.exec(intro);
-      if (im && d0 != null) {
-        ok((im[1] === "losing") === d0 < 0, `${e.place.slug} ${date}: intro says ${im[1]} but the sun tables change is ${d0.toFixed(1)}`);
-        ok(Math.abs(Number(im[2]) - Math.abs(d0)) <= 0.5 + 1e-9, `${e.place.slug} ${date}: intro prints ${im[2]} min, sun tables ${Math.abs(d0).toFixed(2)}`);
-        ok(pk0 >= 6, `${e.place.slug} ${date}: intro gives a daylight rate in the tropics`);
-      } else {
-        ok(d0 == null || pk0 < 6 || Math.round(Math.abs(d0)) < 1, `${e.place.slug} ${date}: intro omits a ${d0?.toFixed(1)} minute weekly change`);
-      }
-      ok(/average first frost/.test(intro) === weeks.some((w) => w.frost), `${e.place.slug} ${date}: intro frost sentence does not match the plan's frost week`);
-    }
-    // The almanac's full moons across the eight weeks, on the town's calendar.
-    const first = weeks[0].start;
-    const moons = phasesBetween(new Date(new Date(`${first}T00:00:00Z`).getTime() - 2 * 86400000), 62)
-      .filter((p) => p.kind === "Full Moon")
-      .map((p) => localDateOf(p.date, tz));
-    for (const w of weeks) {
-      planWeeks++;
-      const days = Array.from({ length: 7 }, (_, i) => addDays(w.start, i));
-      const tag = `${e.place.slug} ${date} week of ${w.start}`;
-      const fullDay = moons.find((m) => days.includes(m));
-      const isFrost = w.frost;
-      if (isFrost) {
-        ok(/^The average first frost falls this week/.test(w.note), `${tag}: frost flag without frost note: ${w.note}`);
-        continue;
-      }
-      if (fullDay) {
-        moonWeeks++;
-        ok(w.note.startsWith(`Full moon on ${weekdayLong(fullDay)}.`), `${tag}: almanac full moon is ${weekdayLong(fullDay)} (${fullDay}), note says: ${w.note}`);
-        continue;
-      }
-      ok(!/^Full moon/.test(w.note), `${tag}: note names a full moon but the almanac has none this week: ${w.note}`);
-      const a = dayMin(e.place.lat, e.place.lon, w.start);
-      const b = dayMin(e.place.lat, e.place.lon, addDays(w.start, 7));
-      if (a == null || b == null) {
-        ok(w.note === "", `${tag}: polar week should have no note, got: ${w.note}`);
-        continue;
-      }
-      dayWeeks++;
-      const delta = b - a;
-      const change = Math.abs(delta);
-      // The rules, written out here (not imported) so changing them in the module is caught: "barely
-      // moves" only within 14 days of a solstice and under a quarter of the place's own fastest week;
-      // "hardly changes length" only where the fastest week of the year is under 6 minutes.
-      const year = Number(w.start.slice(0, 4));
-      const pk = (d: string) => {
-        const x = dayMin(e.place.lat, e.place.lon, d);
-        const y = dayMin(e.place.lat, e.place.lon, addDays(d, 7));
-        return x == null || y == null ? 0 : Math.abs(y - x);
-      };
-      const peakMin = Math.max(pk(`${year}-03-17`), pk(`${year}-09-19`));
-      const solDist = (d: string) => Math.min(...[year - 1, year, year + 1].flatMap((yy) => [`${yy}-06-21`, `${yy}-12-21`]).map((x) => Math.abs(Date.parse(`${d}T12:00:00Z`) - Date.parse(`${x}T12:00:00Z`)) / 864e5));
-      const nearSol = Math.min(solDist(days[0]), solDist(days[6])) <= 14;
-      let m = /^The day (loses|gains) about (\d+) minutes? across this week — ([\d.]+) a day\./.exec(w.note);
-      if (m) {
-        ok(peakMin >= 6, `${tag}: "about" wording where the fastest week of the year is only ${peakMin.toFixed(1)} minutes (tropics)`);
-        ok(!(nearSol && change < 0.25 * peakMin), `${tag}: "about" wording for a ${change.toFixed(1)} minute change inside a fortnight of a solstice (fastest week ${peakMin.toFixed(1)})`);
-        ok((m[1] === "loses") === delta < 0, `${tag}: says ${m[1]} but sunTimes change is ${delta.toFixed(1)}`);
-        const printed = Number(m[2]);
-        const per = Number(m[3]);
-        worstDay = Math.max(worstDay, Math.abs(printed - change));
-        worstPerDay = Math.max(worstPerDay, Math.abs(per - change / 7));
-        ok(Math.abs(printed - change) <= 0.5 + 1e-9, `${tag}: prints ${printed} min, sunTimes difference ${change.toFixed(2)}`);
-        ok(Math.abs(per - change / 7) <= 0.05 + 1e-9, `${tag}: prints ${per} a day, sunTimes ${(change / 7).toFixed(3)}`);
-        continue;
-      }
-      m = /^The day barely moves this week: (\d+) minutes? (lost|gained) in seven days\. Near a solstice, the sun almost stands still\./.exec(w.note);
-      if (m) {
-        barelyWeeks++;
-        ok(nearSol, `${tag}: "near a solstice" wording ${Math.min(solDist(days[0]), solDist(days[6])).toFixed(0)} days from a solstice`);
-        ok(change < 0.25 * peakMin, `${tag}: "barely moves" wording for a ${change.toFixed(1)} minute change when the fastest week is ${peakMin.toFixed(1)}`);
-        ok((m[2] === "lost") === delta < 0 || Math.round(change) === 0, `${tag}: says ${m[2]} but sunTimes change is ${delta.toFixed(1)}`);
-        worstDay = Math.max(worstDay, Math.abs(Number(m[1]) - change));
-        ok(Math.abs(Number(m[1]) - change) <= 0.5 + 1e-9, `${tag}: prints ${m[1]} min, sunTimes difference ${change.toFixed(2)}`);
-        continue;
-      }
-      m = /^The day hardly changes length this close to the equator: (\d+) minutes? (lost|gained) in seven days\.$/.exec(w.note);
-      if (m) {
-        tropicWeeks++;
-        ok(peakMin < 6, `${tag}: "close to the equator" wording where the fastest week of the year is ${peakMin.toFixed(1)} minutes`);
-        ok((m[2] === "lost") === delta < 0 || Math.round(change) === 0, `${tag}: says ${m[2]} but sunTimes change is ${delta.toFixed(1)}`);
-        ok(Math.abs(Number(m[1]) - change) <= 0.5 + 1e-9, `${tag}: prints ${m[1]} min, sunTimes difference ${change.toFixed(2)}`);
-        continue;
-      }
-      ok(false, `${tag}: unrecognised note: ${w.note}`);
-    }
-  }
-}
-say(`plan intros: ${introChecked} checked.`);
-say(`plan: ${barelyWeeks} 'barely moves' and ${tropicWeeks} 'close to the equator' weeks; ${planWeeks} weeks (${TABLE.length} towns x ${DATES.length} dates x 8): ${moonWeeks} full-moon weeks equal the almanac's date; ${dayWeeks} daylight weeks, worst weekly figure ${worstDay.toFixed(2)} min from sunTimes, worst per-day ${worstPerDay.toFixed(3)}`);
-
-// Ottawa, 2 November 2026: the audit's numbers.
-{
-  const weeks = seasonPlan(stubData(ottawa, "America/Toronto"), new Date("2026-11-02T15:00:00Z"));
-  const notes = weeks.map((w) => `${w.label}: ${w.note}`);
-  ok(weeks[0].start === "2026-11-02", `Ottawa plan starts ${weeks[0].start}`);
-  ok(/loses about 19 minutes across this week — 2\.7 a day/.test(weeks[0].note), `Ottawa 2 Nov week: ${weeks[0].note}`);
-  ok(weeks.some((w) => w.note.startsWith("Full moon on Tuesday, November 24.")), "Ottawa plan lacks Full moon on Tuesday, November 24");
-  ok(weeks.some((w) => w.note.startsWith("Full moon on Wednesday, December 23.")), "Ottawa plan lacks Full moon on Wednesday, December 23");
-  ok(!notes.some((n) => /November 22|December 22/.test(n)), "Ottawa plan still names November 22 / December 22");
-  if (VERBOSE) notes.forEach((n) => say(`  ${n}`));
-  else say(`ottawa plan: ${notes[0]}\n             ${notes.filter((n) => /Full moon/.test(n)).join("\n             ")}`);
-}
-
-// Cape Town, 2 November 2026: 13 minutes a week is close to its fastest, not a standstill.
-{
-  const ct = TABLE.find((t) => t.place.slug === "cape-town-south-africa");
-  if (ct) {
-    const weeks = seasonPlan(stubData(ct, "Africa/Johannesburg"), new Date("2026-11-02T15:00:00Z"));
-    ok(/^The day gains about 13 minutes across this week/.test(weeks[0].note), `Cape Town 2 Nov week: ${weeks[0].note}`);
-    ok(!weeks.some((w) => /barely moves/.test(w.note) && w.start < "2026-12-07"), "Cape Town: 'barely moves' before a fortnight from the solstice");
-    const intro = planIntro(stubData(ct, "Africa/Johannesburg"), weeks);
-    ok(/gaining about 13 minutes/.test(intro), `Cape Town intro: ${intro}`);
-    say(`cape town plan: ${weeks[0].note}\n               ${intro}`);
-  }
 }
 
 // ---- 2. region stories ----------------------------------------------------------
@@ -686,7 +497,7 @@ say(`stories: ${storiesChecked} renderings clean; ${lakeChecks} lake and ${leafC
     ok(!leafOn(blm, "2026-09-20", -29.1) && leafOn(blm, "2026-09-25", -29.1) && leafOn(blm, "2027-05-10", -29.1) && !leafOn(blm, "2027-05-13", -29.1), "Bloemfontein leaf-on should run 23 Sep to 12 May");
   }
   // Northern: Ottawa (last frost May 10, first Oct 5): in leaf 10 May to 19 October.
-  const ott = ottawa.climate;
+  const ott = TABLE.find((e) => e.place.slug === "ottawa-ontario")!.climate;
   ok(!leafOn(ott, "2027-05-09", 45.4) && leafOn(ott, "2027-05-10", 45.4) && leafOn(ott, "2026-10-19", 45.4) && !leafOn(ott, "2026-10-20", 45.4), "Ottawa leaf-on should run 10 May to 19 October");
   // A first frost after New Year (Jacksonville): the window runs past 31 December.
   const jax = TABLE.find((e) => e.climate.firstFallFrostDoy > 365 && e.climate.firstFallFrostDoy < 366 + 60);

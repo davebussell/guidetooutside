@@ -61,7 +61,7 @@ import { TASKS, SIGNAL_FAMILIES } from "../src/data/homestead/calendar";
 import { exampleTowns, SIGNAL_ROWS } from "../src/lib/homestead/examples";
 import { TOPICS } from "../src/data/homestead/topics";
 import { frostProvenance, frostSourceWords, townStation, type StationReading } from "../src/lib/frost";
-import { frostWeekDatable } from "../src/lib/learn/plan";
+import { frostWeekDatable } from "../src/lib/frost-week";
 
 type Entry = { place: Place; climate: Climate };
 const TABLE = NORMALS as unknown as Entry[];

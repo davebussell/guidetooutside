@@ -5,7 +5,7 @@ import * as n from "@/components/learn/family";
 export const LandSkyEyebrow = function ({ children: e }) {
   return (
     <p className="eyebrow text-moss">
-      {"For Kids · The land and the sky · "}
+      {"The land and the sky · "}
       {e}
     </p>
   );
@@ -33,13 +33,6 @@ export const LandSkyNav = function ({ current: e, rockNamed = false }) {
         href: "/ground/rocks",
       },
       {
-        id: "ecology",
-        art: "tree",
-        title: "What's an ecosystem?",
-        note: "Food chains, webs and the beaver",
-        href: "/learn/ecology",
-      },
-      {
         id: "regions",
         art: "leaf",
         title: "Living regions",
@@ -62,7 +55,7 @@ export const LandSkyNav = function ({ current: e, rockNamed = false }) {
       },
     ];
   return (
-    <nav aria-label="The land and the sky" className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+    <nav aria-label="The land and the sky" className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
       {r.map((s) => (
         <n.Tile key={s.id} art={s.art} title={s.title} note={s.note} href={s.href} on={s.id === e} size="sm" />
       ))}

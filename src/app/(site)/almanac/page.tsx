@@ -5,7 +5,6 @@ import { FULL_MOON_NAMES } from "@/lib/almanac";
 import { MoonIcon } from "@/lib/moon-phases";
 import { SunPanel } from "@/components/kids/SunPanel";
 import { MoonCounter } from "@/components/toys/MoonCounter";
-import { YoungNaturalists } from "@/components/learn/YoungNaturalists";
 import { NewsletterForm } from "@/components/NewsletterForm";
 import { AlmanacTemps, AlmanacTempsLoading } from "@/components/almanac/AlmanacTemps";
 import { almanacAt, dayOfYear } from "@/components/almanac/almanac-data";
@@ -175,9 +174,6 @@ export default async function AlmanacPage({ searchParams }: { searchParams: Prom
           </p>
         </div>
       </section>
-      <div className="mt-14">
-        <YoungNaturalists panel="almanac" />
-      </div>
       <section className="mt-12 card p-8 grid gap-6 md:grid-cols-[1.3fr_1fr] items-center bg-moss text-paper border-moss min-w-0 [&>*]:min-w-0">
         <div>
           <h2 className="font-display text-2xl font-semibold">The Weekly Field Note</h2>

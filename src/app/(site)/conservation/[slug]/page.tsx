@@ -56,7 +56,7 @@ const KIND_LABEL: Record<Organisation["kind"], string> = {
 const TOPIC_PAGE: Record<Topic, { href: string; label: string }> = {
   water: { href: "/fishing", label: "Fishing and the waters" },
   fish: { href: "/wildlife#fish", label: "The fish, species by species" },
-  birds: { href: "/learn/count", label: "Counting birds with children" },
+  birds: { href: "/wildlife", label: "Birds and other wildlife" },
   pollinators: { href: "/wildlife#pollinator", label: "Pollinators in the garden" },
   plants: { href: "/foraging", label: "Wild plants and foraging" },
   forests: { href: "/foraging", label: "Wild plants and foraging" },
@@ -64,7 +64,7 @@ const TOPIC_PAGE: Record<Topic, { href: string; label: string }> = {
   wildlife: { href: "/wildlife", label: "Wildlife" },
   land: { href: "/regions", label: "The ecological regions" },
   ground: { href: "/ground/rocks", label: "Rocks and the ground" },
-  youth: { href: "/learn", label: "Teaching outdoors at home" },
+  youth: { href: "/conservation", label: "Conservation groups and how to join in" },
   food: { href: "/gardening", label: "Growing food" },
 };
 

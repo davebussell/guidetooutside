@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ZONES } from "@/data/zones";
 import { LocationSearch } from "@/components/LocationSearch";
 import { ColdestNightForYou, YourZoneBanner } from "@/components/here/ZoneHere";
-import { YoungNaturalists } from "@/components/learn/YoungNaturalists";
 import { coldestPlaces } from "@/components/zones/coldest-places";
 import { ToyCard } from "@/components/zones/ToyCard";
 import { ZoneContext } from "@/components/zones/ZoneContext";
@@ -123,9 +122,6 @@ export default function ZonesPage() {
           <OfficialMaps />
         </section>
       )}
-      <div className="mt-14">
-        <YoungNaturalists panel="zones" />
-      </div>
     </div>
   );
 }

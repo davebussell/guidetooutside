@@ -55,7 +55,7 @@ function CH_({ id: e, menu: n, slug: r, label: d, lat: u, lon: m, onNavigate: p,
                     </span>
                   </s.default>
                 )}
-                {x && f && "learn" === n.id && (
+                {x && f && "land" === n.id && (
                   <s.default
                     href={`/regions/${x.slug}`}
                     onClick={p}
@@ -169,8 +169,8 @@ export const MegaMenu = function () {
               m =
                 ((r = n),
                 !!(t = l) &&
-                  ("learn" === r.id
-                    ? ["/learn", "/ground", "/regions", "/the-day"].some((e) => t.startsWith(e))
+                  ("land" === r.id
+                    ? ["/ground", "/regions", "/the-day"].some((e) => t.startsWith(e))
                     : "conservation" === r.id
                       ? ["/conservation", "/resources"].some((e) => t.startsWith(e))
                       : t.startsWith(`/${r.id}`)));

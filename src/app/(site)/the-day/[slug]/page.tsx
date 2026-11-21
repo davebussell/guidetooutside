@@ -108,7 +108,7 @@ export default async function DayPlacePage({ params, searchParams }: { params: P
         </section>
 
         <div className="mt-12">
-          <p className="eyebrow text-moss">For Kids · The land and the sky</p>
+          <p className="eyebrow text-moss">The land and the sky</p>
           <div className="mt-3">
             <LandSkyNav current="day" />
           </div>

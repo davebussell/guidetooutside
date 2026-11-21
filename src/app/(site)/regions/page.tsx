@@ -3,7 +3,6 @@ import Link from "next/link";
 import { LocationSearch } from "@/components/LocationSearch";
 import { LandSkyNav } from "@/components/kids/LandSkyNav";
 import { YourRegionBanner, YourRegionMark } from "@/components/here/LocalBits";
-import { YoungNaturalists } from "@/components/learn/YoungNaturalists";
 import { BiomeDial } from "@/components/toys/BiomeDial";
 import { ToyCard } from "@/components/toys/ToyCard";
 import { RegionMosaic } from "@/components/regions/RegionMosaic";
@@ -146,13 +145,10 @@ export default function RegionsIndex() {
         </ToyCard>
       </div>
       <div className="mt-14">
-        <p className="eyebrow text-moss">For Kids · The land and the sky</p>
+        <p className="eyebrow text-moss">The land and the sky</p>
         <div className="mt-3">
           <LandSkyNav current="regions" />
         </div>
-      </div>
-      <div className="mt-14">
-        <YoungNaturalists panel="regions" />
       </div>
       <p className="mt-6 text-sm text-ink-2 max-w-3xl">
         See also the{" "}

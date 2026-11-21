@@ -351,58 +351,23 @@ let a,
       ],
     },
     {
-      id: "learn",
-      icon: "abacus",
-      label: "For Kids",
-      href: "/learn",
+      id: "land",
+      icon: "hills",
+      label: "The land",
+      href: "/regions",
       intro: {
-        href: "/learn",
-        label: "Start here: teaching at home",
-        note: "Plan today, the season plan, the journal and each child's ladder.",
+        href: "/regions",
+        label: "Start here: the ecological regions",
+        note: "The ecological regions of Canada and the United States, and the one your town sits in.",
       },
-      homeLabel: "Lessons, plans and the journal",
-      tagline: "The land, the sky, and how to teach them.",
+      homeLabel: "The ground, the regions and the day",
+      tagline: "The land and the sky where you live.",
       lead: {
-        label: "Today's nature count",
-        note: "What to look for and count outside today where you live, for two- to six-year-olds and the grown-up with them.",
-        href: s("/learn/count"),
+        label: "The ground under you",
+        note: "The rock, soil and water under your town, from the maps that show it.",
+        href: s("/ground"),
       },
       sections: [
-        {
-          title: "Teaching at home",
-          links: [
-            {
-              href: "/learn#today",
-              label: "Plan today",
-              icon: "sun",
-            },
-            {
-              href: s("/learn/plan"),
-              label: "The season plan",
-              icon: "calendar",
-            },
-            {
-              href: "/learn/lessons",
-              label: "Lessons by theme",
-              icon: "book",
-            },
-            {
-              href: "/learn/patterns",
-              label: "Patterns and shapes",
-              icon: "shapes",
-            },
-            {
-              href: "/learn/journal",
-              label: "The field journal",
-              icon: "pencil",
-            },
-            {
-              href: "/learn/progress",
-              label: "Each child's ladder",
-              icon: "abacus",
-            },
-          ],
-        },
         {
           title: "The land and the sky",
           links: [
@@ -416,12 +381,6 @@ let a,
               label: "Kinds of rock",
               note: "Make magma, squash mud into stone",
               icon: "rock",
-            },
-            {
-              href: "/learn/ecology",
-              label: "What's an ecosystem?",
-              note: "Food chains, webs, rot and the beaver's pond",
-              icon: "leaf",
             },
             {
               href: "/regions",

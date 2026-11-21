@@ -356,7 +356,7 @@ export async function GroundPage({ data }: { data: LocalData }) {
             hole and look, and check the gauge.
           </p>
           <p className="border-t border-line pt-4 text-sm text-ink-2">
-            <span className="font-medium text-ink">For children: </span>
+            <span className="font-medium text-ink">Try it: </span>
             <Link
               href={`/ground/${place.slug}/dig`}
               className="text-moss underline decoration-line underline-offset-2 hover:no-underline"

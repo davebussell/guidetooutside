@@ -189,7 +189,7 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
         </ToyCard>
       </div>
       <div className="mt-14">
-        <p className="eyebrow text-moss">For Kids · The land and the sky</p>
+        <p className="eyebrow text-moss">The land and the sky</p>
         <div className="mt-3">
           <LandSkyNav current="regions" />
         </div>

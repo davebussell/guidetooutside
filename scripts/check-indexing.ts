@@ -71,9 +71,16 @@ ok(![...paths].some((p) => p === "/kids" || p.startsWith("/kids/")), "the kids' 
 // The games moved to a separate site (Dave, 14 November 2026): no route, no link and no sitemap line here.
 ok(!fs.existsSync("src/app/(kids)") && !fs.existsSync("src/app/(site)/games") && !fs.existsSync("public/kids.webmanifest"), "the games are not part of this site");
 ok(![...paths].some((p) => p === "/games" || p.startsWith("/games/")), "no game page is in the sitemap");
+// The teaching-at-home pages (/learn) moved to the games site too (Dave, 18 November 2026): no route, no sitemap line,
+// no link, and no "For Kids" label left on the guide.
+ok(!fs.existsSync("src/app/(site)/learn"), "the teaching-at-home pages are not part of this site");
+ok(![...paths].some((p) => p === "/learn" || p.startsWith("/learn/")), "no teaching-at-home page is in the sitemap");
 for (const f of ["src/app", "src/components", "src/lib"].flatMap((d) => walk(d)).filter((x) => /\.(tsx|ts|jsx)$/.test(x))) {
-  const m = /["'`]\/(?:kids|games)(?:[/"'`$?#])/.exec(fs.readFileSync(f, "utf8"));
-  ok(!m, `${f}: links to a game page ("${m?.[0]}")`);
+  const text = fs.readFileSync(f, "utf8");
+  const m = /["'`]\/(?:kids|games|learn)(?:[/"'`$?#])/.exec(text);
+  ok(!m, `${f}: links to a page that moved to the games site ("${m?.[0]}")`);
+  const k = /For Kids/.exec(text);
+  ok(!k, `${f}: still labels a page "For Kids"`);
 }
 const rb = robots();
 ok(String(rb.sitemap) === `${SITE.url}/sitemap.xml`, "robots.txt names the site's own sitemap");

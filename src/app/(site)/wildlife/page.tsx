@@ -5,7 +5,6 @@ import { monthName } from "@/lib/species";
 import { CreatureCard } from "@/components/NatureCard";
 import { LocationSearch } from "@/components/LocationSearch";
 import { ActiveNearYou } from "@/components/here/ActiveNearYou";
-import { YoungNaturalists } from "@/components/learn/YoungNaturalists";
 import { SeasonBand } from "@/components/conservation/SeasonBand";
 
 /** The month-dependent count ("In October, 83 of them are active") is re-read twice a day. */
@@ -104,9 +103,6 @@ export default function WildlifePage() {
             <GroupSection group={group} intro={intro} items={of(group)} />
           </div>
         ))}
-      </div>
-      <div className="mt-14">
-        <YoungNaturalists panel="wildlife" />
       </div>
       <section className="mt-14 card p-6 sm:p-8">
         <h2 className="font-display text-2xl font-semibold">Seasonal conditions</h2>

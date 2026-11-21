@@ -5,7 +5,6 @@ import { LocationSearch } from "@/components/LocationSearch";
 import { LandSkyEyebrow, LandSkyNav } from "@/components/kids/LandSkyNav";
 import { RockUnderYou } from "@/components/here/LocalBits";
 import { RockInTheLoop } from "@/components/here/ToyHere";
-import { YoungNaturalists } from "@/components/learn/YoungNaturalists";
 import { RockCycle } from "@/components/toys/RockCycle";
 import { ToyCard } from "@/components/toys/ToyCard";
 import { FamilyArt } from "@/components/rocks/FamilyArt";
@@ -117,9 +116,6 @@ export default function RocksIndex() {
         })}
       </div>
 
-      <div className="mt-14">
-        <YoungNaturalists panel="rocks" />
-      </div>
 
       {/* The ground and the sky: the page's conservation story (geoparks, dark skies), or the plain panel. */}
       <div className="mt-14">

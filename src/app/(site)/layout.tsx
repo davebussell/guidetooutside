@@ -23,7 +23,7 @@ const CONSENT_DEFAULT = {
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 export const metadata: Metadata = ADSENSE_CLIENT ? { other: { "google-adsense-account": ADSENSE_CLIENT } } : {};
 
-// Analytics and ads load on the main site; /learn carries no ads.
+// Analytics and ads load on the main site.
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
   const adsense = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
   const ga = process.env.NEXT_PUBLIC_GA_ID;

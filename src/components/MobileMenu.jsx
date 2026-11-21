@@ -108,7 +108,7 @@ export const MobileMenu = function () {
                         <p className="eyebrow">{x?.label ?? "No location set"}</p>
                         <p className="font-display mt-0.5 text-lg font-semibold leading-tight">{e.lead.label}</p>
                         <p className="mt-1 text-sm text-ink-2">{e.lead.note}</p>
-                        {w && v && "learn" === e.id && (
+                        {w && v && "land" === e.id && (
                           <span className="mt-3 flex items-center gap-2.5 text-xs text-ink-2">
                             <span className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg border border-line">
                               <i.default src={v.src} alt="" fill sizes="36px" className="object-cover" aria-hidden="true" />

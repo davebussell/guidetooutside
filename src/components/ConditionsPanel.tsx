@@ -2,7 +2,7 @@ import { weatherLabel } from "@/lib/forecast";
 import { frostFree, frostSourceWords } from "@/lib/frost";
 import { frostNights, perYear } from "@/lib/extremes";
 import { koppenText } from "@/lib/regime";
-import { frostWeekDatable } from "@/lib/learn/plan";
+import { frostWeekDatable } from "@/lib/frost-week";
 import { zoneBasisShort, zoneSourceOf, zoneSystemHeading } from "@/lib/zone-label";
 import type { LocalData } from "@/lib/types";
 import { soilSowingFor, type SoilSowing } from "@/lib/soil-sowing";
