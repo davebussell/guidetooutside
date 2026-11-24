@@ -17,7 +17,15 @@ import { LandSkyNav } from "@/components/ground/LandSkyNavClient";
 import { NoteCTA } from "@/components/PlaceCards";
 import { OrgLine } from "@/components/conservation/OrgLine";
 
-export const dynamic = "force-dynamic";
+/**
+ * A town's page is built the first time the town is asked for (the loading screen shows while it is), then stored
+ * and served as a static page. It is rebuilt in the background at most once an hour, so no later reader waits.
+ * The page reads no query string: a static page cannot, and the town's own coordinates are used.
+ */
+export const revalidate = 3600;
+export function generateStaticParams(): PlaceParams[] {
+  return [];
+}
 
 export async function generateMetadata({ params }: { params: Promise<PlaceParams> }): Promise<Metadata> {
   const { slug } = await params;
@@ -30,8 +38,9 @@ export async function generateMetadata({ params }: { params: Promise<PlaceParams
 }
 
 /** /the-day/<town>: where the sun is at a place now, and the day there phase by phase. */
-export default async function DayPlacePage({ params, searchParams }: { params: Promise<PlaceParams>; searchParams: Promise<PlaceSearch> }) {
-  const [{ slug }, search] = await Promise.all([params, searchParams]);
+export default async function DayPlacePage({ params }: { params: Promise<PlaceParams> }) {
+  const { slug } = await params;
+  const search: PlaceSearch = {};
   const place = await resolvePlace(slug, search);
   if (!place) notFound();
   redirectToCanonicalPlace("the-day", slug, place.slug, search);

@@ -12,7 +12,15 @@ import { LandSkyNav } from "@/components/ground/LandSkyNavClient";
 import { SoilDig } from "@/components/kids/SoilDig";
 import { ActivityArt } from "@/components/learn/ActivityArt";
 
-export const dynamic = "force-dynamic";
+/**
+ * A town's page is built the first time the town is asked for (the loading screen shows while it is), then stored
+ * and served as a static page. It is rebuilt in the background at most once an hour, so no later reader waits.
+ * The page reads no query string: a static page cannot, and the town's own coordinates are used.
+ */
+export const revalidate = 3600;
+export function generateStaticParams(): PlaceParams[] {
+  return [];
+}
 
 export async function generateMetadata({ params }: { params: Promise<PlaceParams> }): Promise<Metadata> {
   const { slug } = await params;
@@ -88,8 +96,9 @@ async function DigWithSoil({ lat, lon, ...props }: DigProps & { lat: number; lon
 }
 
 /** /ground/<town>/dig: a child's dig through the ground under a place, down to what the geologic maps show there. */
-export default async function DigPage({ params, searchParams }: { params: Promise<PlaceParams>; searchParams: Promise<PlaceSearch> }) {
-  const [{ slug }, search] = await Promise.all([params, searchParams]);
+export default async function DigPage({ params }: { params: Promise<PlaceParams> }) {
+  const { slug } = await params;
+  const search: PlaceSearch = {};
   const place = await resolvePlace(slug, search);
   if (!place) notFound();
   const units = await getRocks(place.lat, place.lon).catch(() => []);

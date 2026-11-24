@@ -7,7 +7,15 @@ import { resolvePlace, type PlaceParams, type PlaceSearch } from "@/lib/place-ro
 import { shareCard } from "@/lib/site";
 import { PlaceTopicPage } from "@/components/PlaceTopicPage";
 
-export const dynamic = "force-dynamic";
+/**
+ * A town's page is built the first time the town is asked for (the loading screen shows while it is), then stored
+ * and served as a static page. It is rebuilt in the background at most once an hour, so no later reader waits.
+ * The page reads no query string: a static page cannot, and the town's own coordinates are used.
+ */
+export const revalidate = 3600;
+export function generateStaticParams(): PlaceParams[] {
+  return [];
+}
 
 export async function generateMetadata({ params }: { params: Promise<PlaceParams> }): Promise<Metadata> {
   const { slug } = await params;
@@ -22,8 +30,9 @@ export async function generateMetadata({ params }: { params: Promise<PlaceParams
   return { title, description, alternates: { canonical: `/gardening/${place.slug}` }, ...placeRobots("gardening", place.slug), ...share, openGraph: { ...share.openGraph, type: "article" } };
 }
 
-export default async function GardeningPlacePage({ params, searchParams }: { params: Promise<PlaceParams>; searchParams: Promise<PlaceSearch> }) {
-  const [{ slug }, search] = await Promise.all([params, searchParams]);
+export default async function GardeningPlacePage({ params }: { params: Promise<PlaceParams> }) {
+  const { slug } = await params;
+  const search: PlaceSearch = {};
   const place = await resolvePlace(slug, search);
   if (!place) notFound();
   redirectToCanonicalPlace("gardening", slug, place.slug, search);
