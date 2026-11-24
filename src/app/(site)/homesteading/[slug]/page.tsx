@@ -28,7 +28,15 @@ const TOPIC_FOOD: Record<string, FoodRole[]> = {
 };
 const SOIL_PANEL = { topic: ["soil-seeds", "land", "pollinators"] as Topic[], near: "Who keeps the seeds and soil near {town}", anywhere: "Who keeps old seeds, breeds and soil alive" };
 
-export const dynamic = "force-dynamic";
+/**
+ * A town's page is built the first time the town is asked for (the loading screen shows while it is), then stored
+ * and served as a static page. It is rebuilt in the background at most once an hour, so no later reader waits.
+ * The page reads no query string: a static page cannot, and the town's own coordinates are used.
+ */
+export const revalidate = 3600;
+export function generateStaticParams(): PlaceParams[] {
+  return [];
+}
 
 /**
  * /homesteading/<slug> is two kinds of page, like /foraging/<slug>: a topic
@@ -47,8 +55,9 @@ export async function generateMetadata({ params }: { params: Promise<PlaceParams
   return { title, description, alternates: { canonical: `/homesteading/${place.slug}` }, ...placeRobots("homesteading", place.slug), ...share, openGraph: { ...share.openGraph, type: "article" } };
 }
 
-export default async function HomesteadingSlugPage({ params, searchParams }: { params: Promise<PlaceParams>; searchParams: Promise<PlaceSearch> }) {
-  const [{ slug }, search] = await Promise.all([params, searchParams]);
+export default async function HomesteadingSlugPage({ params }: { params: Promise<PlaceParams> }) {
+  const { slug } = await params;
+  const search: PlaceSearch = {};
   if (getTopic(slug)) {
     // The route is dynamic already: the visitor's remembered town picks the organisations and a story's steps.
     const here = await visitorPlace();

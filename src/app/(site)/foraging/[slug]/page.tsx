@@ -18,7 +18,15 @@ const FRUIT_KINDS = new Set(["fruit", "berry", "nut"]);
 /** The species page's own metadata, where its module provides it. */
 const speciesMetadata = (SpeciesModule as Record<string, unknown>).speciesMetadata as ((slug: string) => Metadata | Promise<Metadata>) | undefined;
 
-export const dynamic = "force-dynamic";
+/**
+ * A town's page is built the first time the town is asked for (the loading screen shows while it is), then stored
+ * and served as a static page. It is rebuilt in the background at most once an hour, so no later reader waits.
+ * The page reads no query string: a static page cannot, and the town's own coordinates are used.
+ */
+export const revalidate = 3600;
+export function generateStaticParams(): PlaceParams[] {
+  return [];
+}
 
 /**
  * The slugs of parked species (src/lib/scope.ts). A parked species has no page, and its slug is not a town's either,
@@ -42,8 +50,9 @@ export async function generateMetadata({ params }: { params: Promise<PlaceParams
   return { title, description, alternates: { canonical: `/foraging/${place.slug}` }, ...placeRobots("foraging", place.slug), ...share, openGraph: { ...share.openGraph, type: "article" } };
 }
 
-export default async function ForagingSlugPage({ params, searchParams }: { params: Promise<PlaceParams>; searchParams: Promise<PlaceSearch> }) {
-  const [{ slug }, search] = await Promise.all([params, searchParams]);
+export default async function ForagingSlugPage({ params }: { params: Promise<PlaceParams> }) {
+  const { slug } = await params;
+  const search: PlaceSearch = {};
   if (getSpecies(slug)) {
     // The route is dynamic already, so the visitor's remembered town picks the organisations.
     const here = await visitorPlace();

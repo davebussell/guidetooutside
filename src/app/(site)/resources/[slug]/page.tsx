@@ -28,7 +28,15 @@ import { LocationSearch } from "@/components/LocationSearch";
 import { VideoCard } from "@/components/VideoCard";
 import type { Place } from "@/lib/types";
 
-export const dynamic = "force-dynamic";
+/**
+ * A town's page is built the first time the town is asked for (the loading screen shows while it is), then stored
+ * and served as a static page. It is rebuilt in the background at most once an hour, so no later reader waits.
+ * The page reads no query string: a static page cannot, and the town's own coordinates are used.
+ */
+export const revalidate = 3600;
+export function generateStaticParams(): PlaceParams[] {
+  return [];
+}
 
 const describe = (place: Place) =>
   `The conservation organisations working on the wild places around ${place.name}, how to join them, and the books and gifts whose sales fund their work. Registered charities and public bodies only.`;
@@ -215,8 +223,9 @@ const COUNTS = /\b(count|counts|counting|counted|survey|surveys|monitor|monitori
 const runsCounts = (o: Organisation) => COUNTS.test(o.asks.join(" ")) || COUNTS.test(o.blurb);
 
 /** /resources/<town>: the organisations working around a place, how to join them, and the books and gifts that fund them. */
-export default async function ResourcesPage({ params, searchParams }: { params: Promise<PlaceParams>; searchParams: Promise<PlaceSearch> }) {
-  const [{ slug }, search] = await Promise.all([params, searchParams]);
+export default async function ResourcesPage({ params }: { params: Promise<PlaceParams> }) {
+  const { slug } = await params;
+  const search: PlaceSearch = {};
   const place: Place | null = await resolvePlace(slug, search);
   if (!place) notFound();
   redirectToCanonicalPlace("resources", slug, place.slug, search);

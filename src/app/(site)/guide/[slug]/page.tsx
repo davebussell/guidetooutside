@@ -25,7 +25,15 @@ import { SeasonalForaging } from "@/components/SeasonalForaging";
 import { LocalWildlife } from "@/components/LocalWildlife";
 import { NoteCTA, RegionZoneCards } from "@/components/PlaceCards";
 
-export const dynamic = "force-dynamic";
+/**
+ * A town's page is built the first time the town is asked for (the loading screen shows while it is), then stored
+ * and served as a static page. It is rebuilt in the background at most once an hour, so no later reader waits.
+ * The page reads no query string: a static page cannot, and the town's own coordinates are used.
+ */
+export const revalidate = 3600;
+export function generateStaticParams(): PlaceParams[] {
+  return [];
+}
 
 export async function generateMetadata({ params }: { params: Promise<PlaceParams> }): Promise<Metadata> {
   const { slug } = await params;
@@ -37,8 +45,9 @@ export async function generateMetadata({ params }: { params: Promise<PlaceParams
 }
 
 /** The overview of a place: what kind of place it is, this month, today, this week's guide, the sky, the forces, and what is about. */
-export default async function GuidePage({ params, searchParams }: { params: Promise<PlaceParams>; searchParams: Promise<PlaceSearch> }) {
-  const [{ slug }, search] = await Promise.all([params, searchParams]);
+export default async function GuidePage({ params }: { params: Promise<PlaceParams> }) {
+  const { slug } = await params;
+  const search: PlaceSearch = {};
   const place = await resolvePlace(slug, search);
   if (!place) notFound();
   redirectToCanonicalPlace("guide", slug, place.slug, search);
