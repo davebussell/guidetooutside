@@ -4,13 +4,13 @@ import { placeFromSlug } from "@/lib/geocode";
 import { placeRobots } from "@/lib/seo/indexing";
 import { resolvePlace, type PlaceParams, type PlaceSearch } from "@/lib/place-route";
 import { shareCard } from "@/lib/site";
-import { getTopic } from "@/data/homestead/topics";
+import { getTopic, TOPICS } from "@/data/homestead/topics";
 import { TopicPage, topicMetadata } from "@/components/homestead/TopicPage";
 import { HomesteadPlacePage } from "@/components/homestead/HomesteadPlacePage";
 import { StoryBlock } from "@/components/conservation/StoryBlock";
-import { VisitorOrgs } from "@/components/conservation/VisitorOrgs";
+import { OrgsAnywhere } from "@/components/conservation/VisitorOrgs";
+import { NearbyOrgs } from "@/components/conservation/NearbyOrgs";
 import { FoodPanel } from "@/components/conservation/FoodPanel";
-import { visitorPlace } from "@/lib/conservation/visitor";
 import type { FoodRole, Topic } from "@/data/conservation";
 
 /** A topic page's panel when it has no story: its first subject, then the rest of the homestead's. */
@@ -35,7 +35,8 @@ const SOIL_PANEL = { topic: ["soil-seeds", "land", "pollinators"] as Topic[], ne
  */
 export const revalidate = 3600;
 export function generateStaticParams(): PlaceParams[] {
-  return [];
+  // The topic pages are built with the site (no loading screen); towns are built the first time each is asked for.
+  return TOPICS.map((t) => ({ slug: t.slug }));
 }
 
 /**
@@ -59,8 +60,7 @@ export default async function HomesteadingSlugPage({ params }: { params: Promise
   const { slug } = await params;
   const search: PlaceSearch = {};
   if (getTopic(slug)) {
-    // The route is dynamic already: the visitor's remembered town picks the organisations and a story's steps.
-    const here = await visitorPlace();
+    // Static: no cookie is read; the visitor's own organisations are filled in by the browser (NearbyOrgs).
     const panel = TOPIC_PANEL[slug] ?? SOIL_PANEL;
     return (
       <TopicPage
@@ -69,11 +69,14 @@ export default async function HomesteadingSlugPage({ params }: { params: Promise
           <>
             <StoryBlock
               path={`/homesteading/${slug}`}
-              place={here}
-              fallback={<VisitorOrgs id="who-looks-after" place={here} topic={panel.topic} headingNear={panel.near} headingAnywhere={panel.anywhere} />}
+              fallback={
+                <NearbyOrgs id="who-looks-after" topic={panel.topic} headingNear={panel.near}>
+                  <OrgsAnywhere id="who-looks-after" topic={panel.topic} heading={panel.anywhere} />
+                </NearbyOrgs>
+              }
             />
             {/* Below the story or panel: community farms and local food near the visitor's town. */}
-            <FoodPanel place={here} section="homesteading" roles={TOPIC_FOOD[slug]} className="mt-10" />
+            <FoodPanel place={null} nearby section="homesteading" roles={TOPIC_FOOD[slug]} className="mt-10" />
           </>
         }
       />

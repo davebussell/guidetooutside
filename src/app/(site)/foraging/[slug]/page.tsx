@@ -7,10 +7,10 @@ import { resolvePlace, type PlaceParams, type PlaceSearch } from "@/lib/place-ro
 import { shareCard } from "@/lib/site";
 import { PlaceTopicPage } from "@/components/PlaceTopicPage";
 import * as SpeciesModule from "@/components/species/SpeciesPage";
-import { VisitorOrgs } from "@/components/conservation/VisitorOrgs";
+import { OrgsAnywhere } from "@/components/conservation/VisitorOrgs";
+import { NearbyOrgs } from "@/components/conservation/NearbyOrgs";
 import { StoryBlock } from "@/components/conservation/StoryBlock";
 import { FoodPanel } from "@/components/conservation/FoodPanel";
-import { visitorPlace } from "@/lib/conservation/visitor";
 
 const { SpeciesPage } = SpeciesModule;
 /** Fruit, berries and nuts: the food band leads with the fruit-picking and fruit-tree groups. */
@@ -25,7 +25,9 @@ const speciesMetadata = (SpeciesModule as Record<string, unknown>).speciesMetada
  */
 export const revalidate = 3600;
 export function generateStaticParams(): PlaceParams[] {
-  return [];
+  // The wild-edible pages are built with the site, so a reader (or a search engine) gets the finished page, never the
+  // loading screen. Towns are still built the first time each is asked for.
+  return ALL_SPECIES.filter((s) => getSpecies(s.slug)).map((s) => ({ slug: s.slug }));
 }
 
 /**
@@ -54,31 +56,36 @@ export default async function ForagingSlugPage({ params }: { params: Promise<Pla
   const { slug } = await params;
   const search: PlaceSearch = {};
   if (getSpecies(slug)) {
-    // The route is dynamic already, so the visitor's remembered town picks the organisations.
-    const here = await visitorPlace();
+    // A species page is static: it reads no cookie, and the visitor's own organisations are filled in by the browser
+    // (NearbyOrgs), as on the wildlife pages. Reading the place cookie here made every species page render on demand
+    // behind the "Reading local records" screen (found 27 November 2026).
     const fruit = FRUIT_KINDS.has(getSpecies(slug)!.kind);
     return (
       <SpeciesPage
         slug={slug}
         orgs={
           <>
-            {/* The species' story where one is written (and told for the reader's country), else the plain panel. */}
+            {/* The species' story where one is written (its country-dependent parts decided in the browser), else the plain panel. */}
             <StoryBlock
               path={`/foraging/${slug}`}
-              place={here}
               fallback={
-                <VisitorOrgs
+                <NearbyOrgs
                   id="who-looks-after"
-                  place={here}
                   topic={["plants", "land"]}
                   species={[slug]}
                   headingNear="Who looks after the wild plants near {town}"
-                  headingAnywhere="Who looks after wild plants and the land they grow on"
-                />
+                >
+                  <OrgsAnywhere
+                    id="who-looks-after"
+                    topic={["plants", "land"]}
+                    species={[slug]}
+                    heading="Who looks after wild plants and the land they grow on"
+                  />
+                </NearbyOrgs>
               }
             />
             {/* Foraging codes and gleaning; for fruit, the fruit-picking and fruit-tree groups first. */}
-            <FoodPanel place={here} section="foraging" fruit={fruit} className="mt-10" />
+            <FoodPanel place={null} nearby section="foraging" fruit={fruit} className="mt-10" />
           </>
         }
       />
