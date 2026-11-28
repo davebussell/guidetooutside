@@ -1,21 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { FISH } from "@/lib/nature";
 import { KNOWN_PLACES } from "@/lib/geocode";
 import { continentServed } from "@/lib/scope";
-import { FISH_FACTS } from "@/data/fish-facts";
 import { creatureImage } from "@/lib/creature-images";
 import { REGS_AFRICA, REGS_CA, REGS_EUROPE, REGS_US } from "@/lib/regs";
 import { SectionLead } from "@/components/SectionLead";
 import { PlaceFinder } from "@/components/PlaceFinder";
 import { NewsletterForm } from "@/components/NewsletterForm";
-import { LakeYear } from "@/components/toys/LakeYear";
-import { FishLookalikes as RestoredLookalikes } from "@/components/toys/FishLookalikes";
-import { FishLineup } from "@/components/toys/FishLineup";
-import { LakeCaption } from "@/components/here/ToyHere";
-import { ToyPanel } from "@/components/wildlife/ToyPanel";
-import { LAKE_FISH } from "@/components/wildlife/lake-fish";
 import { SeasonBand } from "@/components/conservation/SeasonBand";
 import { FoodPanel } from "@/components/conservation/FoodPanel";
 
@@ -23,7 +15,7 @@ import { FoodPanel } from "@/components/conservation/FoodPanel";
 export const revalidate = 3600;
 
 const TITLE = "Fishing — what's biting near you, where the fish are, and how to tell them apart";
-const DESCRIPTION = `Fishing guides for ${Math.floor(KNOWN_PLACES.length / 10) * 10}+ towns across Canada and the United States, the freshwater and inshore fish from walleye and brook trout to striped bass and redfish with size, range and records, a lake you can play through the year, and a spot-the-difference game for the look-alikes.`;
+const DESCRIPTION = `Fishing guides for ${Math.floor(KNOWN_PLACES.length / 10) * 10}+ towns across Canada and the United States, the freshwater and inshore fish from walleye and brook trout to striped bass and redfish with size, range and records.`;
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -32,9 +24,6 @@ export const metadata: Metadata = {
 };
 
 const CONTENTS: { href: string; label: string; note: string }[] = [
-  { href: "#lake", label: "Lake seasons", note: "Where fish hold, month by month" },
-  { href: "#lookalikes", label: "Commonly confused species", note: "Pike and muskellunge, brook and brown trout" },
-  { href: "#fish", label: "Fish to scale", note: `${FISH.length} species, largest first` },
   { href: "/fishing/regulations", label: "Regulations", note: "Official sources by jurisdiction" },
   { href: "#find", label: "Local guides", note: "100+ places" },
   { href: "/conservation?topic=water", label: "Who looks after your water", note: "Waterkeepers and watershed groups" },
@@ -54,18 +43,11 @@ const READING_THE_WEEK = [
   "Low light is the constant. Dawn and dusk outfish midday almost everywhere. Many anglers also hold that the days around the new and full moon fish best (the solunar tradition), though studies that have tested it are mixed. The local guide shows the rating and labels it as a tradition.",
 ];
 
-/** The restored game reads `start` as optional (the landing opens it at the first pair); its untyped signature makes it look required. */
-const FishLookalikes = RestoredLookalikes as React.ComponentType<{ start?: string }>;
 
 /** The jurisdictions the directory lists: a parked continent's table is not shown there (src/lib/scope.ts), so it is not counted here. */
 const JURISDICTIONS =
   REGS_CA.length + REGS_US.length + (continentServed("europe") ? REGS_EUROPE.length : 0) + (continentServed("africa") ? REGS_AFRICA.length : 0);
 
-/** The fish drawn to one scale on the lineup: every fish with its facts' sizes and silhouette. */
-const LINEUP = FISH.map((c) => {
-  const f = FISH_FACTS[c.slug];
-  return { slug: c.slug, name: c.name, typicalCm: f?.typicalCm, maxCm: f?.maxCm, shape: f?.shape, regions: c.regions };
-});
 
 export default function FishingPage() {
   const photo = creatureImage("brook-trout");
@@ -78,8 +60,7 @@ export default function FishingPage() {
             <h1 className="font-display mt-2 text-4xl sm:text-5xl font-semibold tracking-tight">Where fish hold through the year, and why.</h1>
             <p className="mt-4 text-lg leading-relaxed text-ink-2">
               A temperate lake passes through ice cover, spring turnover, summer stratification into a warm upper layer and a cold lower one, and autumn
-              turnover. Fish move between the layers as temperature and oxygen change. This section covers that cycle and the species most often confused;
-              the local guide adds the species active this week, named waters nearby and feeding periods by sun and moon.
+              turnover. Fish move between the layers as temperature and oxygen change. The local guide covers the species active this week, named waters nearby and feeding periods by sun and moon.
             </p>
             <div className="mt-6">
               <SectionLead section="fishing" label="This week's fishing guide" note="Active species, where they hold, and feeding periods by sun and moon." />
@@ -149,41 +130,7 @@ export default function FishingPage() {
       {/* The seafood guide for the reader's country and local food (the reader's own town once the browser knows it). */}
       <FoodPanel place={null} section="fishing" nearby className="mt-14" />
 
-      <section id="play" className="mt-14 scroll-mt-24">
-        <p className="eyebrow text-azure">Reference</p>
-        <h2 className="font-display mt-1 text-3xl sm:text-4xl font-semibold tracking-tight">Interactive diagrams</h2>
-        <div className="mt-6 grid gap-10">
-          <ToyPanel
-            id="lake"
-            title="A northern lake through the year"
-            intro="Move through the months, or press play, to see the lake freeze, turn over, stratify into a warm upper layer and a cold lower one, and turn over again. Each species moves to the water that suits it; select a fish to see why it is there."
-          >
-            <LakeYear fish={LAKE_FISH} />
-            <LakeCaption />
-          </ToyPanel>
-          <ToyPanel
-            id="lookalikes"
-            title="Commonly confused species"
-            intro="Seven pairs of fish that are often misidentified, including two unrelated fish both called “speckled trout”. Name each, then select the feature that distinguishes it."
-          >
-            <FishLookalikes />
-          </ToyPanel>
-        </div>
-      </section>
 
-      <section className="mt-16">
-        <div id="fish" className="scroll-mt-24">
-          <p className="eyebrow text-azure">Species</p>
-          <h2 className="font-display mt-1 text-3xl sm:text-4xl font-semibold tracking-tight">Fish species, drawn to scale</h2>
-          <p className="mt-2 max-w-2xl text-ink-2">
-            From Pacific halibut to bluegill, drawn to one scale against a 100 cm reference. Select a fish for its range, typical and maximum size, record,
-            diet and methods.
-          </p>
-          <div className="mt-6 card p-4 sm:p-6">
-            <FishLineup fish={LINEUP} />
-          </div>
-        </div>
-      </section>
 
       <section className="mt-16 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         <div className="grid gap-10">

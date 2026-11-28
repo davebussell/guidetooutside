@@ -13,11 +13,7 @@ import { SectionLead } from "@/components/SectionLead";
 import { NewsletterForm } from "@/components/NewsletterForm";
 import { FrostWatchHere, YourGardenYear } from "@/components/here/GardenHere";
 import { RegionNote } from "@/components/here/RegionNote";
-import { WillItSproutHere } from "@/components/here/ToyHere";
-import { ColdestNightForYou } from "@/components/here/ZoneHere";
 import { PutItUpSection } from "@/components/crops/PutItUpSection";
-import { coldestPlaces } from "@/components/zones/coldest-places";
-import { ToyCard } from "@/components/zones/ToyCard";
 import { SeasonBand } from "@/components/conservation/SeasonBand";
 import { FoodPanel } from "@/components/conservation/FoodPanel";
 
@@ -156,32 +152,13 @@ export default function GardeningPage() {
       <FoodPanel place={null} section="gardening" nearby className="mt-14" />
       <section id="play" className="mt-14 scroll-mt-24">
         <p className="eyebrow text-moss">Reference</p>
-        <h2 className="font-display mt-1 text-3xl sm:text-4xl font-semibold tracking-tight">Interactive diagrams</h2>
+        <h2 className="font-display mt-1 text-3xl sm:text-4xl font-semibold tracking-tight">Your garden through the year</h2>
         <div className="mt-6 grid gap-10">
           <div id="frost" className="scroll-mt-24 grid gap-5">
             <YourGardenYear />
             <FrostWatchHere />
           </div>
           <PutItUpSection month={month} />
-          <div>
-            <p className="eyebrow text-moss">For spring</p>
-            <div className="mt-4 grid gap-10">
-              <ToyCard
-                id="sprout"
-                title="Germination and soil temperature"
-                blurb="Drag the soil thermometer. Below a seed's minimum temperature it stays dormant or rots; within its range it emerges in days; above it, germination fails. This is why peas are sown weeks before beans."
-              >
-                <WillItSproutHere />
-              </ToyCard>
-              <ToyCard
-                id="coldest"
-                title="Hardiness zones and the coldest night"
-                blurb="A hardiness zone is defined by the average coldest night of winter. Lower the temperature to see which plants survive it and which towns share the zone."
-              >
-                <ColdestNightForYou places={coldestPlaces()} />
-              </ToyCard>
-            </div>
-          </div>
         </div>
       </section>
       <section className="mt-16">

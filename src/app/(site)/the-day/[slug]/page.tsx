@@ -12,8 +12,6 @@ import { RememberPlace } from "@/lib/place-cookie";
 import { DAY_PHASES } from "@/data/day-stories";
 import { ChangeLocation } from "@/components/ChangeLocation";
 import { DayScrubber } from "@/components/DayScrubber";
-import { SpinEarth } from "@/components/toys/SpinEarth";
-import { LandSkyNav } from "@/components/ground/LandSkyNavClient";
 import { NoteCTA } from "@/components/PlaceCards";
 import { OrgLine } from "@/components/conservation/OrgLine";
 
@@ -88,19 +86,6 @@ export default async function DayPlacePage({ params }: { params: Promise<PlacePa
         </div>
         <OrgLine place={place} topic={["wildlife", "birds", "water", "land"]} label={`Who looks after today’s outdoors near ${place.name}`} className="mt-6" />
 
-        <div className="mt-10 max-w-4xl">
-          <section className="card scroll-mt-24 p-4 sm:p-6">
-            <p className="eyebrow">Interactive</p>
-            <h2 className="font-display mt-1 text-2xl font-semibold leading-tight tracking-tight sm:text-3xl">{`The Earth's rotation and the day at ${place.name}`}</h2>
-            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-ink-2">
-              Rotate the Earth, or use the arrows, to follow the location from sunrise to noon, sunset and night. One full rotation is one day.
-            </p>
-            <div className="mt-4">
-              <SpinEarth lat={place.lat} lon={place.lon} placeName={place.name} />
-            </div>
-          </section>
-        </div>
-
         <section className="mt-12 grid gap-4 sm:grid-cols-3">
           <Link href={`/guide/${place.slug}`} className="card p-5 hover:border-moss transition">
             <h2 className="font-display text-lg font-semibold">Local guide</h2>
@@ -116,12 +101,6 @@ export default async function DayPlacePage({ params }: { params: Promise<PlacePa
           </Link>
         </section>
 
-        <div className="mt-12">
-          <p className="eyebrow text-moss">The land and the sky</p>
-          <div className="mt-3">
-            <LandSkyNav current="day" />
-          </div>
-        </div>
 
         <NoteCTA
           className="mt-12"

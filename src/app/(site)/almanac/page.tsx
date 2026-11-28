@@ -3,12 +3,9 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { FULL_MOON_NAMES } from "@/lib/almanac";
 import { MoonIcon } from "@/lib/moon-phases";
-import { SunPanel } from "@/components/kids/SunPanel";
-import { MoonCounter } from "@/components/toys/MoonCounter";
 import { NewsletterForm } from "@/components/NewsletterForm";
 import { AlmanacTemps, AlmanacTempsLoading } from "@/components/almanac/AlmanacTemps";
 import { almanacAt, dayOfYear } from "@/components/almanac/almanac-data";
-import { ToyCard } from "@/components/zones/ToyCard";
 import { regionFromCookie } from "@/lib/region-cookie";
 
 export const metadata: Metadata = {
@@ -98,8 +95,7 @@ export default async function AlmanacPage({ searchParams }: { searchParams: Prom
           </p>
         </div>
       </div>
-      <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_1fr]">
-        <SunPanel />
+      <div className="mt-6">
         <section className="card p-6">
           <p className="eyebrow">Lunar planting (traditional)</p>
           <p className="mt-2 text-ink-2">{a.plantingHint}</p>
@@ -137,15 +133,6 @@ export default async function AlmanacPage({ searchParams }: { searchParams: Prom
           })}
         </ul>
       </section>
-      <div className="mt-10">
-        <ToyCard
-          id="moons"
-          title="The lunar month"
-          blurb="A lunar month, from new moon to new moon, lasts 29.53 days. Move the slider to convert lunar months into days, weeks, calendar months and years."
-        >
-          <MoonCounter />
-        </ToyCard>
-      </div>
       <section className="mt-10 grid gap-8 lg:grid-cols-2">
         <div>
           <h2 className="font-display text-2xl font-semibold">The full moons of the year</h2>

@@ -16,13 +16,9 @@ import { breadcrumbLd, jsonLd } from "@/lib/learn/ld";
 import { CreatureCard, shortMonthRange } from "@/components/NatureCard";
 import { LocalAnswer, NearYouLine, RegionChips } from "@/components/here/LocalBits";
 import { LocationSearch } from "@/components/LocationSearch";
-import { FishSize } from "@/components/toys/FishLineup";
-import { FishLookalikes } from "@/components/toys/FishLookalikes";
 import { FishFilms } from "@/components/FishFilms";
 import { SpeciesVideos } from "@/components/SpeciesVideos";
-import { ToyPanel } from "@/components/wildlife/ToyPanel";
 import { QuickFacts, Questions, Sources } from "@/components/wildlife/FishFactsPanels";
-import { LOOKALIKE_FISH } from "@/components/wildlife/lookalike-fish";
 import { NearbyOrgs } from "@/components/conservation/NearbyOrgs";
 import { OrgsAnywhere } from "@/components/conservation/VisitorOrgs";
 import { FoodPanel } from "@/components/conservation/FoodPanel";
@@ -224,23 +220,6 @@ export default async function CreaturePage({ params }: { params: Promise<Params>
       {f ? (
         <div className="mt-12">
           <QuickFacts name={c.name} facts={f} />
-        </div>
-      ) : undefined}
-
-      {f ? (
-        <div className="mt-10 grid gap-10">
-          <ToyPanel id="how-big" title={`${short}: size range`} intro="Move the slider from a typical adult to the largest recorded specimen, shown against objects of known size.">
-            <FishSize name={c.name} slug={c.slug} typicalCm={f.typicalCm} maxCm={f.maxCm} record={f.record} shape={f.shape} />
-          </ToyPanel>
-          {LOOKALIKE_FISH.has(c.slug) && (
-            <ToyPanel
-              id="lookalikes"
-              title="Commonly confused species"
-              intro="The species it is most often mistaken for, side by side. Name each, then select the distinguishing feature, the same features fisheries officers use."
-            >
-              <FishLookalikes start={c.slug} />
-            </ToyPanel>
-          )}
         </div>
       ) : undefined}
 

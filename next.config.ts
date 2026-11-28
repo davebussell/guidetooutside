@@ -19,10 +19,6 @@ const nextConfig: NextConfig = {
         headers: [{ key: "Netlify-CDN-Cache-Control", value: "public, s-maxage=900, stale-while-revalidate=86400, durable" }, vary],
       },
       {
-        source: "/:section(ground)/:slug/dig",
-        headers: [{ key: "Netlify-CDN-Cache-Control", value: "public, s-maxage=900, stale-while-revalidate=86400, durable" }, vary],
-      },
-      {
         source: `/((?!api/|_next/|kids/|guide$|(?:${PLACE_SECTIONS.join("|")})/).*)`,
         headers: [{ key: "Netlify-CDN-Cache-Control", value: "public, s-maxage=3600, stale-while-revalidate=604800, durable" }, vary],
       },

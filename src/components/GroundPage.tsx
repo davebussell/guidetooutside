@@ -3,7 +3,6 @@
  * and what that soil's pH means, where the rain goes when it leaves, what the
  * river is doing this week, and the named waters within reach.
  */
-import Link from "next/link";
 import { Suspense } from "react";
 import type { LocalData } from "@/lib/types";
 import {
@@ -19,7 +18,6 @@ import {
   phPosition,
   phWord,
   riverFlow,
-  rockNamed,
   suitedFor,
   watershedView,
   workability,
@@ -354,19 +352,6 @@ export async function GroundPage({ data }: { data: LocalData }) {
             of it is right for the shape of a district, not for a particular
             garden or a particular crossing. For anything that matters, dig a
             hole and look, and check the gauge.
-          </p>
-          <p className="border-t border-line pt-4 text-sm text-ink-2">
-            <span className="font-medium text-ink">Try it: </span>
-            <Link
-              href={`/ground/${place.slug}/dig`}
-              className="text-moss underline decoration-line underline-offset-2 hover:no-underline"
-            >
-              {/* Audit, 11 November 2026: "to the bedrock" where the maps name none (Houston, New Orleans, Memphis, Brownsville).
-                  Audit, 13 November 2026: a rock named in a cover unit's own description counts (Fort Myers). */}
-              dig down through the soil under {place.name}
-              {rockNamed(layers) ? " to the bedrock" : ""}
-            </Link>
-            , an interactive cross-section.
           </p>
           <WhoProtects
             place={place}

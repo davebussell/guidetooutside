@@ -4,12 +4,9 @@ import { notFound } from "next/navigation";
 import { ROCKS, ROCK_FAMILIES, SOIL_EFFECT, getRock, type Rock } from "@/lib/rocks";
 import { SHARE_IMAGE, SITE } from "@/lib/site";
 import { LocationSearch } from "@/components/LocationSearch";
-import { LandSkyNav } from "@/components/kids/LandSkyNav";
 import { RockUnderYou } from "@/components/here/LocalBits";
-import { RockTester } from "@/components/toys/RockTester";
-import { ToyCard } from "@/components/toys/ToyCard";
 import { FamilyArt } from "@/components/rocks/FamilyArt";
-import { FAMILY_TOY, SOIL_BADGE, phRange } from "@/components/rocks/rock-bits";
+import { SOIL_BADGE, phRange } from "@/components/rocks/rock-bits";
 
 type Params = { slug: string };
 
@@ -92,12 +89,11 @@ function jsonLd(r: Rock) {
   };
 }
 
-/** /ground/rocks/<slug>: one kind of rock — how it forms, its facts, the tester and the family toy, what it means above ground. */
+/** /ground/rocks/<slug>: one kind of rock — how it forms, its facts, what it means above ground. */
 export default async function RockPage({ params }: { params: Promise<Params> }) {
   const rock = getRock((await params).slug);
   if (!rock) notFound();
   const fam = ROCK_FAMILIES[rock.family];
-  const toy = FAMILY_TOY[rock.family];
   const lower = rock.name.toLowerCase();
   const panels: [string, string][] = [
     ["What it is", rock.what],
@@ -162,41 +158,6 @@ export default async function RockPage({ params }: { params: Promise<Params> }) 
         </section>
       </div>
 
-      <div className="mt-10">
-        <ToyCard
-          id="test-it"
-          art="stone"
-          title={`Test the ${lower}`}
-          intro="The tests a geologist does in the field: look through a lens, rub it on a streak plate, scratch it, drip vinegar on it, weigh it in your hand and drop water on it. Drag a tool onto the rock, or tap it."
-        >
-          <RockTester
-            name={rock.name}
-            grainClass={rock.grainClass}
-            grain={rock.grain}
-            colour={rock.colour}
-            luster={rock.luster}
-            streak={rock.streak}
-            streakHex={rock.streakHex}
-            hardness={rock.hardness}
-            mohs={rock.mohs ?? null}
-            density={rock.density}
-            gcc={rock.gcc ?? null}
-            porosity={rock.porosity}
-            soak={rock.soak}
-            fizz={rock.fizz}
-            swatch={rock.swatch}
-            texture={rock.texture}
-          />
-        </ToyCard>
-      </div>
-
-      {toy && (
-        <div className="mt-10 max-w-4xl">
-          <ToyCard art={toy.art} title={`${toy.title} — the way ${lower} is made`} intro={toy.intro}>
-            {toy.toy}
-          </ToyCard>
-        </div>
-      )}
 
       <dl className="mt-12 grid gap-6 sm:grid-cols-2">
         {panels.map(([dt, dd]) => (
@@ -293,12 +254,6 @@ export default async function RockPage({ params }: { params: Promise<Params> }) 
         describes a district rather than a hillside.
       </p>
 
-      <div className="mt-14">
-        <p className="eyebrow text-bark">More of the land and the sky</p>
-        <div className="mt-3">
-          <LandSkyNav current="rocks" />
-        </div>
-      </div>
     </div>
   );
 }

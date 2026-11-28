@@ -3,9 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ZONES } from "@/data/zones";
 import { LocationSearch } from "@/components/LocationSearch";
-import { ColdestNightForYou, YourZoneBanner } from "@/components/here/ZoneHere";
-import { coldestPlaces } from "@/components/zones/coldest-places";
-import { ToyCard } from "@/components/zones/ToyCard";
+import { YourZoneBanner } from "@/components/here/ZoneHere";
 import { ZoneContext } from "@/components/zones/ZoneContext";
 import { abroadBeyondScale, abroadInZone, abroadTitle } from "@/components/zones/zone-places";
 import { RHS_RATINGS, rhsRange, ZONE_SOURCES } from "@/lib/region-context";
@@ -48,15 +46,6 @@ export default function ZonesPage() {
         </div>
         <span className="text-moss font-medium whitespace-nowrap">Zone map →</span>
       </Link>
-      <div className="mt-10">
-        <ToyCard
-          id="coldest"
-          title="Hardiness zones and the coldest night"
-          blurb="A zone is defined by the average coldest night of winter. Move the thermometer to see which plants survive it and which towns share the zone."
-        >
-          <ColdestNightForYou places={coldestPlaces()} />
-        </ToyCard>
-      </div>
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {ZONES.map((z) => (
           <Link key={z.zone} href={`/zones/${z.zone}`} className="card overflow-hidden hover:border-moss transition group">

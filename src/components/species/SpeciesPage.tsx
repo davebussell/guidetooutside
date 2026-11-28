@@ -28,17 +28,12 @@ import { RegionPick } from "@/components/RegionPick";
 import { SpeciesVideos as RestoredSpeciesVideos } from "@/components/SpeciesVideos";
 import { LocalAnswer, NearYouLine, RegionChips } from "@/components/here/LocalBits";
 import { ZoneRange } from "@/components/here/ZoneHere";
-import { SpotTheDanger as RestoredSpotTheDanger } from "@/components/toys/SpotTheDanger";
-import { ToySection } from "@/components/foraging/ToySection";
 import { PlaceSearchCard } from "@/components/foraging/PlaceSearchCard";
 import { MedicinalPanel } from "@/components/foraging/Medicinal";
 
 // Restored client modules, typed with the props they take.
-const SpotTheDanger = RestoredSpotTheDanger as ComponentType<{ start?: string; only?: string[] }>;
 const SpeciesVideos = RestoredSpeciesVideos as ComponentType<{ kind: "forage" | "fish" | "garden"; name: string; videos: Video[]; heading?: string }>;
 
-/** The species with a pair in the spot-the-danger game (its pair ids are species slugs). */
-const DANGER_PAIRS = new Set(["wild-fennel", "wild-grape", "ramps", "fiddleheads", "elderflower", "morel", "chanterelle", "rose-hips"]);
 
 const capital = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
@@ -316,17 +311,6 @@ export function SpeciesPage({ slug, orgs }: { slug: string; orgs?: React.ReactNo
       </nav>
       <Hero s={s} month={month} />
       {facts && <QuickFacts s={s} f={facts} />}
-      {DANGER_PAIRS.has(slug) && (
-        <div className="mt-10">
-          <ToySection
-            id="spot-the-danger"
-            title="Edible and poisonous look-alike compared"
-            text="The edible species and its poisonous look-alike side by side. Smell, cut or look closer, then select the feature that separates them. Confirm any identification with a regional field guide or an expert."
-          >
-            <SpotTheDanger start={slug} />
-          </ToySection>
-        </div>
-      )}
       {facts && facts.faqs.length > 0 && <Questions s={s} f={facts} />}
       {medicinal && <MedicinalPanel plant={medicinal} name={s.name} />}
       <SpeciesVideos kind="forage" name={s.name} videos={SPECIES_VIDEOS[slug] ?? []} />

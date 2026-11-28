@@ -3,7 +3,6 @@
  * the foraging-year wheel and spot-the-danger, every wild edible by type,
  * the safety rules, and the local guides by place.
  */
-import type { ComponentType } from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,23 +12,18 @@ import { MEDICINAL } from "@/data/medicinal";
 import { SectionLead } from "@/components/SectionLead";
 import { PlaceFinder } from "@/components/PlaceFinder";
 import { NewsletterForm } from "@/components/NewsletterForm";
-import { SpinTheYearHere } from "@/components/here/ToyHere";
-import { SpotTheDanger as RestoredSpotTheDanger } from "@/components/toys/SpotTheDanger";
-import { ToySection } from "@/components/foraging/ToySection";
 import { ForagingLibrary } from "@/components/foraging/ForagingLibrary";
-import { servedText } from "@/components/species/served-text";
 import { SeasonBand } from "@/components/conservation/SeasonBand";
 import { FoodPanel } from "@/components/conservation/FoodPanel";
 import { visitorPlace } from "@/lib/conservation/visitor";
 
 // A restored client module, typed with the props it takes.
-const SpotTheDanger = RestoredSpotTheDanger as ComponentType<{ start?: string; only?: string[] }>;
 
 export const dynamic = "force-dynamic";
 
 const TITLE = "Foraging — what's ready to pick, how to identify it, and the deadly look-alikes";
 const DESCRIPTION =
-  "Wild edibles of Canada and the United States with photographs, seasons, identification and the dangerous doubles to know first; a wheel of what's ready each month, a spot-the-danger game, and foraging guides for 100+ towns.";
+  "Wild edibles of Canada and the United States with photographs, seasons, identification and the dangerous doubles to know first, and foraging guides for 100+ towns.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -38,8 +32,6 @@ export const metadata: Metadata = {
 };
 
 const CONTENTS = [
-  { href: "#year", title: "The foraging year", note: "In season, month by month" },
-  { href: "#danger", title: "Poisonous look-alikes", note: "How to tell them apart" },
   { href: "#library", title: "Wild edibles A–Z", note: `${SPECIES.length} species, photographed` },
   { href: "/foraging/calendar", title: "Foraging calendar", note: "Month by month" },
   { href: "/foraging/medicinal", title: "Medicinal plants", note: "Uses, evidence and cautions" },
@@ -81,22 +73,6 @@ const RULES = [
     text: "Correctly identified wild foods can still cause reactions. Eat a small amount the first time and keep a sample.",
   },
 ];
-
-/** The wheel's tokens: each species with its months, ranges and a small photograph. */
-function wheelSpecies() {
-  return SPECIES.map(servedText).map((s) => {
-    const img = speciesImage(s.slug);
-    return {
-      slug: s.slug,
-      name: s.name,
-      kind: s.kind,
-      months: s.months,
-      deadlyDouble: s.deadlyDouble,
-      photo: img ? `/_next/image?url=${encodeURIComponent(img.src)}&w=256&q=75` : undefined,
-      regions: s.regions,
-    };
-  });
-}
 
 function Hero() {
   const photo = speciesImage("chanterelle");
@@ -168,7 +144,6 @@ function Contents() {
 }
 
 export default async function ForagingPage() {
-  const month = new Date().getMonth() + 1;
   // The route is dynamic already, so the season band reads the visitor's remembered town here.
   const here = await visitorPlace();
   return (
@@ -185,26 +160,6 @@ export default async function ForagingPage() {
       />
       {/* Foraging codes and the fruit-picking groups, for the visitor's remembered town when there is one. */}
       <FoodPanel place={here} section="foraging" className="mt-14" />
-      <section id="play" className="mt-14 scroll-mt-24">
-        <p className="eyebrow text-moss">Reference</p>
-        <h2 className="font-display mt-1 text-3xl sm:text-4xl font-semibold tracking-tight">Interactive diagrams</h2>
-        <div className="mt-6 grid gap-10">
-          <ToySection
-            id="year"
-            title="The foraging year"
-            text="Turn the wheel to a month to see which species are usually in season. A red ring marks a species with a dangerous look-alike. Months are typical for the middle of each range; the south of a range runs early and the north late."
-          >
-            <SpinTheYearHere species={wheelSpecies()} startMonth={month} />
-          </ToySection>
-          <ToySection
-            id="danger"
-            title="Poisonous look-alikes"
-            text="Eight wild foods and the poisonous species they resemble. Smell, cut or look closer, then select the feature that separates them. This is an introduction only: confirm any wild food with a regional field guide or an expert before eating it."
-          >
-            <SpotTheDanger />
-          </ToySection>
-        </div>
-      </section>
       <section className="mt-16">
         <ForagingLibrary />
       </section>

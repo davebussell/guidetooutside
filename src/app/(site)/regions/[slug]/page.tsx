@@ -6,16 +6,13 @@ import { SITE, shareCard } from "@/lib/site";
 import { theRegion } from "@/lib/the-region";
 import { LocationSearch } from "@/components/LocationSearch";
 import { NewsletterForm } from "@/components/NewsletterForm";
-import { LandSkyNav } from "@/components/kids/LandSkyNav";
 import { YourRegionBanner } from "@/components/here/LocalBits";
 import { ZoneBand } from "@/components/here/ZoneHere";
-import { BiomeDial } from "@/components/toys/BiomeDial";
-import { ToyCard } from "@/components/toys/ToyCard";
 import { RegionMosaic, RegionPhotoCredits } from "@/components/regions/RegionMosaic";
 import { RegionFauna, RegionForaging } from "@/components/regions/RegionSections";
 import { RegionGuide } from "@/components/regions/RegionGuide";
 import { regionOrgs, regionStats } from "@/lib/regions";
-import { BIOME_START, REGIONS, exampleSlug, getRegion, type Region } from "@/components/regions/region-bits";
+import { REGIONS, exampleSlug, getRegion, type Region } from "@/components/regions/region-bits";
 
 type Params = { slug: string };
 
@@ -180,20 +177,6 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
         <NewsletterForm source={`region-${region.slug}`} location={region.name} />
       </section>
 
-      <div className="mt-14 max-w-4xl">
-        <ToyCard
-          title={`${region.name}: climate and vegetation`}
-          intro="Temperature and rainfall largely determine what can grow in a place. The dial opens on the vegetation type closest to this region; adjust temperature or rainfall to see what would grow instead."
-        >
-          <BiomeDial start={BIOME_START[region.slug]} />
-        </ToyCard>
-      </div>
-      <div className="mt-14">
-        <p className="eyebrow text-moss">The land and the sky</p>
-        <div className="mt-3">
-          <LandSkyNav current="regions" />
-        </div>
-      </div>
     </div>
   );
 }

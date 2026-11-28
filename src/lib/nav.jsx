@@ -430,12 +430,6 @@ let a,
               note: "The organisations nearest your town, closest first",
               icon: "map",
             },
-            {
-              href: "/conservation/roots-and-shoots",
-              label: "Roots & Shoots for young people",
-              note: "The Jane Goodall Institute's programme: young people pick a project and see it through",
-              icon: "sprout",
-            },
           ],
         },
         {

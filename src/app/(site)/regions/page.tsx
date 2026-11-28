@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LocationSearch } from "@/components/LocationSearch";
-import { LandSkyNav } from "@/components/kids/LandSkyNav";
 import { YourRegionBanner, YourRegionMark } from "@/components/here/LocalBits";
-import { BiomeDial } from "@/components/toys/BiomeDial";
-import { ToyCard } from "@/components/toys/ToyCard";
 import { RegionMosaic } from "@/components/regions/RegionMosaic";
 import { CONTINENTS, REGIONS, continentOf } from "@/components/regions/region-bits";
 import { RAIN_WORDS, continentIntro, regionCard, regionOrgSummary } from "@/lib/regions";
@@ -136,20 +133,6 @@ export default function RegionsIndex() {
         or working across one of its countries; the international networks, which work in every region, are not counted. Photographs are openly licensed research-grade observations from iNaturalist, credited on each
         region&apos;s own page.
       </p>
-      <div className="mt-14 max-w-4xl">
-        <ToyCard
-          title="Temperature, rainfall and vegetation"
-          intro="Adjust temperature and rainfall to see the vegetation change: tundra, spruce forest, maple woodland, prairie, desert, rainforest. Temperature and rainfall largely determine what can grow in a place, and so define its ecological region."
-        >
-          <BiomeDial />
-        </ToyCard>
-      </div>
-      <div className="mt-14">
-        <p className="eyebrow text-moss">The land and the sky</p>
-        <div className="mt-3">
-          <LandSkyNav current="regions" />
-        </div>
-      </div>
       <p className="mt-6 text-sm text-ink-2 max-w-3xl">
         See also the{" "}
         <Link href="/zones" className="underline">

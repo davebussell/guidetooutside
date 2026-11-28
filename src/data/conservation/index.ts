@@ -52,8 +52,20 @@ function areaServed(a: ServiceArea): boolean {
 /** An organisation or invitation with no areas listed is not limited by them; one with areas needs a served one. */
 const areasServed = (areas?: ServiceArea[]): boolean => !areas?.length || areas.some(areaServed);
 
+/**
+ * Children's content lives on Pecker & Jay, not here (Nov 2026): youth-only programmes (Roots & Shoots and the
+ * like) are not served, and the rest lose their youth topic, youth link and youth programme.
+ */
+const isYouthOnly = (o: Organisation): boolean => o.network === "Roots & Shoots" || o.slug.startsWith("roots-and-shoots") || (o.topics.length > 0 && o.topics.every((t) => t === "youth"));
+const withoutYouth = (o: Organisation): Organisation => {
+  if (!o.topics.includes("youth") && !o.links.youth && !o.youthProgramme) return o;
+  const { youth: _youth, ...links } = o.links; // eslint-disable-line @typescript-eslint/no-unused-vars
+  const { youthProgramme: _programme, ...rest } = o; // eslint-disable-line @typescript-eslint/no-unused-vars
+  return { ...rest, topics: o.topics.filter((t) => t !== "youth"), links } as Organisation;
+};
+
 /** The organisations the site serves. */
-export const ORGANISATIONS: Organisation[] = ALL_ORGANISATIONS.filter(orgServed);
+export const ORGANISATIONS: Organisation[] = ALL_ORGANISATIONS.filter((o) => orgServed(o) && !isYouthOnly(o)).map(withoutYouth);
 
 for (const slug of Object.keys(FOOD_TAGS)) if (!ALL_ORGANISATIONS.some((o) => o.slug === slug)) throw new Error(`conservation food tags: no organisation "${slug}"`);
 
@@ -98,8 +110,8 @@ for (const s of ALL_STORIES) {
   }
 }
 
-/** The invitations of served organisations; a partner that is parked is dropped from the invitation. */
-export const INVITATIONS: Invitation[] = ALL_INVITATIONS.filter((i) => SERVED_BY_SLUG.has(i.org) && areasServed(i.areas)).map((i) =>
+/** The invitations of served organisations, none for children (those are Pecker & Jay's); a partner that is parked is dropped from the invitation. */
+export const INVITATIONS: Invitation[] = ALL_INVITATIONS.filter((i) => SERVED_BY_SLUG.has(i.org) && areasServed(i.areas) && !i.topics.includes("youth")).map((i) =>
   i.partners?.some((p) => !SERVED_BY_SLUG.has(p)) ? { ...i, partners: i.partners.filter((p) => SERVED_BY_SLUG.has(p)) } : i,
 );
 const INV_BY_SLUG = new Map(INVITATIONS.map((i) => [i.slug, i]));
